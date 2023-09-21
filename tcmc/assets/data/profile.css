@@ -1,0 +1,263 @@
+/* MSPFA PROFILE CSS */
+
+.major {
+    color: #005682 !important;
+    text-shadow: 0 2px #f4ab24 !important;
+}
+
+:root {
+    --events: 2;
+    --event-height: calc(80px + (24px * var(--events)));
+}
+
+#events {
+    width: 804px;
+    height: var(--event-height);
+    padding: 10px;
+    background-color: #eee;
+    position: absolute;
+    transform: translate(-260px, 12px);
+}
+
+#userstories {
+    border-top: calc(var(--event-height) + 22px + 2px) solid #064564;
+}
+
+/*SCROLL BAR*/
+/* =========================================== */
+::-webkit-scrollbar {
+    height: 12px;
+    width: 12px;
+    background: #0080c0;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(255, 181, 233);
+    border-radius: 1ex;
+    -webkit-border-radius: 1ex;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+}
+
+::-webkit-scrollbar-corner {
+    background: #0080c0;
+}
+
+/*MOBILE CSS*/
+/* =========================================== */
+body {
+    background-image:
+        url("theme/beach/island.png"),
+        url("theme/beach/water.png"),
+        url("theme/beach/front-cloud.png"),
+        url("theme/beach/back-cloud.png"),
+        linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(11, 0, 112, 0.95) 25%, rgb(0, 146, 231) 80%),
+        url("theme/default/background.bmp");
+    background-repeat: no-repeat, repeat-x, repeat-x, repeat-x, no-repeat, repeat;
+    background-position: bottom right, bottom, center, center, top, top;
+    background-attachment: fixed;
+    background-color: #064564;
+    background-size: 80vh, 80vh, 80vh, 80vh, cover, 20vh;
+    image-rendering: pixelated;
+    -moz-image-rendering: crisp-edges;
+}
+
+table.container {
+    border: 5px solid #064564;
+}
+
+table.container>tbody>tr>td,
+table.container>tbody>tr>th {
+    border: 5px solid #064564;
+}
+
+a {
+    color: #0080c2 !important;
+}
+
+nav {
+    margin-top: 10px;
+    color: #f4ab24 !important;
+    background-color: transparent;
+    text-shadow: 0px 0.5px 0 #064564;
+}
+
+
+#main {
+    background-color: transparent;
+}
+
+#userstories .cellicon {
+    width: 150px;
+    height: 150px;
+}
+
+#usericon,
+#userstories,
+.heart {
+    image-rendering: auto;
+}
+
+#flashytitle {
+    background-color: transparent;
+    background-image: url("theme/default/header.png");
+    margin-top: 10px;
+}
+
+#details {
+    font-weight: bold;
+    text-align: center;
+}
+
+.heart {
+    background-image: url("theme/default/logo_small.png") !important;
+}
+
+.um {
+    transform: translateX(-145px);
+    width: 650px;
+}
+
+.umcontainer {
+    background-image: url("theme/default/mspfafacereverse.png");
+    background-repeat: no-repeat;
+    background-position-x: 795px;
+}
+
+.mspfalogo {
+    background-image: url("theme/default/mspfaface.png") !important;
+    size: 70%;
+    border-right: 4px solid transparent;
+    background-color: transparent;
+    background-position-x: 0px;
+}
+
+/*PC CSS*/
+/* =========================================== */
+@media screen and (min-width: 1200px) {
+    body {
+        background-image:
+            linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(11, 0, 112, 0.95) 25%, rgb(0, 146, 231) 80%),
+            url("theme/default/background.gif");
+        background-repeat: no-repeat, repeat;
+        background-size: cover, 20vh;
+    }
+
+    /* PARALLAX BACKGROUND */
+    #overlay>div,
+    #overlay,
+    #overlay-1,
+    #overlay-2,
+    #overlay-3,
+    #overlay-4,
+    #overlay-5,
+    #overlay-6 {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        user-select: none;
+        pointer-events: none;
+        z-index: -2;
+    }
+
+    #overlay {
+        background-image: url("theme/beach/water.png");
+        animation: 60s water-move linear infinite;
+        background-position: bottom left;
+        background-repeat: repeat-x;
+        background-size: 80vh;
+    }
+
+    #overlay-1 {
+        background-image: url("theme/beach/back-cloud.png");
+        animation: 180s backcloud-move linear infinite;
+        background-position: center left;
+        background-repeat: repeat-x;
+        background-size: 80vh;
+    }
+
+    #overlay-2 {
+        background-image: url("theme/beach/front-cloud.png");
+        animation: 50s frontcloud-move linear infinite reverse;
+        background-position: center left;
+        background-position-y: 20vh;
+        background-repeat: repeat-x;
+        background-size: 80vh;
+    }
+
+    #overlay-3 {
+        background-image: url("theme/beach/island.png");
+        background-position: bottom right;
+        background-repeat: no-repeat;
+        background-size: 80vh;
+    }
+
+    @media screen and (min-height: 500px) {
+        #overlay-4 {
+            background-image: url("theme/beach/wave.png");
+            animation: 30s wave-move ease-in-out infinite;
+            background-position-y: 70.5vh;
+            background-position-x: 50vw;
+            background-repeat: no-repeat;
+            background-size: 80vh;
+        }
+
+        #overlay-5 {
+            background-image: url("theme/beach/wave.png");
+            animation: 20s wave-move ease-in-out infinite;
+            background-position-y: 70.5vh;
+            background-position-x: 50vw;
+            background-repeat: no-repeat;
+            background-size: 80vh;
+        }
+
+        #overlay-6 {
+            background-image: url("theme/beach/wave.png");
+            animation: 10s wave-move ease-in-out infinite;
+            background-position-y: 70.5vh;
+            background-position-x: 50vw;
+            background-repeat: no-repeat;
+            background-size: 80vh;
+        }
+    }
+
+    @keyframes water-move {
+        to {
+            background-position: 80vh bottom;
+        }
+    }
+
+    @keyframes backcloud-move {
+        to {
+            background-position: 80vh center;
+        }
+    }
+
+    @keyframes frontcloud-move {
+        to {
+            background-position: 80vh center;
+            background-position-y: 20vh;
+        }
+    }
+
+    @keyframes wave-move {
+        0% {
+            transform: scalex(5%);
+            opacity: 0;
+        }
+
+        50% {
+            transform: scalex(100%);
+            background-position-x: 90%;
+            opacity: 1;
+        }
+
+        100% {
+            transform: translateY(24%) scaley(15%);
+            background-position-x: 60%;
+            opacity: 0;
+        }
+    }
+}

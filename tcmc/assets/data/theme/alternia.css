@@ -1,0 +1,228 @@
+/*SCROLL BAR*/
+/* =========================================== */
+::-webkit-scrollbar {
+    height: 12px;
+    width: 12px;
+    background: #6A006A;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #a10000;
+    border-radius: 1ex;
+    -webkit-border-radius: 1ex;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+}
+
+::-webkit-scrollbar-corner {
+    background: #6A006A;
+}
+
+/*MOBILE CSS*/
+/* =========================================== */
+body {
+    background-image:
+        url("alternia/front_cloud.png"),
+        url("alternia/sky_cloud.png"),
+        url("alternia/moons.png"),
+        linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(6, 0, 83, 0.95) 25%, rgb(110, 0, 82) 80%),
+        url("default/background.bmp");
+    background-position-x: 0, 0, 1vw;
+    background-position-y: bottom, center, 25vh;
+    background-repeat: repeat-x, repeat-x, no-repeat, no-repeat, repeat;
+    background-attachment: fixed;
+    background-color: #6A006A;
+    background-size: 100vh, 100vh, 10vw, cover, 20vh;
+    image-rendering: pixelated;
+    -moz-image-rendering: crisp-edges;
+}
+
+a {
+    color: #b10053 !important;
+}
+
+#nav a:hover {
+    color: #f4ab24 !important;
+}
+
+#nav {
+    color: #890089;
+}
+
+#main {
+    background-color: transparent
+}
+
+#slide {
+    Border: 8px solid #6A006A;
+    background-color: #eeeeee
+}
+
+#timestamp {
+    color: rgb(185, 185, 185);
+}
+
+#pageno {
+    color: #fff;
+    background-color: #6A006A;
+}
+
+#tab {
+    background-color: #6A006A;
+    color: #aa6baa;
+}
+
+#tab button {
+    background-color: #890089;
+    border: solid #560056;
+    color: #e700e7;
+    text-shadow: 1px 1px #480048;
+}
+
+#tab button:hover {
+    background-color: #560056;
+}
+
+#tab button.active {
+    background-color: rgb(255, 204, 0);
+    color: #ae6b00;
+    border: solid #ae6b00;
+    text-shadow: 1px 1px #6c4d05;
+}
+
+#user,
+#author {
+    background-color: #EEE;
+}
+
+.heart {
+    background-image: url("alternia/logo_small.png") !important;
+    image-rendering: auto;
+    background-repeat: no-repeat;
+}
+
+.tabcontent {
+    border: 2px solid #560056;
+}
+
+.iframe-container {
+    background: #eeeeee url("../loading.gif") no-repeat 50% center !important;
+}
+
+
+/*SITE ONLY*/
+/* =========================================== */
+
+.umcontainer {
+    background-image: url("alternia/mspfafacereverse.png");
+}
+
+.mspfalogo {
+    background-image: url("alternia/mspfaface.png") !important;
+}
+
+#infobox>div.spoiler.open {
+    Border: 4px solid #6A006A;
+}
+
+#commentbox>div.spoiler.open {
+    Border: 4px solid #6A006A;
+}
+
+#commentary-wrapper {
+    Border: 8px solid #6A006A;
+}
+
+nav {
+    color: #890089 !important;
+    background-color: transparent;
+}
+
+nav .dropdown-content {
+    background-color: #0000008f;
+}
+
+
+/*PC CSS*/
+/* =========================================== */
+@media screen and (min-width: 1200px) {
+    body {
+        background-image:
+            linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(6, 0, 83, 0.95) 25%, rgb(110, 0, 82) 80%),
+            url("default/background.gif");
+        background-repeat: no-repeat, repeat;
+        background-size: cover, 20vh;
+    }
+
+    /* PARALLAX BACKGROUND */
+    #overlay>div,
+    #overlay {
+        background-size: 100vh;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        user-select: none;
+        pointer-events: none;
+        background-repeat:
+            repeat-x,
+            repeat-x;
+    }
+
+    #overlay {
+        background-image: url("alternia/moons.png");
+        animation: 3s moon-move linear infinite;
+        z-index: -2;
+        background-position-x: 5vw;
+        background-position-y: 25vh;
+        background-repeat: no-repeat;
+        background-size: 15vw;
+    }
+
+    .overlay-1 {
+        background-image: url("alternia/sky_cloud.png");
+        animation: 120s skycloud-move linear infinite reverse;
+        background-position: center left;
+    }
+
+    .overlay-2 {
+        background-image: url("alternia/front_cloud.png");
+        animation: 25s frontcloud-move linear infinite reverse;
+        background-position: bottom left;
+    }
+
+    @keyframes moon-move {
+        0% {
+            top: 0vh;
+        }
+
+        25% {
+            top: 0.2vh;
+        }
+
+        50% {
+            top: 0vh;
+        }
+
+        75% {
+            top: 0.2vh;
+        }
+
+        100% {
+            top: 0vh;
+        }
+    }
+
+    @keyframes skycloud-move {
+        to {
+            background-position: 100vh center;
+        }
+    }
+
+    @keyframes frontcloud-move {
+        to {
+            background-position: 100vh bottom;
+        }
+    }
+}

@@ -1,0 +1,327 @@
+/*SCROLL BAR*/
+/* =========================================== */
+::-webkit-scrollbar {
+    height: 12px;
+    width: 12px;
+    background: #090151;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(3, 62, 163);
+    border-radius: 1ex;
+    -webkit-border-radius: 1ex;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+}
+
+::-webkit-scrollbar-corner {
+    background: #090151;
+}
+
+
+/*MOBILE CSS*/
+/* =========================================== */
+body {
+    background-image:
+        url("beach-night/island.png"),
+        url("beach-night/water.png"),
+        url("beach-night/front-cloud.png"),
+        url("beach-night/back-cloud.png"),
+        url("beach-night/moons.png"),
+        linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(12, 7, 56, 0.85) 55%),
+        url("default/background.bmp");
+    background-repeat: no-repeat, repeat-x, repeat-x, repeat-x, no-repeat, no-repeat, repeat;
+    background-position-x: right, 0, 0, 0, 2vw, 0, 0;
+    background-position-y: bottom, bottom, center, center, 25vh, top, top;
+    background-attachment: fixed;
+    background-color: #064564;
+    background-size: 80vh, 80vh, 80vh, 80vh, 20vh, cover, 20vh;
+    image-rendering: pixelated;
+    -moz-image-rendering: crisp-edges;
+}
+
+a {
+    color: #0072ab !important;
+}
+
+#nav a:hover {
+    color: #f4ab24 !important;
+}
+
+#nav {
+    color: #0072ab;
+}
+
+#main {
+    background-color: transparent
+}
+
+#slide {
+    Border: 8px solid #064564;
+    background-color: #eeeeee
+}
+
+#timestamp {
+    color: rgb(185, 185, 185);
+}
+
+
+#pageno {
+    color: #fff;
+    background-color: #064564;
+}
+
+#tab {
+    background-color: #064564;
+    color: #559ec2;
+}
+
+#tab button {
+    background-color: #095a83;
+    border: solid #05334a;
+    color: #6ebfe8;
+    text-shadow: 1px 1px #05334a;
+}
+
+#tab button:hover {
+    background-color: #053852;
+}
+
+#tab button.active {
+    background-color: rgb(255, 204, 0);
+    color: #ae6b00;
+    border: solid #ae6b00;
+    text-shadow: 1px 1px #6c4d05;
+}
+
+#user,
+#author {
+    background-color: #EEE;
+}
+
+.heart {
+    background-image: url("default/logo_small.png") !important;
+    image-rendering: auto;
+    background-repeat: no-repeat;
+}
+
+.tabcontent {
+    border: 2px solid #3c6377;
+}
+
+.iframe-container {
+    background: #eeeeee url("../loading.gif") no-repeat 50% center !important;
+}
+
+
+/*SITE ONLY*/
+/* =========================================== */
+
+#infobox>div.spoiler.open {
+    Border: 4px solid #064564;
+}
+
+#commentbox>div.spoiler.open {
+    Border: 4px solid #064564;
+}
+
+#commentary-wrapper {
+    Border: 8px solid #064564;
+}
+
+nav {
+    color: #0072ab !important;
+    background-color: transparent;
+}
+
+nav .dropdown-content {
+    background-color: #0000008f;
+}
+
+/* MSPFA HOME */
+nav a[href="/"]::after {
+    color: #00a29f;
+}
+
+/* MSPA */
+nav a[href="http://www.mspaintadventures.com/"]::after {
+    color: #00a29f;
+}
+
+/* DONATE */
+nav a[href="/donate/"]::after {
+    color: #8800a4;
+}
+
+/* MORE */
+nav a[href="/more/"]::after {
+    color: #8800a4;
+}
+
+#startover::after {
+    color: #00a29f;
+}
+
+#goback::after {
+    color: #00a29f;
+}
+
+#deletegame::after {
+    color: #8800a4;
+}
+
+/*PC CSS*/
+/* =========================================== */
+@media screen and (min-width: 1200px) {
+    body {
+        background-image:
+            linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(12, 7, 56, 0.85) 55%),
+            url("default/background.gif");
+        background-repeat: no-repeat, repeat;
+        background-size: cover, 20vh;
+    }
+
+    /* PARALLAX BACKGROUND */
+    #overlay>div,
+    #overlay {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        user-select: none;
+        pointer-events: none;
+    }
+
+    #overlay {
+        background-image: url("beach-night/water.png");
+        animation: 60s water-move linear infinite;
+        background-position: bottom left;
+        background-repeat: repeat-x;
+        background-size: 80vh;
+        z-index: -2;
+    }
+
+    .overlay-1 {
+        background-image: url("beach-night/moons.png");
+        animation: 3s moon-move linear infinite;
+        z-index: -2;
+        background-position-x: 5vw;
+        background-position-y: 25vh;
+        background-repeat: no-repeat;
+        background-size: 15vw;
+    }
+
+    .overlay-2 {
+        background-image: url("beach-night/back-cloud.png");
+        animation: 180s backcloud-move linear infinite;
+        background-position: center left;
+        background-repeat: repeat-x;
+        background-size: 80vh;
+    }
+
+    .overlay-3 {
+        background-image: url("beach-night/front-cloud.png");
+        animation: 50s frontcloud-move linear infinite reverse;
+        background-position: center left;
+        background-position-y: 20vh;
+        background-repeat: repeat-x;
+        background-size: 80vh;
+    }
+
+    .overlay-4 {
+        background-image: url("beach-night/island.png");
+        background-position: bottom right;
+        background-repeat: no-repeat;
+        background-size: 80vh;
+    }
+
+    @media screen and (min-height: 500px) {
+        .overlay-5 {
+            background-image: url("beach-night/wave.png");
+            animation: 30s wave-move ease-in-out infinite;
+            background-position-y: 70.5vh;
+            background-position-x: 50vw;
+            background-repeat: no-repeat;
+            background-size: 80vh;
+        }
+
+        .overlay-6 {
+            background-image: url("beach-night/wave.png");
+            animation: 20s wave-move ease-in-out infinite;
+            background-position-y: 70.5vh;
+            background-position-x: 50vw;
+            background-repeat: no-repeat;
+            background-size: 80vh;
+        }
+
+        .overlay-7 {
+            background-image: url("beach-night/wave.png");
+            animation: 10s wave-move ease-in-out infinite;
+            background-position-y: 70.5vh;
+            background-position-x: 50vw;
+            background-repeat: no-repeat;
+            background-size: 80vh;
+        }
+    }
+
+    @keyframes water-move {
+        to {
+            background-position: 80vh bottom;
+        }
+    }
+
+    @keyframes moon-move {
+        0% {
+            top: 0vh;
+        }
+
+        25% {
+            top: 0.2vh;
+        }
+
+        50% {
+            top: 0vh;
+        }
+
+        75% {
+            top: 0.2vh;
+        }
+
+        100% {
+            top: 0vh;
+        }
+    }
+
+    @keyframes backcloud-move {
+        to {
+            background-position: 80vh center;
+        }
+    }
+
+    @keyframes frontcloud-move {
+        to {
+            background-position: 80vh center;
+            background-position-y: 20vh;
+        }
+    }
+
+    @keyframes wave-move {
+        0% {
+            transform: scalex(5%);
+            opacity: 0;
+        }
+
+        50% {
+            transform: scalex(100%);
+            background-position-x: 90%;
+            opacity: 1;
+        }
+
+        100% {
+            transform: translateY(24%) scaley(15%);
+            background-position-x: 60%;
+            opacity: 0;
+        }
+    }
+}

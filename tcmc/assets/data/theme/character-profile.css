@@ -1,0 +1,417 @@
+/*SCROLL BAR*/
+/* =========================================== */
+::-webkit-scrollbar {
+    height: 12px;
+    width: 12px;
+    background: #035c88;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(255, 181, 233);
+    border-radius: 1ex;
+    -webkit-border-radius: 1ex;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+}
+
+::-webkit-scrollbar-corner {
+    background: #035c88;
+}
+
+
+/*MOBILE CSS*/
+/* =========================================== */
+body {
+    background-image:
+        url("default/water.png"),
+        url("default/front-cloud.png"),
+        url("default/back-cloud.png"),
+        linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(11, 0, 112, 0.95) 25%, rgb(0, 146, 231) 80%),
+        url("default/background.bmp");
+    background-repeat: repeat-x, repeat-x, repeat-x, no-repeat, repeat;
+    background-position: bottom, center, center, top, top;
+    background-attachment: fixed;
+    background-color: #064564;
+    color: #000000;
+    background-size: 80vh, 80vh, 80vh, cover, 20vh;
+    image-rendering: pixelated;
+    -moz-image-rendering: crisp-edges;
+}
+
+#main {
+    background-color: transparent
+}
+
+#slide {
+    Border: 8px solid #064564;
+    background-color: #eeeeee
+}
+
+#timestamp {
+    color: rgb(185, 185, 185);
+}
+
+#pageno {
+    color: #fff;
+    background-color: #064564;
+}
+
+#tab button {
+    background-color: #095a83;
+    border: solid #05334a;
+    color: #6ebfe8;
+    text-shadow: 1px 1px #05334a;
+}
+
+#tab button:hover {
+    background-color: #053852;
+}
+
+#tab button.active {
+    background-color: rgb(255, 204, 0);
+    color: #ae6b00;
+    border: solid #ae6b00;
+    text-shadow: 1px 1px #6c4d05;
+}
+
+#user,
+#author {
+    background-color: #EEE;
+}
+
+.heart {
+    background-image: url("default/logo_small.png") !important;
+    image-rendering: auto;
+    background-repeat: no-repeat;
+}
+
+.tabcontent {
+    border: 2px solid #3c6377;
+}
+
+.iframe-container {
+    background: #eeeeee url("../loading.gif") no-repeat 50% center !important;
+}
+
+.row {
+    display: flex;
+    font-family: "courier",
+        "monospace";
+}
+
+.column {
+    flex: 55%;
+    margin-top: -10;
+    padding: 10px 20px;
+    line-height: 14px;
+}
+
+.imgcolumn {
+    flex: 45%;
+    margin-right: 15px;
+}
+
+
+
+/*SITE ONLY*/
+/* =========================================== */
+
+.umcontainer {
+    background-image: url("https://miro.gg/mspfafacereverse");
+}
+
+.mspfalogo {
+    background-image: url("https://miro.gg/mspfaface") !important;
+}
+
+#infobox>div.spoiler.open {
+    Border: 4px solid #064564;
+}
+
+#commentbox>div.spoiler.open {
+    Border: 4px solid #064564;
+}
+
+#commentary-wrapper {
+    Border: 8px solid #064564;
+}
+
+#flashytitle,
+#flashytitlebottom {
+    background-image: url("default/header.png");
+}
+
+
+/* SLIDESHOW STYLE
+        ==========================================*/
+
+.slideshow-container {
+    padding-top: 10px;
+    position: relative;
+}
+
+.slidecaption {
+    padding: 7px 5px 5px 5px;
+    width: 186px;
+    margin-left: 53px;
+    font-size: 16px;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    bottom: 0px;
+    top: 456px;
+    padding: 3px 10px 0px 10px;
+    background-color: #f1f1f1;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    user-select: none;
+}
+
+.next {
+    right: -6px;
+}
+
+.prev {
+    left: 0px;
+}
+
+.cheverimg,
+.derrekimg,
+.jujujuimg,
+.diunnaimg,
+.govaniimg,
+.freyaimg,
+.hewatsuimg,
+.sharkimg,
+.edmondimg,
+.finscarimg,
+.spiderimg,
+.queenimg {
+    display: none
+}
+
+.slideshow-container .cheverslide .cheverimg img,
+.slideshow-container .cheverslide .slidecaption,
+.slideshow-container .cheverslide .next,
+.slideshow-container .cheverslide .prev {
+    border: 3px solid #005682;
+}
+
+.slideshow-container .derrekslide .derrekimg img,
+.slideshow-container .derrekslide .slidecaption,
+.slideshow-container .derrekslide .next,
+.slideshow-container .derrekslide .prev {
+    border: 3px solid #a10000;
+}
+
+.slideshow-container .jujujuslide .jujujuimg img,
+.slideshow-container .jujujuslide .slidecaption,
+.slideshow-container .jujujuslide .next,
+.slideshow-container .jujujuslide .prev {
+    border: 3px solid #a1a100;
+}
+
+.slideshow-container .diunnaslide .diunnaimg img,
+.slideshow-container .diunnaslide .slidecaption,
+.slideshow-container .diunnaslide .next,
+.slideshow-container .diunnaslide .prev {
+    border: 3px solid #a15000;
+}
+
+.slideshow-container .govanislide .govaniimg img,
+.slideshow-container .govanislide .slidecaption,
+.slideshow-container .govanislide .next,
+.slideshow-container .govanislide .prev {
+    border: 3px solid #a10000;
+}
+
+.slideshow-container .freyaslide .freyaimg img,
+.slideshow-container .freyaslide .slidecaption,
+.slideshow-container .freyaslide .next,
+.slideshow-container .freyaslide .prev {
+    border: 3px solid #a10000;
+}
+
+.slideshow-container .hewatsuslide .hewatsuimg img,
+.slideshow-container .hewatsuslide .slidecaption,
+.slideshow-container .hewatsuslide .next,
+.slideshow-container .hewatsuslide .prev {
+    border: 3px solid #a10000;
+}
+
+.slideshow-container .sharkslide .sharkimg img,
+.slideshow-container .sharkslide .slidecaption,
+.slideshow-container .sharkslide .next,
+.slideshow-container .sharkslide .prev {
+    border: 3px solid #a10000;
+}
+
+.slideshow-container .edmondslide .edmondimg img,
+.slideshow-container .edmondslide .slidecaption,
+.slideshow-container .edmondslide .next,
+.slideshow-container .edmondslide .prev {
+    border: 3px solid #a10000;
+}
+
+.slideshow-container .finscarslide .finscarimg img,
+.slideshow-container .finscarslide .slidecaption,
+.slideshow-container .finscarslide .next,
+.slideshow-container .finscarslide .prev {
+    border: 3px solid #a10000;
+}
+
+.slideshow-container .queenslide .queenimg img,
+.slideshow-container .queenslide .slidecaption,
+.slideshow-container .queenslide .next,
+.slideshow-container .queenslide .prev {
+    border: 3px solid #a10000;
+}
+
+.slideshow-container .spiderslide .spiderimg img,
+.slideshow-container .spiderslide .slidecaption,
+.slideshow-container .spiderslide .next,
+.slideshow-container .spiderslide .prev {
+    border: 3px solid #a10000;
+}
+
+/*PC CSS*/
+/* =========================================== */
+@media screen and (min-width: 1200px) {
+    body {
+        background-image:
+            linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(11, 0, 112, 0.95) 25%, rgb(0, 146, 231) 80%),
+            url("default/background.gif");
+        background-repeat: no-repeat, repeat;
+        background-size: cover, 20vh;
+    }
+
+    /* PARALLAX BACKGROUND */
+    #overlay>div,
+    #overlay {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        user-select: none;
+        pointer-events: none;
+    }
+
+    #overlay {
+        background-image: url("default/island.png");
+        background-position: bottom right;
+        background-repeat: no-repeat;
+        background-size: 50vh;
+        background-position-x: 70vw;
+        background-position-y: 65vh;
+        z-index: -1;
+    }
+
+    .overlay-3 {
+        background-image: url("default/back-cloud.png");
+        animation: 180s backcloud-move linear infinite;
+        background-position: center left;
+        background-repeat: repeat-x;
+        background-size: 80vh;
+    }
+
+    .overlay-4 {
+        background-image: url("default/front-cloud.png");
+        animation: 50s frontcloud-move linear infinite reverse;
+        background-position: center left;
+        background-position-y: 20vh;
+        background-repeat: repeat-x;
+        background-size: 80vh;
+    }
+
+    .overlay-1 {
+        background-image: url("default/ship.png");
+        animation: 35s ship-move linear infinite;
+        background-repeat: no-repeat;
+        background-size: 20vh;
+        background-position-x: 110vw;
+        background-position-y: 62vh;
+    }
+
+    .overlay-2 {
+        background-image: url("default/water.png");
+        animation: 60s water-move linear infinite;
+        background-position: bottom left;
+        background-repeat: repeat-x;
+        background-size: 80vh;
+
+    }
+
+    @keyframes water-move {
+        to {
+            background-position: 80vh bottom;
+        }
+    }
+
+    @keyframes backcloud-move {
+        to {
+            background-position: 80vh center;
+        }
+    }
+
+    @keyframes frontcloud-move {
+        to {
+            background-position: 80vh center;
+            background-position-y: 20vh;
+        }
+    }
+
+    @keyframes ship-move {
+        to {
+            background-position-x: -60vh;
+        }
+
+        0% {
+            top: 1vh;
+        }
+
+        10% {
+            top: 0vh;
+        }
+
+        20% {
+            top: 1vh;
+        }
+
+        30% {
+            top: 0vh;
+        }
+
+        40% {
+            top: 1vh;
+        }
+
+        50% {
+            top: 0vh;
+        }
+
+        60% {
+            top: 1vh;
+        }
+
+        70% {
+            top: 0vh;
+        }
+
+        80% {
+            top: 1vh;
+        }
+
+        90% {
+            top: 0vh;
+        }
+
+        100% {
+            top: 1vh;
+        }
+    }
+}

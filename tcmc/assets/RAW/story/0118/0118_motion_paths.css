@@ -1,0 +1,205 @@
+.gwd-play-animation [data-gwd-group="scene1"] .gwd-motion-path-1aqy-anim-x {
+  --gwd-motion-path: {
+    "tangentFollowing":false, "sections":[ {
+      "controlPoints": ["-35.71px", "42.43px", "-22.37px", "30.64px", "33.18px", "20.89px", "48.29px", "60.43px"], "startTimeMs": 0, "endTimeMs": 30000, "easing": "linear"
+    }
+    ], "positionTol":0.5, "angleTol":1, "optimizationLevel":0
+  }
+  ;
+  animation: 30s linear 0s 1 normal forwards running gwd-motion-path-1aqy-keys-x;
+  transform: translate3d(-35.71px, 0px, 0px);
+}
+@keyframes gwd-motion-path-1aqy-keys-x {
+  0% {
+    transform: translate3d(-35.71px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.3446, 0.3071, 0.607, 0.7597);
+  }
+  95% {
+    transform: translate3d(46.31px, 0px, 0px);
+  }
+  100% {
+    transform: translate3d(48.29px, 0px, 0px);
+  }
+}
+.gwd-play-animation [data-gwd-group="scene1"] .gwd-motion-path-1aqy-anim-y {
+  animation: 30s linear 0s 1 normal forwards running gwd-motion-path-1aqy-keys-y;
+  transform: translate3d(0px, 42.43px, 0px);
+}
+@keyframes gwd-motion-path-1aqy-keys-y {
+  0% {
+    transform: translate3d(0px, 42.43px, 0px);
+    animation-timing-function: cubic-bezier(0.5052, -1.4743, 0.8576, 0.2146);
+  }
+  100% {
+    transform: translate3d(0px, 60.43px, 0px);
+  }
+}
+.gwd-play-animation [data-gwd-group="scene1"] .gwd-motion-path-1738-anim-x {
+  --gwd-motion-path: {
+    "tangentFollowing":false, "sections":[ {
+      "controlPoints": ["-3px", "-6px", "-2px", "-6.67px", "-2.28px", "-10.52px", "-3.48px", "-10.62px"], "startTimeMs": 2400, "endTimeMs": 3600, "easing": "step-end"
+    }
+    , {
+      "controlPoints": ["-3.48px", "-10.62px", "-96.27px", "-18.35px", "-239.12px", "11.69px", "-242.55px", "107.69px"], "startTimeMs": 3600, "endTimeMs": 6600, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["-242.55px", "107.69px", "-244.94px", "174.56px", "-174.62px", "252.52px", "-49.41px", "199.04px"], "startTimeMs": 6600, "endTimeMs": 7590, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["-49.41px", "199.04px", "-51.58px", "194.34px", "-51.53px", "200.6px", "-47.12px", "197.9px"], "startTimeMs": 7590, "endTimeMs": 7600, "easing": "step-end"
+    }
+    , {
+      "controlPoints": ["-47.12px", "197.9px", "26.6px", "152.75px", "20.51px", "32.1px", "-115.14px", "53.71px"], "startTimeMs": 7600, "endTimeMs": 8600, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["-115.14px", "53.71px", "-245.12px", "94.54px", "-334.5px", "192.23px", "-367.14px", "373.71px"], "startTimeMs": 8600, "endTimeMs": 9600, "easing": "linear"
+    }
+    ], "positionTol":0.5, "angleTol":1, "optimizationLevel":0
+  }
+  ;
+  animation: 7.2s linear 2.4s 1 normal forwards running gwd-motion-path-1738-keys-x;
+  transform: translate3d(-3px, 0px, 0px);
+}
+@keyframes gwd-motion-path-1738-keys-x {
+  0% {
+    transform: translate3d(-3px, 0px, 0px);
+    animation-timing-function: step-end;
+  }
+  16.6667% {
+    transform: translate3d(-3.48px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.3268, 0.3366, 0.6381, 0.702);
+  }
+  47.9166% {
+    transform: translate3d(-212.05px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.2204, 0.3615, 0.5286, 0.9462);
+  }
+  58.3273% {
+    transform: translate3d(-242.55px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.4723, -0.0297, 0.8129, 0.656);
+  }
+  62.4563% {
+    transform: translate3d(-216.66px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.3728, 0.2838, 0.6597, 0.6772);
+  }
+  72.0834% {
+    transform: translate3d(-49.41px, 0px, 0px);
+    animation-timing-function: step-end;
+  }
+  72.225% {
+    transform: translate3d(-47.12px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.5136, -3.0842, 0.7212, -0.7835);
+  }
+  84.025% {
+    transform: translate3d(-78.02px, 0px, 0px);
+  }
+  86.1083% {
+    transform: translate3d(-115.14px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.2494, 0.3963, 0.5215, 0.8595);
+  }
+  100% {
+    transform: translate3d(-367.14px, 0px, 0px);
+  }
+}
+.gwd-play-animation [data-gwd-group="scene1"] .gwd-motion-path-1738-anim-y {
+  animation: 7.2s linear 2.4s 1 normal forwards running gwd-motion-path-1738-keys-y;
+  transform: translate3d(0px, -6px, 0px);
+}
+@keyframes gwd-motion-path-1738-keys-y {
+  0% {
+    transform: translate3d(0px, -6px, 0px);
+    animation-timing-function: step-end;
+  }
+  16.6667% {
+    transform: translate3d(0px, -10.62px, 0px);
+    animation-timing-function: cubic-bezier(0.5699, -0.0848, 0.8331, 0.572);
+  }
+  58.3273% {
+    transform: translate3d(0px, 107.69px, 0px);
+  }
+  60.3968% {
+    transform: translate3d(0px, 145.65px, 0px);
+    animation-timing-function: cubic-bezier(0.1598, 0.545, 0.4456, 1.9716);
+  }
+  72.0834% {
+    transform: translate3d(0px, 199.04px, 0px);
+    animation-timing-function: step-end;
+  }
+  72.225% {
+    transform: translate3d(0px, 197.9px, 0px);
+    animation-timing-function: cubic-bezier(0.4071, 0.2557, 0.6317, 0.7094);
+  }
+  80.9% {
+    transform: translate3d(0px, 67.7px, 0px);
+    animation-timing-function: cubic-bezier(0.1275, 0.482, 0.4169, 1.6284);
+  }
+  86.1083% {
+    transform: translate3d(0px, 53.71px, 0px);
+    animation-timing-function: cubic-bezier(0.4328, 0.197, 0.7243, 0.6299);
+  }
+  96.875% {
+    transform: translate3d(0px, 279.98px, 0px);
+  }
+  100% {
+    transform: translate3d(0px, 373.71px, 0px);
+  }
+}
+.gwd-play-animation [data-gwd-group="scene2"] .gwd-motion-path-1213-anim-x {
+  --gwd-motion-path: {
+    "tangentFollowing":false, "sections":[ {
+      "controlPoints": ["0px", "0px", "-9.67px", "-2.67px", "-19.02px", "-8.99px", "-29px", "-8px"], "startTimeMs": 0, "endTimeMs": 12000, "easing": "step-end"
+    }
+    , {
+      "controlPoints": ["-29px", "-8px", "-249.09px", "3.94px", "-504.15px", "-96.96px", "-526.95px", "-231.23px"], "startTimeMs": 12000, "endTimeMs": 17000, "easing": "linear"
+    }
+    ], "positionTol":0.5, "angleTol":1, "optimizationLevel":0
+  }
+  ;
+  animation: 17s linear 0s 1 normal forwards running gwd-motion-path-1213-keys-x;
+  transform: translate3d(0px, 0px, 0px);
+}
+@keyframes gwd-motion-path-1213-keys-x {
+  0% {
+    transform: translate3d(0px, 0px, 0px);
+    animation-timing-function: step-end;
+  }
+  70.5917% {
+    transform: translate3d(-29px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.3262, 0.3392, 0.6452, 0.6908);
+  }
+  92.65% {
+    transform: translate3d(-443.87px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.2659, 0.3483, 0.5733, 0.8423);
+  }
+  100% {
+    transform: translate3d(-526.95px, 0px, 0px);
+  }
+}
+.gwd-play-animation [data-gwd-group="scene2"] .gwd-motion-path-1213-anim-y {
+  animation: 17s linear 0s 1 normal forwards running gwd-motion-path-1213-keys-y;
+  transform: translate3d(0px, 0px, 0px);
+}
+@keyframes gwd-motion-path-1213-keys-y {
+  0% {
+    transform: translate3d(0px, 0px, 0px);
+    animation-timing-function: step-end;
+  }
+  70.5917% {
+    transform: translate3d(0px, -8px, 0px);
+    animation-timing-function: cubic-bezier(0.5045, -0.0528, 0.8568, 0.608);
+  }
+  98.5333% {
+    transform: translate3d(0px, -203.39px, 0px);
+  }
+  100% {
+    transform: translate3d(0px, -231.23px, 0px);
+  }
+}
+[data-gwd-motion-path-node] {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  pointer-events: none;
+}

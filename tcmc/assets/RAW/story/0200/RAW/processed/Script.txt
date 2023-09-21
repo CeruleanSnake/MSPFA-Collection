@@ -1,0 +1,313 @@
+COLOUR CODES
+
+SNAKE #005682
+FINSCAR #6A006A
+FLINTLOCK #A1A100
+RAT #A15000
+GOVANI #008282
+
+
+FINSCAR: By decree of th' seas, i have to tell ya th' rules
+FINSCAR: Ya probably heard 'em arlready tho
+FINSCAR: But I can yell ya anyway
+
+
+Hear the rules?
+Yes No
+
+Yes:
+
+-------------
+SNAKE: SSure... uh, refressh my memory.
+
+FINSCAR: This 'eres a drinkin' match
+FINSCAR: You take a swig o' me special brew each time ya lose a round
+
+SNAKE: SS0undss ss1mple en0ugh
+
+FINSCAR: Careful though, lad
+FINSCAR: This stuff can put a whale flat on its arse in 3 swigs
+FINSCAR: So, ya lose three times then game over
+FINSCAR: Also polite t' let the challengee go first
+
+SNAKE: SS0... what'ss the catch?
+
+FINSCAR: Ya retorts gotta rhyme and they gotta hurt
+FINSCAR: Th' crowd can smell a weak jab tho
+FINSCAR: So dont disappoint 'em
+--------------
+
+No:
+
+---------------
+SNAKE: Yeah yeah, 1've heard 1t bef0re.
+SNAKE: N0 need t0 tell me aga1n
+
+FINSCAR: Suit yerself then, lad
+---------------
+
+FINSCAR: Ya better prepare yerself for 'n ol' fashioned sailors grillin'
+
+SNAKE: Well, 1 ssee a f1ssh f1t f0r that menu!
+
+
+----------------------------------
+
+INSULTS:
+
+INSULT 1:
+----------------
+
+FINSCAR: Yer arms are no bigger than th' fleas i 'ave met.
+
+Choice - Vet Net
+
+Vet
+-----
+SNAKE: SS0 that'ss why y0u're sscratch1ng, y0u ssh0uld ssee a vet!
+
+Net
+-----
+SNAKE: Maybe y0u ssh0uld.. uh.. catch them... 1n a net?
+
+----------------
+
+
+
+INSULT 2:
+----------------
+
+FINSCAR: Whats with yer ears, tryna be a radio?
+
+Choice - Tempo Torso 
+
+Tempo
+-----
+SNAKE: Well Unl1ke y0u, 1'll have g00d temp0!
+
+Torso
+-----
+SNAKE: At leasst they're ... umm... near my... uh torss0?
+
+----------------
+
+
+INSULT 3:
+----------------
+
+FINSCAR: Aye, to ya lusus, ya nothin but a woe!
+
+Choice - Yo-ho-ho Low  
+
+Yo-ho-ho
+-----
+SNAKE: T00 bad y0ur lussuss w1ll alwayss be a y0-h0-H0E!
+
+Low
+-----
+SNAKE: You will uh... always be that ... low?
+
+----------------
+
+
+INSULT 4:
+----------------
+
+FINSCAR: Ya outfit looks like it belongs on a bilge rat!
+
+Choice - That Fat
+
+That
+-----
+SNAKE: Y0ur matesspr1t would be hurt t0 hear y0u talk about their w0rk l1ke that! 
+
+Fat
+-----
+SNAKE: At leasst m1ne d0essnt l00k uh... fat?
+
+----------------
+
+
+
+INSULT 5:
+----------------
+
+FINSCAR: Ya call yerself a pirate? Ya couldnt even lift 'n anchor!
+
+Choice - Wanker Tanker
+
+Wanker
+-----
+SNAKE: At leasst when 1 d0, unl1ke y0u, 1 w0n't l00k l1ke a wanker!
+
+Tanker
+-----
+SNAKE: You err... would look better on a... tanker??
+
+----------------
+
+
+
+INSULT 6:
+----------------
+
+FINSCAR: Ye'll never stand upon yer own poop deck, ye landlubberin' halfwit!
+
+choice - shit pit
+
+shit
+-----
+SNAKE: I bet y0ur p00p deck ssmellss l1ke a p1le 0f ssh1t!
+
+pit
+-----
+SNAKE: Your'ss w1ll pr0bably... l00k l1ke... uh... a p1t?
+
+----------------
+
+
+
+INSULT 7:
+----------------
+
+FINSCAR: Aye, somethin in front o' me smells like rottin' death!
+
+choice - breath Wrath
+
+breath
+-----
+SNAKE: 1 bel1eve that 1ss y0ur f1ssh-breath!
+
+wrath
+----
+SNAKE: That'ss the... ssmell... 0f wrath? Guh, that d0essn't even rhyme!
+
+----------------
+
+
+
+INSULT 8:
+----------------
+
+FINSCAR: Aye, ya got th' stench o' a muskrat!
+
+choice - twat fat
+
+TWAT
+-----
+SNAKE: At leasst, unl1ke you, 1 d0n't l00k l1ke a twat!
+
+FAT
+-----
+SNAKE: Well... your head... uh looks fat...?
+
+
+
+INSULT 9:
+----------------
+
+FINSCAR: Hah! Yer not even worth walkin th' plank!
+
+choice - frank bank
+
+Frank
+-------
+SNAKE: Y0U werern't even w0rth gett1ng 0ut 0f bed f0r, t0 be frank!
+
+bank
+-------
+SNAKE: Oh yeah? Well watch me... um... uh... make bank?
+
+
+
+INSULT 10:
+----------------
+
+FINSCAR: Aye, yer nothin' but a picaroon!
+
+CHOICE - Baboon Monsoon 
+
+Baboon
+-----
+SNAKE: Well all 1 ssee 1ss a b1g bab00n!
+
+monsoon
+-----
+SNAKE: Well y0u better watch 0ut f0r that... um... m0ns00n?
+
+
+
+
+
+LOSE
+-------------------------
+
+SNAKE: N0 m0re... 1 d0nt th1nk 1 can take anym0re...
+SNAKE: 1 can barely ssee the fl00r...
+
+FINSCAR: Hah! I knew ye couldnt handle th' heat!
+FINSCAR: Ye will make a lovely addition t' me cargo!
+
+-------------------------
+
+
+
+LOSE
+-------------------------
+
+FINSCAR: Aye, ill give it to ya lad...
+FINSCAR: Ya got a wit as sharp as me tongue!
+FINSCAR: ... Now... wheres me... spewin tub...
+
+SNAKE: 0h yeah! 1 sst1ll g0t 1t!
+SNAKE: T0ld y0u 1 had th1ss 1n the bag!
+
+-------------------------
+
+
+
+RANDOM LOSE QUIPS
+-------------------------
+
+FLINTLOCK: FUCK YOOOUUUU!!!
+
+FLINTLOCK: CANT 3V3M HOLD YOUR DRIIINKS!!!
+
+FLINTLOCK: SNAK3... SNAK3... SNAAAAAAAK3!!!
+
+FLINTLOCK: SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSST!
+
+RAT: weRe scRewed...
+
+RAT: oh dAmniT! ill hAve to scRub decks AgAin...
+
+RAT: cheveR, you idioT!
+
+RAT: This is The lAsT Time i follow youR ideAs!
+
+GOVANI: Well... That certainly didn't go as planned... (fancy text)
+
+
+
+RANDOM WIN QUIPS
+-------------------------
+
+SNAKE: Eassy peassy, n1ce 'n' cheessy!
+
+SNAKE: Hey, th1ss gr0g a1n't ss0 bad!
+
+SNAKE: Damn1t, 1 ssh0uld have wagered f0r 0ne 0f h1ss fancy r1ngss t00...
+
+FLINTLOCK: OOOOOOOOHHHH Y333333AAAAAHHHHH!!!
+
+FLINTLOCK: YOU SUR3 SHOW3D FIIISHFIIING3RS WHOS BOSS!
+
+FLINTLOCK: WOOOOOOOOOOOOOOOO!!!
+
+RAT: we ARe neveR doing This eveR AgAin!
+
+RAT: ok... some of Those weRe pReTTy good...
+
+RAT: holy moley! ThAT wAs inTense!
+
+GOVANI: I could kiss you! (fancy text)

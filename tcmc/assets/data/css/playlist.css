@@ -1,0 +1,85 @@
+.playlistbox {
+    background-color: transparent;
+    width: 90%;
+    margin: 0px 2% 30px 2%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px 20px 20px;
+}
+
+albumart img {
+    box-shadow: 0px 2px 8px #4f4f4f98;
+    border: solid 4px rgb(251, 180, 0);
+}
+
+.artcard p {
+    font-size: xxx-large;
+    font-weight: 900;
+    text-align: center;
+    font-family: 'Retrogression';
+    margin: 0px;
+    color: #005682;
+    text-shadow: 0px 4px 3px #9a9a9a;
+}
+
+.playlist ul {
+    text-align: left;
+    list-style: none;
+    display: block;
+    padding: 0px 10px;
+    color: #005682;
+}
+
+.playlist ul li {
+    background: transparent;
+    padding: 10px;
+    margin: 10px 0px;
+    cursor: pointer;
+    border: solid 4px #005682;
+    box-shadow: 0px 2px 8px #808080;
+}
+
+.playlist ul :hover {
+    background: #005682;
+    color: rgb(251, 180, 0);
+    transition-duration: 0.3s;
+}
+
+span.listpage {
+    float: right;
+}
+
+span.listpage:empty {
+    display: none !important;
+}
+
+a.downloadbutton {
+    float: right;
+    color: black;
+    padding-top: 2px;
+    padding-left: 10px;
+}
+
+a.downloadbutton :hover {
+    cursor: pointer;
+    color: rgb(251, 180, 0);
+    transition-duration: 0.3s;
+}
+
+.musicplayer audio {
+    width: 90%;
+    background-color: #f1f3f4;
+    border: solid 4px #005682;
+    box-shadow: 0px 2px 8px #64646498;
+}
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-mute-button {
+    border-radius: 50%;
+}
+
+audio::-webkit-media-controls-play-button:hover,
+audio::-webkit-media-controls-mute-button:hover {
+    background-color: rgb(251, 180, 0);
+    transition-duration: 0.3s;
+}

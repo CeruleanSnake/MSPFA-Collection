@@ -1,0 +1,8 @@
+  15/07/2023 6:47:33 PM: Starting composition “Scene1”.
+
+  Output To: D:\~Users\Chever\Documents\~Main Documents\Homestuck\MSPFA\TheCeruleanMotleyCrew\img\RAW\Sahcon\2023\Scene1\Scene1_[#####].psd    15/07/2023 6:47:48 PM: Finished composition “Scene1”.
+
+
+  Total Time Elapsed: 15 Seconds
+Log closed on 15/07/2023 at 6:47:48 PM
+

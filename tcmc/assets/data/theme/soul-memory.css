@@ -1,0 +1,404 @@
+/*SCROLL BAR*/
+/* =========================================== */
+::-webkit-scrollbar {
+    height: 12px;
+    width: 12px;
+    background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(255, 255, 255);
+    border-radius: 1ex;
+    -webkit-border-radius: 1ex;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+}
+
+::-webkit-scrollbar-corner {
+    background: #000;
+}
+
+
+/*MOBILE CSS*/
+/* =========================================== */
+body {
+    background-image:
+        url("soul-memory/wave-front.png"),
+        url("soul-memory/wave-back.png"),
+        url("soul-memory/sky-cloud-2.png"),
+        url("soul-memory/sky_cloud.png"),
+        linear-gradient(180deg, rgba(0, 0, 0, 0.779) 0%, rgb(48, 48, 48) 100%),
+        url("default/background.bmp");
+    background-position-x: 0, 0, 0, 0, 0, 1vw;
+    background-position-y: bottom, bottom, center, center;
+    background-repeat: repeat-x, repeat-x, repeat-x, repeat-x, no-repeat, repeat;
+    background-attachment: fixed;
+    background-color: #064564;
+    background-size: 100vh, 100vh, 100vh, 100vh, cover, 20vh;
+    image-rendering: pixelated;
+    -moz-image-rendering: crisp-edges;
+}
+
+a {
+    color: #000000 !important;
+}
+
+#nav a:hover {
+    color: #727272 !important;
+}
+
+#nav,
+#nav a {
+    color: #ffffff !important;
+}
+
+#main {
+    background-color: transparent
+}
+
+#slide {
+    Border: 8px solid #000000;
+    background-color: #eeeeee
+}
+
+#timestamp {
+    color: rgb(185, 185, 185);
+}
+
+#pageno {
+    color: #fff;
+    background-color: #000000;
+}
+
+#tab {
+    background-color: #000000;
+    color: #696969;
+}
+
+#tab button {
+    background-color: #2a2a2a;
+    border: solid #565656;
+    color: #818181;
+    text-shadow: 1px 1px #464646;
+}
+
+#tab button:hover {
+    background-color: #171717;
+}
+
+#tab button.active {
+    background-color: rgb(203, 203, 203);
+    color: #747474;
+    border: solid #242424;
+    text-shadow: 1px 1px #363636;
+}
+
+#user,
+#author {
+    background-color: #EEE;
+}
+
+.heart {
+    background-image: url("soul-memory/logo_small.png") !important;
+    image-rendering: auto;
+    background-repeat: no-repeat;
+}
+
+.tabcontent {
+    border: 2px solid #828282;
+}
+
+.iframe-container {
+    background: #eeeeee url("../loading.gif") no-repeat 50% center !important;
+}
+
+
+
+/*SITE ONLY*/
+/* =========================================== */
+
+.umcontainer {
+    background-image: url("alternia/mspfafacereverse.png");
+}
+
+.mspfalogo {
+    background-image: url("alternia/mspfaface.png") !important;
+}
+
+#infobox>div.spoiler.open {
+    Border: 4px solid #000000;
+}
+
+#commentbox>div.spoiler.open {
+    Border: 4px solid #000000;
+}
+
+#commentary-wrapper {
+    Border: 8px solid #000000;
+}
+
+a {
+    color: #000000 !important;
+}
+
+nav,
+nav a {
+    color: #ffffff !important;
+    background-color: transparent;
+}
+
+nav .dropdown-content {
+    background-color: #0000008f;
+}
+
+/*PC CSS*/
+/* =========================================== */
+@media screen and (min-width: 1200px) {
+    body {
+        background-image:
+            linear-gradient(180deg, rgba(0, 0, 0, 0.779) 0%, rgb(48, 48, 48) 100%),
+            url("default/background.gif");
+        background-repeat: no-repeat, repeat;
+        background-size: cover, 20vh;
+    }
+
+    /* PARALLAX BACKGROUND */
+    #overlay>div,
+    #overlay {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        user-select: none;
+        pointer-events: none;
+    }
+
+    #overlay {
+        background-image: none;
+        z-index: -2;
+    }
+
+    .overlay-1 {
+        background-image: url("soul-memory/sky_cloud.png");
+        animation: 200s skycloud-move linear infinite reverse;
+        background-position: center left;
+        background-repeat: repeat-x;
+        background-size: 100vh;
+    }
+
+    .overlay-2 {
+        background-image: url("soul-memory/sky-cloud-2.png");
+        animation: 60s sky-cloud-2-move linear infinite;
+        background-position: center left;
+        background-repeat: repeat-x;
+        background-size: 100vh;
+    }
+
+    .overlay-3 {
+        background-image: url("soul-memory/wave-back.png");
+        animation: 40s wave-back-move linear infinite;
+        background-position: bottom left;
+        background-repeat: repeat-x;
+        background-size: 100vh;
+    }
+
+    .overlay-4 {
+        background-image: url("pirate-alternia/ship.png");
+        animation: 35s ship-move linear infinite;
+        background-repeat: no-repeat;
+        background-size: 40vh;
+        background-position-x: 110vw;
+        background-position-y: 64vh;
+    }
+
+    .overlay-5 {
+        background-image: url("soul-memory/wave-front.png");
+        animation: 20s wave-front-move linear infinite;
+        background-position: bottom left;
+        background-repeat: repeat-x;
+        background-size: 100vh;
+    }
+
+    @keyframes skycloud-move {
+        to {
+            background-position: 100vh center;
+        }
+    }
+
+    @keyframes sky-cloud-2-move {
+        to {
+            background-position: 100vh center;
+        }
+
+        0% {
+            opacity: 1;
+        }
+
+        25% {
+            opacity: 0.3;
+        }
+
+        50% {
+            opacity: 1;
+        }
+
+        75% {
+            opacity: 0.3;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    @keyframes wave-back-move {
+        to {
+            background-position: 100vh bottom;
+        }
+
+        0% {
+            top: 1vh;
+        }
+
+        10% {
+            top: 0vh;
+        }
+
+        20% {
+            top: 1vh;
+        }
+
+        30% {
+            top: 0vh;
+        }
+
+        40% {
+            top: 1vh;
+        }
+
+        50% {
+            top: 0vh;
+        }
+
+        60% {
+            top: 1vh;
+        }
+
+        70% {
+            top: 0vh;
+        }
+
+        80% {
+            top: 1vh;
+        }
+
+        90% {
+            top: 0vh;
+        }
+
+        100% {
+            top: 1vh;
+        }
+    }
+
+    @keyframes ship-move {
+        to {
+            background-position-x: -60vh;
+        }
+
+        0% {
+            top: 1vh;
+        }
+
+        10% {
+            top: 0vh;
+        }
+
+        20% {
+            top: 1vh;
+        }
+
+        30% {
+            top: 0vh;
+        }
+
+        40% {
+            top: 1vh;
+        }
+
+        50% {
+            top: 0vh;
+        }
+
+        60% {
+            top: 1vh;
+        }
+
+        70% {
+            top: 0vh;
+        }
+
+        80% {
+            top: 1vh;
+        }
+
+        90% {
+            top: 0vh;
+        }
+
+        100% {
+            top: 1vh;
+        }
+    }
+
+    @keyframes wave-front-move {
+        to {
+            background-position: 100vh bottom;
+        }
+
+        0% {
+            top: 0vh;
+        }
+
+        10% {
+            top: 1vh;
+        }
+
+        20% {
+            top: 0vh;
+        }
+
+        30% {
+            top: 1vh;
+        }
+
+        40% {
+            top: 0vh;
+        }
+
+        50% {
+            top: 1vh;
+        }
+
+        60% {
+            top: 0vh;
+        }
+
+        70% {
+            top: 1vh;
+        }
+
+        80% {
+            top: 0vh;
+        }
+
+        90% {
+            top: 1vh;
+        }
+
+        100% {
+            top: 0vh;
+        }
+    }
+}

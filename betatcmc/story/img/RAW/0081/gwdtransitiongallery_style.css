@@ -1,0 +1,1 @@
+gwd-transitiongallery{display:block;touch-action:none}gwd-transitiongallery>gwd-gallerynavigation{position:absolute;height:28px;bottom:0;width:100%}gwd-transitiongallery>gwd-gesture{position:absolute;height:auto;top:0;bottom:0;width:100%}gwd-transitiongallery[has-navigation]>gwd-gesture{bottom:32px}

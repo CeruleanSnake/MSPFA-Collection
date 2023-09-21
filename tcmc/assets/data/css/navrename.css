@@ -1,0 +1,104 @@
+/*NAVIGATION*/
+/*=================================================*/
+nav>a,
+nav>div>a:first-child {
+    font-size: 0;
+    pointer-events: none;
+}
+
+nav>a::after,
+nav>div>a:first-child::after {
+    font-size: x-small;
+    pointer-events: auto;
+}
+
+/* MSPFA HOME */
+nav a[href="/"]::after {
+    content: "PORT";
+}
+
+/* MSPA */
+nav a[href="http://www.mspaintadventures.com/"]::after {
+    content: "LAND YONDER";
+}
+
+/* EXPLORE */
+nav a[href="/stories/"]::after {
+    content: "EXPLORE";
+}
+
+/* RANDOM */
+nav a[href="/random/"]::after {
+    content: "PLUNDER";
+}
+
+/* STATISTICS */
+nav a[href="/stats/"]::after {
+    content: "COFFERS";
+}
+
+/* LOG */
+nav a[href^="/log/"]::after {
+    content: "CAPTAIN'S LOG";
+}
+
+/* SEARCH */
+nav a[href^="/search/"]::after {
+    content: "SCRY";
+}
+
+/* BOOKMARKS */
+nav a[href^="javascript:void(0)"]::after {
+    content: "WAYPOINTS";
+}
+
+/* MY MSPFA */
+nav a[href="/my/"]::after {
+    content: "CAPTAIN'S QUARTERS";
+}
+
+/* DISCORD */
+nav a[href="/discord"]::after {
+    content: "TAVERN";
+}
+
+/* DONATE */
+nav a[href="/donate/"]::after {
+    content: "YAAARR";
+}
+
+/* MORE */
+nav a[href="/more/"]::after {
+    content: "CARRIER PIGEON";
+}
+
+
+#foot span a {
+    font-size: 0;
+    pointer-events: none;
+}
+
+#foot span a::after {
+    font-size: x-small;
+    pointer-events: auto;
+}
+
+#startover::after {
+    content: "ABANDON SHIP";
+}
+
+#goback::after {
+    content: "SAIL BACK";
+}
+
+#savegame::after {
+    content: "STEAL TREASURE";
+}
+
+#loadgame::after {
+    content: "OPEN TREASURE";
+}
+
+#deletegame::after {
+    content: "DISCARD TREASURE";
+}
