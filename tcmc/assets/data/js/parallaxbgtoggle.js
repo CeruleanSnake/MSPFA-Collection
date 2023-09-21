@@ -1,3 +1,4 @@
+console.log("Parallax Toggle by Mad Creativity");
 let isBackgroundAnimated = localStorage.getItem("isBackgroundAnimated") === "false" ? false : true;
 
 const dSettingStyle = document.createElement("style");
