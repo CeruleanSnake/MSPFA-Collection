@@ -17,40 +17,49 @@ function opentab(evt, spoilertab) {
     document.getElementsByTagName('button')[0].addEventListener('click', e => e.preventDefault());
 }
 
-MSPFA.slide.push(p => { 
+MSPFA.slide.push(p => {
     if ($("#authorbtn").length) {
-  document.getElementById("authorbtn").onclick = function () {
-        opentab(event, 'author')
+        document.getElementById("authorbtn").onclick = function () {
+            opentab(event, 'author')
         };
-}
+    }
     if ($("#userbtn").length) {
-  document.getElementById("userbtn").onclick = function () {
-        opentab(event, 'user')
-    };
-}
+        document.getElementById("userbtn").onclick = function () {
+            opentab(event, 'user')
+        };
+    }
+});
+
+$(document).ready(function () {
+    $("#prevlinks").click(function () {
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+    })
 });
 
 $(document).ready(function () {
     $("#links").click(function () {
-            tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-    }
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
     })
 });
 
-window.addEventListener("keydown", function(evt) {
-  if (evt.key == "ArrowRight") {
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
+window.addEventListener("keydown", function (evt) {
+    if (evt.key == "ArrowRight") {
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
     }
-  }
 
-  if (evt.key == "ArrowLeft") {
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
+    if (evt.key == "ArrowLeft") {
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
     }
-  }
 })

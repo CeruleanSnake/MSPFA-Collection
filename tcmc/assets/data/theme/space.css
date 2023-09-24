@@ -1,43 +1,37 @@
-/*SCROLL BAR*/
-/* =========================================== */
-::-webkit-scrollbar {
-    height: 12px;
-    width: 12px;
-    background: #000;
-}
-
-::-webkit-scrollbar-thumb {
-    background: rgb(73, 73, 73);
-    border-radius: 1ex;
-    -webkit-border-radius: 1ex;
-    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
-}
-
-::-webkit-scrollbar-corner {
-    background: #000;
-}
-
-
-/*MOBILE CSS*/
-/* =========================================== */
-body {
-    background-image:
-        url("space/small_meteor.png"), url("space/med_meteor.png"),
-        url("space/big_meteor.png"), url("space/alternia.png"),
-        url("default/background.bmp");
-    background-position-x: 0, 0, 0, 87vw;
-    background-position-y: bottom, bottom, bottom, 25vh;
-    background-repeat: repeat-x, repeat-x, repeat-x, no-repeat, repeat;
-    background-attachment: fixed;
-    background-color: #000;
-    background-size: 100vh, 100vh, 100vh, 10vw, 30vh;
-    image-rendering: pixelated;
-    -moz-image-rendering: crisp-edges;
-}
-
 a {
     color: #d70000 !important;
+}
+
+nav {
+    color: #a10000 !important;
+    background-color: transparent;
+}
+
+nav .dropdown-content {
+    background-color: #0000008f;
+}
+
+.major {
+    color: #a10000 !important;
+    text-shadow: 0 2px #310000 !important;
+}
+
+.heart {
+    background-image: url("alternia/logo_small.png") !important;
+    image-rendering: auto;
+    background-repeat: no-repeat;
+}
+
+/*.iframe-container {
+    background: #eeeeee url("../../img/loading.gif") no-repeat 50% center !important;
+}*/
+
+.umcontainer {
+    background-image: url("alternia/mspfafacereverse.png");
+}
+
+.mspfalogo {
+    background-image: url("alternia/mspfaface.png") !important;
 }
 
 #nav a:hover {
@@ -55,6 +49,31 @@ a {
 #slide {
     Border: 8px solid #a10000;
     background-color: #eeeeee
+}
+
+#flashytitle,
+#flashytitlebottom {
+    background-image: url("myutun-sea/header.png");
+}
+
+#info>span>.spoiler.open {
+    background-color: #eeeeeeda;
+    border: 4px solid #a10000;
+}
+
+#commentary-wrapper {
+    Border: 8px solid #a10000;
+}
+
+/* OFFLINE ONLY */
+/* ===========================================*/
+
+.mspfa .mspfalogoreverse {
+    background-image: url("alternia/mspfafacereverse.png");
+}
+
+.tabcontent {
+    border: 2px solid #710000;
 }
 
 #timestamp {
@@ -95,64 +114,49 @@ a {
     background-color: #EEE;
 }
 
-.heart {
-    background-image: url("alternia/logo_small.png") !important;
-    image-rendering: auto;
-    background-repeat: no-repeat;
-}
-
-.tabcontent {
-    border: 2px solid #710000;
-}
-
-.iframe-container {
-    background: #eeeeee url("../loading.gif") no-repeat 50% center !important;
-}
-
-
-/*SITE ONLY*/
+/*SCROLL BAR*/
 /* =========================================== */
-
-.umcontainer {
-    background-image: url("alternia/mspfafacereverse.png");
+::-webkit-scrollbar {
+    height: 12px;
+    width: 12px;
+    background: #000;
 }
 
-.mspfalogo {
-    background-image: url("alternia/mspfaface.png") !important;
+::-webkit-scrollbar-thumb {
+    background: rgb(73, 73, 73);
+    border-radius: 1ex;
+    -webkit-border-radius: 1ex;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
 }
 
-#infobox>div.spoiler.open {
-    Border: 4px solid #a10000;
+::-webkit-scrollbar-corner {
+    background: #000;
 }
 
-#commentbox>div.spoiler.open {
-    Border: 4px solid #a10000;
+/*MOBILE CSS*/
+/* =========================================== */
+body {
+    background-image:
+        url("space/small_meteor.png"), url("space/med_meteor.png"),
+        url("space/big_meteor.png"), url("space/alternia.png"),
+        url("myutun-sea/background.bmp");
+    background-position-x: 0, 0, 0, 87vw;
+    background-position-y: bottom, bottom, bottom, 25vh;
+    background-repeat: repeat-x, repeat-x, repeat-x, no-repeat, repeat;
+    background-attachment: fixed;
+    background-color: #000;
+    background-size: 100vh, 100vh, 100vh, 10vw, 30vh;
+    image-rendering: pixelated;
+    -moz-image-rendering: crisp-edges;
 }
-
-#commentary-wrapper {
-    Border: 8px solid #a10000;
-}
-
-a {
-    color: #d70000 !important;
-}
-
-nav {
-    color: #a10000 !important;
-    background-color: transparent;
-}
-
-nav .dropdown-content {
-    background-color: #0000008f;
-}
-
 
 /*PC CSS*/
 /* =========================================== */
 @media screen and (min-width: 1200px) {
     body {
         background-image:
-            url("default/background.gif");
+            url("myutun-sea/background.gif");
         background-repeat: repeat;
         background-size: 30vh;
     }

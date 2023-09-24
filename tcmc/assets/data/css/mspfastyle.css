@@ -14,16 +14,15 @@
 
 /* Custom non MSPFA css */
 
-/* IFRAME LOADING */
-
 footer a {
 	color: #000 !important;
 }
 
 #map>img {
 	image-rendering: optimizeQuality;
-	width: 165%;
-	padding-bottom: 20px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
 }
 
 #tab,
@@ -50,8 +49,37 @@ footer a {
 	background: transparent url("../loading.gif") no-repeat 50% center !important;
 }
 
-commentary {
-	display: none;
+.umcontainer {
+	height: 102px;
+	background-position-x: 0px;
+	background-image: none !important;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.mspfa .mspfalogo,
+.mspfa .mspfalogoreverse,
+#flashytitle,
+#flashytitlebottom {
+	display: inline-block;
+	width: 150px;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 102px;
+}
+
+.mspfa .mspfalogoreverse {
+	background-image: url("https://linkh.at/mspfafacereverse");
+}
+
+.mspfalogo {
+	background-position-x: 7px !important;
+}
+
+#flashytitle,
+#flashytitlebottom {
+	width: 920px;
 }
 
 
@@ -75,8 +103,9 @@ commentary {
 	margin: 0 -25px;
 } */
 
+/* ====================================================== */
 /* Normal Mspfa CSS */
-
+/* ====================================================== */
 body {
 	margin: 0;
 	font-family: courier new, Courier, monospace;
@@ -282,7 +311,7 @@ body {
 	box-shadow: none !important;
 }
 
-.mspfa .mspfalogo {
+/*.mspfa .mspfalogo {
 	width: 208px;
 	height: 102px;
 	float: left;
@@ -290,15 +319,15 @@ body {
 	background-position: center;
 	border-right: 4px solid #b8b8b8;
 	background-color: #eee;
-}
+}*/
 
-.mspfa header .mspfalogo {
+/*.mspfa header .mspfalogo {
 	background-image: url(./VorkedLarfleeze.gif);
 }
 
 .mspfa footer .mspfalogo {
 	background-image: url(./VorkedLarfleeze.gif);
-}
+}*/
 
 .mspfa table,
 .mspfa #dialog {

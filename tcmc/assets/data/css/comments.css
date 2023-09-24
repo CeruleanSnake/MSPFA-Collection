@@ -59,8 +59,9 @@ table {
 }
 
 .commenttxt img {
-    max-width: 70px;
-    max-height: 70px;
+    max-width: 90px;
+    max-height: 90px;
+    padding-top: 10px;
 }
 
 .username {
@@ -73,6 +74,7 @@ table {
     font-size: 12px;
     font-family: courier;
     color: #8c8c8c;
+    padding-left: 10px;
 }
 
 .tabcontent {

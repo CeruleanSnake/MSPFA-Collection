@@ -11,40 +11,36 @@
     <meta property="og:site_name" content="File Garden">
     <meta property="og:title" content="The Cerulean Motley Crew">
     <meta property="og:description" content="A daring adventure of pirates, booze and a whole lotta booty!">
-    <meta property="og:image" content="https://file.garden/X65Xhea95myVymaS/TCMC/./assets/img/logo.gif">
+    <meta property="og:image" content="./assets/img/logo.gif">
     <meta property="og:image:type" content="image/gif">
 
     <link rel="icon" href="./assets/img/favicon.ico">
 
     <link rel="stylesheet" href="./assets/data/css/mspfastyle.css">
-    <link rel="stylesheet" href="./assets/data/sitestyle.css">
-    <link rel="stylesheet" href="./assets/data/theme/default.css">
+    <link rel="stylesheet" href="./assets/data/css/sitestyle.css">
+    <link rel="stylesheet" href="./assets/data/theme/myutun-sea.css">
 
-    <script src="./assets/data/js/extrapagesviewer.js"></script>
+    <script src="./assets/data/js/jquery-3.7.1.min.js"></script>
     <script src="./assets/data/js/navbar.js" defer></script>
-    <script src="./assets/data/js/randombanner.js"></script>
     <script src="./assets/data/js/randomimg.js"></script>
     <script src="./assets/data/js/parallaxbg.js" defer></script>
     <script src="./assets/data/js/parallaxbgtoggle.js" defer></script>
-    <script src="./assets/data/js/jquery-3.7.1.min.js"></script>
 
     <div id="overlay" data-amt="12"></div>
 </head>
 
 <body cz-shortcut-listen="true" class="mspfa">
 
+    <div class="umcontainer">
+        <a href="/">
+            <div class="mspfalogo"></div>
+        </a>
+        <div id="flashytitle"></div>
+        <div class="mspfalogoreverse"></div>
+    </div>
+
     <div id="main">
         <header>
-            <div class="umcontainer">
-                <a href="/">
-                    <div class="mspfalogo"></div>
-                </a>
-            </div>
-            <!-- <div id="banner">
-                <script type='text/javascript'>
-                    getRandomBanner(random_images_array, './assets/./assets/img/banner/')
-                </script> 
-            </div>-->
             <nav>
                 <div id="nav"></div>
             </nav>
@@ -70,9 +66,9 @@
                     <div style="font-size: 20px">
                         <br>===================<br>
                         <span style="color: #005682;">
-                            <img src="./assets/data/theme/default/logo_small.png">
+                            <img src="./assets/data/theme/myutun-sea/logo_small.png">
                             NAVIGATION
-                            <img src="./assets/data/theme/default/logo_small.png">
+                            <img src="./assets/data/theme/myutun-sea/logo_small.png">
                             <br>
                         </span>
                         ===================<br><br>
@@ -82,11 +78,13 @@
                     =========================
                     <div style="font-size: 20px">
                         <br>
-                        <!-- <a href="./Characters.html">CHARACTERS</a>
-                        <br><br> -->
-                        <a href="./Offline.html">OFFLINE ARCHIVE</a> | <a href="./Art.html">ART</a> | <a href="./Music.html">MUSIC</a>
+                        <a href="./Characters.html">CHARACTERS</a>
+                        <br><br>
+                        <a href="./Offline.html">OFFLINE ARCHIVE</a> | <a href="./Art.html">ART</a> | <a
+                            href="./Music.html">MUSIC</a>
                         |
-                        <a href="../betatcmc/index.html" target="_blank">ORIGINAL
+                        <a href="https://file.garden/X65Xhea95myVymaS/Archive/OriginalTCMC/The-Cerulean-Motley-Crew.html"
+                            target="_blank">ORIGINAL
                             COMIC</a>
                         <br><br>
                     </div>
@@ -112,7 +110,7 @@
                         Discord.</a>
                 </div>
 
-                <div id="foot">
+                <div id="foot" style="padding-bottom: 10px;">
                     <span id="prevlinks">
                         <span class="footlinks">
                         </span>
@@ -123,18 +121,17 @@
             </div>
             <br>
         </div>
-
-        <footer>
-            <div id="flashytitlebottom"></div>
-            <div class="umcontainer">
-                <div class="mspfalogo"></div>
-            </div>
-            <div id="details" style="padding-top: 6px;"><b><a href="https://github.com/FlaringK/mspfaViewer">MSPFA
-                        viewer</a> made by <a href="https://mspfa.com/user/?u=100855018780708322446">FlaringK</a> |
-                    2023</b></div>
-        </footer>
-
     </div>
+    <footer>
+        <div class="umcontainer">
+            <div class="mspfalogo"></div>
+            <div id="flashytitlebottom"></div>
+            <div class="mspfalogoreverse"></div>
+        </div>
+        <div id="details" style="padding-bottom: 6px;"><b><a href="https://github.com/FlaringK/mspfaViewer">MSPFA
+                    viewer</a> made by <a href="https://mspfa.com/user/?u=100855018780708322446">FlaringK</a> |
+                2023</b></div>
+    </footer>
     <div id="prelaod" style="display: none;"></div>
 </body>
 

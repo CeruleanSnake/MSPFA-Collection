@@ -14,7 +14,7 @@ var TrackList = [{
         Title: "Pirate's Awakening",
         Track: "2",
         Page: "Page 100",
-        PageUrl: "./?p=100",
+        PageUrl: "The-Cerulean-Motley-Crew.html?p=100",
         Art: "./assets/sound/music/Pirates Awakening.png",
     },
     {
@@ -22,7 +22,7 @@ var TrackList = [{
         Title: "Friday Night Plunderin'",
         Track: "3",
         Page: "Page 200",
-        PageUrl: "./?p=200",
+        PageUrl: "The-Cerulean-Motley-Crew.html?p=200",
         Art: "./assets/sound/music/Friday Night Plunderin.png",
     },
 ]

@@ -2,7 +2,7 @@ MSPFA.slide.push(() => {
   jQuery(document).ready(function () {
     const params = new URLSearchParams(window.location.search);
     if([1].includes(parseInt(params.get("p")))) {
-      document.getElementById("sitetheme").innerHTML = "<link rel='stylesheet' href='./assets/data/theme/default.css'>";
+      document.getElementById("sitetheme").innerHTML = "<link rel='stylesheet' href='./assets/data/theme/myutun-sea.css'>";
     }
     if([2,3,4,5,6,7,8,9,10,11,12,13,14,15].includes(parseInt(params.get("p")))) {
       document.getElementById("sitetheme").innerHTML = "<link rel='stylesheet' href='./assets/data/theme/alternia.css'>";

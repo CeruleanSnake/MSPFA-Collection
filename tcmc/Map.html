@@ -1,84 +1,102 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
-    <title>
-        The Cerulean Motley Crew
-    </title>
+    <meta charset="UTF-8">
+    <title>The Cerulean Motley Crew</title>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
     <meta name="author" content="CeruleanSnake">
     <meta name="theme-color" content="#005682">
 
     <meta property="og:site_name" content="File Garden">
     <meta property="og:title" content="The Cerulean Motley Crew">
     <meta property="og:description" content="A daring adventure of pirates, booze and a whole lotta booty!">
-    <meta property="og:image" content="https://file.garden/X65Xhea95myVymaS/TCMC/img/logo.gif">
+    <meta property="og:image" content="./assets/img/logo.gif">
     <meta property="og:image:type" content="image/gif">
 
-    <link rel="icon" href="img/favicon.ico">
-    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+    <link rel="icon" href="./assets/img/favicon.ico">
 
-    <link rel="stylesheet" href="data/css/main.css">
-    <link rel="stylesheet" href="data/theme/default.css">
+    <link rel="stylesheet" href="./assets/data/css/mspfastyle.css">
+    <link rel="stylesheet" href="./assets/data/css/sitestyle.css">
+    <link rel="stylesheet" href="./assets/data/theme/myutun-sea.css">
 
-    <div id="overlay" data-amt="4">
-        <script type="text/javascript" src="data/js/parallaxbg.js">
-        </script>
-    </div>
+    <script src="./assets/data/js/jquery-3.7.1.min.js"></script>
+    <script src="./assets/data/js/navbar.js" defer></script>
+    <script src="./assets/data/js/randomimg.js"></script>
+    <script src="./assets/data/js/parallaxbg.js" defer></script>
+    <script src="./assets/data/js/parallaxbgtoggle.js" defer></script>
 
-    <noscript>Sorry, your browser does not support JavaScript!</noscript>
+    <div id="overlay" data-amt="12"></div>
 </head>
 
-<body>
+<body cz-shortcut-listen="true" class="mspfa">
+
+    <div class="umcontainer">
+        <a href="/">
+            <div class="mspfalogo"></div>
+        </a>
+        <div id="flashytitle"></div>
+        <div class="mspfalogoreverse"></div>
+    </div>
+
     <div id="main">
         <header>
-            <div id="flashytitle"></div>
-
-            <div id="nav">
-                <script type="text/javascript" src="data/js/navbar.js">
-                </script>
-            </div>
+            <nav>
+                <div id="nav"></div>
+            </nav>
         </header>
-
         <div id="container">
-            <div id="slide" Style="width: 1030px;">
-                <div id="command">
-                    <img class='major' src="img/map/map_title.png" title="The Cerulean Motley Crew">
+            <div id="slide" style="image-rendering: auto; width: 800px;">
+                <div id=" command" style="display: flex; justify-content: center;"><img src="./assets/img/Title.png"
+                        title="The Cerulean Motley Crew">
                 </div>
-
                 <div id="content">
-                    Note, the map needs fixing which I will get to soon.<br><br>
-                    <br><br>
+                    <span style="color: red; font-size: x-large;">Map is broken and will be fixed
+                        soon!!!<br><br><br></span>
                     <div id="map">
-                        <img src="img/map/map1.png" usemap="#map1">
+                        <img src="./assets/img/map/map1.png" usemap="#map1">
                         <map name="map1">
-                            <area alt="Chapter 1" title="Chapter 1" href="story/0002.html" coords="122,107,860,261"
-                                shape="rect">
-                            <area alt="Page 16" title="Page 16" href="story/0016.html" coords="128,323,262,456"
-                                shape="rect">
-                            <area alt="Page 34" title="Page 34" href="story/0034.html" coords="277,323,412,456"
-                                shape="rect">
-                            <area alt="Page 52" title="Page 52" href="story/0052.html" coords="428,322,559,456"
-                                shape="rect">
-                            <area alt="Page 72" title="Page 72" href="story/0072.html" coords="575,325,709,456"
-                                shape="rect">
-                            <area alt="Page 93" title="Page 93" href="story/0093.html" coords="726,323,859,457"
-                                shape="rect">
-                            <area alt="Page 108" title="Page 108" href="story/0108.html" coords="129,476,263,608"
-                                shape="rect">
+                            <area alt="Chapter 1" title="Chapter 1" href="https://mspfa.com/?s=38151&p=2"
+                                coords="122,107,860,261" shape="rect">
+                            <area alt="Page 16" title="Page 16" href="https://mspfa.com/?s=38151&p=16"
+                                coords="128,323,262,456" shape="rect">
+                            <area alt="Page 34" title="Page 34" href="https://mspfa.com/?s=38151&p=34"
+                                coords="277,323,412,456" shape="rect">
+                            <area alt="Page 52" title="Page 52" href="https://mspfa.com/?s=38151&p=52"
+                                coords="428,322,559,456" shape="rect">
+                            <area alt="Page 72" title="Page 72" href="https://mspfa.com/?s=38151&p=72"
+                                coords="575,325,709,456" shape="rect">
+                            <area alt="Page 93" title="Page 93" href="https://mspfa.com/?s=38151&p=93"
+                                coords="726,323,859,457" shape="rect">
+                            <area alt="Page 108" title="Page 108" href="https://mspfa.com/?s=38151&p=108"
+                                coords="129,476,263,608" shape="rect">
                         </map>
                     </div>
                 </div>
-            </div>
-        </div>
 
-        <footer>
-            <div id="flashytitlebottom"></div>
-        </footer>
+                <div id="foot" style="padding-bottom: 10px;">
+                    <span id="prevlinks">
+                        <span class="footlinks">
+                        </span>
+                    </span>
+                    <br>
+                    <br>
+                </div>
+            </div>
+            <br>
+        </div>
     </div>
+    <footer>
+        <div class="umcontainer">
+            <div class="mspfalogo"></div>
+            <div id="flashytitlebottom"></div>
+            <div class="mspfalogoreverse"></div>
+        </div>
+        <div id="details" style="padding-bottom: 6px;"><b><a href="https://github.com/FlaringK/mspfaViewer">MSPFA
+                    viewer</a> made by <a href="https://mspfa.com/user/?u=100855018780708322446">FlaringK</a> |
+                2023</b></div>
+    </footer>
+    <div id="prelaod" style="display: none;"></div>
 </body>
 
 </html>

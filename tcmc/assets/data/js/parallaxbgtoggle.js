@@ -28,9 +28,9 @@ const dSettingBgAnimWrapper = document.createElement("div");
 const dSettingBgAnimCheckbox = document.createElement("input");
 const dSettingBgAnimLabel = document.createElement("label");
 
-dSettingBgAnimWrapper.style = `display: flex;`;
+dSettingBgAnimWrapper.style = `display: flex; flex-wrap: wrap; align-content: flex-end`;
 
-dSettingBgAnimCheckbox.style = `margin: 0; margin-right: 5px;`;
+dSettingBgAnimCheckbox.style = `margin: 0; margin-right: 3px;`;
 dSettingBgAnimCheckbox.type = "checkbox";
 dSettingBgAnimCheckbox.id = "settingBgAnim";
 dSettingBgAnimCheckbox.checked = isBackgroundAnimated;
@@ -41,7 +41,7 @@ dSettingBgAnimCheckbox.addEventListener("input", () => {
 });
 
 dSettingBgAnimLabel.textContent = "Animated Background";
-dSettingBgAnimLabel.style = `line-height: 15px; font-size: 10px; text-transform: uppercase;`;
+dSettingBgAnimLabel.style = `line-height: 15px; font-size: 9px; text-transform: uppercase;`;
 dSettingBgAnimLabel.setAttribute("for", "settingBgAnim");
 
 dSettingBgAnimWrapper.appendChild(dSettingBgAnimCheckbox);
