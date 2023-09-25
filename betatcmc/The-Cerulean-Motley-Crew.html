@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>MSPFA viewer</title>
+
+        <link id="favicon" rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+        <link rel="stylesheet" href="./assets/data/css/mspfastyle.css">
+        <link rel="stylesheet" href="./assets/data/css/comments.css">
+
+        <script src="./assets/data/js/jquery-3.7.1.min.js"></script>
+        <script src="./assets/data/js/mspfaViewer.js"></script>
+        <script src="./assets/data/js/tabs.js" defer></script>
+    </head>
+
+    <body cz-shortcut-listen="true" class="mspfa ">
+
+        <div id="main">
+            <header>
+                <div class="umcontainer">
+                    <a href="/">
+                        <div class="mspfalogo"></div>
+                    </a>
+                </div>
+                <nav>
+
+                    <a href="../index.html">Home</a>
+                    <div class="heart"></div>
+                    <a href="https://mspfa.com/?s=38151&p=1">MSPFA</a>
+                    <div class="heart"></div>
+                    <a href="?p=log" id="log">Log</a>
+                </nav>
+            </header>
+
+            <div id="container">
+                <div id="slide">
+                    <div id="command"></div>
+                    <div id="content"></div>
+                    <div id="foot">
+                        <div id="links"></div>
+                        <br />
+                        <br />
+                        <span id="prevlinks">
+                            <span class="footlinks">
+                                <a id="startover" href="?p=1">Start Over</a>
+                                <span id="gobackbar"> | </span> <a id="goback">Go Back</a>
+                            </span>
+                        </span>
+                        <br />
+                        <br />
+                    </div>
+                </div>
+                <div id="tab">
+                    <div id="button"></div>
+                    <br>
+                    <div id="user" class="tabcontent"></div>
+                </div>
+            </div>
+            <footer>
+                <div class="umcontainer">
+                    <div class="mspfalogo"></div>
+                </div>
+                <div id="details" style="padding-top: 6px;"><b>MSPFA viewer made by FlaringK | 2023</b></div>
+            </footer>
+        </div>
+        <div id="prelaod" style="display: none;"></div>
+    </body>
+
+</html>

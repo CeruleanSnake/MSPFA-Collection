@@ -1,0 +1,41 @@
+.p1 div#slide {
+    background-color: transparent;
+}
+
+
+.major {
+    color: #005682 !important;
+    text-shadow: 0 2px #f4ab24 !important;
+}
+
+div#container {
+    background-color: #6990b1;
+}
+
+body {
+    background-image: url('../img/background.png');
+}
+
+a {
+    color: #0080c2 !important;
+}
+
+nav {
+    color: #ba00ba !important;
+}
+
+div#main {
+    background-color: #000000 !important;
+}
+
+#info>span>.spoiler.open {
+    background-color: #965b96;
+}
+
+.mspfalogo {
+    background-color: #000000 !important;
+}
+
+.heart {
+    background-image: url('../img/icon\ small.png') !important;
+}

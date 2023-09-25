@@ -1,0 +1,108 @@
+/* ==================================================== 
+Comments Section*/
+
+table {
+    text-align: left;
+    color: black;
+}
+
+#tab {
+    font-family: "courier", "monospace";
+    font-weight: bold;
+    overflow: hidden;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+#tab button {
+    color: #4f4f4f;
+}
+
+#tab button {
+    font-family: 'Homestuck';
+    cursor: pointer;
+    font-size: x-large;
+    transition: 0.2s;
+    display: box;
+}
+
+#tab button:hover {
+    color: #a2a1a1;
+}
+
+#user,
+#author {
+    overflow: auto;
+    padding: 20px;
+}
+
+#user:empty,
+#author:empty {
+    display: hidden !important;
+}
+
+#author {
+    color: black;
+}
+
+#user {
+    font-family: "courier",
+        "monospace";
+}
+
+#user table {
+    padding: 0 15 15 15px;
+}
+
+#pageno {
+    padding-top: 10px;
+    padding-bottom: 6px;
+    text-align: center;
+}
+
+.commentimg img {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.commenttxt img {
+    max-width: 90px;
+    max-height: 90px;
+    padding-top: 10px;
+}
+
+.username {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.commenttimestamp {
+    font-weight: normal;
+    font-size: 12px;
+    font-family: courier;
+    color: #8c8c8c;
+    padding-left: 10px;
+}
+
+.tabcontent {
+    display: none;
+    animation: fadeEffect 0.5s;
+    background-color: #d8d8d8;
+    max-width: 550px;
+    margin: auto
+}
+
+.tabcontent img {
+    max-width: 350px;
+}
+
+@keyframes fadeEffect {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

@@ -1,156 +1,296 @@
 <!DOCTYPE html>
+<lang="en">
 
-<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>The Cerulean Motley Crew</title>
 
-<head>
-    <title>
-        The Cerulean Motley Crew
-    </title>
+        <meta name="author" content="CeruleanSnake">
+        <meta name="theme-color" content="#005682">
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <meta name="author" content="CeruleanSnake">
-    <meta name="theme-color" content="#005682">
+        <meta property="og:site_name" content="File Garden">
+        <meta property="og:title" content="The Cerulean Motley Crew">
+        <meta property="og:description" content="A daring adventure of pirates, booze and a whole lotta booty!">
+        <meta property="og:image" content="../img/logo.gif">
+        <meta property="og:image:type" content="image/gif">
 
-    <meta property="og:site_name" content="File Garden">
-    <meta property="og:title" content="The Cerulean Motley Crew">
-    <meta property="og:description" content="A daring adventure of pirates, booze and a whole lotta booty!">
-    <meta property="og:image" content="./assets/img/logo.gif">
-    <meta property="og:image:type" content="image/gif">
+        <link id="favicon" rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
-    <link rel="icon" href="../favicon.ico">
-    <link rel="apple-touch-icon" href="../apple-touch-icon.png">
+        <link rel="stylesheet" href="../data/css/mspfastyle.css">
+        <link rel="stylesheet" href="../data/css/sitestyle.css">
+        <link rel="stylesheet" href="../data/css/comments.css">
+        <link rel="stylesheet" href="../data/css/textfx.css">
 
-    <link rel="stylesheet" href="../data/css/main.css">
-    <link rel="stylesheet" href="../data/css/comments.css">
-    <link rel="stylesheet" href="../data/css/spoiler.css">
-    <link rel="stylesheet" href="../data/css/textfx.css">
-    <link rel="stylesheet" href="../data/theme/alternia.css">
+        <script src="../data/js/jquery-3.7.1.min.js"></script>
+        <script src="../data/js/navbar.js" defer></script>
+        <script src="../data/js/randompfp.js"></script>
+        <script src="../data/js/parallaxbg.js" defer></script>
+        <script src="../data/js/parallaxbgtoggle.js" defer></script>
 
-    <script type="text/javascript" src="../data/js/tabs.js">
-    </script>
-    <script type="text/javascript" src="../data/js/textfx.js">
-    </script>
-    <script type="text/javascript" src="../data/js/jquery-3.6.3.min.js">
-    </script>
-    <script type="text/javascript" src="../data/js/arrownav.js">
-    </script>
-    <script type="text/javascript" src="../data/js/randompfp.js">
-    </script>
+        <style>
+            #cheatsheet {
+                width: 752px;
+                padding-left: 200px;
+                margin: 0 auto;
+            }
 
+            #chtshtcontents {
+                background-color: #c6c6c6;
+                width: 400px;
+                padding: 20px 70px;
+                border: rgb(0, 0, 0) 8px solid;
+                font-size: large;
+                font-weight: bold;
+            }
 
-    <div id="overlay" data-amt="4">
-        <script type="text/javascript" src="../data/js/parallaxbg.js">
-        </script>
-    </div>
+            #chtshthd {
+                font-size: xx-large;
+                font-weight: bolder;
+                display: flex;
+                justify-content: center;
+            }
 
-    <noscript>Sorry, your browser does not support JavaScript!</noscript>
-</head>
+            .chtshth2 {
+                font-size: larger;
+                font-weight: bolder;
+                display: flex;
+                justify-content: center;
+            }
+        </style>
 
-<body>
-    <div id="main">
+        <div id="sitetheme">
+            <link rel='stylesheet' href='../data/theme/myutun-sea.css'>
+        </div>
 
-        <div id="container">
-            <div id="slide">
-                <div id="command">
-                    Set Sail!
-                </div>
+        <div id="overlay" data-amt="12"></div>
+    </head>
 
-                <div id="content">
-                    <img src="../img/story/0002.gif" class="major">
+    <body cz-shortcut-listen="true" class="mspfa">
 
-                    <div style="font-size: large;"><i>ADVENTURE!</div><br>
-                    <div style="font-size: xx-large">DANGER!</div><br>
-                    <div style="font-size: 5ch;">
-                        <wave>TREASURE!</wave></i>
-                    </div>
-                    <br><br>
-                    These are the three codes all Seagrifts live by.<br>
-                    Adventure waits for the worthy and the brave. Those who have what it takes to seek great treasure
-                    and
-                    battle
-                    fearsome foes!
-                    <br><br>
-                    Your name is Captain Pearl-Eye and you have been Sailing for 7 weeks, searching for the fabled "Lost
-                    Crystal
-                    Skull of the Moons."
-                    <br><br>
-                    At long last, after battling the great K'thlakreer of the seas, you reach the legendary Death
-                    Island.
-                </div>
+        <div class="umcontainer">
+            <div class="mspfalogo"></div>
+            <div id="flashytitle"></div>
+            <div class="mspfalogoreverse"></div>
+        </div>
 
-                <div id="foot">
-                    <div id="links">
-                        &gt; <a id="next" href="0003.html">
-                            Traverse the ancient and deadly temple.
-                        </a>
-                    </div>
+        <div id="main">
+            <header>
+                <nav>
+                    <div id="nav"></div>
+                </nav>
+            </header>
+            <div id="container">
+                <div id="slide">
 
-                    <br><br>
-
-                    <div id="gamelinks">
-                        <a id="reset" href="../The-Cerulean-Motley-Crew.html">Start Over</a> |
-                        <a id="back" href="../The-Cerulean-Motley-Crew.html">Go Back</a>
+                    <div id="command">
+                        The Cerulean Motley Crew
                     </div>
 
-                    <div id="timestamp">
-                        Fri Dec 31 2021 17:51:21 GMT+1100
+                    <div id="content">
+                        <!-- <div style="max-height: 650px;" class="iframe-container">
+                        <iframe style="width:650px; height:650px; border: 0;" src="../img/0001/index.html"
+                            class="major"></iframe>
+                    </div>
+                    <span style="font-size: xx-small; text-align: center; color: #000;">
+                        [If HTML5 does not play, open in Google Chrome or <a href="HowToBrowserSettings.html"
+                            target="_blank">check your browser settings.</a>]
+                    </span> -->
+                        <img src="../img/story/0002.gif" class="major">
+                        These are the three codes all Seagrifts live by.<br>
+                        Adventure waits for the worthy and the brave. Those who have what it takes to seek great
+                        treasure
+                        and battle fearsome foes!
+
                     </div>
 
+                    <div id="foot">
+                        <div id="links"></div>
+                        <span id="prevlinks">
+                            <span class="footlinks">
+                            </span>
+                        </span>
+                    </div>
                     <div id="tab">
-                        !!Warning, Author Commentary may contain spoilers!!<br><br>
-
-                        <button class="tablinks" onclick="opentab(event, 'author')">AUTHOR COMMENTARY</button>
-                        <button class="tablinks" onclick="opentab(event, 'user')">USER COMMENTS</button>
-                        <br><br>
-
-                        <div id="author" class="tabcontent">
-                            I kinda wanted to open up a little differently here compared to my original. Something more
-                            storybook... literally.<br>
-                            The skull island might appear later who knows.
+                        <div id="button">
+                            !!Warning, Author Commentary may contain spoilers!!
                             <br><br>
+                            <button class="tablinks" id="authorbtn">AUTHOR
+                                COMMENTARY</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <button class="tablinks" id="userbtn">USER COMMENTS</button>
+                        </div>
+                        <br>
+                        <div id="author" class="tabcontent">
+                            Anyway, enjoy reading! I've enjoyed drawing it!<br><br>
+
                             -TheCeruleanSnake
                         </div>
-
                         <div id="user" class="tabcontent">
                             Comments are occasionally posted on pages in MSPFA by users. These are
-                            archived from the
-                            original pages
-                            as-is. Oldest comment first.
+                            archived from the original pages as-is. Oldest comment first.
                             <br><br>
                             <table>
-                                <td>
-                                    <span class="commentimg">
-                                        <img src="img/pfp/soupsock.jpg">
-                                    </span>
-                                </td>
-                                <td>
-                                    <a class="username" href="https://mspfa.com/user/?u=106419005063414992880">
-                                        soupsock</a>
-                                    <span class="commenttimestamp">
-                                        Feb 09 2022 20:44:36
-                                    </span>
-                                    <br>
-                                    <span class="commenttxt">
-                                        every time i revisit this page i get so sad over how little
-                                        traction
-                                        this
-                                        series has! here’s hoping it blows up and gets the attention it
-                                        deserves,
-                                        tbh.
-                                    </span>
-                                </td>
+                                <td><span class="commentimg"><img src=\"../img/pfp/soupsock.jpg\"> </span> </td> <td><a
+                                            class=\"username\"
+                                            href=\"https://mspfa.com/user/?u=106419005063414992880\">soupsock </a> <span
+                                            class="commenttimestamp">Feb 09 2022 20:44:36</span><br><span
+                                        class="commenttxt">Text</span></td>
                             </table>
                         </div>
-                    </div>
-
-                    <div id="pageno">
-                        Page: 2
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</body>
+        <div id="cheatsheet">
+            <div id="chtshtcontents">
+                <span id="chtshthd">CHEATSHEET</span>
+                <br><br>
+                <span class="chtshth2">TEXT EFFECTS</span>
+                <br>
+                <shake>Shaky text here!</shake>
+                <br>
+                <shake intensity="5">INTENSE SHAKEY</shake>
+                <br>
+                <wave>Wavy text here!</wave>
+                <br>
+                <wave style="--amt: 1">Intense wave!</wave>
+                <br>
+                <textfx class="squash">Squash text</textfx>
+                <br>
+                <textfx class="vwave">vwave text</textfx>
+                <br>
+                <textfx class="rainbow">rainbow text</textfx>
+                <br>
+                <br>
+                <span class="chtshth2">COLOURS</span>
+                <br>
+                [spoiler open="Show Colours" close="Hide Colours"]
+                <br>
+                <span style="color: #005682;">
+                    SNAKE: Text
+                </span>
+                <span style="color: #a10000">
+                    FOX: Text
+                </span>
+                <span style="color: #a15000">
+                    RAT: Text
+                </span>
+                <span style="color: #a1a100">
+                    HYDRA: Text
+                </span>
+                <span style="color: #008282">
+                    DRAGON: Text
+                </span>
+                <span style="color: #d66800">
+                    PHOENIX: Text
+                </span>
+                <span style="color: #416600">
+                    TIGER: Text
+                </span>
+                <span style="color: #7e0e84">
+                    SHARK: Text
+                </span>
+                <br>
+                ==============================
+                <br>
+                <span style="color: #a71860">
+                    OLD LADY: Text
+                </span>
+                <br>
+                ==============================
+                <br>
+                <span style="color: #6a006a">
+                    DIRECTOR: Text
+                </span>
+                <span style="color: #6a006a">
+                    FINSCAR: Text
+                </span>
+                <span style="color: #6a006a">
+                    QUEEN: Text
+                </span>
+                <span style="color: #6a006a">
+                    SPIDER: Text
+                </span>
+                <br>
+                [/spoiler]
+            </div>
+        </div>
+        <footer>
+            <div class="umcontainer">
+                <div class="mspfalogo"></div>
+                <div id="flashytitlebottom"></div>
+                <div class="mspfalogoreverse"></div>
+            </div>
+            <div id="details" style="padding-bottom: 6px;"><b><a href="https://github.com/FlaringK/mspfaViewer">MSPFA
+                        viewer</a> made by <a href="https://mspfa.com/user/?u=100855018780708322446">FlaringK</a> |
+                    2023</b></div>
+        </footer>
+        <div id="prelaod" style="display: none;"></div>
+    </body>
+    <script>
+        function opentab(evt, spoilertab) {
+            var i, tabcontent, tablinks;
 
-</html>
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+
+            document.getElementById(spoilertab).style.display = "block";
+            evt.currentTarget.className += " active";
+
+            document.getElementsByTagName('button')[0].addEventListener('click', e => e.preventDefault());
+        }
+
+        console.log("Text Effects by seymour schlong - https://mspfa.com/?s=35015");
+        const shakeText = (a) => {
+            let shakeElements = document.querySelectorAll(a);
+
+            for (let i = 0; i < shakeElements.length; i++) {
+                let text = shakeElements[i].textContent;
+                shakeElements[i].textContent = '';
+                for (let char of text) {
+                    if (char === ' ') char = ' ';
+                    let newSpan = document.createElement('span');
+                    newSpan.className = a;
+                    newSpan.textContent = char;
+                    shakeElements[i].appendChild(newSpan);
+                }
+            }
+        }
+
+        const generateDistance = (intensity) => {
+            if (isNaN(intensity)) intensity = 3;
+            return Math.floor(Math.random() * intensity - intensity / 2) * 0.5;
+        }
+        setInterval(() => {
+            document.querySelectorAll('.shake').forEach(elm => {
+                let intense = elm.parentNode.getAttribute('intensity');
+                elm.style =
+                    `transform: translate(${generateDistance(parseInt(intense))}px, ${generateDistance(parseInt(intense))}px);`
+            });
+        }, 35);
+    </script>
+    <script>
+        window.onload = function() {
+            shakeText('shake');
+            shakeText('wave');
+            shakeText('textfx');
+            if ($("#authorbtn").length) {
+                document.getElementById("authorbtn").onclick = function() {
+                    opentab(event, 'author')
+                };
+            }
+            if ($("#userbtn").length) {
+                document.getElementById("userbtn").onclick = function() {
+                    opentab(event, 'user')
+                };
+            }
+        }
+    </script>
+
+    </html>
