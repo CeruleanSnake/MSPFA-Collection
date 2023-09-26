@@ -2,6 +2,21 @@ a {
     color: #0080c2;
 }
 
+#main {
+    background-color: transparent;
+}
+
+#slide {
+    Border: none !important;
+    background-color: transparent !important;
+    padding: 0px 0px !important;
+}
+
+#flashytitle,
+#flashytitlebottom {
+    background-image: url("myutun-sea/header.png");
+}
+
 .heart {
     background-image: url("myutun-sea/logo_small.png") !important;
     image-rendering: auto;
@@ -16,10 +31,6 @@ a {
     background-image: url("https://linkh.at/mspfaface") !important;
 }
 
-.tabcontent {
-    border: 2px solid #3c6377;
-}
-
 .row {
     display: flex;
     font-family: "courier",
@@ -28,28 +39,41 @@ a {
 
 .column {
     flex: 55%;
-    margin-top: -10;
-    padding: 10px 20px;
+    margin-top: -10px;
+    padding: 40px 65px 20px 60px;
     line-height: 14px;
+    max-width: 330px;
 }
 
 .imgcolumn {
-    flex: 45%;
-    margin-right: 15px;
+    margin-right: -60px;
+    padding-top: 5px;
 }
 
-#main {
-    background-color: transparent
+.imgcolumn img {
+    height: 550px !important;
+    width: 420px !important;
 }
 
-#slide {
-    Border: 8px solid #064564;
-    background-color: #eeeeee
+
+
+/* Tab button ==========================================*/
+
+#tab {
+    font-family: "courier", "monospace";
+    font-weight: bold;
+    overflow: hidden;
+    padding-top: 20px;
+    text-align: center;
+    margin: 0 0px;
 }
 
-#flashytitle,
-#flashytitlebottom {
-    background-image: url("myutun-sea/header.png");
+#tab button {
+    font-family: 'Homestuck';
+    cursor: pointer;
+    font-size: large;
+    transition: 0.2s;
+    display: contents;
 }
 
 #tab button {
@@ -70,140 +94,26 @@ a {
     text-shadow: 1px 1px #6c4d05;
 }
 
-/* SLIDESHOW STYLE
-        ==========================================*/
-
-.slideshow-container {
-    padding-top: 10px;
-    position: relative;
+.tabcontent {
+    display: none;
+    padding: 10px;
+    animation: fadeEffect 0.5s;
+    background-color: transparent;
+    background-image: url("../../img/art/oldaf.JPG");
+    background-size: 800px 700px;
+    padding: 5px;
+    height: 640px !important;
+    width: 900px !important;
 }
 
-.slidecaption {
-    padding: 7px 5px 5px 5px;
-    width: 164px;
-    margin-left: 53px;
-    font-size: 16px;
-}
+@keyframes fadeEffect {
+    from {
+        opacity: 0;
+    }
 
-.prev,
-.next {
-    cursor: pointer;
-    position: absolute;
-    bottom: 0px;
-    top: 456px;
-    padding: 3px 10px 0px 10px;
-    background-color: #f1f1f1;
-    color: black;
-    font-weight: bold;
-    font-size: 16px;
-    user-select: none;
-}
-
-.next {
-    right: -6px;
-}
-
-.prev {
-    left: 0px;
-}
-
-.cheverimg,
-.derrekimg,
-.jujujuimg,
-.diunnaimg,
-.govaniimg,
-.freyaimg,
-.hewatsuimg,
-.sharkimg,
-.edmondimg,
-.finscarimg,
-.spiderimg,
-.queenimg {
-    display: none
-}
-
-.slideshow-container .cheverslide .cheverimg img,
-.slideshow-container .cheverslide .slidecaption,
-.slideshow-container .cheverslide .next,
-.slideshow-container .cheverslide .prev {
-    border: 3px solid #005682;
-}
-
-.slideshow-container .derrekslide .derrekimg img,
-.slideshow-container .derrekslide .slidecaption,
-.slideshow-container .derrekslide .next,
-.slideshow-container .derrekslide .prev {
-    border: 3px solid #a10000;
-}
-
-.slideshow-container .jujujuslide .jujujuimg img,
-.slideshow-container .jujujuslide .slidecaption,
-.slideshow-container .jujujuslide .next,
-.slideshow-container .jujujuslide .prev {
-    border: 3px solid #a1a100;
-}
-
-.slideshow-container .diunnaslide .diunnaimg img,
-.slideshow-container .diunnaslide .slidecaption,
-.slideshow-container .diunnaslide .next,
-.slideshow-container .diunnaslide .prev {
-    border: 3px solid #a15000;
-}
-
-.slideshow-container .govanislide .govaniimg img,
-.slideshow-container .govanislide .slidecaption,
-.slideshow-container .govanislide .next,
-.slideshow-container .govanislide .prev {
-    border: 3px solid #a10000;
-}
-
-.slideshow-container .freyaslide .freyaimg img,
-.slideshow-container .freyaslide .slidecaption,
-.slideshow-container .freyaslide .next,
-.slideshow-container .freyaslide .prev {
-    border: 3px solid #a10000;
-}
-
-.slideshow-container .hewatsuslide .hewatsuimg img,
-.slideshow-container .hewatsuslide .slidecaption,
-.slideshow-container .hewatsuslide .next,
-.slideshow-container .hewatsuslide .prev {
-    border: 3px solid #a10000;
-}
-
-.slideshow-container .sharkslide .sharkimg img,
-.slideshow-container .sharkslide .slidecaption,
-.slideshow-container .sharkslide .next,
-.slideshow-container .sharkslide .prev {
-    border: 3px solid #a10000;
-}
-
-.slideshow-container .edmondslide .edmondimg img,
-.slideshow-container .edmondslide .slidecaption,
-.slideshow-container .edmondslide .next,
-.slideshow-container .edmondslide .prev {
-    border: 3px solid #a10000;
-}
-
-.slideshow-container .finscarslide .finscarimg img,
-.slideshow-container .finscarslide .slidecaption,
-.slideshow-container .finscarslide .next,
-.slideshow-container .finscarslide .prev {
-    border: 3px solid #a10000;
-}
-
-.slideshow-container .queenslide .queenimg img,
-.slideshow-container .queenslide .slidecaption,
-.slideshow-container .queenslide .next,
-.slideshow-container .queenslide .prev {
-    border: 3px solid #a10000;
-}
-
-.slideshow-container .spiderslide .spiderimg img,
-.slideshow-container .spiderslide .slidecaption,
-.slideshow-container .spiderslide .next,
-.slideshow-container .spiderslide .prev {
-    border: 3px solid #a10000;
+    to {
+        opacity: 1;
+    }
 }
 
 /*SCROLL BAR*/

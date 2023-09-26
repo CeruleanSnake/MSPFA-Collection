@@ -617,7 +617,7 @@
         {
             "d": 1300778147000,
             "c": "[S] Skytroll",
-            "b": "<iframe scrolling=\"no\" class=\"major\" style=\"width:800px; height:500px; border: 0;\" src=\"./assets/game/skytroll/index.html\"></iframe>\n\n[left][spoiler open=\"OPEN TECHNICAL DETAILS\" close=\"CLOSE TECHNICAL DETAILS\"]Skytroll is a 2011 Alabaster game which became lost media then got salvaged by Snake, Skye and Steelo.\nThe known bugs are:\n- Broken loading: The percentage stays stuck at 89%. Don't worry and click on the title.\n- Potential lag: On some browsers the game may be slower. You can try it through different interfaces for better results, Google Chrome is generally better.\n- Insufferable Garystu-itude: Vamuin is invincible in the final fight. It is not a bug, but a feature.[/spoiler][/left]",
+            "b": "<iframe scrolling=\"no\" class=\"major\" style=\"width:800px; height:500px; border: 0;\" src=\"./assets/flash/skytroll/index.html\"></iframe>\n\n[left][spoiler open=\"OPEN TECHNICAL DETAILS\" close=\"CLOSE TECHNICAL DETAILS\"]Skytroll is a 2011 Alabaster game which became lost media then got salvaged by Snake, Skye and Steelo.\nThe known bugs are:\n- Broken loading: The percentage stays stuck at 89%. Don't worry and click on the title.\n- Potential lag: On some browsers the game may be slower. You can try it through different interfaces for better results, Google Chrome is generally better.\n- Insufferable Garystu-itude: Vamuin is invincible in the final fight. It is not a bug, but a feature.[/spoiler][/left]",
             "n": [95]
         },
         {
@@ -1817,7 +1817,7 @@
         {
             "d": 1304982467000,
             "c": "[S] Silent Hive",
-            "b": "<iframe scrolling=\"no\" class=\"major\" style=\"width:800px; height:500px; border: 0;\" src=\"./assets/game/silenthive/index.html\"></iframe>\n\n[spoiler open=\"OPEN TECHNICAL DETAILS\" close=\"CLOSE TECHNICAL DETAILS\"]Silent Hive is a 2011 Alabaster game which became lost media then got salvaged by Snake, Skye and Steelo.\n\n- The loading bars may lag at first but the loading process works.\n- On some browsers the game may be slower. You can try it through different interfaces for better results, Google Chrome is generally better.[/spoiler]",
+            "b": "<iframe scrolling=\"no\" class=\"major\" style=\"width:800px; height:500px; border: 0;\" src=\"./assets/flash/silenthive/index.html\"></iframe>\n\n[spoiler open=\"OPEN TECHNICAL DETAILS\" close=\"CLOSE TECHNICAL DETAILS\"]Silent Hive is a 2011 Alabaster game which became lost media then got salvaged by Snake, Skye and Steelo.\n\n- The loading bars may lag at first but the loading process works.\n- On some browsers the game may be slower. You can try it through different interfaces for better results, Google Chrome is generally better.[/spoiler]",
             "n": [295]
         },
         {
@@ -2435,7 +2435,7 @@
         {
             "d": 1312410803000,
             "c": "[S] Vamuin: Land.",
-            "b": "<iframe width=\"900\" height=\"506\" src=\"https://www.youtube.com/embed/9332L_JPgqU\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+            "b": "<iframe scrolling=\"no\" class=\"major\" style=\"width:650px; height:450px; border: 0;\" src=\"./assets/flash/vamuinland/index.html\"></iframe>\n\n[spoiler open=\"OPEN TECHNICAL DETAILS\" close=\"CLOSE TECHNICAL DETAILS\"]\n- [url=https://www.pantagrame.com/alabaster/doomedflashmovies/vamuinland/vamuinland.mp4]First MP4 mirror[/url]\n- [url=./assets/flash/vamuinland.mp4]Second MP4 mirror[/url]\n- [url=https://www.youtube.com/watch?v=9332L_JPgqU]Youtube mirror[/url][/spoiler]\n",
             "n": [398]
         },
         {

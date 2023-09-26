@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<body style="margin: 0 auto;">
+    <style>
+        img {
+            position: absolute;
+            z-index: 9;
+            width: 552px;
+            margin-left: -4px;
+        }
+    </style>
+    <div id="container" style="z-index:1">
+    </div>
+    <script>
+        window.RufflePlayer = window.RufflePlayer || {};
+        window.RufflePlayer.config = {
+            "autoplay": "on",
+        };
+        window.addEventListener("load", (event) => {
+            const ruffle = window.RufflePlayer.newest();
+            const player = ruffle.createPlayer();
+            player.style.width = "100vw"; 
+            player.style.height = "100vh";
+            const container = document.getElementById("container");
+            container.appendChild(player);
+            player.load("./proj.swf");
+        });
+    </script>
+    <script src="../ruffle/ruffle.js" defer></script>
+</body>
+</html>
