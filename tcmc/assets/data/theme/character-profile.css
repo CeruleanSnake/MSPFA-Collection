@@ -2,6 +2,10 @@ a {
     color: #0080c2;
 }
 
+area {
+    cursor: pointer;
+}
+
 #main {
     background-color: transparent;
 }
@@ -9,7 +13,8 @@ a {
 #slide {
     Border: none !important;
     background-color: transparent !important;
-    padding: 0px 0px !important;
+    /*background-image: url("../../img/art/booyah.PNG");*/
+    background-size: 960px 893px;
 }
 
 #flashytitle,
@@ -40,7 +45,8 @@ a {
 .column {
     flex: 55%;
     margin-top: -10px;
-    padding: 40px 65px 20px 60px;
+    padding: 65px 30px 20px 40px;
+    margin-left: 40px;
     line-height: 14px;
     max-width: 330px;
 }
@@ -53,6 +59,14 @@ a {
 .imgcolumn img {
     height: 550px !important;
     width: 420px !important;
+}
+
+.bookmarkstop {
+    margin-bottom: -4px !important;
+}
+
+.bookmarksbottom {
+    margin-top: -4px !important;
 }
 
 
@@ -72,7 +86,6 @@ a {
     font-family: 'Homestuck';
     cursor: pointer;
     font-size: large;
-    transition: 0.2s;
     display: contents;
 }
 
@@ -99,21 +112,59 @@ a {
     padding: 10px;
     animation: fadeEffect 0.5s;
     background-color: transparent;
-    background-image: url("../../img/art/oldaf.JPG");
-    background-size: 800px 700px;
+    background-image: url("./character-profile/bookbase.png");
+    background-size: 910px 650px;
     padding: 5px;
     height: 640px !important;
     width: 900px !important;
 }
 
-@keyframes fadeEffect {
-    from {
-        opacity: 0;
-    }
+#Chever {
+    background-image: url("./character-profile/Chever.png");
+}
 
-    to {
-        opacity: 1;
-    }
+#Derrek {
+    background-image: url("./character-profile/Derrek.png");
+}
+
+#Jujuju {
+    background-image: url("./character-profile/Jujuju.png");
+}
+
+#Diunna {
+    background-image: url("./character-profile/Diunna.png");
+}
+
+#Govani {
+    background-image: url("./character-profile/Govani.png");
+}
+
+#Freya {
+    background-image: url("./character-profile/Freya.png");
+}
+
+#Hewatsu {
+    background-image: url("./character-profile/Hewatsu.png");
+}
+
+#Zyyrasan {
+    background-image: url("");
+}
+
+#Edmond {
+    background-image: url("./character-profile/Edmond.png");
+}
+
+#Viktor {
+    background-image: url("./character-profile/Viktor.png");
+}
+
+#Queen {
+    background-image: url("./character-profile/Hewatsu.png");
+}
+
+#spider {
+    background-image: url("");
 }
 
 /*SCROLL BAR*/

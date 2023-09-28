@@ -1,7 +1,3 @@
-/*============================================================*/
-/* This file is not use, it is here for archival purpourses.
-All css has been distributed across the collection.*/
-
 .overlayimg img:not(:last-child) {   
     position: absolute;
 }
@@ -27,6 +23,10 @@ All css has been distributed across the collection.*/
 .p1 .array {     
     margin: 0 -25px; 
 }  
+
+.array img {     
+    margin: 0 0px !important; 
+} 
     
 .array .major {     
     margin: auto !important; 

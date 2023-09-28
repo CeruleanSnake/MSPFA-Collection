@@ -1,415 +1,462 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <title>The Cerulean Motley Crew</title>
+    <head>
+        <meta charset="UTF-8">
+        <title>The Cerulean Motley Crew</title>
 
-    <meta name="author" content="CeruleanSnake">
-    <meta name="theme-color" content="#005682">
+        <meta name="author" content="CeruleanSnake">
+        <meta name="theme-color" content="#005682">
 
-    <meta property="og:site_name" content="File Garden">
-    <meta property="og:title" content="The Cerulean Motley Crew">
-    <meta property="og:description" content="A daring adventure of pirates, booze and a whole lotta booty!">
-    <meta property="og:image" content="./assets/img/logo.gif">
-    <meta property="og:image:type" content="image/gif">
+        <meta property="og:site_name" content="File Garden">
+        <meta property="og:title" content="The Cerulean Motley Crew">
+        <meta property="og:description" content="A daring adventure of pirates, booze and a whole lotta booty!">
+        <meta property="og:image" content="./assets/img/logo.gif">
+        <meta property="og:image:type" content="image/gif">
 
-    <link rel="icon" href="./assets/img/favicon.ico">
+        <link rel="icon" href="./assets/img/favicon.ico">
 
-    <link rel="stylesheet" href="./assets/data/css/mspfastyle.css">
-    <link rel="stylesheet" href="./assets/data/css/sitestyle.css">
-    <link rel="stylesheet" href="./assets/data/theme/character-profile.css">
+        <link rel="stylesheet" href="./assets/data/css/mspfastyle.css">
+        <link rel="stylesheet" href="./assets/data/css/sitestyle.css">
+        <link rel="stylesheet" href="./assets/data/theme/character-profile.css">
 
-    <script src="./assets/data/js/jquery-3.7.1.min.js"></script>
-    <script src="./assets/data/js/navbar.js" defer></script>
-    <script src="./assets/data/js/tabs.js"></script>
-    <script src="./assets/data/js/parallaxbg.js" defer></script>
-    <script src="./assets/data/js/parallaxbgtoggle.js" defer></script>
+        <script src="./assets/data/js/jquery-3.7.1.min.js"></script>
+        <script src="./assets/data/js/navbar.js" defer></script>
+        <script src="./assets/data/js/parallaxbg.js" defer></script>
+        <script src="./assets/data/js/parallaxbgtoggle.js" defer></script>
 
-    <div id="overlay" data-amt="12"></div>
-</head>
+        <script>
+            function opentab(evt, spoilertab) {
+                var i, tabcontent, tablinks;
 
-<body cz-shortcut-listen="true" class="mspfa">
+                tabcontent = document.getElementsByClassName("tabcontent");
+                for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+                }
+                tablinks = document.getElementsByClassName("tablinks");
+                for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(" active", "");
+                }
+                document.getElementById(spoilertab).style.display = "block";
+                evt.currentTarget.className += " active";
+            }
+        </script>
 
-    <div class="umcontainer">
-        <a href="/">
-            <div class="mspfalogo"></div>
-        </a>
-        <div id="flashytitle"></div>
-        <div class="mspfalogoreverse"></div>
-    </div>
+        <div id="overlay" data-amt="12"></div>
+    </head>
 
-    <div id="main">
-        <header>
-            <nav>
-                <div id="nav"></div>
-            </nav>
-        </header>
+    <body cz-shortcut-listen="true" class="mspfa">
 
-        <div id="container">
-            <div id="slide" style="image-rendering: auto; width: 800px;">
-                <div id=" command" style="text-align: center; font-size: 50px; font-family: Gothic Pixel; padding-top:
-                    20px;">CHARACTERS
-                </div>
-
-                <div id="content">
-                    <div id="tab">
-                        <button class="tablinks" onclick="opentab(event, 'Chever')"
-                            id="defaultOpen">SNAKE</button>
-                        <button class="tablinks"
-                            onclick="opentab(event, 'Derrek')">FOX</button>
-                        <button class="tablinks"
-                            onclick="opentab(event, 'Jujuju')">HYDRA</button>
-                        <button class="tablinks" onclick="opentab(event, 'Diunna')">RAT</button>
-                        <button class="tablinks"
-                            onclick="opentab(event, 'Govani')">DRAGON</button>
-                        <button class="tablinks"
-                            onclick="opentab(event, 'Freya')">PHOENIX</button>
-                        <button class="tablinks"
-                            onclick="opentab(event, 'Hewatsu')">TIGER</button>
-                        <button class="tablinks" onclick="opentab(event, 'Zyyrasan')">SHARK</button><br>
-                        ==========================================================<br>
-                        ==========================================================<br>
-                        <button class="tablinks"
-                            onclick="opentab(event, 'Edmond')">DIRECTOR</button>
-                        <button class="tablinks"
-                            onclick="opentab(event, 'Finscar')">FINSCAR</button>
-                        <button class="tablinks"
-                            onclick="opentab(event, 'Queen')">QUEEN</button>
-                        <button class="tablinks" onclick="opentab(event, 'Spider')">SPIDER</button>
-                    </div>
-
-                    <div id="Chever" class="tabcontent">
-                        <div class="row">
-                            <div class="column">
-                                <h2>Chever Stalii</h2>
-                                <div style="text-align: left;">
-                                    <b>Allias:</b> Cerulean Snake<br><br>
-                                    <b>Age:</b> 19 Sweeps<br><br>
-                                    <b>Gender:</b> [REDACTED]<br><br>
-                                    <b>Height:</b> 4'8"/142cm<br><br>
-                                    <b>Race:</b> Alternian<br><br>
-                                    <b>Bloodcaste:</b> Cerulean<br><br>
-                                    <b>Symbol:</b> <br><br>
-                                    <b>Occupation:</b> Royal Alternian Navy Lieutenant (former),
-                                    Head detention
-                                    security officer (former),
-                                    Pirate outlaw
-                                    (current)<br><br>
-                                    <b> Criminal Offenses:</b><br> Destruction of Empire property,
-                                    Orchestrating prison
-                                    riot, Releasing of prisoner,
-                                    Security hijacking, Theft of classified documents, Treason,
-                                    Piracy<br><br>
-                                    <b> Distinguishing Features:</b><br>Hard of hearing, missing one
-                                    eye, tattoo of
-                                    snake on
-                                    left arm<br><br>
-                                    <b>Notes:</b><br> <br>
-                                </div>
-                            </div>
-
-                            <div class="imgcolumn" style="transform: rotate(351deg); margin: 7px 25px;">
-                                <img src="./assets/img/art/snakeoutfit.png" style="width:100%">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div id="Derrek" class="tabcontent">
-                        <div class="row">
-                            <div class="column">
-                                <h2>Derrek Xarres</h2>
-                                <div style="text-align: left;">
-                                    <b>Allias:</b> Crimson Fox<br><br>
-                                    <b>Age:</b> 14 sweeps<br><br>
-                                    <b>Gender:</b> <br><br>
-                                    <b>Height:</b> 5'4"/162cm<br><br>
-                                    <b>Race:</b> <br><br>
-                                    <b>Bloodcaste:</b> <br><br>
-                                    <b>Symbol:</b> <br><br>
-                                    <b>Occupation:</b> <br><br>
-                                    <b> Criminal Offenses:</b><br> <br><br>
-                                    <b> Distinguishing Features:</b><br> <br><br>
-                                    <b>Notes:</b><br> <br>
-                                </div>
-                            </div>
-                            <div class="imgcolumn" style="transform: rotate(6deg); margin: 15px 25px;">
-                                <img src="./assets/img/art/derrekoutfit.png" style="width:100%">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div id="Jujuju" class="tabcontent">
-                        <div class="row">
-                            <div class="column">
-                                <h2>Jujuju Nunapu</h2>
-                                <div style="text-align: left;">
-                                    <b>Allias:</b> Flintlock (former), Golden Hydra (current)
-                                    <br><br>
-                                    <b>Age:</b> 12 Sweeps<br><br>
-                                    <b>Gender:</b> <br><br>
-                                    <b>Height:</b> 5'0"/152cm<br><br>
-                                    <b>Race:</b> <br><br>
-                                    <b>Bloodcaste:</b> <br><br>
-                                    <b>Symbol:</b> <br><br>
-                                    <b>Occupation:</b> <br><br>
-                                    <b> Criminal Offenses:</b><br> <br><br>
-                                    <b> Distinguishing Features:</b><br> <br><br>
-                                    <b>Notes:</b><br> <br>
-                                </div>
-                            </div>
-                            <div class="imgcolumn" style="transform: rotate(355deg); margin: 52px 2px;">
-                                <img src="./assets/img/art/Jujujuoutfit.png" style="width:100%">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div id="Diunna" class="tabcontent">
-                        <div class="row">
-                            <div class="column">
-                                <h2>Diunna Tyroon</h2>
-                                <div style="text-align: left;">
-                                    <b>Allias:</b> Bronze Rat<br><br>
-                                    <b>Age:</b> 16 Sweeps<br><br>
-                                    <b>Gender:</b> 6'3"/190cm <br><br>
-                                    <b>Height:</b> <br><br>
-                                    <b>Race:</b> <br><br>
-                                    <b>Bloodcaste:</b> <br><br>
-                                    <b>Symbol:</b> <br><br>
-                                    <b>Occupation:</b> <br><br>
-                                    <b> Criminal Offenses:</b><br> <br><br>
-                                    <b> Distinguishing Features:</b><br> <br><br>
-                                    <b>Notes:</b><br> <br>
-                                </div>
-                            </div>
-                            <div class="imgcolumn" style="transform: rotate(9deg); margin: 32px 25px;">
-                                <img src="./assets/img/art/DiunnaOutfit.png" style="width:100%">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div id="Govani" class="tabcontent">
-                        <div class="row">
-                            <div class="column">
-                                <h2>Govani Gocchi</h2>
-                                <div style="text-align: left;">
-                                    <b>Allias:</b> Teal Dragon<br><br>
-                                    <b>Age:</b> 17 Sweeps<br><br>
-                                    <b>Gender:</b> <br><br>
-                                    <b>Height:</b>6'2"/187cm <br><br>
-                                    <b>Race:</b> <br><br>
-                                    <b>Bloodcaste:</b> <br><br>
-                                    <b>Symbol:</b> <br><br>
-                                    <b>Occupation:</b> <br><br>
-                                    <b> Criminal Offenses:</b><br> <br><br>
-                                    <b> Distinguishing Features:</b><br> <br><br>
-                                    <b>Notes:</b><br> <br>
-                                </div>
-                            </div>
-                            <div class="imgcolumn" style="transform: rotate(5deg); margin: -2px 62px;">
-                                <img src="./assets/img/art/govanioutfit.png" style="width:100%">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div id="Freya" class="tabcontent">
-                        <div class="row">
-                            <div class="column">
-                                <h2>Freya Flincendos Fuego Frascua</h2>
-                                <div style="text-align: left;">
-                                    <b>Allias:</b> Ochre Phoenix<br><br>
-                                    <b>Age:</b> 28 Years<br><br>
-                                    <b>Gender:</b> <br><br>
-                                    <b>Height:</b> 3'0"/92cm<br><br>
-                                    <b>Race:</b> <br><br>
-                                    <b>Bloodcaste:</b> <br><br>
-                                    <b>Symbol:</b> <br><br>
-                                    <b>Occupation:</b> <br><br>
-                                    <b> Criminal Offenses:</b><br> <br><br>
-                                    <b> Distinguishing Features:</b><br> <br><br>
-                                    <b>Notes:</b><br> <br>
-                                </div>
-                            </div>
-                            <div class="imgcolumn" style="transform: rotate(358deg); margin: 6px 10px;">
-                                <img src="./assets/img/art/freyaoutfit.png" style="width:100%">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div id="Hewatsu" class="tabcontent">
-                        <div class="row">
-                            <div class="column">
-                                <h2>Hewatsu Nekoya</h2>
-                                <div style="text-align: left;">
-                                    <b>Allias:</b> Emerald Tiger<br><br>
-                                    <b>Age:</b> 19 Years<br><br>
-                                    <b>Gender:</b> <br><br>
-                                    <b>Height:</b> 6'0"/182cm<br><br>
-                                    <b>Race:</b> <br><br>
-                                    <b>Bloodcaste:</b> <br><br>
-                                    <b>Symbol:</b> <br><br>
-                                    <b>Occupation:</b> <br><br>
-                                    <b> Criminal Offenses:</b><br> <br><br>
-                                    <b> Distinguishing Features:</b><br> <br><br>
-                                    <b>Notes:</b><br> <br>
-                                </div>
-                            </div>
-                            <div class="imgcolumn" style="transform: rotate(358deg); margin: 32px 25px;">
-                                <img src="./assets/img/art/hewatsuoutfit.png" style="width:100%">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div id="Zyyrasan" class="tabcontent">
-                        <div class="row">
-                            <div class="column">
-                                <h2>Z-yyrasan Yuv-ka'Nuyuek</h2>
-                                <div style="text-align: left;">
-                                    <b>Alternian name:</b> Still Waters of the Lagoon<br><br>
-                                    <b>Allias:</b> Aqua Shark<br><br>
-                                    <b>Age:</b> 30 Years<br><br>
-                                    <b>Gender:</b> <br><br>
-                                    <b>Height:</b> 5'6"/167cm<br><br>
-                                    <b>Race:</b> <br><br>
-                                    <b>Bloodcaste:</b> <br><br>
-                                    <b>Symbol:</b> <br><br>
-                                    <b>Occupation:</b> <br><br>
-                                    <b> Criminal Offenses:</b><br> <br><br>
-                                    <b> Distinguishing Features:</b><br> <br><br>
-                                    <b>Notes:</b><br> <br>
-                                </div>
-                            </div>
-                            <div class="imgcolumn" style="transform: rotate(352deg); margin: 51px 9px;">
-                                <img src="./assets/img/art/sharkoutfit.png" style="width:100%">
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--====================================-->
-
-                    <div id="Edmond" class="tabcontent">
-                        <div class="row">
-                            <div class="column">
-                                <h2>Edmond Trieux</h2>
-                                <div style="text-align: left;">
-                                    <b>Allias:</b> The Director <br><br>
-                                    <b>Age:</b> ???<br><br>
-                                    <b>Gender:</b> <br><br>
-                                    <b>Height:</b> 6'0"/182cm<br><br>
-                                    <b>Race:</b> <br><br>
-                                    <b>Bloodcaste:</b> <br><br>
-                                    <b>Symbol:</b> <br><br>
-                                    <b>Occupation:</b> <br><br>
-                                    <b> Criminal Offenses:</b><br> <br><br>
-                                    <b> Distinguishing Features:</b><br> <br><br>
-                                    <b>Notes:</b><br> <br>
-                                </div>
-                            </div>
-                            <div class="imgcolumn" style="transform: rotate(8deg); margin: 51px 6px;">
-                                <img src="./assets/img/art/snakeoutfit2.png" style="width:100%">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div id="Finscar" class="tabcontent">
-                        <div class="row">
-                            <div class="column">
-                                <h2>Viktor Shwesh</h2>
-                                <div style="text-align: left;">
-                                    <b>Allias:</b> Captain Finscar <br><br>
-                                    <b>Age:</b> 67 Sweeps<br><br>
-                                    <b>Gender:</b> <br><br>
-                                    <b>Height:</b> 5'11"/180cm<br><br>
-                                    <b>Race:</b> <br><br>
-                                    <b>Bloodcaste:</b> <br><br>
-                                    <b>Symbol:</b> <br><br>
-                                    <b>Occupation:</b> <br><br>
-                                    <b> Criminal Offenses:</b><br> <br><br>
-                                    <b> Distinguishing Features:</b><br> <br><br>
-                                    <b>Notes:</b><br> <br>
-                                </div>
-                            </div>
-                            <div class="imgcolumn" style="transform: rotate(353deg); margin: 32px 25px;">
-                                <img src="./assets/img/art/snakeoutfit2.png" style="width:100%">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div id="Queen" class="tabcontent">
-                        <div class="row">
-                            <div class="column">
-                                <h2>Lillou Aquouo</h2>
-                                <div style="text-align: left;">
-                                    <b>Allias:</b> The Queen <br><br>
-                                    <b>Age:</b> <br><br>
-                                    <b>Gender:</b> <br><br>
-                                    <b>Height:</b> <br><br>
-                                    <b>Race:</b> <br><br>
-                                    <b>Bloodcaste:</b> <br><br>
-                                    <b>Symbol:</b> <br><br>
-                                    <b>Occupation:</b> <br><br>
-                                    <b> Criminal Offenses:</b><br> <br><br>
-                                    <b> Distinguishing Features:</b><br> <br><br>
-                                    <b>Notes:</b><br> <br>
-                                </div>
-                            </div>
-                            <div class="imgcolumn" style="transform: rotate(9deg); margin: 32px 25px;">
-                                <img src="./assets/img/art/snakeoutfit2.png" style="width:100%">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div id="Spider" class="tabcontent">
-                        <div class="row">
-                            <div class="column">
-                                <h2>Lillou Aquouo</h2>
-                                <div style="text-align: left;">
-                                    <b>Allias:</b> Spider <br><br>
-                                    <b>Age:</b> <br><br>
-                                    <b>Gender:</b> <br><br>
-                                    <b>Height:</b> <br><br>
-                                    <b>Race:</b> <br><br>
-                                    <b>Bloodcaste:</b> <br><br>
-                                    <b>Symbol:</b> <br><br>
-                                    <b>Occupation:</b> <br><br>
-                                    <b> Criminal Offenses:</b><br> <br><br>
-                                    <b> Distinguishing Features:</b><br> <br><br>
-                                    <b>Notes:</b><br> <br>
-                                </div>
-                            </div>
-                            <div class="imgcolumn" style="transform: rotate(3deg); margin: 49px 12px;">
-                                <img src="./assets/img/art/snakeoutfit2.png" style="width:100%">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div id="foot" style="padding-bottom: 10px;">
-                    <span id="prevlinks">
-                        <span class="footlinks">
-                        </span>
-                    </span>
-                    <br>
-                    <br>
-                </div>
-            </div>
-            <br>
-        </div>
-    </div>
-    <footer>
         <div class="umcontainer">
-            <div class="mspfalogo"></div>
-            <div id="flashytitlebottom"></div>
+            <a href="/">
+                <div class="mspfalogo"></div>
+            </a>
+            <div id="flashytitle"></div>
             <div class="mspfalogoreverse"></div>
         </div>
-        <div id="details" style="padding-bottom: 6px;"><b><a href="https://github.com/FlaringK/mspfaViewer">MSPFA
-                    viewer</a> made by <a href="https://mspfa.com/user/?u=100855018780708322446">FlaringK</a> |
-                2023</b></div>
-    </footer>
-    <div id="prelaod" style="display: none;"></div>
-    <script>
-        document.getElementById("defaultOpen").click();
-    </script>
-</body>
+
+        <div id="main">
+            <header>
+                <nav>
+                    <div id="nav"></div>
+                </nav>
+            </header>
+
+            <div id="container">
+                <div id="slide" style="image-rendering: auto; width: 800px;">
+                    <div id=" command" style="text-align: center; font-size: 50px; font-family: Gothic Pixel; padding-top:
+                    20px;">CHARACTERS
+                    </div>
+
+                    <div id="content">
+                        <!-- <div id="tab">
+                            <button class="tablinks" onclick="opentab(event, 'Chever')" id="defaultOpen">SNAKE</button>
+                            <button class="tablinks" onclick="opentab(event, 'Derrek')">FOX</button>
+                            <button class="tablinks" onclick="opentab(event, 'Jujuju')">HYDRA</button>
+                            <button class="tablinks" onclick="opentab(event, 'Diunna')">RAT</button>
+                            <button class="tablinks" onclick="opentab(event, 'Govani')">DRAGON</button>
+                            <button class="tablinks" onclick="opentab(event, 'Freya')">PHOENIX</button>
+                            <button class="tablinks" onclick="opentab(event, 'Hewatsu')">TIGER</button>
+                            <button class="tablinks" onclick="opentab(event, 'Zyyrasan')">SHARK</button><br>
+                            ==========================================================<br>
+                            ==========================================================<br>
+                            <button class="tablinks" onclick="opentab(event, 'Edmond')">DIRECTOR</button>
+                            <button class="tablinks" onclick="opentab(event, 'Viktor')">FINSCAR</button>
+                            <button class="tablinks" onclick="opentab(event, 'Queen')">QUEEN</button>
+                            <button class="tablinks" onclick="opentab(event, 'Spider')">SPIDER</button>
+                        </div> -->
+
+                        <img class="bookmarkstop" src="./assets/data/theme/character-profile/Toptabs.png" usemap="#top">
+                        <map name="top">
+                            <area title="Phoenix" onclick="opentab(event, 'Freya')" shape="rect"
+                                coords="706, 9, 776, 88" />
+                            <area title="Tiger" onclick="opentab(event, 'Hewatsu')" shape="rect"
+                                coords="613, 16, 681, 88" />
+                            <area title="Dragon" onclick="opentab(event, 'Govani')" shape="rect"
+                                coords="517, 9, 592, 88" />
+                            <area title="Rat" onclick="opentab(event, 'Diunna')" shape="rect"
+                                coords="349, 12, 419, 88" />
+                            <area title="Hydra" onclick="opentab(event, 'Jujuju')" shape="rect"
+                                coords="251, 6, 318, 89" />
+                            <area title="Fox" onclick="opentab(event, 'Derrek')" shape="rect"
+                                coords="147, 6, 219, 88" />
+                            <area title="Snake" onclick="opentab(event, 'Chever')" id="defaultOpen" shape="rect"
+                                coords="53, 8, 121, 89" />
+                        </map>
+
+                        <div id="Chever" class="tabcontent">
+                            <div class="row">
+                                <div class="column">
+                                    <h2>Chever Stalii</h2>
+                                    <div style="text-align: left;">
+                                        <b>Allias:</b> Cerulean Snake<br><br>
+                                        <b>Age:</b> 19 Sweeps<br><br>
+                                        <b>Gender:</b> [REDACTED]<br><br>
+                                        <b>Height:</b> 4'8"/142cm<br><br>
+                                        <b>Race:</b> Alternian<br><br>
+                                        <b>Bloodcaste:</b> Cerulean<br><br>
+                                        <b>Symbol:</b> <br><br>
+                                        <b>Occupation:</b> Royal Alternian Navy Lieutenant (former),
+                                        Head detention
+                                        security officer (former),
+                                        Pirate outlaw
+                                        (current)<br><br>
+                                        <b> Criminal Offenses:</b><br> Destruction of Empire property,
+                                        Orchestrating prison
+                                        riot, Releasing of prisoner,
+                                        Security hijacking, Theft of classified documents, Treason,
+                                        Piracy<br><br>
+                                        <b> Distinguishing Features:</b><br>Hard of hearing, missing one
+                                        eye, tattoo of
+                                        snake on
+                                        left arm<br><br>
+                                        <b>Notes:</b><br> <br>
+                                    </div>
+                                </div>
+
+                                <div class="imgcolumn" style="transform: rotate(351deg); margin: 7px 20px;">
+                                    <img src="./assets/data/theme/character-profile/snakeportrait.png"
+                                        style="width:100%">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="Derrek" class="tabcontent">
+                            <div class="row">
+                                <div class="column">
+                                    <h2>Derrek Xarres</h2>
+                                    <div style="text-align: left;">
+                                        <b>Allias:</b> Crimson Fox<br><br>
+                                        <b>Age:</b> 14 sweeps<br><br>
+                                        <b>Gender:</b> <br><br>
+                                        <b>Height:</b> 5'4"/162cm<br><br>
+                                        <b>Race:</b> <br><br>
+                                        <b>Bloodcaste:</b> <br><br>
+                                        <b>Symbol:</b> <br><br>
+                                        <b>Occupation:</b> <br><br>
+                                        <b> Criminal Offenses:</b><br> <br><br>
+                                        <b> Distinguishing Features:</b><br> <br><br>
+                                        <b>Notes:</b><br> <br>
+                                    </div>
+                                </div>
+                                <div class="imgcolumn" style="transform: rotate(6deg); margin: 15px 20px;">
+                                    <img src="./assets/data/theme/character-profile/Derrekportrait.png"
+                                        style="width:100%">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="Jujuju" class="tabcontent">
+                            <div class="row">
+                                <div class="column">
+                                    <h2>Jujuju Nunapu</h2>
+                                    <div style="text-align: left;">
+                                        <b>Allias:</b> Flintlock (former), Golden Hydra (current)
+                                        <br><br>
+                                        <b>Age:</b> 12 Sweeps<br><br>
+                                        <b>Gender:</b> <br><br>
+                                        <b>Height:</b> 5'0"/152cm<br><br>
+                                        <b>Race:</b> <br><br>
+                                        <b>Bloodcaste:</b> <br><br>
+                                        <b>Symbol:</b> <br><br>
+                                        <b>Occupation:</b> <br><br>
+                                        <b> Criminal Offenses:</b><br> <br><br>
+                                        <b> Distinguishing Features:</b><br> <br><br>
+                                        <b>Notes:</b><br> <br>
+                                    </div>
+                                </div>
+                                <div class="imgcolumn" style="transform: rotate(355deg); margin: 52px 2px;">
+                                    <img src="./assets/data/theme/character-profile/Jujujuportrait.png"
+                                        style="width:100%">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="Diunna" class="tabcontent">
+                            <div class="row">
+                                <div class="column">
+                                    <h2>Diunna Tyroon</h2>
+                                    <div style="text-align: left;">
+                                        <b>Allias:</b> Bronze Rat<br><br>
+                                        <b>Age:</b> 16 Sweeps<br><br>
+                                        <b>Gender:</b> 6'3"/190cm <br><br>
+                                        <b>Height:</b> <br><br>
+                                        <b>Race:</b> <br><br>
+                                        <b>Bloodcaste:</b> <br><br>
+                                        <b>Symbol:</b> <br><br>
+                                        <b>Occupation:</b> <br><br>
+                                        <b> Criminal Offenses:</b><br> <br><br>
+                                        <b> Distinguishing Features:</b><br> <br><br>
+                                        <b>Notes:</b><br> <br>
+                                    </div>
+                                </div>
+                                <div class="imgcolumn" style="transform: rotate(9deg); margin: 32px 18px;">
+                                    <img src="./assets/data/theme/character-profile/Diunnaportrait.png"
+                                        style="width:100%">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="Govani" class="tabcontent">
+                            <div class="row">
+                                <div class="column">
+                                    <h2>Govani Gocchi</h2>
+                                    <div style="text-align: left;">
+                                        <b>Allias:</b> Teal Dragon<br><br>
+                                        <b>Age:</b> 17 Sweeps<br><br>
+                                        <b>Gender:</b> <br><br>
+                                        <b>Height:</b>6'2"/187cm <br><br>
+                                        <b>Race:</b> <br><br>
+                                        <b>Bloodcaste:</b> <br><br>
+                                        <b>Symbol:</b> <br><br>
+                                        <b>Occupation:</b> <br><br>
+                                        <b> Criminal Offenses:</b><br> <br><br>
+                                        <b> Distinguishing Features:</b><br> <br><br>
+                                        <b>Notes:</b><br> <br>
+                                    </div>
+                                </div>
+                                <div class="imgcolumn" style="transform: rotate(5deg); margin: 30px 8px;">
+                                    <img src="./assets/data/theme/character-profile/Govaniportrait.png"
+                                        style="width:100%">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="Freya" class="tabcontent">
+                            <div class="row">
+                                <div class="column">
+                                    <h2>Freya Flincendos Fuego Frascua</h2>
+                                    <div style="text-align: left;">
+                                        <b>Allias:</b> Ochre Phoenix<br><br>
+                                        <b>Age:</b> 28 Years<br><br>
+                                        <b>Gender:</b> <br><br>
+                                        <b>Height:</b> 3'0"/92cm<br><br>
+                                        <b>Race:</b> <br><br>
+                                        <b>Bloodcaste:</b> <br><br>
+                                        <b>Symbol:</b> <br><br>
+                                        <b>Occupation:</b> <br><br>
+                                        <b> Criminal Offenses:</b><br> <br><br>
+                                        <b> Distinguishing Features:</b><br> <br><br>
+                                        <b>Notes:</b><br> <br>
+                                    </div>
+                                </div>
+                                <div class="imgcolumn" style="transform: rotate(358deg); margin: 36px 10px;">
+                                    <img src="./assets/data/theme/character-profile/Freyaportrait.png"
+                                        style="width:100%">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="Hewatsu" class="tabcontent">
+                            <div class="row">
+                                <div class="column">
+                                    <h2>Hewatsu Nekoya</h2>
+                                    <div style="text-align: left;">
+                                        <b>Allias:</b> Emerald Tiger<br><br>
+                                        <b>Age:</b> 19 Years<br><br>
+                                        <b>Gender:</b> <br><br>
+                                        <b>Height:</b> 6'0"/182cm<br><br>
+                                        <b>Race:</b> <br><br>
+                                        <b>Bloodcaste:</b> <br><br>
+                                        <b>Symbol:</b> <br><br>
+                                        <b>Occupation:</b> <br><br>
+                                        <b> Criminal Offenses:</b><br> <br><br>
+                                        <b> Distinguishing Features:</b><br> <br><br>
+                                        <b>Notes:</b><br> <br>
+                                    </div>
+                                </div>
+                                <div class="imgcolumn" style="transform: rotate(4deg); margin: 32px 20px;">
+                                    <img src="./assets/data/theme/character-profile/Hewatsuportrait.png"
+                                        style="width:100%">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="Zyyrasan" class="tabcontent">
+                            <div class="row">
+                                <div class="column">
+                                    <h2>Z-yyrasan Yuv-ka'Nuyuek</h2>
+                                    <div style="text-align: left;">
+                                        <b>Alternian name:</b> Still Waters of the Lagoon<br><br>
+                                        <b>Allias:</b> Aqua Shark<br><br>
+                                        <b>Age:</b> 30 Years<br><br>
+                                        <b>Gender:</b> <br><br>
+                                        <b>Height:</b> 5'6"/167cm<br><br>
+                                        <b>Race:</b> <br><br>
+                                        <b>Bloodcaste:</b> <br><br>
+                                        <b>Symbol:</b> <br><br>
+                                        <b>Occupation:</b> <br><br>
+                                        <b> Criminal Offenses:</b><br> <br><br>
+                                        <b> Distinguishing Features:</b><br> <br><br>
+                                        <b>Notes:</b><br> <br>
+                                    </div>
+                                </div>
+                                <div class="imgcolumn" style="transform: rotate(352deg); margin: 51px 9px;">
+                                    <img src="./assets/data/theme/character-profile/Sharkportrait.png"
+                                        style="width:100%">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--====================================-->
+
+                        <div id="Edmond" class="tabcontent">
+                            <div class="row">
+                                <div class="column">
+                                    <h2>Edmond Trieux</h2>
+                                    <div style="text-align: left;">
+                                        <b>Allias:</b> The Director <br><br>
+                                        <b>Age:</b> ???<br><br>
+                                        <b>Gender:</b> <br><br>
+                                        <b>Height:</b> 6'0"/182cm<br><br>
+                                        <b>Race:</b> <br><br>
+                                        <b>Bloodcaste:</b> <br><br>
+                                        <b>Symbol:</b> <br><br>
+                                        <b>Occupation:</b> <br><br>
+                                        <b> Criminal Offenses:</b><br> <br><br>
+                                        <b> Distinguishing Features:</b><br> <br><br>
+                                        <b>Notes:</b><br> <br>
+                                    </div>
+                                </div>
+                                <div class="imgcolumn" style="transform: rotate(8deg); margin: 51px 6px;">
+                                    <img src="./assets/data/theme/character-profile/Edmondportrait.png"
+                                        style="width:100%">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="Viktor" class="tabcontent">
+                            <div class="row">
+                                <div class="column">
+                                    <h2>Viktor Shwesh</h2>
+                                    <div style="text-align: left;">
+                                        <b>Allias:</b> Captain Finscar <br><br>
+                                        <b>Age:</b> 67 Sweeps<br><br>
+                                        <b>Gender:</b> <br><br>
+                                        <b>Height:</b> 5'11"/180cm<br><br>
+                                        <b>Race:</b> <br><br>
+                                        <b>Bloodcaste:</b> <br><br>
+                                        <b>Symbol:</b> <br><br>
+                                        <b>Occupation:</b> <br><br>
+                                        <b> Criminal Offenses:</b><br> <br><br>
+                                        <b> Distinguishing Features:</b><br> <br><br>
+                                        <b>Notes:</b><br> <br>
+                                    </div>
+                                </div>
+                                <div class="imgcolumn" style="transform: rotate(353deg); margin: 32px 20px;">
+                                    <img src="./assets/data/theme/character-profile/Viktorportrait.png"
+                                        style="width:100%">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="Queen" class="tabcontent">
+                            <div class="row">
+                                <div class="column">
+                                    <h2>Lillou Aquouo</h2>
+                                    <div style="text-align: left;">
+                                        <b>Allias:</b> The Queen <br><br>
+                                        <b>Age:</b> <br><br>
+                                        <b>Gender:</b> <br><br>
+                                        <b>Height:</b> <br><br>
+                                        <b>Race:</b> <br><br>
+                                        <b>Bloodcaste:</b> <br><br>
+                                        <b>Symbol:</b> <br><br>
+                                        <b>Occupation:</b> <br><br>
+                                        <b> Criminal Offenses:</b><br> <br><br>
+                                        <b> Distinguishing Features:</b><br> <br><br>
+                                        <b>Notes:</b><br> <br>
+                                    </div>
+                                </div>
+                                <div class="imgcolumn" style="transform: rotate(9deg); margin: 32px 15px;">
+                                    <img src="./assets/data/theme/character-profile/snakeportrait2.png"
+                                        style="width:100%">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="Spider" class="tabcontent">
+                            <div class="row">
+                                <div class="column">
+                                    <h2>Lillou Aquouo</h2>
+                                    <div style="text-align: left;">
+                                        <b>Allias:</b> Spider <br><br>
+                                        <b>Age:</b> <br><br>
+                                        <b>Gender:</b> <br><br>
+                                        <b>Height:</b> <br><br>
+                                        <b>Race:</b> <br><br>
+                                        <b>Bloodcaste:</b> <br><br>
+                                        <b>Symbol:</b> <br><br>
+                                        <b>Occupation:</b> <br><br>
+                                        <b> Criminal Offenses:</b><br> <br><br>
+                                        <b> Distinguishing Features:</b><br> <br><br>
+                                        <b>Notes:</b><br> <br>
+                                    </div>
+                                </div>
+                                <div class="imgcolumn" style="transform: rotate(3deg); margin: 49px 12px;">
+                                    <img src="./assets/data/theme/character-profile/snakeportrait2.png"
+                                        style="width:100%">
+                                </div>
+                            </div>
+                        </div>
+
+                        <img class="bookmarksbottom" src="./assets/data/theme/character-profile/Bottomtabs.png"
+                            usemap="#bottom" />
+                        <map name="bottom">
+                            <area title="Director" onclick="opentab(event, 'Edmond')" shape="rect"
+                                coords="67, 0, 141, 68" />
+                            <area title="Finscar" onclick="opentab(event, 'Viktor')" shape="rect"
+                                coords="195, 2, 263, 61" />
+                        </map>
+
+                    </div>
+
+                    <div id="foot" style="padding-bottom: 10px;">
+                        <span id="prevlinks">
+                            <span class="footlinks">
+                            </span>
+                        </span>
+                        <br>
+                        <br>
+                    </div>
+                </div>
+                <br>
+            </div>
+        </div>
+        <footer>
+            <div class="umcontainer">
+                <div class="mspfalogo"></div>
+                <div id="flashytitlebottom"></div>
+                <div class="mspfalogoreverse"></div>
+            </div>
+            <div id="details" style="padding-bottom: 6px;"><b><a href="https://github.com/FlaringK/mspfaViewer">MSPFA
+                        viewer</a> made by <a href="https://mspfa.com/user/?u=100855018780708322446">FlaringK</a> |
+                    2023</b></div>
+        </footer>
+        <div id="prelaod" style="display: none;"></div>
+        <script>
+            document.getElementById("defaultOpen").click();
+        </script>
+    </body>
 
 </html>
