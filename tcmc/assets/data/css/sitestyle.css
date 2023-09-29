@@ -207,29 +207,6 @@ table.container.alt2 td {
 
 /*FONT IMPORT*/
 /* ==================================================== */
-@font-face {
-    font-family: 'Coder\'s Crux';
-    src: url('../font/coders-crux/Coders-Crux.eot');
-    src: local('Coder\'s Crux Regular'), local('Coder\'s-Crux'),
-        url('../font/coders-crux/Coders-Crux.eot?#iefix') format('embedded-opentype'),
-        url('../font/coders-crux/Coders-Crux.woff2') format('woff2'),
-        url('../font/coders-crux/Coders-Crux.woff') format('woff'),
-        url('../font/coders-crux/Coders-Crux.ttf') format('truetype'),
-        url('../font/coders-crux/Coders-Crux.svg#Coder\'s-Crux') format('svg');
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Fipps';
-    src: url('../font/fipps/Fipps-Regular.eot');
-    src: local('Fipps Regular'), local('Fipps-Regular'),
-        url('../font/fipps/Fipps-Regular.eot?#iefix') format('embedded-opentype'),
-        url('../font/fipps/Fipps-Regular.woff2') format('woff2'),
-        url('../font/fipps/Fipps-Regular.woff') format('woff'),
-        url('../font/fipps/Fipps-Regular.ttf') format('truetype'),
-        url('../font/fipps/Fipps-Regular.svg#Fipps-Regular') format('svg');
-    font-display: swap;
-}
 
 @font-face {
     font-family: 'Gothic Pixel';
@@ -280,30 +257,6 @@ table.container.alt2 td {
 }
 
 @font-face {
-    font-family: 'Victorian Parlor';
-    src: url('../font/victorian-parlor-vintage/VictorianParlorVintage.eot');
-    src: local('Victorian Parlor Vintage'), local('VictorianParlorVintage'),
-        url('../font/victorian-parlor-vintage/VictorianParlorVintage.eot?#iefix') format('embedded-opentype'),
-        url('../font/victorian-parlor-vintage/VictorianParlorVintage.woff2') format('woff2'),
-        url('../font/victorian-parlor-vintage/VictorianParlorVintage.woff') format('woff'),
-        url('../font/victorian-parlor-vintage/VictorianParlorVintage.ttf') format('truetype'),
-        url('../font/victorian-parlor-vintage/VictorianParlorVintage.svg#VictorianParlorVintage') format('svg');
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Victorian Parlor Alternate';
-    src: url('../font/victorian-parlor-vintage-alternate/VictorianParlorVintageAlternate.eot');
-    src: local('Victorian Parlor Vintage Alternate'), local('VictorianParlorVintageAlternate'),
-        url('../font/victorian-parlor-vintage-alternate/VictorianParlorVintageAlternate.eot?#iefix') format('embedded-opentype'),
-        url('../font/victorian-parlor-vintage-alternate/VictorianParlorVintageAlternate.woff2') format('woff2'),
-        url('../font/victorian-parlor-vintage-alternate/VictorianParlorVintageAlternate.woff') format('woff'),
-        url('../font/victorian-parlor-vintage-alternate/VictorianParlorVintageAlternate.ttf') format('truetype'),
-        url('../font/victorian-parlor-vintage-alternate/VictorianParlorVintageAlternate.svg#VictorianParlorVintageAlternate') format('svg');
-    font-display: swap;
-}
-
-@font-face {
     font-family: 'Apple Chancery';
     src: url('../font/apple-chancery/Apple-Chancery.eot');
     src: local('Apple Chancery Italic'), local('Apple-Chancery'),
@@ -324,5 +277,16 @@ table.container.alt2 td {
         url('../font/blood-script/BloodScriptItalicPersonalUs-N.woff') format('woff'),
         url('../font/blood-script/BloodScriptItalicPersonalUs-N.ttf') format('truetype'),
         url('../font/blood-script/BloodScriptItalicPersonalUs-N.svg#BloodScriptItalicPersonalUs-N') format('svg');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gunny Rewritten';
+    src: url('../font/gunny-rewritten/GunnyRewritten.eot');
+    src: url('../font/gunny-rewritten/GunnyRewritten.eot?#iefix') format('embedded-opentype'),
+        url('../font/gunny-rewritten/GunnyRewritten.woff2') format('woff2'),
+        url('../font/gunny-rewritten/GunnyRewritten.woff') format('woff'),
+        url('../font/gunny-rewritten/GunnyRewritten.ttf') format('truetype'),
+        url('../font/gunny-rewritten/GunnyRewritten.svg#GunnyRewritten') format('svg');
     font-display: swap;
 }

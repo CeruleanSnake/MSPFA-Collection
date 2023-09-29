@@ -8,13 +8,21 @@ area {
 
 #main {
     background-color: transparent;
+    width: 1000px !important;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
 }
 
 #slide {
     Border: none !important;
     background-color: transparent !important;
-    /*background-image: url("../../img/art/booyah.PNG");*/
-    background-size: 960px 893px;
+    background-image: url("../../img/art/booyah.PNG");
+    background-size: 1110px 988px;
+    padding: 40px 100px 0 100px !important;
+    image-rendering: auto;
+    height: 948px !important;
 }
 
 #flashytitle,
@@ -47,8 +55,10 @@ area {
     margin-top: -10px;
     padding: 65px 30px 20px 40px;
     margin-left: 40px;
-    line-height: 14px;
+    line-height: 18px;
     max-width: 330px;
+    font-family: 'Gunny Rewritten';
+    font-size: 20px;
 }
 
 .imgcolumn {
@@ -62,11 +72,11 @@ area {
 }
 
 .bookmarkstop {
-    margin-bottom: -4px !important;
+    margin-bottom: -5px !important;
 }
 
 .bookmarksbottom {
-    margin-top: -4px !important;
+    margin-top: 0px !important;
 }
 
 
@@ -112,9 +122,10 @@ area {
     padding: 10px;
     animation: fadeEffect 0.5s;
     background-color: transparent;
-    background-image: url("./character-profile/bookbase.png");
     background-size: 910px 650px;
     padding: 5px;
+    max-width: 900px;
+    max-height: 640px;
     height: 640px !important;
     width: 900px !important;
 }
@@ -160,7 +171,7 @@ area {
 }
 
 #Queen {
-    background-image: url("./character-profile/Hewatsu.png");
+    background-image: url("");
 }
 
 #spider {
