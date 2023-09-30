@@ -1,5 +1,10 @@
 a {
-    color: #0080c2;
+    color: #ffae01 !important;
+}
+
+h1 {
+    margin-bottom: 10px !important;
+    margin-top: 20px !important;
 }
 
 area {
@@ -8,7 +13,7 @@ area {
 
 #main {
     background-color: transparent;
-    width: 1000px !important;
+    width: 1120px !important;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -18,36 +23,37 @@ area {
 #slide {
     Border: none !important;
     background-color: transparent !important;
-    background-image: url("../../img/art/booyah.PNG");
-    background-size: 1110px 988px;
+    background-image: url("./character-profile/Backboard.png");
+    background-size: 1110px 995px;
     padding: 40px 100px 0 100px !important;
     image-rendering: auto;
-    height: 948px !important;
+    height: 955px !important;
+    margin: 0 auto !important;
 }
 
-#flashytitle,
-#flashytitlebottom {
-    background-image: url("myutun-sea/header.png");
+.mspfa #command {
+    /* background-image: url('./character-profile/Chever.png') !important;*/
+    background-size: 500px 120px;
+    padding: 0 !important;
+    height: 100px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.mspfa #command img {
+    width: 500px;
+    height: 100px;
 }
 
 .heart {
-    background-image: url("myutun-sea/logo_small.png") !important;
+    background-image: url("../../img/apple-touch-icon.png") !important;
     image-rendering: auto;
     background-repeat: no-repeat;
-}
-
-.umcontainer {
-    background-image: url("https://linkh.at/mspfafacereverse");
-}
-
-.mspfalogo {
-    background-image: url("https://linkh.at/mspfaface") !important;
+    background-size: 18px !important;
 }
 
 .row {
     display: flex;
-    font-family: "courier",
-        "monospace";
 }
 
 .column {
@@ -55,7 +61,7 @@ area {
     margin-top: -10px;
     padding: 65px 30px 20px 40px;
     margin-left: 40px;
-    line-height: 18px;
+    line-height: 20px;
     max-width: 330px;
     font-family: 'Gunny Rewritten';
     font-size: 20px;
@@ -134,48 +140,120 @@ area {
     background-image: url("./character-profile/Chever.png");
 }
 
+#Chever .imgcolumn {
+    transform: rotate(351deg);
+    margin: 7px 20px;
+}
+
 #Derrek {
     background-image: url("./character-profile/Derrek.png");
+}
+
+#Derrek .imgcolumn {
+    transform: rotate(6deg);
+    margin: 15px 20px;
 }
 
 #Jujuju {
     background-image: url("./character-profile/Jujuju.png");
 }
 
+#Jujuju .imgcolumn {
+    transform: rotate(355deg);
+    margin: 52px 2px;
+}
+
 #Diunna {
     background-image: url("./character-profile/Diunna.png");
+}
+
+#Diunna .imgcolumn {
+    transform: rotate(9deg);
+    margin: 32px 18px;
 }
 
 #Govani {
     background-image: url("./character-profile/Govani.png");
 }
 
+#Govani .imgcolumn {
+    transform: rotate(355deg);
+    margin: 47px 8px;
+}
+
 #Freya {
     background-image: url("./character-profile/Freya.png");
+}
+
+#Freya .imgcolumn {
+    transform: rotate(358deg);
+    margin: 36px 10px;
 }
 
 #Hewatsu {
     background-image: url("./character-profile/Hewatsu.png");
 }
 
+#Hewatsu .imgcolumn {
+    transform: rotate(4deg);
+    margin: 32px 20px;
+}
+
 #Zyyrasan {
     background-image: url("");
+}
+
+#Zyyrasan .imgcolumn {
+    transform: rotate(352deg);
+    margin: 51px 9px;
 }
 
 #Edmond {
     background-image: url("./character-profile/Edmond.png");
 }
 
+#Edmond .imgcolumn {
+    transform: rotate(8deg);
+    margin: 51px 6px;
+}
+
 #Viktor {
     background-image: url("./character-profile/Viktor.png");
+}
+
+#Viktor .imgcolumn {
+    transform: rotate(353deg);
+    margin: 32px 20px;
 }
 
 #Queen {
     background-image: url("");
 }
 
+#Queen .imgcolumn {
+    transform: rotate(9deg);
+    margin: 32px 15px;
+}
+
 #spider {
     background-image: url("");
+}
+
+#Spider .imgcolumn {
+    transform: rotate(3deg);
+    margin: 49px 12px;
+}
+
+/* preloading images */
+body::after {
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    /* hide images */
+    z-index: -1;
+    /* preload images */
+    content: url("./character-profile/Chever.png") url("./character-profile/Derrek.png") url("./character-profile/Jujuju.png") url("./character-profile/Diunna.png") url("./character-profile/Govani.png") url("./character-profile/Hewatsu.png") url("./character-profile/Freya.png") url("./character-profile/Edmond.png") url("./character-profile/Viktor.png");
 }
 
 /*SCROLL BAR*/
@@ -183,11 +261,11 @@ area {
 ::-webkit-scrollbar {
     height: 12px;
     width: 12px;
-    background: #035c88;
+    background: #2a0707;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: rgb(255, 181, 233);
+    background: rgb(109, 1, 1);
     border-radius: 1ex;
     -webkit-border-radius: 1ex;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
@@ -195,41 +273,34 @@ area {
 }
 
 ::-webkit-scrollbar-corner {
-    background: #035c88;
+    background: #2a0707;
 }
 
 
 /*MOBILE CSS*/
 /* =========================================== */
 body {
-    background-image:
-        url("myutun-sea/water.png"),
-        url("myutun-sea/front-cloud.png"),
-        url("myutun-sea/back-cloud.png"),
-        linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(11, 0, 112, 0.95) 25%, rgb(0, 146, 231) 80%),
-        url("myutun-sea/background.bmp");
-    background-repeat: repeat-x, repeat-x, repeat-x, no-repeat, repeat;
-    background-position: bottom, center, center, top, top;
-    background-attachment: fixed;
-    background-color: #064564;
-    color: #000000;
-    background-size: 80vh, 80vh, 80vh, cover, 20vh;
-    image-rendering: pixelated;
+    background-image: url("./character-profile/wood.png");
+    background-repeat: repeat;
+    background-position: top;
+    background-attachment: scroll;
+    background-color: #2e2321;
+    background-size: auto !important;
+    image-rendering: auto;
     -moz-image-rendering: crisp-edges;
 }
 
-/*PC CSS*/
-/* =========================================== */
-@media screen and (min-width: 1200px) {
-    body {
-        background-image:
-            linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(11, 0, 112, 0.95) 25%, rgb(0, 146, 231) 80%),
-            url("myutun-sea/background.gif");
-        background-repeat: no-repeat, repeat;
-        background-size: cover, 20vh;
+@media screen and (max-width: 1140px) {
+    html {
+        width: 1130px !important;
     }
+}
 
-    /* PARALLAX BACKGROUND */
+/*PC CSS*/
+/* =========================================== 
+
+@media screen and (min-width: 1200px) {
+
     #overlay>div,
     #overlay {
         position: fixed;
@@ -239,119 +310,28 @@ body {
         height: 100%;
         user-select: none;
         pointer-events: none;
+        z-index: 1;
     }
 
     #overlay {
-        background-image: url("myutun-sea/island.png");
+        background-image: url("./character-profile/Ink.png");
         background-position: bottom right;
         background-repeat: no-repeat;
-        background-size: 50vh;
-        background-position-x: 70vw;
-        background-position-y: 65vh;
-        z-index: -1;
-    }
-
-    .overlay-3 {
-        background-image: url("myutun-sea/back-cloud.png");
-        animation: 180s backcloud-move linear infinite;
-        background-position: center left;
-        background-repeat: repeat-x;
-        background-size: 80vh;
-    }
-
-    .overlay-4 {
-        background-image: url("myutun-sea/front-cloud.png");
-        animation: 50s frontcloud-move linear infinite reverse;
-        background-position: center left;
-        background-position-y: 20vh;
-        background-repeat: repeat-x;
-        background-size: 80vh;
+        background-position-x: 75vw;
+        background-position-y: 1vh;
     }
 
     .overlay-1 {
-        background-image: url("myutun-sea/ship.png");
-        animation: 35s ship-move linear infinite;
+        background-image: url("./character-profile/Clock.png");
+        background-position: center left;
         background-repeat: no-repeat;
-        background-size: 20vh;
-        background-position-x: 110vw;
-        background-position-y: 62vh;
     }
 
     .overlay-2 {
-        background-image: url("myutun-sea/water.png");
-        animation: 60s water-move linear infinite;
-        background-position: bottom left;
-        background-repeat: repeat-x;
-        background-size: 80vh;
-
-    }
-
-    @keyframes water-move {
-        to {
-            background-position: 80vh bottom;
-        }
-    }
-
-    @keyframes backcloud-move {
-        to {
-            background-position: 80vh center;
-        }
-    }
-
-    @keyframes frontcloud-move {
-        to {
-            background-position: 80vh center;
-            background-position-y: 20vh;
-        }
-    }
-
-    @keyframes ship-move {
-        to {
-            background-position-x: -60vh;
-        }
-
-        0% {
-            top: 1vh;
-        }
-
-        10% {
-            top: 0vh;
-        }
-
-        20% {
-            top: 1vh;
-        }
-
-        30% {
-            top: 0vh;
-        }
-
-        40% {
-            top: 1vh;
-        }
-
-        50% {
-            top: 0vh;
-        }
-
-        60% {
-            top: 1vh;
-        }
-
-        70% {
-            top: 0vh;
-        }
-
-        80% {
-            top: 1vh;
-        }
-
-        90% {
-            top: 0vh;
-        }
-
-        100% {
-            top: 1vh;
-        }
+        background-image: url("./character-profile/Pens.png");
+        background-position: center left;
+        background-repeat: no-repeat;
+        background-position-x: 75vw;
+        background-position-y: 80vh;
     }
 }

@@ -55,8 +55,7 @@
         "115169041084683463156"
     ],
     "m": "==->",
-    "p": [
-        {
+    "p": [{
             "d": 1298969484000,
             "c": " ",
             "b": "<div class=\"overlayimg\">[img]./assets/img/titlescreen/alab_5_nuages.gif[/img][img]./assets/img/titlescreen/alab_4_cite.png[/img][img]./assets/img/titlescreen/alab_3_statues.png[/img][img]./assets/img/titlescreen/alab_2_details.png[/img][img]./assets/img/titlescreen/alab_1_titre.png[/img][img]./assets/img/titlescreen/alab_6_ciel.png[/img]</div>[img]./assets/img/titlescreen/alab2023_inter.png[/img]<div class=\"array\">[url=?p=2][img]./assets/img/titlescreen/menu1chapters.png[/img][/url][url=?p=4][img]./assets/img/titlescreen/menu2newgame.png[/img][/url][url=https://oasis-nadrama.tumblr.com/][img]./assets/img/titlescreen/menu3oasisblog.png[/img][/url][url=./Extra Material.html][img]./assets/img/titlescreen/menu4extramaterial.png[/img][/url]<a id=\"loadgameimg\">[img]./assets/img/titlescreen/menu5loadgame.png[/img]</a>[url=https://discord.gg/FFBHG7nPDC][img]./assets/img/titlescreen/menu6discord.png[/img][/url][url=?p=3][img]./assets/img/titlescreen/menu7credits.png[/img][/url]<a id=\"newupdateimg\">[img]./assets/img/titlescreen/menu8lastupdate.png[/img]</a>[url=http://www.pantagrame.com/en/?comic=direction][img]./assets/img/titlescreen/menu9pantagrame.png[/img][/url]</div>\n",
@@ -16873,6 +16872,48 @@
             "c": "Mnevia Quaoar: Use WENCH on NAIL.",
             "b": "[img]./assets/img/story/doomed2755.png[/img]\n\nBut it may be your way out.",
             "n": [2804]
+        },
+        {
+            "d": 1695880171905,
+            "c": "==->",
+            "b": "[img]./assets/img/story/doomed2756.png[/img]",
+            "n": [2805]
+        },
+        {
+            "d": 1695880171905,
+            "c": "Jailbreak.",
+            "b": "[img]./assets/img/story/doomed2757.png[/img]",
+            "n": [2806]
+        },
+        {
+            "d": 1695880171905,
+            "c": "==->",
+            "b": "[img]./assets/img/story/doomed2758.png[/img]",
+            "n": [2807]
+        },
+        {
+            "d": 1695880171905,
+            "c": "==->",
+            "b": "[img]./assets/img/story/doomed2759.png[/img]\n\nNo stairs. No ladder. A straight well.\n\nAnd it stinks.",
+            "n": [2808]
+        },
+        {
+            "d": 1695880171905,
+            "c": "Via: Throw body in the hole.",
+            "b": "[img]./assets/img/story/doomed2760.png[/img]\n\nYou first drop the cadaver in there. It will cushion your fall and allows you to measure the height.",
+            "n": [2809]
+        },
+        {
+            "d": 1695880171905,
+            "c": "==->",
+            "b": "[img]./assets/img/story/doomed2761.png[/img]\n\nYeah. Quick noise.",
+            "n": [2810]
+        },
+        {
+            "d": 1695880171905,
+            "c": "Via: Jump.",
+            "b": "[img]./assets/img/story/doomed2762.png[/img]",
+            "n": [2811]
         }
     ],
     "g": [
