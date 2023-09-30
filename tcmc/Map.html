@@ -1,102 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <title>The Cerulean Motley Crew</title>
+    <head>
+        <meta charset="UTF-8">
+        <title>The Cerulean Motley Crew</title>
 
-    <meta name="author" content="CeruleanSnake">
-    <meta name="theme-color" content="#005682">
+        <meta name="author" content="CeruleanSnake">
+        <meta name="theme-color" content="#005682">
 
-    <meta property="og:site_name" content="File Garden">
-    <meta property="og:title" content="The Cerulean Motley Crew">
-    <meta property="og:description" content="A daring adventure of pirates, booze and a whole lotta booty!">
-    <meta property="og:image" content="./assets/img/logo.gif">
-    <meta property="og:image:type" content="image/gif">
+        <meta property="og:site_name" content="File Garden">
+        <meta property="og:title" content="The Cerulean Motley Crew">
+        <meta property="og:description" content="A daring adventure of pirates, booze and a whole lotta booty!">
+        <meta property="og:image" content="./assets/img/logo.gif">
+        <meta property="og:image:type" content="image/gif">
 
-    <link rel="icon" href="./assets/img/favicon.ico">
+        <link rel="icon" href="./assets/img/favicon.ico">
 
-    <link rel="stylesheet" href="./assets/data/css/mspfastyle.css">
-    <link rel="stylesheet" href="./assets/data/css/sitestyle.css">
-    <link rel="stylesheet" href="./assets/data/theme/myutun-sea.css">
+        <link rel="stylesheet" href="./assets/data/css/mspfastyle.css">
+        <link rel="stylesheet" href="./assets/data/css/sitestyle.css">
+        <link rel="stylesheet" href="./assets/data/theme/myutun-sea.css">
 
-    <script src="./assets/data/js/jquery-3.7.1.min.js"></script>
-    <script src="./assets/data/js/navbar.js" defer></script>
-    <script src="./assets/data/js/randomimg.js"></script>
-    <script src="./assets/data/js/parallaxbg.js" defer></script>
-    <script src="./assets/data/js/parallaxbgtoggle.js" defer></script>
+        <script src="./assets/data/js/jquery-3.7.1.min.js"></script>
+        <script src="./assets/data/js/navbar.js" defer></script>
+        <script src="./assets/data/js/randomimg.js"></script>
+        <script src="./assets/data/js/parallaxbg.js" defer></script>
+        <script src="./assets/data/js/parallaxbgtoggle.js" defer></script>
 
-    <div id="overlay" data-amt="12"></div>
-</head>
+        <div id="overlay" data-amt="12"></div>
+    </head>
 
-<body cz-shortcut-listen="true" class="mspfa">
+    <body cz-shortcut-listen="true" class="mspfa">
 
-    <div class="umcontainer">
-        <a href="/">
-            <div class="mspfalogo"></div>
-        </a>
-        <div id="flashytitle"></div>
-        <div class="mspfalogoreverse"></div>
-    </div>
+        <div class="umcontainer">
+            <a href="/">
+                <div class="mspfalogo"></div>
+            </a>
+            <div id="flashytitle"></div>
+            <div class="mspfalogoreverse"></div>
+        </div>
 
-    <div id="main">
-        <header>
-            <nav>
-                <div id="nav"></div>
-            </nav>
-        </header>
-        <div id="container">
-            <div id="slide" style="image-rendering: auto; width: 800px;">
-                <div id=" command" style="display: flex; justify-content: center;"><img src="./assets/img/Title.png"
-                        title="The Cerulean Motley Crew">
-                </div>
-                <div id="content">
-                    <span style="color: red; font-size: x-large;">Map is broken and will be fixed
-                        soon!!!<br><br><br></span>
-                    <div id="map">
-                        <img src="./assets/img/map/map1.png" usemap="#map1">
-                        <map name="map1">
-                            <area alt="Chapter 1" title="Chapter 1" href="https://mspfa.com/?s=38151&p=2"
-                                coords="122,107,860,261" shape="rect">
-                            <area alt="Page 16" title="Page 16" href="https://mspfa.com/?s=38151&p=16"
-                                coords="128,323,262,456" shape="rect">
-                            <area alt="Page 34" title="Page 34" href="https://mspfa.com/?s=38151&p=34"
-                                coords="277,323,412,456" shape="rect">
-                            <area alt="Page 52" title="Page 52" href="https://mspfa.com/?s=38151&p=52"
-                                coords="428,322,559,456" shape="rect">
-                            <area alt="Page 72" title="Page 72" href="https://mspfa.com/?s=38151&p=72"
-                                coords="575,325,709,456" shape="rect">
-                            <area alt="Page 93" title="Page 93" href="https://mspfa.com/?s=38151&p=93"
-                                coords="726,323,859,457" shape="rect">
-                            <area alt="Page 108" title="Page 108" href="https://mspfa.com/?s=38151&p=108"
-                                coords="129,476,263,608" shape="rect">
-                        </map>
+        <div id="main">
+            <header>
+                <nav>
+                    <div id="nav"></div>
+                </nav>
+            </header>
+            <div id="container">
+                <div id="slide" style="display: flex; flex-direction: column;
+    align-items: center; background-color: transparent !important; border: none !important;">
+                    <img src="./assets/img/Title.png" style="padding-top: 20px;" title="The Cerulean Motley Crew">
+                    <div id="content">
+                        <div id="foot" style="margin-top: -20px; color: aliceblue !important;">
+                            <span id="prevlinks">
+                                <span class="footlinks">
+                                </span>
+                            </span>
+                            <br>
+                            <br>
+                        </div>
                     </div>
-                </div>
-
-                <div id="foot" style="padding-bottom: 10px;">
-                    <span id="prevlinks">
-                        <span class="footlinks">
-                        </span>
-                    </span>
-                    <br>
-                    <br>
+                    <div id="links"
+                        style="font-weight: bold; font-size: large; padding-bottom: 20px; color: aliceblue ">
+                        <a href="#Ch1" style="color: aliceblue !important;"">Chapter One</a> | <a href=" #Ch2"
+                            style="color: aliceblue !important;">Chapter Two</a>
+                    </div>
+                    <img id="Ch1" src="./assets/img/map/ch1.png" alt="" usemap="#map1" />
+                    <map name="map1">
+                        <area title="Chapter One" href="https://mspfa.com/?s=38151&p=2" shape="rect"
+                            coords="171, 32, 808, 140" />
+                        <area title="Page 16" href="https://mspfa.com/?s=38151&p=16" shape="rect"
+                            coords="115, 253, 685, 440" />
+                        <area title="Page 34" href="https://mspfa.com/?s=38151&p=34" shape="rect"
+                            coords="316, 464, 882, 652" />
+                        <area title="Page 52" href="https://mspfa.com/?s=38151&p=52" shape="rect"
+                            coords="116, 700, 683, 890" />
+                        <area title="Page 72" href="https://mspfa.com/?s=38151&p=72" shape="rect"
+                            coords="318, 934, 883, 1123" />
+                        <area title="Page 93" href="https://mspfa.com/?s=38151&p=93" shape="rect"
+                            coords="118, 1148, 686, 1336" />
+                        <area title="Page 108" href="https://mspfa.com/?s=38151&p=108" shape="rect"
+                            coords="306, 1384, 885, 1573" />
+                    </map>
+                    <img id="Ch2" src="./assets/img/map/ch2.png" alt="" usemap="#map2" />
+                    <map name="map2">
+                        <area title="Chapter Two" href="https://mspfa.com/?s=38151&p=120" shape="rect"
+                            coords="177, 182, 834, 286" />
+                        <area title="Page 128" href="https://mspfa.com/?s=38151&p=128" shape="rect"
+                            coords="116, 403, 686, 587" />
+                        <area title="Page 154" href="https://mspfa.com/?s=38151&p=154" shape="rect"
+                            coords="316, 612, 881, 802" />
+                        <area title="Page 171" href="https://mspfa.com/?s=38151&p=171" shape="rect"
+                            coords="117, 848, 684, 1038" />
+                        <area title="Page 190" href="https://mspfa.com/?s=38151&p=190" shape="rect"
+                            coords="314, 1084, 882, 1270" />
+                        <area title="Page 208" href="https://mspfa.com/?s=38151&p=208" shape="rect"
+                            coords="118, 1295, 684, 1483" />
+                        <area title="Page 240" href="https://mspfa.com/?s=38151&p=240" shape="rect"
+                            coords="314, 1533, 882, 1720" />
+                        <area title="Page 278" href="https://mspfa.com/?s=38151&p=278" shape="rect"
+                            coords="117, 1749, 692, 1935" />
+                        <area title="Page 291" href="https://mspfa.com/?s=38151&p=291" shape="rect"
+                            coords="308, 1986, 882, 2174" />
+                    </map>
+                    <a href="#top" style="color: aliceblue !important; font-size: large; padding-top: 20px;">
+                        Back to top</a>
                 </div>
             </div>
             <br>
         </div>
-    </div>
-    <footer>
-        <div class="umcontainer">
-            <div class="mspfalogo"></div>
-            <div id="flashytitlebottom"></div>
-            <div class="mspfalogoreverse"></div>
         </div>
-        <div id="details" style="padding-bottom: 6px;"><b><a href="https://github.com/FlaringK/mspfaViewer">MSPFA
-                    viewer</a> made by <a href="https://mspfa.com/user/?u=100855018780708322446">FlaringK</a> |
-                2023</b></div>
-    </footer>
-    <div id="prelaod" style="display: none;"></div>
-</body>
+        <footer>
+            <div class="umcontainer">
+                <div class="mspfalogo"></div>
+                <div id="flashytitlebottom"></div>
+                <div class="mspfalogoreverse"></div>
+            </div>
+            <div id="details" style="padding-bottom: 6px;"><b><a href="https://github.com/FlaringK/mspfaViewer">MSPFA
+                        viewer</a> made by <a href="https://mspfa.com/user/?u=100855018780708322446">FlaringK</a> |
+                    2023</b></div>
+        </footer>
+        <div id="prelaod" style="display: none;"></div>
+    </body>
 
 </html>

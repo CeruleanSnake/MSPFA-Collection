@@ -65,6 +65,7 @@ area {
     max-width: 330px;
     font-family: 'Gunny Rewritten';
     font-size: 20px;
+    float: left;
 }
 
 .imgcolumn {
