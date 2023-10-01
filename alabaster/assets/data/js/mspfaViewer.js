@@ -176,10 +176,10 @@ const loadIntoElement = (id, element) => {
   document.getElementById(id).append(element)
 }
 
-const loadAdventure  = data => {
+const loadAdventure = data => {
   adventureData = data
-  MSPFA.story = data
   document.title = adventureData.n
+  MSPFA.story = data
   document.getElementById("favicon").href = adventureData.o
   document.getElementById("goback").addEventListener("click", evt => clickLink(evt, document.getElementById("goback").href))
   loadPage()

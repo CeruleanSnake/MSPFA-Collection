@@ -65,7 +65,7 @@ area {
     max-width: 330px;
     font-family: 'Gunny Rewritten';
     font-size: 20px;
-    float: left;
+    -webkit-text-size-adjust: none !important;
 }
 
 .imgcolumn {
