@@ -45,6 +45,24 @@ footer a {
 	color: rgb(185, 185, 185);
 }
 
+.p1 #prevlinks,
+.plog #prevlinks {
+	display: none !important;
+}
+
+.p1 .toggle,
+.plog .toggle {
+	flex-direction: row-reverse !important;
+}
+
+.p1 .toggle {
+	margin-top: -30px !important;
+}
+
+.plog .toggle {
+	margin-top: -70px !important;
+}
+
 .iframe-container {
 	background: transparent url("../loading.gif") no-repeat 50% center !important;
 }

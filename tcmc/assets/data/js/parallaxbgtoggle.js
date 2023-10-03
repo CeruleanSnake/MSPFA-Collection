@@ -20,6 +20,7 @@ const dPrevLinks = document.querySelector("#prevlinks");
 //const dGameLinks = document.querySelector("#gamelinks");
 
 const dSettingsWrapper = document.createElement("div");
+dSettingsWrapper.className = "toggle";
 dSettingsWrapper.style = `display: flex; justify-content: space-between; flex-wrap: wrap;`;
 dSettingsWrapper.appendChild(dPrevLinks);
 //dSettingsWrapper.appendChild(dGameLinks);

@@ -92,7 +92,7 @@ nav a[href="/more/"]::after {
 }
 
 #savegame::after {
-    content: "STEAL TREASURE";
+    content: "SAVE TREASURE";
 }
 
 #loadgame::after {

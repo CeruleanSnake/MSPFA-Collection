@@ -1,160 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <title>MSPFA Collection</title>
-  <link rel="icon" href="./tcmc/assets/img/favicon.ico">
+  <head>
+    <meta charset="UTF-8">
+    <title>MSPFA Collection</title>
+    <link rel="icon" href="./tcmc/assets/img/favicon.ico">
 
-  <link rel="stylesheet" href="./tcmc/assets/data/css/textfx.css">
-  <link rel="stylesheet" href="./tcmc/assets/data/theme/pirate-alternia.css">
+    <link rel="stylesheet" href="./tcmc/assets/data/css/textfx.css">
+    <link rel="stylesheet" href="./tcmc/assets/data/theme/pirate-alternia.css">
 
-  <script src="./tcmc/assets/data/js/parallaxbg.js" defer></script>
+    <script src="./tcmc/assets/data/js/parallaxbg.js" defer></script>
 
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Courier New', Courier, monospace;
-      width: 100vw;
-      height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      font-weight: 600;
-    }
+    <style>
+      body {
+        margin: 0;
+        font-family: 'Courier New', Courier, monospace;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-weight: 600;
+      }
 
-    h1 {
-      margin: 0;
-      padding: 20px;
-      font-size: 40px;
-    }
+      h1 {
+        margin: 0;
+        padding: 30px 20px;
+        font-size: 40px;
+      }
 
-    footer {
-      position: fixed;
-      left: 0px;
-      bottom: 0px;
-      height: 30px;
-      width: 100%;
-      background: #99999976;
-    }
+      footer {
+        position: fixed;
+        left: 0px;
+        bottom: 0px;
+        height: 30px;
+        width: 100%;
+        background: #99999976;
+      }
 
-    a {
-      color: black !important;
-    }
+      a {
+        color: black !important;
+      }
 
-    #main {
-      background-color: rgba(255, 255, 255, 0.46);
-      padding: 0px 20px 20px 20px;
-      border: solid 4px rgb(0, 74, 143);
-      border-radius: 3ex;
-    }
+      #pannel {
+        background-color: rgba(255, 255, 255, 0.46);
+        border: solid 4px rgb(0, 74, 143);
+        border-radius: 3ex;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 1000px;
+      }
 
-    #cube {
-      height: 200px;
-      margin: 0 -45px;
-      background-position: center;
-      background-repeat: no-repeat;
-    }
+      #cube {
+        height: 200px;
+        margin: 0 -45px;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
 
-    .comic {
-      float: left;
-      width: 250px;
-      margin: 0px;
-      padding: 10px 10px 20px 10px;
-      font-weight: bolder;
-      font-size: 20px;
-      text-decoration: none;
-      image-rendering: auto;
-    }
+      .comic {
+        float: left;
+        width: 220px;
+        margin: 0px;
+        padding: 10px 10px 20px 10px;
+        font-weight: bolder;
+        font-size: 20px;
+        text-decoration: none;
+        image-rendering: auto;
+      }
 
-    .comic img {
-      height: 150px;
-      padding-bottom: 20px;
-    }
-  </style>
+      .comic img {
+        height: 150px;
+        padding-bottom: 20px;
+      }
+    </style>
 
-  <div id="overlay" data-amt="12"></div>
-</head>
+    <div id="overlay" data-amt="12"></div>
+  </head>
 
-<body cz-shortcut-listen="true" class="mspfa">
-  <div id="main">
-    <img id="cube" src="./cube.gif">
-    <h1>
-      <textfx class="vwave">MSPFA Collection</textfx>
-    </h1>
-    <a class="comic" href="./tcmc/The-Cerulean-Motley-Crew.html?p=1">
-      <img src="./tcmc/assets/img/logo.gif">
-      <br>
-      The Cerulean Motley Crew
-    </a>
-    <a class="comic" href="./betaiansimc/Its-Almost-Never-Sunny-In-Myutun-City.html?p=1">
-      <img src="./betaiansimc/assets/img/logo.gif">
-      <br>
-      It's Almost Never Sunny In M'yutun City
-    </a>
-    <br>
-    <a class="comic" href="./originalgsy/Go Stuck Yourself.html?p=1">
-      <img src="./originalgsy/assets/img/logo.png">
-      <br>
-      Go Stuck Yourself
-    </a>
-    <a class="comic" href="./alabaster/Alabaster.html?p=1">
-      <img src="./alabaster/assets/img/vamuinicon.PNG">
-      <br>
-      Alabaster
-    </a>
-  </div>
-</body>
-<footer>
-  <div id="details" style="padding-top: 6px;"><b><a href="https://github.com/FlaringK/mspfaViewer">MSPFA viewer</a>
-      made
-      by <a href="https://mspfa.com/user/?u=100855018780708322446">FlaringK</a> | 2023</b></div>
-</footer>
+  <body cz-shortcut-listen="true" class="mspfa">
+    <div id="main">
+      <img id="cube" src="./cube.gif">
+      <div id="pannel">
+        <h1>
+          <textfx class="vwave">MSPFA Collection</textfx>
+        </h1>
+        <div id="comics">
+          <a class="comic" href="./tcmc/The-Cerulean-Motley-Crew.html?p=1">
+            <img src="./tcmc/assets/img/logo.gif">
+            <br>
+            The Cerulean Motley Crew
+          </a>
+          <a class="comic" href="./betaiansimc/Its-Almost-Never-Sunny-In-Myutun-City.html?p=1">
+            <img src="./betaiansimc/assets/img/logo.gif">
+            <br>
+            It's Almost Never Sunny In M'yutun City
+          </a>
+          <a class="comic" href="./originalgsy/Go Stuck Yourself.html?p=1">
+            <img src="./originalgsy/assets/img/logo.png">
+            <br>
+            Go Stuck Yourself
+          </a>
+          <a class="comic" href="./alabaster/Alabaster.html?p=1">
+            <img src="./alabaster/assets/img/vamuinicon.PNG">
+            <br>
+            Alabaster
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <div id="details" style="padding-top: 6px;"><b><a href="https://github.com/FlaringK/mspfaViewer">MSPFA viewer</a>
+        made
+        by <a href="https://mspfa.com/user/?u=100855018780708322446">FlaringK</a> | 2023</b></div>
+  </footer>
 
-<script>
-  console.log("Text Effects by seymour schlong - https://mspfa.com/?s=35015");
-  const shakeText = (a) => {
-    let shakeElements = document.querySelectorAll(a);
+  <script>
+    console.log("Text Effects by seymour schlong - https://mspfa.com/?s=35015");
+    const shakeText = (a) => {
+      let shakeElements = document.querySelectorAll(a);
 
-    for (let i = 0; i < shakeElements.length; i++) {
-      let text = shakeElements[i].textContent;
-      shakeElements[i].textContent = '';
-      for (let char of text) {
-        if (char === ' ') char = ' ';
-        let newSpan = document.createElement('span');
-        newSpan.className = a;
-        newSpan.textContent = char;
-        shakeElements[i].appendChild(newSpan);
+      for (let i = 0; i < shakeElements.length; i++) {
+        let text = shakeElements[i].textContent;
+        shakeElements[i].textContent = '';
+        for (let char of text) {
+          if (char === ' ') char = ' ';
+          let newSpan = document.createElement('span');
+          newSpan.className = a;
+          newSpan.textContent = char;
+          shakeElements[i].appendChild(newSpan);
+        }
       }
     }
-  }
-  const
-    generateDistance = (intensity) => {
-      if (isNaN(intensity)) intensity = 3;
-      return Math.floor(Math.random() * intensity - intensity / 2) * 0.5;
-    }
-  setInterval(() => {
-    document.querySelectorAll('.shake').forEach(elm => {
-      let intense = elm.parentNode.getAttribute('intensity');
-      elm.style = `transform: translate(${generateDistance(parseInt(intense))}px,
+    const
+      generateDistance = (intensity) => {
+        if (isNaN(intensity)) intensity = 3;
+        return Math.floor(Math.random() * intensity - intensity / 2) * 0.5;
+      }
+    setInterval(() => {
+      document.querySelectorAll('.shake').forEach(elm => {
+        let intense = elm.parentNode.getAttribute('intensity');
+        elm.style = `transform: translate(${generateDistance(parseInt(intense))}px,
   ${generateDistance(parseInt(intense))}px);`
-    });
-  }, 35);
+      });
+    }, 35);
 
-  //if (MSPFA.story.i !== 35015) {
-  // shakeText('shake');
-  // shakeText('wave');
-  // shakeText('textfx');
-  //} else {
-  // MSPFA.import("/js/?s=44554");
-  //}
+    //if (MSPFA.story.i !== 35015) {
+    // shakeText('shake');
+    // shakeText('wave');
+    // shakeText('textfx');
+    //} else {
+    // MSPFA.import("/js/?s=44554");
+    //}
 
-  window.onload = function () {
-    shakeText('shake');
-    shakeText('wave');
-    shakeText('textfx');
-  }
-</script>
+    window.onload = function() {
+      shakeText('shake');
+      shakeText('wave');
+      shakeText('textfx');
+    }
+  </script>
 
 </html>
