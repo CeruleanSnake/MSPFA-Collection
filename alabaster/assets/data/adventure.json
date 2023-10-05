@@ -612,7 +612,7 @@
         {
             "d": 1300778147000,
             "c": "[S] Skytroll",
-            "b": "<iframe scrolling=\"no\" class=\"major\" style=\"width:800px; height:500px; border: 0;\" src=\"./assets/flash/skytroll/index.html\"></iframe>\n\n[left][spoiler open=\"OPEN TECHNICAL DETAILS\" close=\"CLOSE TECHNICAL DETAILS\"]Skytroll is a 2011 Alabaster game which became lost media then got salvaged by Snake, Skye and Steelo.\nThe known bugs are:\n- Broken loading: The percentage stays stuck at 89%. Don't worry and click on the title.\n- Potential lag: On some browsers the game may be slower. You can try it through different interfaces for better results, Google Chrome is generally better.[/spoiler][/left]",
+            "b": "<div style=\"max-height: 500 px;\"class=\"iframe-container\"><iframe scrolling=\"no\" class=\"major\" style=\"width:800px; height:500px; border: 0;\" src=\"./assets/flash/skytroll/index.html\"></iframe></div>\n\n[left][spoiler open=\"OPEN TECHNICAL DETAILS\" close=\"CLOSE TECHNICAL DETAILS\"]Skytroll is a 2011 Alabaster game which became lost media then got salvaged by Snake, Skye and Steelo.\nThe known bugs are:\n- Broken loading: The percentage stays stuck at 89%. Don't worry and click on the title.\n- Potential lag: On some browsers the game may be slower. You can try it through different interfaces for better results, Google Chrome is generally better.[/spoiler][/left]",
             "n": [95]
         },
         {

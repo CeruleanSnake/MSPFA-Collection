@@ -1,120 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-<body style="margin: 0 auto;">
-    <style>
-        img {
-            position: absolute;
-            z-index: 9;
-            width: 552px;
-            margin-left: -4px;
-        }
-    </style>
-    <div id="container" style="z-index:1" tabindex="-1">
-    </div>
-    <script>
-        window.RufflePlayer = window.RufflePlayer || {};
-        window.RufflePlayer.config = {
-            "autoplay": "on",
-        };
-        window.addEventListener("load", (event) => {
-            const ruffle = window.RufflePlayer.newest();
-            const player = ruffle.createPlayer();
-            player.style.width = "100vw"; 
-            player.style.height = "100vh";
-            const container = document.getElementById("container");
-            container.appendChild(player);
-            player.load("./argh.swf");
-        });
 
-        // Gamepad handling
-        window.gamepadMapping = {
-            left_pressed: false,
-            right_pressed: false,
-            cry_pressed: false,
-            jump_pressed: false,
-        };
-
-        window.gamepadMapping = [
-            {
-                gamepad_input: [14],
-                flash_input: {
-                    key: 'ArrowLeft',
-                    code: 'ArrowLeft',
-                },
-                pressed: false,
-            },
-            {
-                gamepad_input: [15],
-                flash_input: {
-                    key: 'ArrowRight',
-                    code: 'ArrowRight',
-                },
-                pressed: false,
-            },
-            {
-                gamepad_input: [1, 2],
-                flash_input: {
-                    key: 'c',
-                    code: 'KeyC',
-                },
-                pressed: false,
-            },
-            {
-                gamepad_input: [0],
-                flash_input: {
-                    key: 'x',
-                    code: 'KeyX',
-                },
-                pressed: false,
-            },
-        ];
-
-        function pollGamePads() {
-            const gamepads = navigator.getGamepads();
-            if (!gamepads) {
-                return;
+    <body style="margin: 0 auto;">
+        <style>
+            img {
+                position: absolute;
+                z-index: 9;
+                width: 552px;
+                margin-left: -4px;
             }
+        </style>
+        <div id="container" style="z-index:1" tabindex="-1">
+        </div>
+        <script>
+            window.RufflePlayer = window.RufflePlayer || {};
+            window.RufflePlayer.config = {
+                "autoplay": true,
+                "splashScreen": false,
+            };
+            window.addEventListener("load", (event) => {
+                const ruffle = window.RufflePlayer.newest();
+                const player = ruffle.createPlayer();
+                player.style.width = "100vw";
+                player.style.height = "100vh";
+                const container = document.getElementById("container");
+                container.appendChild(player);
+                player.load("./argh.swf");
+            });
 
-            let updatedState = new Array(window.gamepadMapping.length).fill(false);
+            // Gamepad handling
+            window.gamepadMapping = {
+                left_pressed: false,
+                right_pressed: false,
+                cry_pressed: false,
+                jump_pressed: false,
+            };
 
-            // Merge all input in case of multiple gamepads.
-            for (const gamepad of gamepads) {
-                if (!gamepad) {
-                    continue;
+            window.gamepadMapping = [{
+                    gamepad_input: [14],
+                    flash_input: {
+                        key: 'ArrowLeft',
+                        code: 'ArrowLeft',
+                    },
+                    pressed: false,
+                },
+                {
+                    gamepad_input: [15],
+                    flash_input: {
+                        key: 'ArrowRight',
+                        code: 'ArrowRight',
+                    },
+                    pressed: false,
+                },
+                {
+                    gamepad_input: [1, 2],
+                    flash_input: {
+                        key: 'c',
+                        code: 'KeyC',
+                    },
+                    pressed: false,
+                },
+                {
+                    gamepad_input: [0],
+                    flash_input: {
+                        key: 'x',
+                        code: 'KeyX',
+                    },
+                    pressed: false,
+                },
+            ];
+
+            function pollGamePads() {
+                const gamepads = navigator.getGamepads();
+                if (!gamepads) {
+                    return;
                 }
 
-                for (let i = 0; i < updatedState.length; i++) {
-                    for (button_id of window.gamepadMapping[i].gamepad_input) {
-                        if (gamepad.buttons[button_id].pressed) {
-                            updatedState[i] = true;
+                let updatedState = new Array(window.gamepadMapping.length).fill(false);
+
+                // Merge all input in case of multiple gamepads.
+                for (const gamepad of gamepads) {
+                    if (!gamepad) {
+                        continue;
+                    }
+
+                    for (let i = 0; i < updatedState.length; i++) {
+                        for (button_id of window.gamepadMapping[i].gamepad_input) {
+                            if (gamepad.buttons[button_id].pressed) {
+                                updatedState[i] = true;
+                            }
+                        }
+                    }
+
+                    // Send the appropriate event to the window.
+                    for (let i = 0; i < updatedState.length; i++) {
+                        if (updatedState[i] != window.gamepadMapping[i].pressed) {
+                            let eventName;
+                            if (updatedState[i]) {
+                                eventName = "keydown";
+                            } else {
+                                eventName = "keyup";
+                            }
+                            window.dispatchEvent(new KeyboardEvent(eventName, {
+                                key: window.gamepadMapping[i].flash_input.key,
+                                code: window.gamepadMapping[i].flash_input.code,
+                                bubbles: true
+                            }));
+                            window.gamepadMapping[i].pressed = updatedState[i];
                         }
                     }
                 }
-
-                // Send the appropriate event to the window.
-                for (let i = 0; i < updatedState.length; i++) {
-                    if (updatedState[i] != window.gamepadMapping[i].pressed) {
-                        let eventName;
-                        if (updatedState[i]) {
-                            eventName = "keydown";
-                        } else {
-                            eventName = "keyup";
-                        }
-                        window.dispatchEvent(new KeyboardEvent(eventName, {
-                            key: window.gamepadMapping[i].flash_input.key,
-                            code: window.gamepadMapping[i].flash_input.code,
-                            bubbles: true
-                        }));
-                        window.gamepadMapping[i].pressed = updatedState[i];
-                    }
-                }
             }
-        }
 
-        if ("getGamepads" in navigator) {
-            setInterval(pollGamePads, 16);
-        }
-    </script>
-    <script src="../ruffle/ruffle.js" defer></script>
-</body>
+            if ("getGamepads" in navigator) {
+                setInterval(pollGamePads, 16);
+            }
+        </script>
+        <script src="../ruffle/ruffle.js" defer></script>
+    </body>
+
 </html>
