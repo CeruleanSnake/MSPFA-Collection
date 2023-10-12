@@ -18,6 +18,10 @@ footer a {
 	color: #000 !important;
 }
 
+.textimg img {
+	margin: 0px !important;
+}
+
 #map>img {
 	image-rendering: optimizeQuality;
 	width: 100%;

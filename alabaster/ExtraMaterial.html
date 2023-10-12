@@ -3,20 +3,32 @@
 
     <head>
         <meta charset="UTF-8">
-        <title>Alabaster</title>
+        <title>Extra Material</title>
 
         <link id="favicon" rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
         <link rel="stylesheet" href="./assets/data/css/mspfastyle.css">
-        <link rel="stylesheet" href="./assets/data/css/alabaster.css">
 
-        <script src="./assets/data/js/jquery-3.7.1.min.js"></script>
-        <script src="./assets/data/js/mspfaViewer.js"></script>
-        <script src="./assets/data/js/audioswitcher.js" defer></script>
-        <script src="./assets/data/js/titlepage.js" defer></script>
+        <script src="./assets/data/js/extramaterial.js"></script>
         <script src="./assets/data/js/navbar.js" defer></script>
 
-        <style id="adventureStyle"></style>
+        <style>
+            #main {
+                min-width: 940px !important;
+                width: fit-content !important;
+            }
+
+            .mspfa #slide img {
+                margin: 0 -25px;
+            }
+
+            .p1 #foot,
+            .p2 #foot,
+            .p3 #foot {
+                display: block !important;
+            }
+        </style>
+
     </head>
 
     <body cz-shortcut-listen="true" class="mspfa ">

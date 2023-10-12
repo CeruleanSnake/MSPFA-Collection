@@ -1,16 +1,9 @@
+.p1-3 #foot {
+    display: none !important;
+}
+
 .overlayimg img:not(:last-child) {
     position: absolute;
-}
-
-.iframe-container {
-    background: transparent url("../../../../tcmc/assets/img/loading.gif") no-repeat 50% center !important;
-    margin-top: -15px;
-}
-
-.p1 #foot,
-.p2 #foot,
-.plog #foot {
-    display: none !important;
 }
 
 .p1 #content img {
@@ -29,10 +22,6 @@
 
 .p1 .array {
     margin: 0 -25px;
-}
-
-.array img {
-    margin: 0 0px !important;
 }
 
 .array .major {

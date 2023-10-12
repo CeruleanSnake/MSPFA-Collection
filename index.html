@@ -6,15 +6,15 @@
     <title>MSPFA Portal</title>
     <link rel="icon" href="./tcmc/assets/img/favicon.ico">
 
-    <link rel="stylesheet" href="./tcmc/assets/data/css/textfx.css">
-    <link rel="stylesheet" href="./tcmc/assets/data/theme/pirate-alternia.css">
-
     <script src="./tcmc/assets/data/js/parallaxbg.js" defer></script>
 
-    <style>
+    <style id="mainstyle">
       body {
         margin: 0;
         font-family: 'Courier New', Courier, monospace;
+        background-image:
+          linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 8, 90, 0.863) 50%, rgba(124, 9, 53, 0.868) 80%, rgb(238, 143, 0) 100%),
+          url("./space.gif");
         width: 100vw;
         height: 100vh;
         display: flex;
@@ -77,6 +77,274 @@
       }
     </style>
 
+    <style id="textfx">
+      /* =============================================Text Effects */
+
+      ::root {
+        --twidth: 100%;
+      }
+
+      textarea[style*="twidth"] {
+        width: calc(var(--twidth) - 40px);
+        padding: 20px;
+      }
+
+      /* ========================== Shake, Wave, textfx*/
+      .shake,
+      .wave,
+      .textfx {
+        display: inline-block;
+      }
+
+      shake>span.shake {
+        animation: none !important;
+      }
+
+      wave,
+      shake.wave {
+        --amt: 1;
+      }
+
+      .wave .shake,
+      .wave {
+        animation: wave 2s linear infinite;
+      }
+
+      .wave .shake:nth-child(5n+3),
+      .wave:nth-child(5n+3) {
+        animation-delay: -0.4s;
+      }
+
+      .wave .shake:nth-child(5n+2),
+      .wave:nth-child(5n+2) {
+        animation-delay: -0.8s;
+      }
+
+      .wave .shake:nth-child(5n+1),
+      .wave:nth-child(5n+1) {
+        animation-delay: -1.2s;
+      }
+
+      .wave .shake:nth-child(5n),
+      .wave:nth-child(5n) {
+        animation-delay: -1.6s;
+      }
+
+      @keyframes wave {
+        from {
+          transform: rotate(0deg) translateX(calc(var(--amt) * 0.05ch)) rotate(0deg);
+        }
+
+        to {
+          transform: rotate(360deg) translateX(calc(var(--amt) * 0.05ch)) rotate(-360deg);
+        }
+      }
+
+      /* =================================== Squash*/
+      .squash {
+        --amt: 1;
+      }
+
+      .squash .textfx {
+        animation: squash 1s ease-in-out infinite alternate;
+      }
+
+      .squash .textfx:nth-child(8n+7) {
+        animation-delay: -1.75s;
+      }
+
+      .squash .textfx:nth-child(8n+6) {
+        animation-delay: -1.5s;
+      }
+
+      .squash .textfx:nth-child(8n+5) {
+        animation-delay: -1.25s;
+      }
+
+      .squash .textfx:nth-child(8n+4) {
+        animation-delay: -1s;
+      }
+
+      .squash .textfx:nth-child(8n+3) {
+        animation-delay: -0.75s;
+      }
+
+      .squash .textfx:nth-child(8n+2) {
+        animation-delay: -0.5s;
+      }
+
+      .squash .textfx:nth-child(8n+1) {
+        animation-delay: -0.25s;
+      }
+
+      .squash .textfx:nth-child(8n) {
+        animation-delay: 0s;
+      }
+
+
+      @keyframes squash {
+        from {
+          transform: scaleX(1) scaleY(calc(var(--amt) * 1.5));
+        }
+
+        to {
+          transform: scaleX(calc(var(--amt) * 1.2)) scaleY(1);
+        }
+      }
+
+      /* ============================= Vwave*/
+      .vwave {
+        --amt: 1;
+      }
+
+      .vwave .textfx {
+        animation: vwave 1s ease-in-out infinite alternate;
+      }
+
+      .vwave .textfx:nth-child(10n+9) {
+        animation-delay: -1s;
+      }
+
+      .vwave .textfx:nth-child(10n+8) {
+        animation-delay: -1.2s;
+      }
+
+      .vwave .textfx:nth-child(10n+7) {
+        animation-delay: -1.4s;
+      }
+
+      .vwave .textfx:nth-child(10n+6) {
+        animation-delay: -1.6s;
+      }
+
+      .vwave .textfx:nth-child(10n+5) {
+        animation-delay: -1.8s;
+      }
+
+      .vwave .textfx:nth-child(10n+3) {
+        animation-delay: -0.2s;
+      }
+
+      .vwave .textfx:nth-child(10n+2) {
+        animation-delay: -0.4s;
+      }
+
+      .vwave .textfx:nth-child(10n+1) {
+        animation-delay: -0.6s;
+      }
+
+      .vwave .textfx:nth-child(10n) {
+        animation-delay: -0.8s;
+      }
+
+      @keyframes vwave {
+        from {
+          transform: translateY(calc(var(--amt) * 0.2ch));
+        }
+
+        to {
+          transform: translateY(calc(var(--amt) * -0.2ch));
+        }
+      }
+
+      /* =============================== Rainbow*/
+      .rainbow {
+        --amt: 4;
+      }
+
+      .rainbow .textfx {
+        animation: rainbow calc(var(--amt) * 2s) linear infinite;
+      }
+
+      .rainbow .textfx:nth-child(10n+9) {
+        animation-delay: calc(var(--amt) * -2s);
+      }
+
+      .rainbow .textfx:nth-child(10n+8) {
+        animation-delay: calc(var(--amt) * -1.8s);
+      }
+
+      .rainbow .textfx:nth-child(10n+7) {
+        animation-delay: calc(var(--amt) * -1.6s);
+      }
+
+      .rainbow .textfx:nth-child(10n+6) {
+        animation-delay: calc(var(--amt) * -1.4s);
+      }
+
+      .rainbow .textfx:nth-child(10n+5) {
+        animation-delay: calc(var(--amt) * -1.2s);
+      }
+
+      .rainbow .textfx:nth-child(10n+4) {
+        animation-delay: calc(var(--amt) * -1s);
+      }
+
+      .rainbow .textfx:nth-child(10n+3) {
+        animation-delay: calc(var(--amt) * -0.8s);
+      }
+
+      .rainbow .textfx:nth-child(10n+2) {
+        animation-delay: calc(var(--amt) * -0.6s);
+      }
+
+      .rainbow .textfx:nth-child(10n+1) {
+        animation-delay: calc(var(--amt) * -0.4s);
+      }
+
+      .rainbow .textfx:nth-child(10n) {
+        animation-delay: calc(var(--amt) * -0.2s);
+      }
+
+      @keyframes rainbow {
+
+        to,
+        from {
+          color: violet;
+        }
+
+        5% {
+          color: red;
+        }
+
+        15% {
+          color: orange;
+        }
+
+        25% {
+          color: yellow;
+        }
+
+        35% {
+          color: lime;
+        }
+
+        45% {
+          color: green;
+        }
+
+        55% {
+          color: darkgreen;
+        }
+
+        65% {
+          color: blue;
+        }
+
+        75% {
+          color: blueviolet
+        }
+
+        85% {
+          color: indigo;
+        }
+
+        95% {
+          color: violet;
+        }
+      }
+    </style>
+
     <div id="overlay" data-amt="12"></div>
   </head>
 
@@ -113,7 +381,8 @@
     </div>
   </body>
   <footer>
-    <div id="details" style="padding-top: 6px;"><b><a href="https://github.com/FlaringK/mspfaViewer">MSPFA viewer</a>
+    <div id="details" style="padding-top: 6px;"><b><a href="https://github.com/FlaringK/mspfaViewer">MSPFA viewer
+          template</a>
         made
         by <a href="https://mspfa.com/user/?u=100855018780708322446">FlaringK</a> | 2023</b></div>
   </footer>

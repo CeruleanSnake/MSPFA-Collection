@@ -144,7 +144,7 @@ body {
         url("soul-memory/wave-back.png"),
         url("soul-memory/sky-cloud-2.png"),
         url("soul-memory/sky_cloud.png"),
-        linear-gradient(180deg, rgba(0, 0, 0, 0.779) 0%, rgb(48, 48, 48) 100%),
+        linear-gradient(180deg, rgba(0, 0, 0, 0.498) 0%, rgb(48, 48, 48) 100%),
         url("myutun-sea/background.bmp");
     background-position-x: 0, 0, 0, 0, 0, 1vw;
     background-position-y: bottom, bottom, center, center;
@@ -161,7 +161,7 @@ body {
 @media screen and (min-width: 1200px) {
     body {
         background-image:
-            linear-gradient(180deg, rgba(0, 0, 0, 0.779) 0%, rgb(48, 48, 48) 100%),
+            linear-gradient(180deg, rgba(0, 0, 0, 0.498) 0%, rgb(48, 48, 48) 100%),
             url("myutun-sea/background.gif");
         background-repeat: no-repeat, repeat;
         background-size: cover, 20vh;

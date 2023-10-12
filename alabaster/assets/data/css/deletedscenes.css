@@ -1,0 +1,21 @@
+.overlayimg img:not(:last-child) {
+    position: absolute;
+}
+
+.p88 #content img {
+    vertical-align: bottom;
+}
+
+.p88 #main {
+    min-width: 940px;
+    width: fit-content;
+}
+
+.p88 #slide,
+.p88 #content img {
+    max-width: 1000px;
+}
+
+.p88 .array {
+    margin: 0 -25px;
+}

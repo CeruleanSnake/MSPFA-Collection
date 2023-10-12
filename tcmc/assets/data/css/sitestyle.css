@@ -111,6 +111,14 @@ iframe,
     -moz-image-rendering: auto;
 }
 
+.plog #slide {
+    background-color: #eeeeeedb;
+}
+
+.plog #slide a {
+    color: black !important;
+}
+
 .major {
     color: #005682 !important;
     text-shadow: 0 2px #f4ab24 !important;

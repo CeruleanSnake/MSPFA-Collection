@@ -12,17 +12,31 @@
 	unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 
+/*=============================
+CUSTOM CSS */
+
+.iframe-container {
+	background: transparent url("../../../../tcmc/assets/img/loading.gif") no-repeat 50% center !important;
+	margin-top: -15px;
+}
+
+.p1 #foot,
+.p2 #foot,
+.p3 #foot,
+.plog #foot {
+	display: none !important;
+}
+
 .p1318 #main {
 	width: fit-content !important;
 }
 
-.array .major {
+.array img,
+.textimg img {
 	margin: auto !important;
 }
 
-.overlayimg img:not(:last-child) {
-	position: absolute;
-}
+/*================================================================================================================*/
 
 /* Custom SpoilButton code */
 .spoiler {
@@ -464,7 +478,7 @@ body {
 }
 
 .mspfa .story {
-	display: inline-block;
+	/*display: inline-block;*/
 	float: left;
 	width: 170px;
 	margin: 4.2px;
