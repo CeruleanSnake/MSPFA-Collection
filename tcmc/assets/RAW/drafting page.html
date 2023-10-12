@@ -18,7 +18,6 @@
 
         <link rel="stylesheet" href="../data/css/mspfastyle.css">
         <link rel="stylesheet" href="../data/css/sitestyle.css">
-        <link rel="stylesheet" href="../data/css/comments.css">
         <link rel="stylesheet" href="../data/css/textfx.css">
 
         <script src="../data/js/jquery-3.7.1.min.js"></script>
@@ -55,6 +54,46 @@
                 font-weight: bolder;
                 display: flex;
                 justify-content: center;
+            }
+
+            /* ====================================================
+            SPOILER button*/
+
+            .spoilerbutton {
+                display: inline-block;
+            }
+
+            .spoiler {
+                overflow: auto;
+                background-color: #EEE;
+            }
+
+            .spoiler>div {
+                line-height: 18.9px;
+                text-align: left;
+            }
+
+            .spoilerbutton[value="Show"]+.spoiler>div,
+            .spoilerbutton[value="Show Chat"]+.spoiler>div,
+            .spoilerbutton[value="Show Log"]+.spoiler>div,
+            .spoilerbutton[value="Show Journal"]+.spoiler>div {
+                display: none;
+            }
+
+            .spoilerbutton[value="Hide"]+.spoiler>div,
+            .spoilerbutton[value="Hide Chat"]+.spoiler>div,
+            .spoilerbutton[value="Hide Log"]+.spoiler>div,
+            .spoilerbutton[value="Hide Journal"]+.spoiler>div {
+                margin: 12px;
+                padding: 3px;
+            }
+
+            .spoiler-border {
+                padding: 1px;
+                border: 1px dashed gray;
+                padding-left: 32.5px;
+                padding-right: 32.5px;
+                align-content: center;
             }
         </style>
 
@@ -95,50 +134,105 @@
                         [If HTML5 does not play, open in Google Chrome or <a href="HowToBrowserSettings.html"
                             target="_blank">check your browser settings.</a>]
                     </span> -->
-                        <img src="../img/story/0002.gif" class="major">
-                        These are the three codes all Seagrifts live by.<br>
-                        Adventure waits for the worthy and the brave. Those who have what it takes to seek great
-                        treasure
-                        and battle fearsome foes!
-
+                        <img src="../img/story/0320.gif" class="major">
+                        <br><br>
+                        <div class="spoiler-border">
+                            <input class="spoilerbutton" type="button" value="Show Chat"
+                                onclick="this.value=this.value=='Show Chat'?'Hide Chat':'Show Chat';">
+                            <div class="spoiler" style="border: 0px !important;">
+                                <div>
+                                    <span style="color: #005682">
+                                        SNAKE: I'm writing a captain'ss log.<br>
+                                        SNAKE: I figured we could keep track of our adventure.<br>
+                                    </span>
+                                    <span style="color: #a1a100">
+                                        HYDRA: OOOOOOH!!!<br>
+                                        HYDRA: L3T M3 S33!!!<br>
+                                    </span>
+                                    <span style="color: #005682">
+                                        SNAKE: Damnit, a little sspace would be nice!<br>
+                                        SNAKE: You're knocking off my glassess.<br>
+                                    </span><span style="color: #a1a100">
+                                        HYDRA: YOU STIIILL LOOK LIIIK3 A DORK WIIITH THOS3 ON<br>
+                                    </span>
+                                    <span style="color: #005682">
+                                        SNAKE: Well I sstill can't ssee too well without them...<br>
+                                        SNAKE: At leasst not read very well...<br>
+                                    </span>
+                                    <span style="color: #a1a100">
+                                        HYDRA: PFFFT WHAT3V3R<br>
+                                        HYDRA: H3Y WHAT DID YA WRIIIT3 ABOUT?<br>
+                                        HYDRA: OHH DIIID YOU WRIIIT3 ABOUT HOW DIIIDIII IIS A HUG3 N3RD?<br>
+                                    </span>
+                                    <span style="color: #005682">
+                                        SNAKE: No- wait, Didi?<br>
+                                    </span>
+                                    <span style="color: #a1a100">
+                                        HYDRA: DIIIUNNA, STUPIIID<br>
+                                    </span>
+                                    <span style="color: #005682">
+                                        SNAKE: Oh.<br>
+                                    </span>
+                                    <span style="color: #a1a100">
+                                        HYDRA: OH DIIID YOU WRIIIT3 ABOUT OUR MAK3OUTS?<br>
+                                    </span>
+                                    <span style="color: #005682">
+                                        SNAKE: No?<br>
+                                    </span>
+                                    <span style="color: #a1a100">
+                                        HYDRA: WHAT? NOT EV3N TH3 TIM3 W3 GOT NAKE-<br>
+                                    </span>
+                                    <span style="color: #005682">
+                                        SNAKE: Damnit, I'm not turning the log into ssome over-poissed ssmut sstory!<br>
+                                        SNAKE: More than enough highblod sseagriftss do that...<br>
+                                    </span>
+                                    <span style="color: #a1a100">
+                                        HYDRA: AWWWWWW...<br>
+                                        HYDRA: I WANT3D FUTUR3 G3N3RATIIIONS TO KNOW HOW FUCKIIING AW3SOM3 III
+                                        WAS...<br>
+                                        HYDRA: IN BOTH S3NS3S<br>
+                                    </span>
+                                    <span style="color: #005682">
+                                        SNAKE: Fine...<br>
+                                        SNAKE: I'll write about how great your ass iss or ssomething next time.<br>
+                                    </span>
+                                    <span style="color: #a1a100">
+                                        HYDRA: H3LL Y3AH!!!<br>
+                                    </span>
+                                    <span style="color: #005682">
+                                        SNAKE: Anyway... what did you want?<br>
+                                    </span>
+                                    <span style="color: #a1a100">
+                                        HYDRA: OH Y3AH, III FORGOT<br>
+                                        HYDRA: HOT STUFF WANT3D M3 TO T3LL YOU SOM3THING<br>
+                                    </span>
+                                    <span style="color: #005682">
+                                        SNAKE: Uh... Could you narrow down exactly who that iss?<br>
+                                    </span>
+                                    <span style="color: #a1a100">
+                                        HYDRA: UH... GOVANI, NOT FREYA<br>
+                                        HYDRA: H3 WANT3D TO T3LL YOU W3 SAIIIL3D OFF COURS3<br>
+                                    </span>
+                                    <span style="color: #005682">
+                                        SNAKE: Wait, that Can't be right!
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
-                    <div id="foot">
-                        <div id="links"></div>
-                        <span id="prevlinks">
-                            <span class="footlinks">
-                            </span>
+                </div>
+
+                <div id="foot">
+                    <div id="links"></div>
+                    <span id="prevlinks">
+                        <span class="footlinks">
+                            <br><br>
                         </span>
-                    </div>
-                    <div id="tab">
-                        <div id="button">
-                            !!Warning, Author Commentary may contain spoilers!!
-                            <br><br>
-                            <button class="tablinks" id="authorbtn">AUTHOR
-                                COMMENTARY</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <button class="tablinks" id="userbtn">USER COMMENTS</button>
-                        </div>
-                        <br>
-                        <div id="author" class="tabcontent">
-                            Anyway, enjoy reading! I've enjoyed drawing it!<br><br>
-
-                            -TheCeruleanSnake
-                        </div>
-                        <div id="user" class="tabcontent">
-                            Comments are occasionally posted on pages in MSPFA by users. These are
-                            archived from the original pages as-is. Oldest comment first.
-                            <br><br>
-                            <table>
-                                <td><span class="commentimg"><img src=\"../img/pfp/soupsock.jpg\"> </span> </td> <td><a
-                                            class=\"username\"
-                                            href=\"https://mspfa.com/user/?u=106419005063414992880\">soupsock </a> <span
-                                            class="commenttimestamp">Feb 09 2022 20:44:36</span><br><span
-                                        class="commenttxt">Text</span></td>
-                            </table>
-                        </div>
-                    </div>
+                    </span>
                 </div>
             </div>
+        </div>
         </div>
         <div id="cheatsheet">
             <div id="chtshtcontents">
@@ -163,7 +257,6 @@
                 <br>
                 <span class="chtshth2">COLOURS</span>
                 <br>
-                [spoiler open="Show Colours" close="Hide Colours"]
                 <br>
                 <span style="color: #005682;">
                     SNAKE: Text
@@ -211,7 +304,6 @@
                     SPIDER: Text
                 </span>
                 <br>
-                [/spoiler]
             </div>
         </div>
         <footer>
@@ -227,25 +319,6 @@
         <div id="prelaod" style="display: none;"></div>
     </body>
     <script>
-        function opentab(evt, spoilertab) {
-            var i, tabcontent, tablinks;
-
-            tabcontent = document.getElementsByClassName("tabcontent");
-            for (i = 0; i < tabcontent.length; i++) {
-                tabcontent[i].style.display = "none";
-            }
-
-            tablinks = document.getElementsByClassName("tablinks");
-            for (i = 0; i < tablinks.length; i++) {
-                tablinks[i].className = tablinks[i].className.replace(" active", "");
-            }
-
-            document.getElementById(spoilertab).style.display = "block";
-            evt.currentTarget.className += " active";
-
-            document.getElementsByTagName('button')[0].addEventListener('click', e => e.preventDefault());
-        }
-
         console.log("Text Effects by seymour schlong - https://mspfa.com/?s=35015");
         const shakeText = (a) => {
             let shakeElements = document.querySelectorAll(a);
