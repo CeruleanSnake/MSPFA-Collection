@@ -25,8 +25,11 @@ MSPFA.slide.push(() => {
     if ([287, 288, 289, 290].includes(parseInt(params.get("p")))) {
       document.getElementById("sitetheme").innerHTML = "<link rel='stylesheet' href='./assets/data/theme/soul-memory.css'>";
     }
-    if ([314, 315, 316, 317, 318, 319, 320].includes(parseInt(params.get("p")))) {
+    if ([314, 315, 316, 317, 318, 319, 320, 321].includes(parseInt(params.get("p")))) {
       document.getElementById("sitetheme").innerHTML = "<link rel='stylesheet' href='./assets/data/theme/pirate-myutuna.css'>";
+    }
+    if ([322, 323].includes(parseInt(params.get("p")))) {
+      document.getElementById("sitetheme").innerHTML = "<link rel='stylesheet' href='./assets/data/theme/kraken.css'>";
     }
   });
 });
