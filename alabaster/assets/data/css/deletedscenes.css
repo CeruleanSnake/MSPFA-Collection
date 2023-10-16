@@ -11,8 +11,7 @@
     width: fit-content;
 }
 
-.p88 #slide,
-.p88 #content img {
+.p88 #slide, .p88 #content img {
     max-width: 1000px;
 }
 
