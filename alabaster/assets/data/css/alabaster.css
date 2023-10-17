@@ -1,3 +1,11 @@
+#mirrorlinks {
+    color: rgb(127, 127, 127) !important;
+}
+
+#mirrorlinks a {
+    color: black !important;
+}
+
 .p1-3 #foot {
     display: none !important;
 }
