@@ -36,11 +36,11 @@ nav .dropdown-content {
 }
 
 #nav a:hover {
-    color: #f4ab24 !important;
+    color: #d3d3d3 !important;
 }
 
 #nav {
-    color: #f4ab24;
+    color: #5a5b5f;
 }
 
 #main {
@@ -94,20 +94,20 @@ nav .dropdown-content {
 #tab button {
     background-color: #095a83;
     border: solid #05334a;
-    color: #6ebfe8;
-    text-shadow: 1px 1px #05334a;
+    color: #a4adb1;
+    text-shadow: 1px 1px #6d6e6e;
 }
 
 #tab button:hover {
-    color: #cc7e00;
-    text-shadow: 1px 1px #583e01;
+    color: #656564;
+    text-shadow: 1px 1px #393939;
 }
 
 #tab button.active {
     background-color: rgb(255, 204, 0);
-    color: #cc7e00;
+    color: #656564;
     border: solid #ae6b00;
-    text-shadow: 1px 1px #583e01;
+    text-shadow: 1px 1px #393939;
 }
 
 #user,
