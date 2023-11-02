@@ -4,12 +4,12 @@ This is a consolidated collective of mine and others works (with permission) on 
 This was thrown together using FlaringK's [MSPFA Viewer](https://github.com/FlaringK/mspfaViewer) and many scripts from MSPFA.
 
 ## Viewing The Archive
-To view the archive you'll need to install [node.js](https://nodejs.org/en) and enter this in your windows command prompt (I don't use Linux and don't know the Linux equivalent) to intall the http server module needed.
+To view the archive you'll need to Run the archive in a server setup due to browser limitations surrounding .json files. First, install [node.js](https://nodejs.org/en) and enter this in your windows command prompt (I don't use Linux and don't know the Linux equivalent) to install the http server module needed for the local server.
 ```
 npm install -g http-server
 ```
 
-Once install, Just run the .bat file named "MSPFA Portal" and it will auto launche a local server and open up a browser window.
+Once install, Just run the .bat file named "MSPFA Portal" and it will auto launch a local server and open up a browser window.
 
 ## Works Included
 
