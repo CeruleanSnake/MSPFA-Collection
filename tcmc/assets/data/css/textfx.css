@@ -220,46 +220,173 @@ shake.wave {
 
     to,
     from {
-        color: violet;
+        color: #77003c;
     }
 
     5% {
-        color: red;
+        color: #a10000;
     }
 
     15% {
-        color: orange;
+        color: #a15000;
     }
 
     25% {
-        color: yellow;
+        color: #a1a100;
     }
 
     35% {
-        color: lime;
+        color: #416600;
     }
 
     45% {
-        color: green;
+        color: #008141;
     }
 
     55% {
-        color: darkgreen;
+        color: #008282;
     }
 
     65% {
-        color: blue;
+        color: #005682;
     }
 
     75% {
-        color: blueviolet
+        color: #0022cf
     }
 
     85% {
-        color: indigo;
+        color: #4200b0;
     }
 
     95% {
-        color: violet;
+        color: #6a006a;
+    }
+}
+
+
+/* =============================== Lord English*/
+.englishtext .textfx {
+    animation-duration: 80ms;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.englishtext .textfx:nth-child(7n) {
+    animation-name: colourG;
+}
+
+.englishtext .textfx:nth-child(7n+6) {
+    animation-name: colourF;
+}
+
+.englishtext .textfx:nth-child(7n+5) {
+    animation-name: colourE;
+}
+
+.englishtext .textfx:nth-child(7n+4) {
+    animation-name: colourD;
+}
+
+.englishtext .textfx:nth-child(7n+3) {
+    animation-name: colourC;
+}
+
+.englishtext .textfx:nth-child(7n+2) {
+    animation-name: colourB;
+}
+
+.englishtext .textfx:nth-child(7n+1) {
+    animation-name: colourA;
+}
+
+@keyframes colourA {
+
+    0%,
+    49% {
+        color: #ffea00;
+    }
+
+    50%,
+    100% {
+        color: #df0000;
+    }
+}
+
+@keyframes colourB {
+
+    0%,
+    49% {
+        color: #4040fd;
+    }
+
+    50%,
+    100% {
+        color: #a357ff;
+    }
+}
+
+@keyframes colourC {
+
+    0%,
+    49% {
+        color: #df0000;
+    }
+
+    50%,
+    100% {
+        color: #ffea00;
+    }
+}
+
+@keyframes colourD {
+
+    0%,
+    49% {
+        color: #a357ff;
+    }
+
+    50%,
+    100% {
+        color: #4040fd;
+    }
+}
+
+@keyframes colourE {
+
+    0%,
+    49% {
+        color: #ff6000;
+    }
+
+    50%,
+    100% {
+        color: #950015;
+    }
+}
+
+@keyframes colourF {
+
+    0%,
+    49% {
+        color: #008140;
+    }
+
+    50%,
+    100% {
+        color: #ffea00;
+    }
+}
+
+@keyframes colourG {
+
+    0%,
+    49% {
+        color: #950015;
+    }
+
+    50%,
+    100% {
+        color: #ff6000;
     }
 }
