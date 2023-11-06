@@ -233,9 +233,16 @@ iframe,
     transform: scaleX(-1);
 }
 
+#infobox > .spoiler.closed:first-child,
 #info>span>.spoiler.open {
     background-color: #eeeeeeda;
     border: 4px solid #064564;
+}
+
+#info>span>.spoiler>div:first-child>input {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 1ex;
 }
 
 #commentary-wrapper {
@@ -244,19 +251,26 @@ iframe,
 
 /*Latest pages always open*/
 
+#infobox > .spoiler.closed:first-child > div:first-child,
 #latestpages .spoiler>div:first-child {
     display: none;
 }
 
+#infobox > .spoiler.closed:first-child > div:last-child,
 #latestpages .spoiler>div:last-child {
     display: block;
+    image-rendering: auto !important;
 }
 
 #latestpages>span>.spoiler.closed {
-    max-height: 150px;
+    max-height: 160px;
     overflow-x: hidden;
     overflow-y: auto;
     padding: 10px;
+    background: #eeeeee;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.518);
+    margin-bottom: -15px;
+
 }
 
 #commentary-wrapper img {
@@ -267,6 +281,46 @@ table.container.alt2,
 table.container.alt2 td {
     border: 5px solid #064564;
 }
+
+/*NEWS BOX*/
+/* =========================================== */
+#adventureNews {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.518);
+    margin-top: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 265px;
+    max-height: 265px;
+    background: #eeeeee;
+    padding: 10px;
+}
+
+#adventureNews .newsPost {
+    text-align: center;
+}
+
+#adventureNews .newsheadder {
+    font-size: x-large;
+    margin: -30px auto -20px auto;
+}
+
+#adventureNews .newshead {
+    font-size: large;
+}
+
+#adventureNews .newsdate {
+    font-size: x-small;
+    font-style: italic;
+    font-weight: normal;
+    margin-top: -20px;
+    margin-bottom: -10px;
+}
+
+#adventureNews .newscontent {
+    margin-top: -25px;
+}
+
+
 
 /*SCROLL BAR*/
 /* =========================================== */

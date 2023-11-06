@@ -48,7 +48,6 @@ nav .dropdown-content {
 
 #slide {
     Border: 8px solid #a10000;
-    background-color: #eeeeee
 }
 
 #flashytitle,
@@ -56,8 +55,14 @@ nav .dropdown-content {
     background-image: url("myutun-sea/header.png");
 }
 
+#info>span>.spoiler>div:first-child>input,
+#infobox > .spoiler.closed:first-child,
 #info>span>.spoiler.open {
-    background-color: #eeeeeeda;
+    border: 4px solid #a10000;
+}
+
+#latestpages>span>.spoiler.closed,
+#adventureNews {
     border: 4px solid #a10000;
 }
 

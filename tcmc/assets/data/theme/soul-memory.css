@@ -55,11 +55,16 @@ nav .dropdown-content {
 
 #slide {
     Border: 8px solid #000000;
-    background-color: #eeeeee
 }
 
+#info>span>.spoiler>div:first-child>input,
+#infobox > .spoiler.closed:first-child,
 #info>span>.spoiler.open {
-    background-color: #eeeeeeda;
+    border: 4px solid #000000;
+}
+
+#latestpages>span>.spoiler.closed,
+#adventureNews {
     border: 4px solid #000000;
 }
 
