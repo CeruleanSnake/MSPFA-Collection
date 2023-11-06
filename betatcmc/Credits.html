@@ -1,118 +1,130 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
-<head>
-    <!DOCTYPE html>
-    <html lang="en">
-    <meta charset="utf-8" />
+    <head>
+        <meta charset="UTF-8">
+        <title>MSPFA viewer</title>
 
-    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+        <link id="favicon" rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
-    <title>
-        The Cerulean Motley Crew
-    </title>
+        <link rel="stylesheet" href="./assets/data/css/mspfastyle.css">
+        <link rel="stylesheet" href="./assets/data/css/comments.css">
 
-    <link rel="stylesheet" type="text/css" href="data/myutun-sea.css" />
-</head>
+        <script src="./assets/data/js/jquery-3.7.1.min.js"></script>
+        <script src="./assets/data/js/mspfaViewer.js"></script>
+        <script src="./assets/data/js/tabs.js" defer></script>
+    </head>
 
-<body>
-    <header>
-        <div class="nav">
-            <script type="text/javascript" src="data/navbar.js" />
-            </script>
+    <body cz-shortcut-listen="true" class="mspfa ">
+
+        <div id="main">
+            <header>
+                <div class="umcontainer">
+                    <a href="/">
+                        <div class="mspfalogo"></div>
+                    </a>
+                </div>
+                <nav>
+                    <a href="../index.html">Home</a>
+                    <div class="heart"></div>
+                    <a href="https://mspfa.com/?s=38151&p=1">MSPFA</a>
+                    <div class="heart"></div>
+                    <a href="./The-Cerulean-Motley-Crew.html?p=log" id="log">Log</a>
+                </nav>
+            </header>
+
+            <div id="container">
+                <div id="slide">
+                    <div id="command"></div>
+                    <div id="content">
+                        <img src="./assets/img/Emotes/0079a.png" style="max-width: 25%;"
+                            title="I'm not reading this crap!"><br><br>
+                        <div style="font-size: 20px">
+                            =========<br>
+                            <span style="color: #005682;">
+                                CREDITS
+                                <br>
+                            </span>
+                            =========<br><br>
+                        </div>
+                        <span style="color: #005682;">
+                            MAIN STORY, CHARACTER CONCEPTS, ART & COMPOSER
+                        </span>
+                        <BR><a href="https://mspfa.com/user/?u=101626213389903517817">TheCeruleanSnak3</a><br><br>
+                        <span style="color: #005682;">
+                            CO-WRITER
+                        </span><BR>
+                        Yaridovitch23<BR><BR>
+                        <span style="color: #005682;">
+                            PANEL SUGGESTIONS<BR>
+                        </span>
+                        YOU!!!<BR>
+                        <div style="font-size: 20px">
+                            <br><br>==========<BR>
+                            <span style="color: #005682;">
+                                GUEST CHARACTERS
+                                <br>
+                            </span>
+                            ==========<BR><BR>
+                        </div>
+                        <span style="color: #005682;">
+                            <a href="./The-Cerulean-Motley-Crew.html?p=54">PAGE 54</a><BR>
+                        </span>
+                        Bougea Occide - Yaridovitch23<br><br>
+                        <span style="color: #005682;">
+                            <a href="./The-Cerulean-Motley-Crew.html?p=103">PAGE 103</a><BR>
+                        </span>
+                        Protus Polybo - Yaridovitch23<br><br>
+                        <span style="color: #005682;">
+                            <a href="./The-Cerulean-Motley-Crew.html?p=131">PAGE 131</a><BR>
+                        </span>
+                        Satsue Neodym - Yaridovitch23<br>
+                        Chabyr Scylah - Yaridovitch23<br>
+                        Issahn Lenash - ka_rmis<br><br>
+                        <span style="color: #005682;">
+                            <a href="./The-Cerulean-Motley-Crew.html?p=178">PAGE 178</a><BR>
+                        </span>
+                        Bungerclock - <a href="https://mspfa.com/?s=34483&p=1" target="_blank">Breach</a><br>
+                        Omsk Bird - <a href="https://mspfa.com/?s=37055&p=1" target="_blank">World Revoked</a><br>
+                        Pal3000 - <a href="https://mspfa.com/?s=20617&p=1" target="_blank">CorpSet</a><br>
+                        Deime Lyranell - <a href="https://mspfa.com/?s=21688&p=1" target="_blank">The Tapestry</a><br>
+                        Minami Rischa - <a href="https://mspfa.com/?s=21746&p=1" target="_blank">I'm Good, I'm
+                            Gone</a><br>
+                        Teniad Zhakay - <a href="https://mspfa.com/?s=40546&p=1" target="_blank">Wake Up,
+                            Teniad!</a><br>
+
+                        </span>
+                        <div style="font-size: 20px">
+                            <br><br>==========<BR>
+                            <span style="color: #005682;">
+                                SPECIAL THANKS
+                                <BR>
+                            </span>
+                            ==========<BR><BR>
+                        </div>
+                        YOU for reading my adventure!<br><br>
+                    </div>
+                </div>
+                <div id="tab">
+                    <div id="button"></div>
+                    <br>
+                    <div id="user" class="tabcontent"></div>
+                </div>
+            </div>
+            <footer>
+                <div class="umcontainer">
+                    <div class="mspfalogo"></div>
+                </div>
+                <div id="details" style="padding-bottom: 6px;"><b><a
+                            href="https: //github.com/FlaringK/mspfaViewer">MSPFA
+                            viewer template</a> made by <a
+                            href="https://mspfa.com/user/?u=100855018780708322446">FlaringK
+                        </a> | Comic by <a href="https://mspfa.com/user/?u=101626213389903517817"> Cerulean Snake</a>
+                        2020</b>
+                </div>
+            </footer>
         </div>
-    </header>
-
-    <div class="slide">
-
-        <div class="content">
-
-            <div class="graphics">
-                <img src="img/Emotes/0079a.png" style="max-width: 25%;" title="I'm not reading this crap!">
-            </div>
-
-            <div class="text">
-                <div style="font-size: 20px">
-                    =========<br>
-                    <span style="color: #005682;">
-                        <img src="img/logo small.png">
-                        CREDITS
-                        <img src="img/logo small.png">
-                        <br>
-                    </span>
-                    =========<br><br>
-                </div>
-                <span style="color: #005682;">
-                    MAIN STORY, CHARACTER CONCEPTS, ART & COMPOSER
-                </span>
-                <BR><a href="https://mspfa.com/user/?u=101626213389903517817">TheCeruleanSnak3</a><br><br>
-                <span style="color: #005682;">
-                    CO-WRITER
-                </span><BR>
-                Yaridovitch23<BR><BR>
-                <span style="color: #005682;">
-                    PANEL SUGGESTIONS<BR>
-                </span>
-                YOU!!!<BR>
-                <div style="font-size: 20px">
-                    <br><br>==========<BR>
-                    <span style="color: #005682;">
-                        <img src="img/logo small.png">
-                        GUEST CHARACTERS
-                        <img src="img/logo small.png">
-                        <br>
-                    </span>
-                    ==========<BR><BR>
-                </div>
-                <span style="color: #005682;">
-                    <a href="story/0054.html">PAGE 54</a><BR>
-                </span>
-                Bougea Occide - Yaridovitch23<br><br>
-                <span style="color: #005682;">
-                    <a href="story/0103.html">PAGE 103</a><BR>
-                </span>
-                Protus Polybo - Yaridovitch23<br><br>
-                <span style="color: #005682;">
-                    <a href="story/0131.html">PAGE 131</a><BR>
-                </span>
-                Satsue Neodym - Yaridovitch23<br>
-                Chabyr Scylah - Yaridovitch23<br>
-                Issahn Lenash - ka_rmis<br><br>
-                <span style="color: #005682;">
-                    <a href="story/0178.html">PAGE 178</a><BR>
-                </span>
-                Bungerclock - <a href="https://mspfa.com/?s=34483&p=1" target="_blank">Breach</a><br>
-                Omsk Bird - <a href="https://mspfa.com/?s=37055&p=1" target="_blank">World Revoked</a><br>
-                Pal3000 - <a href="https://mspfa.com/?s=20617&p=1" target="_blank">CorpSet</a><br>
-                Deime Lyranell - <a href="https://mspfa.com/?s=21688&p=1" target="_blank">The Tapestry</a><br>
-                Minami Rischa - <a href="https://mspfa.com/?s=21746&p=1" target="_blank">I'm Good, I'm Gone</a><br>
-                Teniad Zhakay - <a href="https://mspfa.com/?s=40546&p=1" target="_blank">Wake Up, Teniad!</a><br>
-
-                </span>
-                <div style="font-size: 20px">
-                    <br><br>==========<BR>
-                    <span style="color: #005682;">
-                        <img src="img/logo small.png">
-                        SPECIAL THANKS
-                        <img src="img/logo small.png">
-                        <BR>
-                    </span>
-                    ==========<BR><BR>
-                </div>
-                YOU for reading my adventure!<br><br>
-            </div>
-
-            <div class="nextPage">
-            </div>
-
-            <div class="pageNo">
-            </div>
-
-        </div>
-
-    </div>
-
-</body>
+        <div id="prelaod" style="display: none;"></div>
+    </body>
 
 </html>

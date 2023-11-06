@@ -142,8 +142,8 @@ body {
         url("./kraken/front-cloud.png"),
         url("./kraken/topcloud2.png"),
         url("./kraken/topcloudclone.png"),
-        url("./kraken/Rain.gif"),
         url("./kraken/wave-front.png"),
+        url("./kraken/Rain.gif"),
         url("./kraken/back-cloud.png"),
         url("./kraken/topcloud.png"),
         linear-gradient(180deg, rgba(38, 35, 59, 0.95) 25%, rgb(61, 64, 79) 80%);
@@ -151,8 +151,8 @@ body {
         repeat-x,
         repeat-x,
         repeat-x,
-        repeat,
         repeat-x,
+        repeat,
         repeat-x,
         repeat-x,
         no-repeat;
@@ -160,8 +160,8 @@ body {
         center,
         left 10vh,
         top,
-        top,
         bottom,
+        top,
         center,
         top,
         top;
@@ -172,8 +172,8 @@ body {
         80vh,
         80vh,
         80vh,
-        8%,
         80vh,
+        8%,
         80vh,
         80vh,
         cover;

@@ -9,12 +9,10 @@
 .iframe-container {
 	background: transparent url("../../img/loading.gif") no-repeat 50% center !important;
 	image-rendering: crisp-edges;
-	width: 100%;
 	position: relative;
 	overflow: hidden;
 	padding-bottom: 20px;
 	margin: 0 -25px;
-	width: 650px;
 }
 
 #details,
@@ -22,6 +20,10 @@
 	color: #fff;
 	margin: 0 auto;
 	text-align: center;
+}
+
+.p1 #prevlinks {
+	display: none !important;
 }
 
 td img {

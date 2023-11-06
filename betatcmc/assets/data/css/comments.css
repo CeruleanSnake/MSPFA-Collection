@@ -1,6 +1,10 @@
 /* ==================================================== 
 Comments Section*/
 
+.spoilerbutton {
+    display: none;
+}
+
 table {
     text-align: left;
     color: black;
@@ -75,6 +79,7 @@ table {
 .username {
     font-weight: bold;
     font-size: 16px;
+    padding-right: 10px;
 }
 
 .commenttimestamp {
@@ -82,7 +87,7 @@ table {
     font-size: 12px;
     font-family: courier;
     color: #8c8c8c;
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 .tabcontent {
