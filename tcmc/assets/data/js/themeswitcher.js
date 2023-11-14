@@ -28,7 +28,7 @@ MSPFA.slide.push(() => {
     if ([314, 315, 316, 317, 318, 319, 320, 321].includes(parseInt(params.get("p")))) {
       document.getElementById("sitetheme").innerHTML = "<link rel='stylesheet' href='./assets/data/theme/pirate-myutuna.css'>";
     }
-    if ([322, 323, 324, 325, 326, 327].includes(parseInt(params.get("p")))) {
+    if ([322, 323, 324, 325, 326, 327, 331, 332].includes(parseInt(params.get("p")))) {
       document.getElementById("sitetheme").innerHTML = "<link rel='stylesheet' href='./assets/data/theme/kraken.css'>";
     }
   });

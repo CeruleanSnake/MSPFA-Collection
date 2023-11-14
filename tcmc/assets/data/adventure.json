@@ -1,13 +1,13 @@
 {
 	"i": 38151,
 	"d": 1604339112313,
-	"u": 1694883613765,
+	"u": 1698902705683,
 	"c": "101626213389903517817",
 	"e": [
 		"101626213389903517817"
 	],
 	"n": "The Cerulean Motley Crew",
-	"r": "A daring adventure of pirates, booze and a whole lotta booty!\n\nA motley crew of outcasts become fugitives as they sail across the seas and skies of a strange alien planet, searching for the fabled treasure of Alternia's most infamous Pirate.\n\nWill they have the glory of grand pirate booty? Or will the Empire's bounty hunter cut them down in their prime and claim the treasure for their own?\n\nKick back, pour a tankard of grog and set sail!\n\n\n===============================================\nRated 15+ Due to violence, coarse language, drug references, nudity, adult themes and sexual references.\n\nEpilepsy warning.\n\nSome commands are user suggested. \nFeel free to leave command suggestions in the comments.\n===============================================",
+	"r": "A daring adventure of pirates, booze and a whole lotta booty!\n\nSet during the great lowblood uprising on a neighbouring planet, a motley crew of outcasts become fugitives as they sail across the seas, searching for the fabled treasure of Alternia's most infamous Pirate.\n\n===============================================\nRated 15+ Due to violence, coarse language, drug references, mild nudity, adult themes and sexual references.\n\nEpilepsy warning.\n\nSome commands are user suggested. \nFeel free to leave command suggestions in the comments.\n===============================================<div id=\"overlay\" data-amt=\"12\"></div>\n<div id=\"Config\" style=\"display:none;\">\n  <div id=\"NewsPost_Vars\">\n    |dir{file.garden/X65Xhea95myVymaS/MSPFA%20Collection/tcmc/assets/data/news/}<br>\n    |fileName{tcmcnews}<br>\n    |latestPostID{1}\n  </div>\n</div>",
 	"h": 2,
 	"t": [
 		"adventure",
@@ -27,8 +27,7 @@
 		"snake",
 		"homestuck",
 		"booze",
-		"booty",
-		"readthisshit"
+		"booty"
 	],
 	"a": "CeruleanSnake",
 	"w": "https://twitter.com/CeruleanSnake",
@@ -37,8 +36,8 @@
 	"x": "https://linkh.at/tcmcbanner",
 	"b": 1,
 	"y": "/* Commentary */\n@import url(\"/css/?s=34652\");\n\n/* Toggle Animated Background */\n@import url(\"/css/?s=48799\");\n\n/* textfx */\n@import url(\"https://file.garden/X65Xhea95myVymaS/MSPFA%20Collection/tcmc/assets/data/css/textfx.css\");\n\n/* MAIN STYLE */\n@import url(\"https://file.garden/X65Xhea95myVymaS/MSPFA%20Collection/tcmc/assets/data/css/sitestyle.css\");\n\n/* NAV RENAMING */\n@import url('https://file.garden/X65Xhea95myVymaS/MSPFA%20Collection/tcmc/assets/data/css/navrename.css');\n\n\n\n/* THEME SWITCHER */\n.p1 {\n  --theme: '@import url(\"https://file.garden/X65Xhea95myVymaS/MSPFA%20Collection/tcmc/assets/data/theme/myutun-sea.css\");';}\n\n.p2-15,.p328-345 {\n  --theme: '@import url('https://file.garden/X65Xhea95myVymaS/MSPFA%20Collection/tcmc/assets/data/theme/alternia.css');';}\n\n.p16-119,.p142-146,.p204-207 {\n  --theme: '@import url('https://file.garden/X65Xhea95myVymaS/MSPFA%20Collection/tcmc/assets/data/theme/space.css');';}\n\n.p120-126 {\n  --theme: '@import url('https://file.garden/X65Xhea95myVymaS/MSPFA%20Collection/tcmc/assets/data/theme/pirate-alternia.css');';}\n\n.p127-141,.p147-170,.p208-255 {\n  --theme: '@import url('https://file.garden/X65Xhea95myVymaS/MSPFA%20Collection/tcmc/assets/data/theme/beach.css');';}\n\n.p171-175,.p256-286 {\n  --theme: '@import url('https://file.garden/X65Xhea95myVymaS/MSPFA%20Collection/tcmc/assets/data/theme/beach-sunset.css');';}\n\n.p176-203,.p291-320 {\n  --theme: '@import url('https://file.garden/X65Xhea95myVymaS/MSPFA%20Collection/tcmc/assets/data/theme/beach-night.css');';}\n\n.p287-290 {\n  --theme: '@import url('https://file.garden/X65Xhea95myVymaS/MSPFA%20Collection/tcmc/assets/data/theme/soul-memory.css');';}\n\n.p314-321 {\n  --theme: '@import url('https://file.garden/X65Xhea95myVymaS/MSPFA%20Collection/tcmc/assets/data/theme/pirate-myutuna.css');';}\n\n.p322-327 {\n  --theme: '@import url('https://file.garden/X65Xhea95myVymaS/MSPFA%20Collection/tcmc/assets/data/theme/kraken.css');';}",
-	"j": "// Animated Text\nMSPFA.import(\"/js/?s=35015\");\n\n// Image overlay\nMSPFA.import(\"/js/?s=37172\");\n\n// Theme Switcher\nMSPFA.import(\"/js/?s=43273\");\n\n// Toggle Animated Background\nMSPFA.import(\"/js/?s=48799\");\n\n// Commentary\nMSPFA.import(\"/js/?s=34652\");\n\n// Audio\nMSPFA.import(\"/js/?s=44198\");",
-	"v": "// Animated Text\nMSPFA.import(\"/js/?s=35015\");\n\n// Image overlay\nMSPFA.import(\"/js/?s=37172\");\n\n// Theme Switcher\nMSPFA.import(\"/js/?s=43273\");\n\n// Toggle Animated Background\nMSPFA.import(\"/js/?s=48799\");\n\n// Commentary\nMSPFA.import(\"/js/?s=34652\");\n\n// Audio\nMSPFA.import(\"/js/?s=44198\");",
+	"j": "// Animated Text\nMSPFA.import(\"/js/?s=35015\");\n\n// Image overlay\nMSPFA.import(\"/js/?s=37172\");\n\n// Theme Switcher\nMSPFA.import(\"/js/?s=43273\");\n\n// Toggle Animated Background\nMSPFA.import(\"/js/?s=48799\");\n\n// Commentary\nMSPFA.import(\"/js/?s=34652\");\n\n// News\nMSPFA.import('/js/?s=24896',function(){\n  NewsPosts.setupNews('#infobox #latestpages', 4);\n  NewsPosts.loadNews();\n});",
+	"v": "// Animated Text\nMSPFA.import(\"/js/?s=35015\");\n\n// Image overlay\nMSPFA.import(\"/js/?s=37172\");\n\n// Theme Switcher\nMSPFA.import(\"/js/?s=43273\");\n\n// Toggle Animated Background\nMSPFA.import(\"/js/?s=48799\");\n\n// Commentary\nMSPFA.import(\"/js/?s=34652\");\n\n// News\nMSPFA.import('/js/?s=24896',function(){\n  NewsPosts.setupNews('#infobox #latestpages', 4);\n  NewsPosts.loadNews();\n});",
 	"f": [
 		"111108168127693948558",
 		"108831278054522706048",
@@ -91,7 +90,9 @@
 		"101645871019111309677",
 		"100112661386367264204",
 		"107240207856792575626",
-		"112672871149910275990"
+		"112672871149910275990",
+		"114997288856500688117",
+		"104760936223528980139"
 	],
 	"g": [
 		"111666933604070100462",
@@ -115,7 +116,6 @@
 		"114190114161969106477",
 		"102553700980768177101",
 		"109797152693235099043",
-		"118011781437013040898",
 		"117686837767315489400",
 		"105135554461506744708",
 		"106357564543545222319",
@@ -455,14 +455,28 @@
 		"111918393660925522824",
 		"100715926358809540132",
 		"111408551269143987249",
-		"105084061229209379592"
+		"105084061229209379592",
+		"112650885102928276401",
+		"107948189113133953423",
+		"115604569157464695047",
+		"102804017500331340567",
+		"111685363113763106246",
+		"117661204436099119025",
+		"113077549877635457668",
+		"113623159674021287012",
+		"112699949977330944168",
+		"109569724097632529852",
+		"100923716929233371527",
+		"112719670992889102425",
+		"116660583945384727124",
+		"113205779496020560037"
 	],
 	"m": "==>",
 	"p": [
 		{
 			"d": 1604341098165,
 			"c": "The Cerulean Motley Crew",
-			"b": "<div style=\"max-height: 650px;\" class=\"iframe-container\">\n<iframe class=\"major\" style=\"width:650px; height:650px; border: 0;\" src=\"./assets/img/story/0001/index.html\"></iframe>\n</div>\n[size=10][If HTML5 Does not play or has issues, open in Google Chrome or [url=./HowToBrowserSettings]check your browser settings[/url].][/size]\n\n<div class=\"textimg\">[url=./Map][alt=Adventure Map][img]./assets/img/thumbmap.gif[/img][/alt][/url][url=./Extras][alt=Bonus Goodies][img]./assets/img/thumbbonus.gif[/img][/alt][/url][url=https://discord.gg/EGrSCnDjku][alt=Discord][img]./assets/img/thumbdiscord.gif[/img][/alt][/url][url=https://twitter.com/CeruleanSnake][alt=Twitter][img]./assets/img/thumbtwitter.gif[/img][/alt][/url][url=../betatcmc/The-Cerulean-Motley-Crew.html?p=1][alt=Beta Version][img]./assets/img/thumboriginal.gif[/img][/alt][/url]</div>\n[color=#005682]\nA daring adventure of pirates, booze and a whole lotta booty!\n\nA motley crew of outcasts become fugitives as they sail across the seas of a strange alien planet, searching for the fabled treasure of Alternia's most infamous Pirate.\n\n<textfx class=\"vwave\" style=\"font-size: 2ch;\">Kick back, pour a tankard of grog and set sail!</textfx>[/color]\n\n\n[color=#a10000]!!!WARNING: COMMENTARY MAY CONTAIN SPOILERS!!![/color]\n\n[color=#a10000]<wave style=\"font-size: 2ch;\">NOTE:</wave>[/color] This comic is best viewed on a PC.\n\n\n<textfx class=\"rainbow\" style=\"font-size: 2.5ch;\">Now Part of an extended universe with:</textfx>\n[url=../alabaster/Alabaster.html?p=1][alt=Alabaster: The Doomed Session]<img src=\"../alabaster/assets/img/title.png\" style=\"width: 70%;\">[/alt][/url]\n\n\n============================================\nRated 15+ Due to violence, coarse language, drug references, mild nudity, adult themes and sexual references.\n\nEpilepsy warning.\n\nSome commands are user suggested. \nFeel free to leave command suggestions in the comments.\n============================================\n\n",
+			"b": "<div style=\"max-height: 650px;\" class=\"iframe-container\">\n<iframe class=\"major\" style=\"width:650px; height:650px; border: 0;\" src=\"./assets/img/story/0001/index.html\"></iframe>\n</div>\n[size=10][If HTML5 Does not play or has issues, open in Google Chrome or [url=./HowToBrowserSettings]check your browser settings[/url].][/size]\n\n<div class=\"textimg\">[url=./Map][alt=Adventure Map][img]./assets/img/thumbmap.gif[/img][/alt][/url][url=./Extras][alt=Bonus Goodies][img]./assets/img/thumbbonus.gif[/img][/alt][/url][url=https://discord.gg/EGrSCnDjku][alt=Discord][img]./assets/img/thumbdiscord.gif[/img][/alt][/url][url=https://twitter.com/CeruleanSnake][alt=Twitter][img]./assets/img/thumbtwitter.gif[/img][/alt][/url][url=../betatcmc/The-Cerulean-Motley-Crew.html?p=1][alt=Beta Version][img]./assets/img/thumboriginal.gif[/img][/alt][/url]</div>\n[color=#005682]\nA daring adventure of pirates, booze and a whole lotta booty!\n\nSet during the great lowblood uprising on a neighbouring planet, a motley crew of outcasts become fugitives as they sail across the seas, searching for the fabled treasure of Alternia's most infamous Pirate.\n\n<textfx class=\"vwave\" style=\"font-size: 2ch;\">Kick back, pour a tankard of grog and set sail!</textfx>[/color]\n\n\n[color=#a10000]!!!WARNING: COMMENTARY MAY CONTAIN SPOILERS!!![/color]\n\n[color=#a10000]<wave style=\"font-size: 2ch;\">NOTE:</wave>[/color] This comic is best viewed on a PC.\n\n\n<textfx class=\"rainbow\" style=\"font-size: 2.5ch;\">Now Part of an extended universe with:</textfx>\n[url=../alabaster/Alabaster.html?p=1][alt=Alabaster: The Doomed Session]<img src=\"../alabaster/assets/img/title.png\" style=\"width: 70%;\">[/alt][/url]\n\n\n============================================\nRated 15+ Due to violence, coarse language, drug references, mild nudity, adult themes and sexual references.\n\nEpilepsy warning.\n\nSome commands are user suggested. \nFeel free to leave command suggestions in the comments.\n============================================\n\n",
 			"time": "Tue Nov 03 2020 05:18:18 GMT+1100",
 			"btn": "!!Warning, Author Commentary may contain spoilers!!<br><br><button class=\"tablinks\" id=\"authorbtn\">AUTHOR COMMENTARY</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class=\"tablinks\" id=\"userbtn\">USER COMMENTS</button>",
 			"comm": "Welcome to The Cerulean Motley Crew!\n\nThis will have to be my biggest project I have ever taken up on. Would you also believe this was my first ever time with major coding too? It's been a great experiment and project and I have learnt so many skills, even despite my reboot from the [url=../betatcmc/index.html]original version[/url].\nI honestly don't regret rebooting, I have a much better story structure, more fleshed out characters and the original served as a good training ground to get my style down.\nThis project has also given me something creative to work on. Being physically disabled it can be tough to actually get out and keep your mind active, so I guess you could say its kinda like my therapy, lol!\n\nThe original story was a concept I actually thought up many many years ago, probably 2012 or so. I never really did anything with it though. The first time I really started a MSPA-styled was with 3 other friends on [url=https://mspfa.com/?s=6779&p=1]Go Stuck Yourself[/url] in 2014 (I drew the Chaz Parts).\nLike many team projects, interest died and it fell to the wayside. I never really did try again after that.\n\nSo how did I get started on this?\nYears later, In 2020, I managed to catch up with a few old friends in the Homestuck scene. So I was chatting away with [url=https://mspfa.com/user/?u=111108168127693948558]peepee swine[/url] and she was talking about how she throws in a bunch of trolls in the background of [url=https://mspfa.com/?s=21746&p=1]I'm Good, I'm Gone[/url]. I said \"Damn I wish my troll was in a fanventure or some sort\" and she said \"Why not make one?\" So I said \"You know what, yeah! why not?\"\nSo I sat down, dusted off my old pirate concept, polished it a bit and got to work. Within 20 or so days I had drawn up 30 panels and finally started publishing on MSPFA. Of course I got sick, saw lots of doctors and it fell to the backburner a bit.\n\nIt gave me some time to look over the story, realise what I wanted and where I was struggling and decided to reboot the comic a year later, so here we are today! Never been more prouder in any of my projects!\n\nThis commentary snippet has gone on way too long now, I promise the others wont be so long lol... maybe...\nAnyway, enjoy reading! I've enjoyed drawing it!\n\n-TheCeruleanSnake",
@@ -560,9 +574,9 @@
 			"c": "==>",
 			"b": "[img]./assets/img/story/0009.gif[/img]\n\nYou space out, staring into the sunrise.\nYou better head inside before that sun comes up...\n\n...Or you would but the sound of something wooden knocking against the peer catches your attention.",
 			"time": "Fri Dec 31 2021 18:42:25 GMT+1100",
-			"btn": "",
+			"btn": "<button class=\"tablinks\" id=\"userbtn\">USER COMMENTS</button>",
 			"comm": "",
-			"user": "Comments are occasionally posted on pages in MSPFA by users. These are archived from the original pages as-is. Oldest comment first.\n\n",
+			"user": "Comments are occasionally posted on pages in MSPFA by users. These are archived from the original pages as-is. Oldest comment first.\n\n<table><td><span class=\"commentimg\"><img src=\"./assets/img/pfp/random3.png\"></span></td><td><a class=\"username\" href=\"https://mspfa.com/user/?u=115463506459891033155\">Dinnerman</a><span class=\"commenttimestamp\">Nov 09 2023 15:44:41</span><br><span class=\"commenttxt\">look at this circular frame glasses NERD</span></td></table>",
 			"n": [
 				10
 			]
@@ -4417,6 +4431,30 @@
 			"user": "Comments are occasionally posted on pages in MSPFA by users. These are archived from the original pages as-is. Oldest comment first.\n\n",
 			"n": [
 				331
+			]
+		},
+		{
+			"d": 1699970463885,
+			"c": "Snake: Snap out of it!",
+			"b": "[img]./assets/img/story/0331.gif[/img]\n\n[spoiler open=\"Show Chat\" close=\"Hide Chat\"]\n[color=#a1a100]HYDRA: S3RP3NT IIIS UNR3SPONSIIIV3\nHYDRA: W3 SHOULD TAK3 TH3 CANNONS TO THIIIS S3AB3AST!!!\nHYDRA: BLAST IIIT BACK TO TROLL DAVY JON3S' LOCK3R!!![/color]\n[color=#005682]SNAKE: Huh... huh!?\nSNAKE: W-Wait![/color]\n[color=#a1a100]HYDRA: LOOK WHO D3CIIID3D TO R3JOIIIN US[/color]\n[color=#005682]SNAKE: No, thiss thing iss too big to fight!\nSNAKE: It would be ssuicide![/color]\n[color=#a1a100]HYDRA: YOUR3 JUST GONNA HAND IIIT TH3 SHIIIP W3 FOUGHT SO HARD FOR???[/color]\n[color=#005682]SNAKE: You can rebuild a sship, you can't rebuild a life!\nSNAKE: I'm not lossing another crew![/color]\n[color=#a1a100]HYDRA: HUH??? ANOTH3R???[/color]\n[color=#008282]DRAGON: [font=Apple Chancery]Beautiful is right, Sunshine[/font]\nDRAGON: [font=Apple Chancery]Our cannonballs would be like pebbles to it[/font][/color]\n[color=#005682]SNAKE: We evacuate the sship, start throwing over the rowboatss![/color]\n[color=#a1a100]HYDRA: WAIIIT... III S3NS3 SOMETHIIING...[/color]\n[color=#005682]SNAKE: Another premonition?[/color]\n[color=#a1a100]HYDRA: MOVE THAT FAT SPIIINAL CR3VIIIS OF YOURS, NOW!!![/color]\n[/spoiler]",
+			"time": "Wed Nov 15 2023 01:01:03 GMT+1100",
+			"btn": "",
+			"comm": "",
+			"user": "Comments are occasionally posted on pages in MSPFA by users. These are archived from the original pages as-is. Oldest comment first.\n\n",
+			"n": [
+				332
+			]
+		},
+		{
+			"d": 1699970463885,
+			"c": "==>",
+			"b": "[img]./assets/img/story/0332.gif[/img]\n\nAll you could let out in response was a winded \"Oof!\" as Hydra tackles you full force. Just in time for a tentacle to come crashing down, splinters flying everywhere from the impact.\n\nLooks like her training with the old lady over the past couple months have been paying off.",
+			"time": "Wed Nov 15 2023 01:01:03 GMT+1100",
+			"btn": "",
+			"comm": "",
+			"user": "Comments are occasionally posted on pages in MSPFA by users. These are archived from the original pages as-is. Oldest comment first.\n\n",
+			"n": [
+				333
 			]
 		}
 	]

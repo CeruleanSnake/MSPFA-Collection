@@ -236,17 +236,12 @@ iframe,
 #infobox > .spoiler.closed:first-child,
 #info>span>.spoiler.open {
     background-color: #eeeeeeda;
-    border: 4px solid #064564;
 }
 
 #info>span>.spoiler>div:first-child>input {
     font-size: 20px;
     padding: 10px;
     border-radius: 1ex;
-}
-
-#commentary-wrapper {
-    Border: 8px solid #064564;
 }
 
 /*Latest pages always open*/

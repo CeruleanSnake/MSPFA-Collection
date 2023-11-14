@@ -19,7 +19,6 @@
         <link rel="stylesheet" href="../data/css/mspfastyle.css">
         <link rel="stylesheet" href="../data/css/sitestyle.css">
         <link rel="stylesheet" href="../data/css/textfx.css">
-        <link rel="stylesheet" href="../data/css/rain.css">
 
         <script src="../data/js/jquery-3.7.1.min.js"></script>
         <script src="../data/js/navbar.js" defer></script>
@@ -123,7 +122,7 @@
                 <div id="slide">
 
                     <div id="command">
-                        command
+                        Snake: Snap out of it!
                     </div>
 
                     <div id="content">
@@ -135,11 +134,60 @@
                         [If HTML5 does not play, open in Google Chrome or <a href="HowToBrowserSettings.html"
                             target="_blank">check your browser settings.</a>]
                     </span> -->
-                        <img src="../img/story/0330.gif" class="major">
+                        <img src="../img/story/0331.gif" class="major">
                         <br><br>
-                        <span style="color: #005682;">
-                            CHEVER: 1 may have c0mmanded uss t0 0ur ssu1c1de...
-                        </span>
+                        <div class="spoiler-border">
+                            <input class="spoilerbutton" type="button" value="Show Chat"
+                                onclick="this.value=this.value=='Show Chat'?'Hide Chat':'Show Chat';">
+                            <div class="spoiler" style="border: 0px !important;">
+                                <div>
+                                    <span style="color: #a1a100">
+                                        HYDRA: S3RP3NT IIIS UNR3SPONSIIIV3<br>
+                                        HYDRA: W3 SHOULD TAK3 TH3 CANNONS TO THIIIS S3AB3AST!!!<br>
+                                        HYDRA: BLAST IIIT BACK TO TROLL DAVY JON3S' LOCK3R!!!<br>
+                                    </span>
+                                    <span style="color: #005682;">
+                                        SNAKE: Huh... huh!?<br>
+                                        SNAKE: W-Wait!<br>
+                                    </span>
+                                    <span style="color: #a1a100">
+                                        HYDRA: LOOK WHOS D3CIIID3D TO R3JOIIIN US<br>
+                                    </span>
+                                    <span style="color: #005682;">
+                                        SNAKE: No, thiss thging iss too big to fight!<br>
+                                        SNAKE: It would be ssuicide!<br>
+                                    </span>
+                                    <span style="color: #a1a100">
+                                        HYDRA: YOUR3 JUST GONNA HAND IIIT TH3 SHIIIP W3 FOUGHT SO HARD FOR???<br>
+                                    </span>
+                                    <span style="color: #005682;">
+                                        SNAKE: You can rebuild a sship, you can't rebuild a life!<br>
+                                        SNAKE: I'm not lossing another crew!<br>
+                                    </span>
+                                    <span style="color: #a1a100">
+                                        HYDRA: HUH??? ANOTH3R???<br>
+                                    </span>
+                                    <span style="color: #008282">
+                                        DRAGON: <span style="font-family: 'Apple Chancery';">Beautiful is right,
+                                            Sunshine</span><br>
+                                        DRAGON: <span style="font-family: 'Apple Chancery';">Our cannonballs would be
+                                            like pebbles to it</span><br>
+                                    </span>
+                                    <span style="color: #005682;">
+                                        SNAKE: We evacuate the sship, start throwing over the rowboatss!<br>
+                                    </span>
+                                    <span style="color: #a1a100">
+                                        HYDRA: WAIIIT... III S3NS3 SOMETHIIING...<br>
+                                    </span>
+                                    <span style="color: #005682;">
+                                        SNAKE: Another premonition?<br>
+                                    </span>
+                                    <span style="color: #a1a100">
+                                        HYDRA: MOVE THAT FAT SPIIINAL CR3VIIIS OF YOURS, NOW!!!<br>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
@@ -167,7 +215,7 @@
                 <br>
                 <wave>Wavy text here!</wave>
                 <br>
-                <wave style="--amt: 1">Intense wave!</wave>
+                <wave style="--amt: 5">Intense wave!</wave>
                 <br>
                 <textfx class="squash">Squash text</textfx>
                 <br>
@@ -227,6 +275,16 @@
                     SPIDER: Text
                 </span>
                 <br>
+
+                <div class="spoiler-border">
+                    <input class="spoilerbutton" type="button" value="Show Chat"
+                        onclick="this.value=this.value=='Show Chat'?'Hide Chat':'Show Chat';">
+                    <div class="spoiler" style="border: 0px !important;">
+                        <div>
+                            text
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <footer>
@@ -243,47 +301,47 @@
     </body>
     <script>
         console.log("Text Effects by seymour schlong - https://mspfa.com/?s=35015");
-        const shakeText = (a) => {
-            let shakeElements = document.querySelectorAll(a);
+        const shakeText=(a) => {
+            let shakeElements=document.querySelectorAll(a);
 
-            for (let i = 0; i < shakeElements.length; i++) {
-                let text = shakeElements[i].textContent;
-                shakeElements[i].textContent = '';
-                for (let char of text) {
-                    if (char === ' ') char = ' ';
-                    let newSpan = document.createElement('span');
-                    newSpan.className = a;
-                    newSpan.textContent = char;
+            for(let i=0;i<shakeElements.length;i++) {
+                let text=shakeElements[i].textContent;
+                shakeElements[i].textContent='';
+                for(let char of text) {
+                    if(char===' ') char=' ';
+                    let newSpan=document.createElement('span');
+                    newSpan.className=a;
+                    newSpan.textContent=char;
                     shakeElements[i].appendChild(newSpan);
                 }
             }
         }
 
-        const generateDistance = (intensity) => {
-            if (isNaN(intensity)) intensity = 3;
-            return Math.floor(Math.random() * intensity - intensity / 2) * 0.5;
+        const generateDistance=(intensity) => {
+            if(isNaN(intensity)) intensity=3;
+            return Math.floor(Math.random()*intensity-intensity/2)*0.5;
         }
         setInterval(() => {
             document.querySelectorAll('.shake').forEach(elm => {
-                let intense = elm.parentNode.getAttribute('intensity');
-                elm.style =
+                let intense=elm.parentNode.getAttribute('intensity');
+                elm.style=
                     `transform: translate(${generateDistance(parseInt(intense))}px, ${generateDistance(parseInt(intense))}px);`
             });
-        }, 35);
+        },35);
     </script>
     <script>
-        window.onload = function() {
+        window.onload=function() {
             shakeText('shake');
             shakeText('wave');
             shakeText('textfx');
-            if ($("#authorbtn").length) {
-                document.getElementById("authorbtn").onclick = function() {
-                    opentab(event, 'author')
+            if($("#authorbtn").length) {
+                document.getElementById("authorbtn").onclick=function() {
+                    opentab(event,'author')
                 };
             }
-            if ($("#userbtn").length) {
-                document.getElementById("userbtn").onclick = function() {
-                    opentab(event, 'user')
+            if($("#userbtn").length) {
+                document.getElementById("userbtn").onclick=function() {
+                    opentab(event,'user')
                 };
             }
         }
