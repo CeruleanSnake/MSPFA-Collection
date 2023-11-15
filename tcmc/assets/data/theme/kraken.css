@@ -214,7 +214,8 @@ body {
         background-position: center left;
         background-repeat: repeat-x;
         background-size: 100vh;
-        z-index: -1;
+        position: fixed;
+        z-index: -16;
     }
 
     .overlay-1 {
@@ -223,6 +224,8 @@ body {
         background-position: top left;
         background-repeat: repeat-x;
         background-size: 100vh;
+        position: fixed;
+        z-index: -15;
     }
 
     .overlay-2 {
@@ -231,6 +234,28 @@ body {
         background-position: bottom left;
         background-repeat: repeat-x;
         background-size: 100vh;
+        position: fixed;
+        z-index: -14;
+    }
+
+    .p331 .overlay-9,
+    .p332 .overlay-9,
+    .p333 .overlay-9,
+    .p334 .overlay-9,
+    .p335 .overlay-9,
+    .p336 .overlay-9,
+    .p337 .overlay-9,
+    .p338 .overlay-9 {
+        background-image: url("../../img/story/0001/tentacle.png");
+        animation: 8s tentacle2-move linear infinite;
+        background-position-x: 7vw;
+        background-position-y: 60vh;
+        background-repeat: no-repeat;
+        background-size: 20vh;
+        object-fit: fill;
+        transform: scaleX(-1);
+        position: fixed;
+        z-index: -13;
     }
 
     .overlay-3 {
@@ -240,6 +265,8 @@ body {
         background-size: 40vh;
         background-position-x: 110vw;
         background-position-y: 64vh;
+        position: fixed;
+        z-index: -12;
     }
 
     .overlay-4 {
@@ -247,14 +274,18 @@ body {
         background-position: top left;
         background-repeat: repeat;
         background-size: 8%;
+        position: fixed;
+        z-index: -10;
     }
 
     .overlay-5 {
         background-image: url("./kraken/front-cloud.png");
-        animation: 60s sky-cloud-2-move linear infinite;
-        background-position: center left;
+        animation: 50s sky-cloud-2-move linear infinite;
+        background-position: left 20vh;
         background-repeat: repeat-x;
         background-size: 100vh;
+        position: fixed;
+        z-index: -9;
     }
 
     .overlay-6 {
@@ -263,6 +294,8 @@ body {
         background-position: top right;
         background-repeat: repeat-x;
         background-size: 100vh;
+        position: fixed;
+        z-index: -8;
     }
 
     .overlay-7 {
@@ -271,6 +304,8 @@ body {
         background-position: left 15vh;
         background-repeat: repeat-x;
         background-size: 100vh;
+        position: fixed;
+        z-index: -7;
     }
 
     .p325 .overlay-8,
@@ -291,24 +326,8 @@ body {
         background-repeat: no-repeat;
         background-size: 20vh;
         object-fit: fill;
-    }
-
-    .p331 .overlay-9,
-    .p332 .overlay-9,
-    .p333 .overlay-9,
-    .p334 .overlay-9,
-    .p335 .overlay-9,
-    .p336 .overlay-9,
-    .p337 .overlay-9,
-    .p338 .overlay-9 {
-        background-image: url("../../img/story/0001/tentacle.png");
-        animation: 8s tentacle2-move linear infinite;
-        background-position-x: 7vw;
-        background-position-y: 60vh;
-        background-repeat: no-repeat;
-        background-size: 20vh;
-        object-fit: fill;
-        transform: scaleX(-1);
+        position: fixed;
+        z-index: -6;
     }
 
     .overlay-10 {
@@ -317,6 +336,8 @@ body {
         background-position: bottom left;
         background-repeat: repeat-x;
         background-size: 100vh;
+        position: fixed;
+        z-index: -5;
     }
 
     @keyframes skycloud-move {
@@ -327,7 +348,7 @@ body {
 
     @keyframes sky-cloud-2-move {
         to {
-            background-position: 100vh center;
+            background-position: right 20vh;
         }
     }
 

@@ -57,13 +57,13 @@ nav .dropdown-content {
     Border: 8px solid #000000;
 }
 
-#info>span>.spoiler>div:first-child>input,
+#info > span > .spoiler > div:first-child > input,
 #infobox > .spoiler.closed:first-child,
-#info>span>.spoiler.open {
+#info > span > .spoiler.open {
     border: 4px solid #000000;
 }
 
-#latestpages>span>.spoiler.closed,
+#latestpages > span > .spoiler.closed,
 #adventureNews {
     border: 4px solid #000000;
 }
@@ -173,7 +173,7 @@ body {
     }
 
     /* PARALLAX BACKGROUND */
-    #overlay>div,
+    #overlay > div,
     #overlay {
         position: fixed;
         top: 0px;
@@ -186,7 +186,8 @@ body {
 
     #overlay {
         background-image: none;
-        z-index: -2;
+        position: fixed;
+        z-index: -6;
     }
 
     .overlay-1 {
@@ -195,6 +196,8 @@ body {
         background-position: center left;
         background-repeat: repeat-x;
         background-size: 100vh;
+        position: fixed;
+        z-index: -5;
     }
 
     .overlay-2 {
@@ -203,6 +206,8 @@ body {
         background-position: center left;
         background-repeat: repeat-x;
         background-size: 100vh;
+        position: fixed;
+        z-index: -4;
     }
 
     .overlay-3 {
@@ -211,6 +216,8 @@ body {
         background-position: bottom left;
         background-repeat: repeat-x;
         background-size: 100vh;
+        position: fixed;
+        z-index: -3;
     }
 
     .overlay-4 {
@@ -220,6 +227,8 @@ body {
         background-size: 40vh;
         background-position-x: 110vw;
         background-position-y: 64vh;
+        position: fixed;
+        z-index: -2;
     }
 
     .overlay-5 {
@@ -228,6 +237,8 @@ body {
         background-position: bottom left;
         background-repeat: repeat-x;
         background-size: 100vh;
+        position: fixed;
+        z-index: -1;
     }
 
     @keyframes skycloud-move {
