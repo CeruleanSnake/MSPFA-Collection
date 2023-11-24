@@ -1,5 +1,5 @@
 a {
-    color: #0080c2;
+    color: #005682 !important;
 }
 
 nav {
@@ -75,19 +75,24 @@ nav a[href="/more/"]::after {
     background-image: url("myutun-sea/header.png");
 }
 
-#info > span > .spoiler > div:first-child > input,
-#infobox > .spoiler.closed:first-child,
+#info > span > .spoiler,
 #info > span > .spoiler.open {
     border: 4px solid #064564;
+    background-color: rgba(159, 171, 182, 0.8);
 }
 
 #latestpages > span > .spoiler.closed,
 #adventureNews {
     border: 4px solid #064564;
+    border-right: 1px solid #064564;
 }
 
 #commentary-wrapper {
     Border: 8px solid #064564;
+}
+
+#details a {
+    color: black !important;
 }
 
 #startover::after {
@@ -154,17 +159,11 @@ nav a[href="/more/"]::after {
 /*SCROLL BAR*/
 /* =========================================== */
 ::-webkit-scrollbar {
-    height: 12px;
-    width: 12px;
     background: #064564;
 }
 
 ::-webkit-scrollbar-thumb {
     background: rgb(255, 166, 0);
-    border-radius: 1ex;
-    -webkit-border-radius: 1ex;
-    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
 }
 
 ::-webkit-scrollbar-corner {
@@ -214,78 +213,63 @@ body {
         height: 100%;
         user-select: none;
         pointer-events: none;
+        z-index: -2;
     }
 
     #overlay {
         background-image: url("alternia/moons.png");
         animation: 3s moon-move linear infinite;
-        background-position-x: 5vw;
-        background-position-y: 25vh;
+        background-position: 5vw 25vh;
         background-repeat: no-repeat;
         background-size: 15vw;
-        position: fixed;
-        z-index: -8;
     }
 
     .overlay-1 {
         background-image: url("alternia/sky_cloud.png");
-        animation: 200s skycloud-move linear infinite reverse;
-        background-position: center left;
+        animation: 200s skycloud-move linear infinite;
+        background-position: 100vw center;
         background-repeat: repeat-x;
         background-size: 100vh;
-        position: fixed;
-        z-index: -7;
     }
 
     .overlay-2 {
         background-image: url("pirate-alternia/bg.png");
-        animation: 150s bg-move linear infinite;
-        background-position: bottom left;
+        animation: 250s bg-move linear infinite;
+        background-position: 0vw bottom;
         background-repeat: repeat-x;
         background-size: 100vh;
-        position: fixed;
-        z-index: -6;
     }
 
     .overlay-3 {
         background-image: url("pirate-alternia/sky-cloud-2.png");
-        animation: 60s sky-cloud-2-move linear infinite;
-        background-position: center left;
+        animation: 160s sky-cloud-2-move linear infinite;
+        background-position: 0vw center;
         background-repeat: repeat-x;
         background-size: 100vh;
-        position: fixed;
-        z-index: -5;
     }
 
     .overlay-4 {
         background-image: url("pirate-alternia/wave-back.png");
-        animation: 40s wave-back-move linear infinite;
-        background-position: bottom left;
+        animation: 80s wave-back-move linear infinite;
+        background-position: 0vw bottom;
         background-repeat: repeat-x;
         background-size: 100vh;
-        position: fixed;
-        z-index: -4;
     }
 
     .overlay-5 {
         background-image: url("pirate-alternia/ship.png");
-        animation: 35s ship-move linear infinite;
+        animation: 65s ship-move linear infinite;
+        background-position: 110vw 64vh;
         background-repeat: no-repeat;
         background-size: 40vh;
-        background-position-x: 110vw;
-        background-position-y: 64vh;
-        position: fixed;
-        z-index: -3;
     }
 
     .overlay-6 {
         background-image: url("pirate-alternia/wave-front.png");
-        animation: 20s wave-front-move linear infinite;
-        background-position: bottom left;
+        animation: 35s wave-front-move linear infinite;
+        background-position: 0vw bottom;
         background-repeat: repeat-x;
         background-size: 100vh;
-        position: fixed;
-        z-index: -2;
     }
 
     @keyframes moon-move {
@@ -312,13 +296,13 @@ body {
 
     @keyframes skycloud-move {
         to {
-            background-position: 100vh center;
+            background-position: 0vw center;
         }
     }
 
     @keyframes sky-cloud-2-move {
         to {
-            background-position: 100vh center;
+            background-position: 100vw center;
         }
 
         0% {
@@ -344,13 +328,13 @@ body {
 
     @keyframes bg-move {
         to {
-            background-position: 100vh bottom;
+            background-position: 100vw bottom;
         }
     }
 
     @keyframes wave-back-move {
         to {
-            background-position: 100vh bottom;
+            background-position: 100vw bottom;
         }
 
         0% {
@@ -400,7 +384,7 @@ body {
 
     @keyframes ship-move {
         to {
-            background-position-x: -60vh;
+            background-position-x: -60vw;
         }
 
         0% {
@@ -450,7 +434,7 @@ body {
 
     @keyframes wave-front-move {
         to {
-            background-position: 100vh bottom;
+            background-position: 100vw bottom;
         }
 
         0% {

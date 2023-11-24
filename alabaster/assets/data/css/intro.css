@@ -1,0 +1,49 @@
+/* ========================
+for the intro scene due to weird issue
+===========================*/
+
+body {
+    background-color: #000000 !important;
+}
+
+
+#main,
+#slide,
+#info > span > .spoiler.open {
+    background-color: #000000 !important;
+}
+
+nav a {
+    color: #FFFFFF !important;
+}
+
+a,
+a:active,
+a:visited,
+#details {
+    color: #FFFFFF;
+    align-content: center;
+}
+
+#details {
+    display: flex;
+    justify-content: center;
+}
+
+.mspfa footer .mspfalogo,
+.mspfa header .mspfalogo {
+    background-image: url(none);
+    background-color: #000000;
+}
+
+.mspfa .mspfalogo {
+    border-right: 4px solid #000000;
+}
+
+/*.p18 #links > span > div > a > span {
+    display: none !important;
+}
+
+.p18 #links a::after {
+    content: "Enter name." !important;
+}*/

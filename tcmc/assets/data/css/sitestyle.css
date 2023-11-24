@@ -84,39 +84,40 @@ body {
 }
 
 a {
-    color: #0080c2 !important;
+    color: #0075af !important;
 }
 
 nav,
 .mspfa nav {
     color: #f4ab24 !important;
     background-color: transparent;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    padding: 15px 0px;
+    font-size: 15px;
+}
+
+.mspfa nav a {
+    color: #005682;
 }
 
 nav .dropdown-content {
     background-color: #0000008f;
 }
 
-nav .dropdown-content>a {
+nav .dropdown-content > a {
     color: white !important;
 }
 
 iframe,
 #slide,
-#info>span>.spoiler.open,
+#info > span > .spoiler.open,
 .heart {
     image-rendering: auto;
     -moz-image-rendering: auto;
 }
 
-.plog #slide {
-    background-color: #eeeeeedb;
-}
-
-.plog #slide a {
-    color: black !important;
+table.container > tbody > tr > td,
+table.container > tbody > tr > th {
+    border: none !important;
 }
 
 .major {
@@ -142,19 +143,6 @@ iframe,
 }
 
 .um:hover {
-    opacity: 1;
-}
-
-#um4container {
-    opacity: .5;
-    transition: opacity .08s ease-out;
-}
-
-#um4container a {
-    color: white !important;
-}
-
-#um4container:hover {
     opacity: 1;
 }
 
@@ -192,6 +180,80 @@ iframe,
     background-image: url("../../img/downvote.png");
 }
 
+.redtext {
+    color: rgb(152, 0, 0);
+}
+
+.comment > td:last-child {
+    background-color: rgba(255, 255, 255, 0.737);
+    box-shadow: rgba(0, 0, 0, 0.518) 0px 4px 8px 0px;
+    padding: 8px;
+    border-radius: 1ex;
+}
+
+.comment > td > a > .cellicon {
+    box-shadow: rgba(0, 0, 0, 0.518) 0px 4px 8px 0px;
+    background-color: rgb(255, 255, 255);
+}
+
+.plog #slide {
+    width: 850px;
+}
+
+#log {
+    width: 950px;
+    margin: auto;
+    border: 5px solid #064564;
+}
+
+#log h4 {
+    height: 200px;
+    margin: auto;
+    background-image: url("../../img/Title.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    image-rendering: auto !important;
+}
+
+#log #storyname,
+#log h3 {
+    display: none !important;
+}
+
+#log #pages {
+    padding: 30px 30px 50px 30px;
+}
+
+#log,
+.plog #slide {
+    background-color: #eeeeeedb !important;
+}
+
+#log #pages a,
+.plog #slide a {
+    color: black !important;
+}
+
+#log #pages,
+.plog #slide {
+    font-size: 25px !important;
+    font-family: 'logpage' !important;
+}
+
+#um4container {
+    opacity: .5;
+    transition: opacity .08s ease-out;
+    padding-top: 40px;
+}
+
+#um4container a {
+    color: white !important;
+}
+
+#um4container:hover {
+    opacity: 1;
+}
+
 #main {
     background-color: transparent !important;
 }
@@ -204,6 +266,10 @@ iframe,
 #details {
     font-weight: bold;
     text-align: center;
+}
+
+#details a {
+    color: black !important;
 }
 
 /*
@@ -226,43 +292,35 @@ iframe,
     background-position: center 0 !important;
     background-color: transparent !important;
     padding-top: 10px !important;
-    margin-top: 10px !important;
+    margin-top: 20px !important;
 }
 
 #flashytitlebottom {
     transform: scaleX(-1);
 }
 
-#infobox > .spoiler.closed:first-child,
-#info>span>.spoiler.open {
-    background-color: #eeeeeeda;
+#info > span > .spoiler > div:first-child > input {
+    font-size: 14px;
+    padding: 8px;
+    box-shadow: rgba(0, 0, 0, 0.518) 0px 4px 8px 0px;
+    margin: 3px;
 }
 
-#info>span>.spoiler>div:first-child>input {
-    font-size: 20px;
-    padding: 10px;
-    border-radius: 1ex;
+#info {
+    padding-top: 30px;
 }
 
-/*Latest pages always open*/
-
-#infobox > .spoiler.closed:first-child > div:first-child,
-#latestpages .spoiler>div:first-child {
-    display: none;
+#info > span > .spoiler,
+#info > span > .spoiler.open {
+    background-color: rgb(225, 225, 225);
 }
 
-#infobox > .spoiler.closed:first-child > div:last-child,
-#latestpages .spoiler>div:last-child {
-    display: block;
-    image-rendering: auto !important;
-}
-
-#latestpages>span>.spoiler.closed {
+#latestpages > span > .spoiler.closed {
     max-height: 160px;
     overflow-x: hidden;
     overflow-y: auto;
     padding: 10px;
-    background: #eeeeee;
+    background: rgba(255, 255, 255, 0.737);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.518);
     margin-bottom: -15px;
 
@@ -272,9 +330,17 @@ iframe,
     max-width: 350px;
 }
 
-table.container.alt2,
-table.container.alt2 td {
-    border: 5px solid #064564;
+/*Latest pages always open*/
+
+#infobox > .spoiler.closed:first-child > div:first-child,
+#latestpages .spoiler > div:first-child {
+    display: none;
+}
+
+#infobox > .spoiler.closed:first-child > div:last-child,
+#latestpages .spoiler > div:last-child {
+    display: block;
+    image-rendering: auto !important;
 }
 
 /*NEWS BOX*/
@@ -286,7 +352,7 @@ table.container.alt2 td {
     overflow-y: auto;
     height: 265px;
     max-height: 265px;
-    background: #eeeeee;
+    background: rgba(255, 255, 255, 0.737);
     padding: 10px;
 }
 
@@ -315,13 +381,33 @@ table.container.alt2 td {
     margin-top: -25px;
 }
 
+/*Check boxes*/
 
+#info #latestpages label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+
+#info #latestpages input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7px;
+}
 
 /*SCROLL BAR*/
 /* =========================================== */
+#latestpages .spoiler.closed::-webkit-scrollbar,
+#adventureNews::-webkit-scrollbar {
+    width: 5px;
+}
+
 ::-webkit-scrollbar {
-    height: 12px;
-    width: 12px;
+    width: 10px;
     background: #035c88;
 }
 
@@ -337,88 +423,8 @@ table.container.alt2 td {
     background: #035c88;
 }
 
-/*FONT IMPORT*/
-/* ==================================================== */
-
 @font-face {
-    font-family: 'Gothic Pixel';
-    src: url('../font/gothic-pixel/Gothic-Pixel.eot');
-    src: local('Gothic Pixel Regular'), local('Gothic-Pixel'),
-        url('../font/gothic-pixel/Gothic-Pixel.eot?#iefix') format('embedded-opentype'),
-        url('../font/gothic-pixel/Gothic-Pixel.woff2') format('woff2'),
-        url('../font/gothic-pixel/Gothic-Pixel.woff') format('woff'),
-        url('../font/gothic-pixel/Gothic-Pixel.ttf') format('truetype'),
-        url('../font/gothic-pixel/Gothic-Pixel.svg#Gothic-Pixel') format('svg');
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Retrogression';
-    src: url('../font/retrogression/Retrogression-Regular.eot');
-    src: local('Retrogression Regular'), local('Retrogression-Regular'),
-        url('../font/retrogression/Retrogression-Regular.eot?#iefix') format('embedded-opentype'),
-        url('../font/retrogression/Retrogression-Regular.woff2') format('woff2'),
-        url('../font/retrogression/Retrogression-Regular.woff') format('woff'),
-        url('../font/retrogression/Retrogression-Regular.ttf') format('truetype'),
-        url('../font/retrogression/Retrogression-Regular.svg#Retrogression-Regular') format('svg');
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Hiveswap Alternian';
-    src: url('../font/hiveswap-alternian/HiveswapAlternian-Regular.eot');
-    src: local('Hiveswap Alternian Regular'), local('HiveswapAlternian-Regular'),
-        url('../font/hiveswap-alternian/HiveswapAlternian-Regular.eot?#iefix') format('embedded-opentype'),
-        url('../font/hiveswap-alternian/HiveswapAlternian-Regular.woff2') format('woff2'),
-        url('../font/hiveswap-alternian/HiveswapAlternian-Regular.woff') format('woff'),
-        url('../font/hiveswap-alternian/HiveswapAlternian-Regular.ttf') format('truetype'),
-        url('../font/hiveswap-alternian/HiveswapAlternian-Regular.svg#HiveswapAlternian-Regular') format('svg');
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Homestuck';
-    src: url('../font/homestuck/Homestuck-Regular.eot');
-    src: local('Homestuck Regular'), local('Homestuck-Regular'),
-        url('../font/homestuck/Homestuck-Regular.eot?#iefix') format('embedded-opentype'),
-        url('../font/homestuck/Homestuck-Regular.woff2') format('woff2'),
-        url('../font/homestuck/Homestuck-Regular.woff') format('woff'),
-        url('../font/homestuck/Homestuck-Regular.ttf') format('truetype'),
-        url('../font/homestuck/Homestuck-Regular.svg#Homestuck-Regular') format('svg');
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Apple Chancery';
-    src: url('../font/apple-chancery/Apple-Chancery.eot');
-    src: local('Apple Chancery Italic'), local('Apple-Chancery'),
-        url('../font/apple-chancery/Apple-Chancery.eot?#iefix') format('embedded-opentype'),
-        url('../font/apple-chancery/Apple-Chancery.woff2') format('woff2'),
-        url('../font/apple-chancery/Apple-Chancery.woff') format('woff'),
-        url('../font/apple-chancery/Apple-Chancery.ttf') format('truetype'),
-        url('../font/apple-chancery/Apple-Chancery.svg#Apple-Chancery') format('svg');
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Blood Script';
-    src: url('../font/blood-script/BloodScriptItalicPersonalUs-N.eot');
-    src: local('Blood Script Italic Personal Us'), local('BloodScriptItalicPersonalUs-N'),
-        url('../font/blood-script/BloodScriptItalicPersonalUs-N.eot?#iefix') format('embedded-opentype'),
-        url('../font/blood-script/BloodScriptItalicPersonalUs-N.woff2') format('woff2'),
-        url('../font/blood-script/BloodScriptItalicPersonalUs-N.woff') format('woff'),
-        url('../font/blood-script/BloodScriptItalicPersonalUs-N.ttf') format('truetype'),
-        url('../font/blood-script/BloodScriptItalicPersonalUs-N.svg#BloodScriptItalicPersonalUs-N') format('svg');
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Gunny Rewritten';
-    src: url('../font/gunny-rewritten/GunnyRewritten.eot');
-    src: url('../font/gunny-rewritten/GunnyRewritten.eot?#iefix') format('embedded-opentype'),
-        url('../font/gunny-rewritten/GunnyRewritten.woff2') format('woff2'),
-        url('../font/gunny-rewritten/GunnyRewritten.woff') format('woff'),
-        url('../font/gunny-rewritten/GunnyRewritten.ttf') format('truetype'),
-        url('../font/gunny-rewritten/GunnyRewritten.svg#GunnyRewritten') format('svg');
+    font-family: 'logpage';
+    src: url('../font/gunny-rewritten/GunnyRewritten.woff2') format('woff2');
     font-display: swap;
 }

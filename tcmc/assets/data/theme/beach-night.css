@@ -1,5 +1,5 @@
 a {
-    color: #0072ab !important;
+    color: #001ba4 !important;
 }
 
 nav {
@@ -75,19 +75,24 @@ nav a[href="/more/"]::after {
     background-image: url("myutun-sea/header.png");
 }
 
-#info > span > .spoiler > div:first-child > input,
-#infobox > .spoiler.closed:first-child,
+#info > span > .spoiler,
 #info > span > .spoiler.open {
     border: 4px solid #064564;
+    background-color: rgba(159, 165, 182, 0.8);
 }
 
 #latestpages > span > .spoiler.closed,
 #adventureNews {
-    border: 4px solid #064564;
+    border: 4px solid #090151;
+    border-right: 1px solid #090151;
 }
 
 #commentary-wrapper {
     Border: 8px solid #064564;
+}
+
+#details a {
+    color: black !important;
 }
 
 #startover::after {
@@ -215,98 +220,77 @@ body {
         height: 100%;
         user-select: none;
         pointer-events: none;
-        z-index: -5;
+        z-index: -2;
     }
 
     #overlay {
         background-image: url("beach-night/water.png");
-        animation: 60s water-move linear infinite;
-        background-position: bottom left;
+        animation: 140s water-move linear infinite;
+        background-position: 0vw bottom;
         background-repeat: repeat-x;
         background-size: 80vh;
-        position: fixed;
-        z-index: -8;
     }
 
     .overlay-1 {
         background-image: url("beach-night/moons.png");
         animation: 3s moon-move linear infinite;
-        background-position-x: 5vw;
-        background-position-y: 25vh;
+        background-position: 5vw 25vh;
         background-repeat: no-repeat;
         background-size: 15vw;
-        position: fixed;
-        z-index: -7;
     }
 
     .overlay-2 {
         background-image: url("beach-night/back-cloud.png");
-        animation: 180s backcloud-move linear infinite;
-        background-position: center left;
+        animation: 300s backcloud-move linear infinite;
+        background-position: 0vw center;
         background-repeat: repeat-x;
         background-size: 80vh;
-        position: fixed;
-        z-index: -6;
     }
 
     .overlay-3 {
         background-image: url("beach-night/front-cloud.png");
-        animation: 50s frontcloud-move linear infinite reverse;
-        background-position: center left;
-        background-position-y: 20vh;
+        animation: 100s frontcloud-move linear infinite;
+        background-position: 100vw 20vh;
         background-repeat: repeat-x;
         background-size: 80vh;
-        position: fixed;
-        z-index: -5;
     }
 
     .overlay-4 {
         background-image: url("beach-night/island.png");
-        background-position: bottom right;
+        background-position: right bottom;
         background-repeat: no-repeat;
         background-size: 80vh;
-        position: fixed;
-        z-index: -4;
     }
 
     @media screen and (min-height: 500px) {
         .overlay-5 {
             background-image: url("beach-night/wave.png");
             animation: 30s wave-move ease-in-out infinite;
-            background-position-y: 70.5vh;
-            background-position-x: 50vw;
+            background-position: 50vw 70.5vh;
             background-repeat: no-repeat;
             background-size: 80vh;
-            position: fixed;
-            z-index: -3;
         }
 
         .overlay-6 {
             background-image: url("beach-night/wave.png");
             animation: 20s wave-move ease-in-out infinite;
-            background-position-y: 70.5vh;
-            background-position-x: 50vw;
+            background-position: 50vw 70.5vh;
             background-repeat: no-repeat;
             background-size: 80vh;
-            position: fixed;
-            z-index: -2;
         }
 
         .overlay-7 {
             background-image: url("beach-night/wave.png");
             animation: 10s wave-move ease-in-out infinite;
-            background-position-y: 70.5vh;
-            background-position-x: 50vw;
+            background-position: 50vw 70.5vh;
             background-repeat: no-repeat;
             background-size: 80vh;
-            position: fixed;
-            z-index: -1;
         }
     }
 
     @keyframes water-move {
         to {
-            background-position: 80vh bottom;
+            background-position: 80vw bottom;
         }
     }
 
@@ -334,14 +318,13 @@ body {
 
     @keyframes backcloud-move {
         to {
-            background-position: 80vh center;
+            background-position: 80vw center;
         }
     }
 
     @keyframes frontcloud-move {
         to {
-            background-position: 80vh center;
-            background-position-y: 20vh;
+            background-position: 20vw 20vh;
         }
     }
 

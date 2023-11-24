@@ -1,9 +1,6 @@
 MSPFA.slide.push(() => {
   jQuery(document).ready(function() {
     const params = new URLSearchParams(window.location.search);
-    if ([1].includes(parseInt(params.get("p")))) {
-      document.getElementById("sitetheme").innerHTML = "<link rel='stylesheet' href='./assets/data/theme/myutun-sea.css'>";
-    }
     if ([2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 328, 329, 330].includes(parseInt(params.get("p")))) {
       document.getElementById("sitetheme").innerHTML = "<link rel='stylesheet' href='./assets/data/theme/alternia.css'>";
     }
@@ -30,6 +27,9 @@ MSPFA.slide.push(() => {
     }
     if ([322, 323, 324, 325, 326, 327, 331, 332].includes(parseInt(params.get("p")))) {
       document.getElementById("sitetheme").innerHTML = "<link rel='stylesheet' href='./assets/data/theme/kraken.css'>";
+    }
+    else {
+      document.getElementById("sitetheme").innerHTML = "<link rel='stylesheet' href='./assets/data/theme/myutun-sea.css'>";
     }
   });
 });

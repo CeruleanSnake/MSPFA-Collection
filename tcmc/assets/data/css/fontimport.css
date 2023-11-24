@@ -1,0 +1,44 @@
+/*FONT IMPORT*/
+/* ==================================================== */
+
+@font-face {
+    font-family: 'Gothic Pixel';
+    src: url('../font/gothic-pixel/Gothic-Pixel.woff2') format('woff2');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Retrogression';
+    src: url('../font/retrogression/Retrogression-Regular.woff2') format('woff2');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hiveswap Alternian';
+    src: url('../font/hiveswap-alternian/HiveswapAlternian-Regular.woff2') format('woff2');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Homestuck';
+    src: url('../font/homestuck/Homestuck-Regular.woff2') format('woff2');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Apple Chancery';
+    src: url('../font/apple-chancery/Apple-Chancery.woff2') format('woff2');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Blood Script';
+    src: url('../font/blood-script/BloodScriptItalicPersonalUs-N.woff2') format('woff2');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gunny Rewritten';
+    src: url('../font/gunny-rewritten/GunnyRewritten.woff2') format('woff2');
+    font-display: swap;
+}

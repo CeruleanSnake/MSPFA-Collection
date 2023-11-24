@@ -1,5 +1,5 @@
 a {
-    color: #d70000 !important;
+    color: #8a0000 !important;
 }
 
 nav {
@@ -55,19 +55,28 @@ nav .dropdown-content {
     background-image: url("myutun-sea/header.png");
 }
 
-#info > span > .spoiler > div:first-child > input,
-#infobox > .spoiler.closed:first-child,
+#info > span > .spoiler,
 #info > span > .spoiler.open {
     border: 4px solid #a10000;
+    background-color: rgba(182, 159, 159, 0.8);
 }
 
 #latestpages > span > .spoiler.closed,
 #adventureNews {
-    border: 4px solid #a10000;
+    border: 4px solid #000;
+    border-right: 1px solid #000000;
 }
 
 #commentary-wrapper {
     Border: 8px solid #a10000;
+}
+
+#details {
+    color: white !important;
+}
+
+#details a {
+    color: rgb(255, 255, 255) !important;
 }
 
 /* OFFLINE ONLY */
@@ -122,17 +131,11 @@ nav .dropdown-content {
 /*SCROLL BAR*/
 /* =========================================== */
 ::-webkit-scrollbar {
-    height: 12px;
-    width: 12px;
     background: #000;
 }
 
 ::-webkit-scrollbar-thumb {
     background: rgb(73, 73, 73);
-    border-radius: 1ex;
-    -webkit-border-radius: 1ex;
-    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
 }
 
 ::-webkit-scrollbar-corner {
@@ -176,61 +179,47 @@ body {
         height: 100%;
         user-select: none;
         pointer-events: none;
+        z-index: -2;
     }
 
     #overlay {
         background-image: url("space/alternia.png");
         animation: 3s alternia-move linear infinite;
-        background-position-x: 87vw;
-        background-position-y: 25vh;
+        background-position: 87vw 25vh;
         background-repeat: no-repeat;
         background-size: 10vw;
-        position: fixed;
-        z-index: -5;
     }
 
     .overlay-1 {
         background-image: url("space/meteorite.gif");
         animation: 40s meteorite-move linear infinite;
-        background-position-x: -17vw;
-        background-position-y: -17vw;
+        background-position: -20vw -20vh;
         background-repeat: no-repeat;
         background-size: 20vw;
-        position: fixed;
-        z-index: -4;
     }
 
     .overlay-2 {
         background-image: url("space/big_meteor.png");
         animation: 200s bigmeteor-move linear infinite reverse;
+        background-position: 0vw bottom;
+        background-repeat: repeat-x;
         background-size: 100vh;
-        background-position: bottom left;
-        background-repeat: repeat-x,
-            repeat-x;
-        position: fixed;
-        z-index: -3;
     }
 
     .overlay-3 {
         background-image: url("space/med_meteor.png");
         animation: 80s medmeteor-move linear infinite;
+        background-position: 0vw bottom;
+        background-repeat: repeat-x;
         background-size: 100vh;
-        background-position: bottom left;
-        background-repeat: repeat-x,
-            repeat-x;
-        position: fixed;
-        z-index: -2;
     }
 
     .overlay-4 {
         background-image: url("space/small_meteor.png");
         animation: 30s smallmeteor-move linear infinite reverse;
+        background-position: 0vw bottom;
+        background-repeat: repeat-x;
         background-size: 100vh;
-        background-position: bottom left;
-        background-repeat: repeat-x,
-            repeat-x;
-        position: fixed;
-        z-index: -1;
     }
 
     @keyframes alternia-move {
@@ -263,19 +252,19 @@ body {
 
     @keyframes bigmeteor-move {
         to {
-            background-position: 100vh bottom;
+            background-position: 100vw bottom;
         }
     }
 
     @keyframes medmeteor-move {
         to {
-            background-position: 100vh bottom;
+            background-position: 100vw bottom;
         }
     }
 
     @keyframes smallmeteor-move {
         to {
-            background-position: 100vh bottom;
+            background-position: 100vw bottom;
         }
     }
 }

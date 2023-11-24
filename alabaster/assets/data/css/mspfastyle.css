@@ -12,30 +12,6 @@
 	unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 
-/*=============================
-CUSTOM CSS */
-
-.iframe-container {
-	background: transparent url("../../../../tcmc/assets/img/loading.gif") no-repeat 50% center !important;
-	margin-top: -15px;
-}
-
-.p1 #foot,
-.p2 #foot,
-.p3 #foot,
-.plog #foot {
-	display: none !important;
-}
-
-.p1413 #main {
-	width: fit-content !important;
-}
-
-.array img,
-.textimg img {
-	margin: auto !important;
-}
-
 /*================================================================================================================*/
 
 /* Custom SpoilButton code */
@@ -48,13 +24,13 @@ CUSTOM CSS */
 	margin: 0px !important;
 }
 
-.spoiler>div:last-child {
+.spoiler > div:last-child {
 	margin: 12px 5%;
 	padding: 3px;
 	text-align: left;
 }
 
-.spoiler.closed>div:last-child {
+.spoiler.closed > div:last-child {
 	display: none;
 }
 
@@ -96,7 +72,7 @@ body {
 	vertical-align: middle;
 }
 
-#links>span>div::before {
+#links > span > div::before {
 	content: "> ";
 }
 
@@ -170,16 +146,16 @@ body {
 	background-color: #eee;
 }
 
-.mspfa #dialog>div:nth-child(1) {
+.mspfa #dialog > div:nth-child(1) {
 	padding: 8px;
 	background-color: #ddd;
 }
 
-.mspfa #dialog>div:nth-child(2) {
+.mspfa #dialog > div:nth-child(2) {
 	padding: 12px;
 }
 
-.mspfa #dialog>div:nth-child(3) {
+.mspfa #dialog > div:nth-child(3) {
 	padding: 8px;
 	text-align: right;
 }
@@ -248,7 +224,7 @@ body {
 	opacity: .5;
 }
 
-.mspfa .g-signin2>div {
+.mspfa .g-signin2 > div {
 	margin: 0 auto;
 }
 
@@ -300,12 +276,12 @@ body {
 	background-color: #eee;
 }
 
-.mspfa table.container>tbody>tr {
+.mspfa table.container > tbody > tr {
 	height: 0;
 }
 
-.mspfa table.container>tbody>tr>td,
-.mspfa table.container>tbody>tr>th {
+.mspfa table.container > tbody > tr > td,
+.mspfa table.container > tbody > tr > th {
 	padding: 4px;
 	vertical-align: top;
 	height: 0;
@@ -318,7 +294,7 @@ body {
 	font-size: 16px;
 }
 
-.mspfa table.container.alt>tbody>tr>td {
+.mspfa table.container.alt > tbody > tr > td {
 	border-width: 20px;
 }
 
@@ -337,16 +313,16 @@ body {
 	font-size: 16px;
 }
 
-.mspfa table.container.alt2>tbody>tr>td,
-.mspfa table.container.alt2>tbody>tr>th {
+.mspfa table.container.alt2 > tbody > tr > td,
+.mspfa table.container.alt2 > tbody > tr > th {
 	border-width: 2px;
 }
 
-.mspfa table.container.alt2>tbody>tr>th {
+.mspfa table.container.alt2 > tbody > tr > th {
 	font-weight: 700;
 }
 
-.mspfa table.container.alt2>tbody>tr>td {
+.mspfa table.container.alt2 > tbody > tr > td {
 	padding: 10px;
 }
 
@@ -360,7 +336,7 @@ body {
 	margin: 0 auto;
 }
 
-.mspfa table.container.alt3 table>tbody>tr>td {
+.mspfa table.container.alt3 table > tbody > tr > td {
 	padding: 10px;
 }
 
@@ -537,7 +513,7 @@ body {
 	margin: 0 16px;
 }
 
-.mspfa .cellicon~input[type=checkbox] {
+.mspfa .cellicon ~ input[type=checkbox] {
 	position: relative;
 	top: -24px;
 }
@@ -564,13 +540,13 @@ body {
 	padding: 1px;
 }
 
-.mspfa .spoiler>div:last-child {
+.mspfa .spoiler > div:last-child {
 	margin: 12px 5%;
 	padding: 3px;
 	text-align: left;
 }
 
-.mspfa .spoiler.closed>div:last-child {
+.mspfa .spoiler.closed > div:last-child {
 	display: none;
 }
 
@@ -601,7 +577,7 @@ body {
 	margin-bottom: 14px;
 }
 
-.mspfa #content>span>br:first-child {
+.mspfa #content > span > br:first-child {
 	display: none;
 }
 
@@ -619,7 +595,7 @@ body {
 }
 
 .mspfa #slide .spoiler img,
-.mspfa #commentbox>.spoiler .spoiler img {
+.mspfa #commentbox > .spoiler .spoiler img {
 	max-width: 100%;
 }
 
@@ -634,7 +610,7 @@ body {
 	font-size: x-large;
 }
 
-.mspfa #links>div::before {
+.mspfa #links > div::before {
 	content: "> ";
 }
 
@@ -700,43 +676,43 @@ body {
 	text-align: center;
 }
 
-.mspfa #info>span>.spoiler,
-.mspfa #latestpages>span>.spoiler {
+.mspfa #info > span > .spoiler,
+.mspfa #latestpages > span > .spoiler {
 	border: none;
 }
 
-.mspfa #info>span>.spoiler.open {
+.mspfa #info > span > .spoiler.open {
 	background-color: #eee;
 }
 
-.mspfa #info>span>.spoiler>div:first-child>input,
-.mspfa #latestpages>span>.spoiler>div:first-child>input {
+.mspfa #info > span > .spoiler > div:first-child > input,
+.mspfa #latestpages > span > .spoiler > div:first-child > input {
 	font-size: 10px;
 	padding: 0;
 }
 
-.mspfa #info>span>.spoiler>div:last-child>table>tbody>tr>td {
+.mspfa #info > span > .spoiler > div:last-child > table > tbody > tr > td {
 	vertical-align: top;
 }
 
-.mspfa #infobox>.spoiler>div:last-child>table {
+.mspfa #infobox > .spoiler > div:last-child > table {
 	width: 100%;
 }
 
-.mspfa #latestpages>span>.spoiler>div:last-child {
+.mspfa #latestpages > span > .spoiler > div:last-child {
 	margin: 12px 0 0;
 	padding: 0;
 }
 
-.mspfa .comment>td {
+.mspfa .comment > td {
 	padding-bottom: 16px;
 }
 
-.mspfa .comment>td:first-child>.cellicon {
+.mspfa .comment > td:first-child > .cellicon {
 	margin: 0 16px 0 0;
 }
 
-.mspfa .comment>td:last-child {
+.mspfa .comment > td:last-child {
 	width: 100%;
 }
 

@@ -1,5 +1,5 @@
 a {
-    color: #b10053 !important;
+    color: #940045 !important;
 }
 
 nav {
@@ -55,19 +55,24 @@ nav .dropdown-content {
     background-image: url("myutun-sea/header.png");
 }
 
-#info > span > .spoiler > div:first-child > input,
-#infobox > .spoiler.closed:first-child,
+#info > span > .spoiler,
 #info > span > .spoiler.open {
     border: 4px solid #6A006A;
+    background-color: rgba(182, 159, 178, 0.8);
 }
 
 #latestpages > span > .spoiler.closed,
 #adventureNews {
     border: 4px solid #6A006A;
+    border-right: 1px solid #6A006A;
 }
 
 #commentary-wrapper {
     Border: 8px solid #6A006A;
+}
+
+#details a {
+    color: black !important;
 }
 
 /* OFFLINE ONLY */
@@ -122,17 +127,11 @@ nav .dropdown-content {
 /*SCROLL BAR*/
 /* =========================================== */
 ::-webkit-scrollbar {
-    height: 12px;
-    width: 12px;
     background: #6A006A;
 }
 
 ::-webkit-scrollbar-thumb {
     background: #a10000;
-    border-radius: 1ex;
-    -webkit-border-radius: 1ex;
-    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
 }
 
 ::-webkit-scrollbar-corner {
@@ -183,33 +182,27 @@ body {
         background-repeat:
             repeat-x,
             repeat-x;
+        z-index: -2;
     }
 
     #overlay {
         background-image: url("alternia/moons.png");
         animation: 3s moon-move linear infinite;
-        background-position-x: 5vw;
-        background-position-y: 25vh;
+        background-position: 5vw 25vh;
         background-repeat: no-repeat;
         background-size: 15vw;
-        position: fixed;
-        z-index: -4;
     }
 
     .overlay-1 {
         background-image: url("alternia/sky_cloud.png");
-        animation: 120s skycloud-move linear infinite reverse;
-        background-position: center left;
-        position: fixed;
-        z-index: -3;
+        animation: 140s skycloud-move linear infinite;
+        background-position: 100vw center;
     }
 
     .overlay-2 {
         background-image: url("alternia/front_cloud.png");
-        animation: 25s frontcloud-move linear infinite reverse;
-        background-position: bottom left;
-        position: fixed;
-        z-index: -2;
+        animation: 45s frontcloud-move linear infinite;
+        background-position: 100vw bottom;
     }
 
     @keyframes moon-move {
@@ -236,13 +229,13 @@ body {
 
     @keyframes skycloud-move {
         to {
-            background-position: 100vh center;
+            background-position: 0vw center;
         }
     }
 
     @keyframes frontcloud-move {
         to {
-            background-position: 100vh bottom;
+            background-position: 0vw bottom;
         }
     }
 }

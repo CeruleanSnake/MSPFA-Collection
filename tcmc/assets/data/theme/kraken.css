@@ -56,19 +56,24 @@ nav .dropdown-content {
     background-image: url("myutun-sea/header.png");
 }
 
-#info > span > .spoiler > div:first-child > input,
-#infobox > .spoiler.closed:first-child,
+#info > span > .spoiler,
 #info > span > .spoiler.open {
     border: 4px solid #242e3a;
+    background-color: rgba(149, 149, 149, 0.8);
 }
 
 #latestpages > span > .spoiler.closed,
 #adventureNews {
-    border: 4px solid #242e3a;
+    border: 4px solid #4e4e4e;
+    border-right: 1px solid #4e4e4e;
 }
 
 #commentary-wrapper {
     Border: 8px solid #242e3a;
+}
+
+#details a {
+    color: black !important;
 }
 
 /* OFFLINE ONLY */
@@ -123,17 +128,11 @@ nav .dropdown-content {
 /*SCROLL BAR*/
 /* =========================================== */
 ::-webkit-scrollbar {
-    height: 12px;
-    width: 12px;
     background: #4e4e4e;
 }
 
 ::-webkit-scrollbar-thumb {
     background: rgb(38, 49, 82);
-    border-radius: 1ex;
-    -webkit-border-radius: 1ex;
-    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
 }
 
 ::-webkit-scrollbar-corner {
@@ -145,8 +144,8 @@ nav .dropdown-content {
 body {
     background-image:
         url("./kraken/front-cloud.png"),
+        url("./kraken/front-cloud2.png"),
         url("./kraken/topcloud2.png"),
-        url("./kraken/topcloudclone.png"),
         url("./kraken/wave-front.png"),
         url("./kraken/Rain.gif"),
         url("./kraken/back-cloud.png"),
@@ -162,8 +161,8 @@ body {
         repeat-x,
         no-repeat;
     background-position:
-        center,
-        left 10vh,
+        left 20vh,
+        left 15vh,
         top,
         bottom,
         top,
@@ -197,6 +196,7 @@ body {
     }
 
     /* PARALLAX BACKGROUND */
+
     #overlay > div,
     #overlay {
         position: fixed;
@@ -206,167 +206,143 @@ body {
         height: 100%;
         user-select: none;
         pointer-events: none;
+        z-index: -2;
     }
 
     #overlay {
         background-image: url("./kraken/back-cloud.png");
-        animation: 200s skycloud-move linear infinite reverse;
-        background-position: center left;
+        animation: 200s back-cloud-move linear infinite;
+        background-position: 0vw center;
         background-repeat: repeat-x;
-        background-size: 100vh;
-        position: fixed;
-        z-index: -16;
+        background-size: 80vh;
     }
 
     .overlay-1 {
         background-image: url("./kraken/topcloud.png");
-        animation: 150s topcloud-move linear infinite;
-        background-position: top left;
+        animation: 400s topcloud-move linear infinite;
+        background-position: 0vw top;
         background-repeat: repeat-x;
-        background-size: 100vh;
-        position: fixed;
-        z-index: -15;
+        background-size: 80vh;
     }
 
     .overlay-2 {
         background-image: url("./kraken/wave-back.png");
-        animation: 40s wave-back-move linear infinite;
-        background-position: bottom left;
+        animation: 70s wave-back-move linear infinite;
+        background-position: 0vw bottom;
         background-repeat: repeat-x;
         background-size: 100vh;
-        position: fixed;
-        z-index: -14;
     }
 
-    .p331 .overlay-9,
-    .p332 .overlay-9,
-    .p333 .overlay-9,
-    .p334 .overlay-9,
-    .p335 .overlay-9,
-    .p336 .overlay-9,
-    .p337 .overlay-9,
-    .p338 .overlay-9 {
+    .p331 .overlay-3,
+    .p332 .overlay-3,
+    .p333 .overlay-3,
+    .p334 .overlay-3,
+    .p335 .overlay-3,
+    .p336 .overlay-3,
+    .p337 .overlay-3,
+    .p338 .overlay-3 {
         background-image: url("../../img/story/0001/tentacle.png");
         animation: 8s tentacle2-move linear infinite;
-        background-position-x: 7vw;
-        background-position-y: 60vh;
+        background-position: 7vw 60vh;
         background-repeat: no-repeat;
         background-size: 20vh;
         object-fit: fill;
         transform: scaleX(-1);
-        position: fixed;
-        z-index: -13;
-    }
-
-    .overlay-3 {
-        background-image: url("myutun-sea/ship.png");
-        animation: 35s ship-move linear infinite;
-        background-repeat: no-repeat;
-        background-size: 40vh;
-        background-position-x: 110vw;
-        background-position-y: 64vh;
-        position: fixed;
-        z-index: -12;
     }
 
     .overlay-4 {
-        background-image: url("./kraken/Rain.gif");
-        background-position: top left;
-        background-repeat: repeat;
-        background-size: 8%;
-        position: fixed;
-        z-index: -10;
+        background-image: url("myutun-sea/ship.png");
+        animation: 85s ship-move linear infinite;
+        background-position: 110vw 64vh;
+        background-repeat: no-repeat;
+        background-size: 40vh;
     }
 
-    .overlay-5 {
-        background-image: url("./kraken/front-cloud.png");
-        animation: 50s sky-cloud-2-move linear infinite;
-        background-position: left 20vh;
-        background-repeat: repeat-x;
-        background-size: 100vh;
-        position: fixed;
-        z-index: -9;
-    }
-
-    .overlay-6 {
-        background-image: url("./kraken/topcloudclone.png");
-        animation: 90s topcloud-clone-move linear infinite;
-        background-position: top right;
-        background-repeat: repeat-x;
-        background-size: 100vh;
-        position: fixed;
-        z-index: -8;
-    }
-
-    .overlay-7 {
-        background-image: url("./kraken/topcloud2.png");
-        animation: 70s topcloud-2-move linear infinite;
-        background-position: left 15vh;
-        background-repeat: repeat-x;
-        background-size: 100vh;
-        position: fixed;
-        z-index: -7;
-    }
-
-    .p325 .overlay-8,
-    .p326 .overlay-8,
-    .p327 .overlay-8,
-    .p331 .overlay-8,
-    .p332 .overlay-8,
-    .p333 .overlay-8,
-    .p334 .overlay-8,
-    .p335 .overlay-8,
-    .p336 .overlay-8,
-    .p337 .overlay-8,
-    .p338 .overlay-8 {
+    .p325 .overlay-5,
+    .p326 .overlay-5,
+    .p327 .overlay-5,
+    .p331 .overlay-5,
+    .p332 .overlay-5,
+    .p333 .overlay-5,
+    .p334 .overlay-5,
+    .p335 .overlay-5,
+    .p336 .overlay-5,
+    .p337 .overlay-5,
+    .p338 .overlay-5 {
         background-image: url("../../img/story/0001/tentacle.png");
         animation: 5s tentacle-move linear infinite;
-        background-position-x: 6vw;
-        background-position-y: 60vh;
+        background-position: 6vw 60vh;
         background-repeat: no-repeat;
         background-size: 20vh;
         object-fit: fill;
-        position: fixed;
-        z-index: -6;
+    }
+
+    .overlay-6 {
+        background-image: url("./kraken/Rain.gif");
+        background-position: top left;
+        background-repeat: repeat;
+        background-size: 5%;
+    }
+
+    .overlay-7 {
+        background-image: url("./kraken/front-cloud.png");
+        animation: 70s front-cloud-move linear infinite;
+        background-position: 100vw 20vh;
+        background-repeat: repeat-x;
+        background-size: 100vh;
+    }
+
+    .overlay-8 {
+        background-image: url("./kraken/topcloud2.png");
+        animation: 90s topcloud2-move linear infinite;
+        background-position: 100vw top;
+        background-repeat: repeat-x;
+        background-size: 80vh;
+    }
+
+    .overlay-9 {
+        background-image: url("./kraken/front-cloud2.png");
+        animation: 150s front-cloud2-move linear infinite;
+        background-position: 0vw 15vh;
+        background-repeat: repeat-x;
+        background-size: 100vh;
     }
 
     .overlay-10 {
         background-image: url("./kraken/wave-front.png");
-        animation: 20s wave-front-move linear infinite;
-        background-position: bottom left;
+        animation: 30s wave-front-move linear infinite;
+        background-position: 0vw bottom;
         background-repeat: repeat-x;
         background-size: 100vh;
-        position: fixed;
-        z-index: -5;
     }
 
-    @keyframes skycloud-move {
+    @keyframes back-cloud-move {
         to {
-            background-position: 100vh center;
-        }
-    }
-
-    @keyframes sky-cloud-2-move {
-        to {
-            background-position: right 20vh;
+            background-position: 80vw center;
         }
     }
 
     @keyframes topcloud-move {
         to {
-            background-position: 100vh top;
+            background-position: 80vw top;
         }
     }
 
-    @keyframes topcloud-clone-move {
+    @keyframes front-cloud-move {
         to {
-            background-position: left top;
+            background-position: 0vw 20vh;
         }
     }
 
-    @keyframes topcloud-2-move {
+    @keyframes front-cloud2-move {
         to {
-            background-position: right 15vh;
+            background-position: 100vw 15vh;
+        }
+    }
+
+    @keyframes topcloud2-move {
+        to {
+            background-position: 20vw top;
         }
     }
 
@@ -426,7 +402,7 @@ body {
 
     @keyframes wave-back-move {
         to {
-            background-position: 100vh bottom;
+            background-position: 100vw bottom;
         }
 
         0% {
@@ -476,7 +452,7 @@ body {
 
     @keyframes ship-move {
         to {
-            background-position-x: -60vh;
+            background-position-x: -60vw;
         }
 
         0% {
@@ -526,7 +502,7 @@ body {
 
     @keyframes wave-front-move {
         to {
-            background-position: 100vh bottom;
+            background-position: 100vw bottom;
         }
 
         0% {

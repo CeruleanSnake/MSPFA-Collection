@@ -1,3 +1,42 @@
+/* ========================
+ALL CSS BELOW IS CUSTOM DUE TO THE OFFLINE ARCHIVE BEING WEIRD WITH NUMBER RANGES
+AND OTHER THINGS.
+
+JUST ADD ANY NUMBER RANGE SETTINGS IN HERE AND SEPARATE THEM AS BELOW.
+
+ADDITIONALLY, ADD ANY EXTRA CSS THAT IS ONLY NEEDED FOR THE ARCHIVE HERE.
+========================= */
+
+.iframe-container {
+    background: transparent url("../../../../tcmc/assets/img/loading.gif") no-repeat 50% center !important;
+    margin-top: -15px;
+}
+
+.p1 #foot,
+.p2 #foot,
+.p3 #foot,
+.plog #foot {
+    display: none !important;
+}
+
+.p1413 #main {
+    width: fit-content !important;
+}
+
+.plog #slide {
+    width: 800px !important;
+}
+
+.array img,
+.textimg img {
+    margin: auto !important;
+}
+
+
+/* ========================
+ALL CSS BELOW HERE IS DIRECTLY COPIED FROM THE MSPFA VERSION, JUST OVERWRITE WHEN NEED TO
+=========================== */
+
 #mirrorlinks {
     color: rgb(127, 127, 127) !important;
 }
@@ -58,13 +97,156 @@
     margin: 0 -25px;
 }
 
+
+.p7-18 body {
+    background-color: #000000;
+}
+
+.p7-18 #main {
+    background-color: #000000;
+}
+
+.p7-18 #slide {
+    background-color: #000000;
+}
+
+.p7-18 #info > span > .spoiler.open {
+    background-color: #000000;
+}
+
+.p7-18 nav a {
+    color: #FFFFFF !important;
+}
+
+.p7-18 a {
+    color: #FFFFFF;
+}
+
+.p7-18 a:active {
+    color: #FFFFFF;
+}
+
+.p7-18 a:visited {
+    color: #FFFFFF;
+}
+
+
+
+
+/* =============================== Rainbow*/
+.rainbow {
+    --amt: 4;
+}
+
+.rainbow .textfx {
+    animation: rainbow calc(var(--amt) * 2s) linear infinite;
+}
+
+.rainbow .textfx:nth-child(10n+9) {
+    animation-delay: calc(var(--amt) * -2s);
+}
+
+.rainbow .textfx:nth-child(10n+8) {
+    animation-delay: calc(var(--amt) * -1.8s);
+}
+
+.rainbow .textfx:nth-child(10n+7) {
+    animation-delay: calc(var(--amt) * -1.6s);
+}
+
+.rainbow .textfx:nth-child(10n+6) {
+    animation-delay: calc(var(--amt) * -1.4s);
+}
+
+.rainbow .textfx:nth-child(10n+5) {
+    animation-delay: calc(var(--amt) * -1.2s);
+}
+
+.rainbow .textfx:nth-child(10n+4) {
+    animation-delay: calc(var(--amt) * -1s);
+}
+
+.rainbow .textfx:nth-child(10n+3) {
+    animation-delay: calc(var(--amt) * -0.8s);
+}
+
+.rainbow .textfx:nth-child(10n+2) {
+    animation-delay: calc(var(--amt) * -0.6s);
+}
+
+.rainbow .textfx:nth-child(10n+1) {
+    animation-delay: calc(var(--amt) * -0.4s);
+}
+
+.rainbow .textfx:nth-child(10n) {
+    animation-delay: calc(var(--amt) * -0.2s);
+}
+
+@keyframes rainbow {
+
+    to,
+    from {
+        color: #77003c;
+    }
+
+    5% {
+        color: #a10000;
+    }
+
+    15% {
+        color: #a15000;
+    }
+
+    25% {
+        color: #a1a100;
+    }
+
+    35% {
+        color: #416600;
+    }
+
+    45% {
+        color: #008141;
+    }
+
+    55% {
+        color: #008282;
+    }
+
+    65% {
+        color: #005682;
+    }
+
+    75% {
+        color: #0022cf
+    }
+
+    85% {
+        color: #4200b0;
+    }
+
+    95% {
+        color: #6a006a;
+    }
+}
+
+.p23 #command span {
+    display: none !important;
+}
+
+.p23 #command::after {
+    content: "Enter name." !important;
+}
+
+@mspfa audio 7 18 https: //file.garden/Y8Pb92x5lj9PszaW/alabaster/soundtrack/intro_nameless_theme.mp3;
+
 @mspfa audio 458 473 https: //file.garden/Y8Pb92x5lj9PszaW/alabaster/soundtrack/001_conquest_of_paradise_hiphop.mp3;
 
 @mspfa audio 732 747 https: //file.garden/Y8Pb92x5lj9PszaW/alabaster/soundtrack/002_vangelis_antarctica.mp3;
 
-@mspfa audio 798 799 https: //file.garden/Y8Pb92x5lj9PszaW/alabaster/soundtrack/003_scharvona_ice_for_life.mp3;
+@mspfa audio 798 804 https: //file.garden/Y8Pb92x5lj9PszaW/alabaster/soundtrack/003_scharvona_ice_for_life.mp3;
 
-@mspfa audio 803 813 https: //file.garden/Y8Pb92x5lj9PszaW/alabaster/soundtrack/004_scharvona_be_wheely_careful.mp3;
+@mspfa audio 805 813 https: //file.garden/Y8Pb92x5lj9PszaW/alabaster/soundtrack/004_scharvona_be_wheely_careful.mp3;
 
 @mspfa audio 825 863 https: //file.garden/Y8Pb92x5lj9PszaW/alabaster/soundtrack/005_sanoandaihara_twelfth_chapter_final.mp3;
 

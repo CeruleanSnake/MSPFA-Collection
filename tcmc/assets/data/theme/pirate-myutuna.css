@@ -1,5 +1,5 @@
 a {
-    color: #0080c2;
+    color: #005682 !important;
 }
 
 nav {
@@ -75,19 +75,24 @@ nav a[href="/more/"]::after {
     background-image: url("myutun-sea/header.png");
 }
 
-#info > span > .spoiler > div:first-child > input,
-#infobox > .spoiler.closed:first-child,
+#info > span > .spoiler,
 #info > span > .spoiler.open {
     border: 4px solid #064564;
+    background-color: rgba(159, 171, 182, 0.8);
 }
 
 #latestpages > span > .spoiler.closed,
 #adventureNews {
-    border: 4px solid #064564;
+    border: 4px solid #035c88;
+    border-right: 1px solid #035c88;
 }
 
 #commentary-wrapper {
     Border: 8px solid #064564;
+}
+
+#details a {
+    color: black !important;
 }
 
 #startover::after {
@@ -154,17 +159,11 @@ nav a[href="/more/"]::after {
 /*SCROLL BAR*/
 /* =========================================== */
 ::-webkit-scrollbar {
-    height: 12px;
-    width: 12px;
     background: #035c88;
 }
 
 ::-webkit-scrollbar-thumb {
     background: rgb(255, 181, 233);
-    border-radius: 1ex;
-    -webkit-border-radius: 1ex;
-    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
 }
 
 ::-webkit-scrollbar-corner {
@@ -211,91 +210,78 @@ body {
         height: 100%;
         user-select: none;
         pointer-events: none;
+        z-index: -2;
     }
 
     #overlay {
         background-image: url("myutun-sea/back-cloud.png");
-        animation: 200s skycloud-move linear infinite reverse;
-        background-position: center left;
+        animation: 400s back-cloud-move linear infinite;
+        background-position: 100vw center;
         background-repeat: repeat-x;
         background-size: 100vh;
-        position: fixed;
-        z-index: -7;
     }
 
     .overlay-1 {
         background-image: url("myutun-sea/island.png");
-        animation: 110s bg-move linear infinite;
+        animation: 280s island-move linear infinite;
+        background-position: -40vw 72vh;
         background-repeat: no-repeat;
         background-size: 70vh;
-        background-position-y: 72vh;
-        background-position-x: -40vw;
-        position: fixed;
-        z-index: -6;
     }
 
     .overlay-2 {
         background-image: url("myutun-sea/front-cloud.png");
-        animation: 60s sky-cloud-2-move linear infinite;
-        background-position: center left;
+        animation: 140s front-cloud-move linear infinite;
+        background-position: 0vw center;
         background-repeat: repeat-x;
         background-size: 100vh;
-        position: fixed;
-        z-index: -5;
     }
 
     .overlay-3 {
         background-image: url("pirate-alternia/wave-back.png");
-        animation: 40s wave-back-move linear infinite;
-        background-position: bottom left;
+        animation: 70s wave-back-move linear infinite;
+        background-position: 0vw bottom;
         background-repeat: repeat-x;
         background-size: 100vh;
-        position: fixed;
-        z-index: -4;
     }
 
     .overlay-4 {
         background-image: url("myutun-sea/ship.png");
-        animation: 35s ship-move linear infinite;
+        animation: 65s ship-move linear infinite;
+        background-position: 110vw 64vh;
         background-repeat: no-repeat;
         background-size: 40vh;
-        background-position-x: 110vw;
-        background-position-y: 64vh;
-        position: fixed;
-        z-index: -3;
     }
 
     .overlay-5 {
         background-image: url("pirate-alternia/wave-front.png");
-        animation: 20s wave-front-move linear infinite;
-        background-position: bottom left;
+        animation: 35s wave-front-move linear infinite;
+        background-position: 0vw bottom;
         background-repeat: repeat-x;
         background-size: 100vh;
-        position: fixed;
-        z-index: -2;
     }
 
-    @keyframes skycloud-move {
+    @keyframes back-cloud-move {
         to {
-            background-position: 100vh center;
+            background-position: 0vw center;
         }
     }
 
-    @keyframes sky-cloud-2-move {
+    @keyframes front-cloud-move {
         to {
-            background-position: 100vh center;
+            background-position: 100vw center;
         }
     }
 
-    @keyframes bg-move {
+    @keyframes island-move {
         to {
-            background-position: 180vh 72vh;
+            background-position: 180vw 72vh;
         }
     }
 
     @keyframes wave-back-move {
         to {
-            background-position: 100vh bottom;
+            background-position: 100vw bottom;
         }
 
         0% {
@@ -345,7 +331,7 @@ body {
 
     @keyframes ship-move {
         to {
-            background-position-x: -60vh;
+            background-position-x: -60vw;
         }
 
         0% {
@@ -395,7 +381,7 @@ body {
 
     @keyframes wave-front-move {
         to {
-            background-position: 100vh bottom;
+            background-position: 100vw bottom;
         }
 
         0% {
