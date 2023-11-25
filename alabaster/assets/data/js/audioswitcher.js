@@ -4,7 +4,12 @@ var is_in_range = (num, track) => {
   return num >= track[0] && num <= track[1];
 };
 
-const audio_data = [
+const audio_data=[
+  [
+    [
+      [7, 18]
+    ], new Audio('./assets/sound/intro_nameless_theme.mp3')
+  ],
   [
     [
       [458, 473]

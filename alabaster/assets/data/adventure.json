@@ -60,7 +60,7 @@
 		{
 			"d": 1298969484000,
 			"c": " ",
-			"b": "<div class=\"overlayimg\">[img]./assets/img/titlescreen/alab_5_nuages.gif[/img][img]./assets/img/titlescreen/alab_4_cite.png[/img][img]./assets/img/titlescreen/alab_3_statues.png[/img][img]./assets/img/titlescreen/alab_2_details.png[/img][img]./assets/img/titlescreen/alab_1_titre.png[/img][img]./assets/img/titlescreen/alab_6_ciel.png[/img]</div>[img]./assets/img/titlescreen/alab2023_inter.png[/img]<div class=\"array\">[url=Alabaster.html?p=2][img]./assets/img/titlescreen/menu1chapters.png[/img][/url][url=Alabaster.html?p=4][img]./assets/img/titlescreen/menu2newgame.png[/img][/url][url=Alabaster.html?p=3][img]./assets/img/titlescreen/menu3credits.png[/img][/url][url=https://mspfa.com/?s=564&p=1][img]./assets/img/titlescreen/menu4extramaterial.png[/img][/url]<a id=\"loadgameimg\">[img]./assets/img/titlescreen/menu5loadgame.png[/img]</a>[url=https://discord.gg/FFBHG7nPDC][img]./assets/img/titlescreen/menu6discord.png[/img][/url][url=../tcmc/The-Cerulean-Motley-Crew.html?p=1][img]./assets/img/titlescreen/menu7cerulean.png[/img][/url]<a id=\"newupdateimg\">[img]./assets/img/titlescreen/menu8lastupdate.png[/img]</a>[url=https://retrospring.net/][img]./assets/img/titlescreen/menu9retrospringfaq.png[/img][/url]</div>\n\n<div id=mirrorlinks>MSPFA Version | [url=https://www.pantagrame.com/alabaster/Alabaster.html?p=1]Pantagrame Version[/url] | [url=https://github.com/CeruleanSnake/MSPFA-Collection/tree/main/alabaster]Cerulean Archive[/url]</div>\n\n<textfx class=\"rainbow\">Now part of an extended universe with:</textfx>\n[url=../tcmc/The-Cerulean-Motley-Crew.html?p=1][img]https://www.pantagrame.com/alabaster/assets/img/special/ceruleanlogo1.png[/img]\nby Cerulean Snake[/url]\n",
+			"b": "<div class=\"overlayimg\">[img]./assets/img/titlescreen/alab_5_nuages.gif[/img][img]./assets/img/titlescreen/alab_4_cite.png[/img][img]./assets/img/titlescreen/alab_3_statues.png[/img][img]./assets/img/titlescreen/alab_2_details.png[/img][img]./assets/img/titlescreen/alab_1_titre.png[/img][img]./assets/img/titlescreen/alab_6_ciel.png[/img]</div>[img]./assets/img/titlescreen/alab2023_inter.png[/img]<div class=\"array\">[url=Alabaster.html?p=2][img]./assets/img/titlescreen/menu1chapters.png[/img][/url][url=Alabaster.html?p=4][img]./assets/img/titlescreen/menu2newgame.png[/img][/url][url=Alabaster.html?p=3][img]./assets/img/titlescreen/menu3credits.png[/img][/url][url=https://mspfa.com/?s=564&p=1][img]./assets/img/titlescreen/menu4extramaterial.png[/img][/url]<a id=\"loadgameimg\">[img]./assets/img/titlescreen/menu5loadgame.png[/img]</a>[url=https://discord.gg/FFBHG7nPDC][img]./assets/img/titlescreen/menu6discord.png[/img][/url][url=../tcmc/The-Cerulean-Motley-Crew.html?p=1][img]./assets/img/titlescreen/menu7cerulean.png[/img][/url]<a id=\"newupdateimg\">[img]./assets/img/titlescreen/menu8lastupdate.png[/img]</a>[url=https://retrospring.net/][img]./assets/img/titlescreen/menu9retrospringfaq.png[/img][/url]</div>\n\n<div id=mirrorlinks>[url=https://mspfa.com/?s=236&p=1]MSPFA Version[/url] | Pantagrame Version | [url=https://github.com/CeruleanSnake/MSPFA-Collection/tree/main/alabaster]Cerulean Archive[/url]</div>\n\n<textfx class=\"rainbow\">Now part of an extended universe with:</textfx>\n[url=../tcmc/The-Cerulean-Motley-Crew.html?p=1][img]./assets/img/special/ceruleanlogo1.png[/img]\nby Cerulean Snake[/url]\n",
 			"n": [
 				4
 			]
@@ -105,7 +105,7 @@
 		{
 			"d": 1697318003784,
 			"c": "Read introduction to the lore.",
-			"b": "[IMG]./assets/img/story/intro/intro01.png[/IMG]\n[left][color=#f2f2f2][size=20][font=Courier New]Welcome to ALTERNIA, the most cursed world one can imagine!\n\nHome to the TROLLS, an humanoid species of pseudo-insect conformation and genocidal disposition![/font][/size][/color][/left]\n",
+			"b": "<div class=\"textimg\">[url=Alabaster.html?p=6][IMG]./assets/img/story/intro/leftarrowbeginning.png[/IMG][/url][url=Alabaster.html?p=8][IMG]http://www.pantagrame.com/alabaster/assets/img/story/intro/intro01.png[/IMG][/url]</div>\n[left][color=#f2f2f2][size=35][font=Coders Crux]Welcome to ALTERNIA, the most cursed world one can imagine!\n\nHome to the TROLLS, an humanoid species of pseudo-insect conformation and genocidal disposition![/font][/size][/color][/left]\n\n\n\n\n\n\n[color=#00000].[/color]",
 			"n": [
 				8
 			]
@@ -113,7 +113,7 @@
 		{
 			"d": 1697318003784,
 			"c": "===>",
-			"b": "[IMG]./assets/img/story/intro/intro02.png[/IMG]\n[left][color=#f2f2f2][size=20][font=Courier New]After a larval stage, trolls go through a brutal youth, in a violent society hierarchized according to BLOOD COLOUR.\n\nA lot of them are culled, the survivors join the space army.[/font][/size][/color][/left]",
+			"b": "<div class=\"textimg\">[url=Alabaster.html?p=7][IMG]./assets/img/story/intro/leftarrow.png[/IMG][/url][url=Alabaster.html?p=9][IMG]http://www.pantagrame.com/alabaster/assets/img/story/intro/intro02.png[/IMG][/url]</div>\n[left][color=#f2f2f2][size=35][font=Coders Crux]After a larval stage, trolls go through a brutal youth, in a violent society hierarchized according to BLOOD COLOUR.\n\nA lot of them are culled, the survivors join the space army.[/font][/size][/color][/left]\n\n\n\n\n\n\n[color=#00000].[/color]",
 			"n": [
 				9
 			]
@@ -121,7 +121,7 @@
 		{
 			"d": 1697318003784,
 			"c": "===>",
-			"b": "[IMG]./assets/img/story/intro/intro03.png[/IMG]\n[left][color=#f2f2f2][size=20][font=Courier New]Trolls do not have families, instead they are adopted by a feral beast called a LUSUS.\n\nThe lusus recognizes its BLOOD CASTE by scent and it becomes the child's adoptive parent.[/font][/size][/color][/left]",
+			"b": "<div class=\"textimg\">[url=Alabaster.html?p=8][IMG]./assets/img/story/intro/leftarrow.png[/IMG][/url][url=Alabaster.html?p=10][IMG]http://www.pantagrame.com/alabaster/assets/img/story/intro/intro03.png[/IMG][/url]</div>\n[left][color=#f2f2f2][size=35][font=Coders Crux]Trolls do not have families, instead they are adopted by a feral beast called a LUSUS.\n\nThe lusus recognizes its BLOOD CASTE by scent and it becomes the child's adoptive parent.[/font][/size][/color][/left]\n\n\n\n\n\n\n[color=#00000].[/color]",
 			"n": [
 				10
 			]
@@ -129,7 +129,7 @@
 		{
 			"d": 1697318003784,
 			"c": "===>",
-			"b": "[IMG]./assets/img/story/intro/intro04.png[/IMG]\n[left][color=#f2f2f2][size=20][font=Courier New]Troll romance is all about QUADRANTS!\n\nTheir most intense and intimate relationships are divided into four varieties, each with its own symbol.[/font][/size][/color][/left]",
+			"b": "<div class=\"textimg\">[url=Alabaster.html?p=9][IMG]./assets/img/story/intro/leftarrow.png[/IMG][/url][url=Alabaster.html?p=11][IMG]http://www.pantagrame.com/alabaster/assets/img/story/intro/intro04.png[/IMG][/url]</div>\n[left][color=#f2f2f2][size=35][font=Coders Crux]Troll romance is all about QUADRANTS!\n\nTheir most intense and intimate relationships are divided into four varieties, each with its own symbol.[/font][/size][/color][/left]\n\n\n\n\n\n\n[color=#00000].[/color]",
 			"n": [
 				11
 			]
@@ -137,7 +137,7 @@
 		{
 			"d": 1697318003784,
 			"c": "===>",
-			"b": "[IMG]./assets/img/story/intro/intro05.png[/IMG]\n[left][color=#f2f2f2][size=20][font=Courier New]The HEARTS QUADRANT describes romantic LOVE, people enamoured with each other.[/font][/size][/color][/left]",
+			"b": "<div class=\"textimg\">[url=Alabaster.html?p=10][IMG]./assets/img/story/intro/leftarrow.png[/IMG][/url][url=Alabaster.html?p=12][IMG]http://www.pantagrame.com/alabaster/assets/img/story/intro/intro05.png[/IMG][/url]</div>\n[left][color=#f2f2f2][size=35][font=Coders Crux]The HEARTS QUADRANT describes romantic LOVE, people enamoured with each other.[/font][/size][/color][/left]\n\n\n\n\n\n\n[color=#00000].[/color]",
 			"n": [
 				12
 			]
@@ -145,7 +145,7 @@
 		{
 			"d": 1697318003784,
 			"c": "===>",
-			"b": "[IMG]./assets/img/story/intro/intro06.png[/IMG]\n[left][color=#f2f2f2][size=20][font=Courier New]The SPADES QUADRANT describes romantic HATE, powerful rivalry resulting in a long-term relationship. DO NOT TRY AT HOME![/font][/size][/color][/left]",
+			"b": "<div class=\"textimg\">[url=Alabaster.html?p=11][IMG]./assets/img/story/intro/leftarrow.png[/IMG][/url][url=Alabaster.html?p=13][IMG]http://www.pantagrame.com/alabaster/assets/img/story/intro/intro06.png[/IMG][/url]</div>\n[left][color=#f2f2f2][size=35][font=Coders Crux]The SPADES QUADRANT describes romantic HATE, powerful rivalry resulting in a long-term relationship. DO NOT TRY AT HOME![/font][/size][/color][/left]\n\n\n\n\n\n\n[color=#00000].[/color]",
 			"n": [
 				13
 			]
@@ -153,7 +153,7 @@
 		{
 			"d": 1697318003784,
 			"c": "===>",
-			"b": "[IMG]./assets/img/story/intro/intro07.png[/IMG]\n[left][color=#f2f2f2][size=20][font=Courier New]Both HEARTS and SPADES often result in people SLEEPING TOGETHER.\n\nOn Alternia, reproduction involves buckets and a mothergrub receiving said buckets to engender the next generation.[/font][/size][/color][/left]",
+			"b": "<div class=\"textimg\">[url=Alabaster.html?p=12][IMG]./assets/img/story/intro/leftarrow.png[/IMG][/url][url=Alabaster.html?p=14][IMG]http://www.pantagrame.com/alabaster/assets/img/story/intro/intro07.png[/IMG][/url]</div>\n[left][color=#f2f2f2][size=35][font=Coders Crux]Both HEARTS and SPADES often result in people SLEEPING TOGETHER.\n\nOn Alternia, reproduction involves buckets and a mothergrub receiving said buckets to engender the next generation.[/font][/size][/color][/left]\n\n\n\n\n\n\n[color=#00000].[/color]",
 			"n": [
 				14
 			]
@@ -161,7 +161,7 @@
 		{
 			"d": 1697318003784,
 			"c": "===>",
-			"b": "[IMG]./assets/img/story/intro/intro08.png[/IMG]\n[left][color=#f2f2f2][size=20][font=Courier New]The DIAMONDS QUADRANT describes a special and intense kind of friendship.\n\nIt does not involve sex or traditional codes of love, but rather PRESENCE and BALANCE.[/font][/size][/color][/left]",
+			"b": "<div class=\"textimg\">[url=Alabaster.html?p=13][IMG]./assets/img/story/intro/leftarrow.png[/IMG][/url][url=Alabaster.html?p=15][IMG]http://www.pantagrame.com/alabaster/assets/img/story/intro/intro08.png[/IMG][/url]</div>\n[left][color=#f2f2f2][size=35][font=Coders Crux]The DIAMONDS QUADRANT describes a special and intense kind of friendship.\n\nIt does not involve sex or traditional codes of love, but rather PRESENCE and BALANCE.[/font][/size][/color][/left]\n\n\n\n\n\n\n[color=#00000].[/color]",
 			"n": [
 				15
 			]
@@ -169,7 +169,7 @@
 		{
 			"d": 1697318003784,
 			"c": "===>",
-			"b": "[IMG]./assets/img/story/intro/intro09.png[/IMG]\n[left][color=#f2f2f2][size=20][font=Courier New]The CLUBS QUADRANT describes mediation.\n\nIn this form of romance, you ARBITER between two other trolls to keep their relationship from devolving.[/font][/size][/color][/left]",
+			"b": "<div class=\"textimg\">[url=Alabaster.html?p=14][IMG]./assets/img/story/intro/leftarrow.png[/IMG][/url][url=Alabaster.html?p=16][IMG]http://www.pantagrame.com/alabaster/assets/img/story/intro/intro09.png[/IMG][/url]</div>\n[left][color=#f2f2f2][size=35][font=Coders Crux]The CLUBS QUADRANT describes mediation.\n\nIn this form of romance, you ARBITER between two other trolls to keep their relationship from devolving.[/font][/size][/color][/left]\n\n\n\n\n\n\n[color=#00000].[/color]",
 			"n": [
 				16
 			]
@@ -177,7 +177,7 @@
 		{
 			"d": 1697318003784,
 			"c": "===>",
-			"b": "[IMG]./assets/img/story/intro/intro10.png[/IMG]\n[left][color=#f2f2f2][size=20][font=Courier New]Life on Alternia is hard, thanks to imperial violence and blood colour prejudice, but it becomes even harder when a troll reaching adulthood finds a COSMIC GAME on a pirated server.[/font][/size][/color][/left]",
+			"b": "<div class=\"textimg\">[url=Alabaster.html?p=15][IMG]./assets/img/story/intro/leftarrow.png[/IMG][/url][url=Alabaster.html?p=17][IMG]http://www.pantagrame.com/alabaster/assets/img/story/intro/intro10.png[/IMG][/url]</div>\n[left][color=#f2f2f2][size=35][font=Coders Crux]Life on Alternia is hard, thanks to imperial violence and blood colour prejudice, but it becomes even harder when a troll reaching adulthood finds a COSMIC GAME on a pirated server.[/font][/size][/color][/left]\n\n\n\n\n\n\n[color=#00000].[/color]",
 			"n": [
 				17
 			]
@@ -185,7 +185,7 @@
 		{
 			"d": 1697318003784,
 			"c": "===>",
-			"b": "[IMG]./assets/img/story/intro/intro11.png[/IMG]\n[left][color=#f2f2f2][size=20][font=Courier New]The game will unleash THE END OF THE WORLD, summoning meteors to destroy all of Alternia, while the PLAYERS are pulled into another dimension, the real game field...[/font][/size][/color][/left]",
+			"b": "<div class=\"textimg\">[url=Alabaster.html?p=16][IMG]./assets/img/story/intro/leftarrow.png[/IMG][/url][url=Alabaster.html?p=18][IMG]http://www.pantagrame.com/alabaster/assets/img/story/intro/intro11.png[/IMG][/url]</div>\n[left][color=#f2f2f2][size=35][font=Coders Crux]The game will unleash THE END OF THE WORLD, summoning meteors to destroy all of Alternia, while the PLAYERS are pulled into another dimension, the real game field...[/font][/size][/color][/left]\n\n\n\n\n\n\n[color=#00000].[/color]",
 			"n": [
 				18
 			]
@@ -193,7 +193,7 @@
 		{
 			"d": 1697318003784,
 			"c": "===>",
-			"b": "[IMG]./assets/img/story/intro/intro12.png[/IMG]\n[left][color=#f2f2f2][size=20][font=Courier New]But the troll is only interested in the challenge, and the ultimate purpose of the game: TO BECOME THE GOD OF A NEW UNIVERSE.[/font][/size][/color][/left]",
+			"b": "<div class=\"textimg\">[url=Alabaster.html?p=17][IMG]./assets/img/story/intro/leftarrow.png[/IMG][/url][url=Alabaster.html?p=23][IMG]http://www.pantagrame.com/alabaster/assets/img/story/intro/intro12.png[/IMG][/url]</div>\n[left][color=#f2f2f2][size=35][font=Coders Crux]But the troll is only interested in the challenge, and the ultimate purpose of the game: TO BECOME THE GOD OF A NEW UNIVERSE.[/font][/size][/color][/left]\n\n\n\n\n\n\n[color=#00000].[/color]",
 			"n": [
 				23
 			]

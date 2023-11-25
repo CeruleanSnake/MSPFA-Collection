@@ -7,10 +7,10 @@ JUST ADD ANY NUMBER RANGE SETTINGS IN HERE AND SEPARATE THEM AS BELOW.
 ADDITIONALLY, ADD ANY EXTRA CSS THAT IS ONLY NEEDED FOR THE ARCHIVE HERE.
 ========================= */
 
-.iframe-container {
+/*.iframe-container {
     background: transparent url("../../../../tcmc/assets/img/loading.gif") no-repeat 50% center !important;
     margin-top: -15px;
-}
+}*/
 
 .p1 #foot,
 .p2 #foot,
@@ -36,6 +36,20 @@ ADDITIONALLY, ADD ANY EXTRA CSS THAT IS ONLY NEEDED FOR THE ARCHIVE HERE.
 /* ========================
 ALL CSS BELOW HERE IS DIRECTLY COPIED FROM THE MSPFA VERSION, JUST OVERWRITE WHEN NEED TO
 =========================== */
+
+/*
+===============================
+START OF CODE
+===============================
+*/
+
+/*
+===============================
+TITLE SCREEN, CHAPTERS AND CREDITS
+===============================
+*/
+
+
 
 #mirrorlinks {
     color: rgb(127, 127, 127) !important;
@@ -98,42 +112,18 @@ ALL CSS BELOW HERE IS DIRECTLY COPIED FROM THE MSPFA VERSION, JUST OVERWRITE WHE
 }
 
 
-.p7-18 body {
-    background-color: #000000;
-}
-
-.p7-18 #main {
-    background-color: #000000;
-}
-
-.p7-18 #slide {
-    background-color: #000000;
-}
-
-.p7-18 #info > span > .spoiler.open {
-    background-color: #000000;
-}
-
-.p7-18 nav a {
-    color: #FFFFFF !important;
-}
-
-.p7-18 a {
-    color: #FFFFFF;
-}
-
-.p7-18 a:active {
-    color: #FFFFFF;
-}
-
-.p7-18 a:visited {
-    color: #FFFFFF;
-}
 
 
 
 
-/* =============================== Rainbow*/
+/*
+===============================
+RAINBOW EFFECT
+===============================
+*/
+
+
+
 .rainbow {
     --amt: 4;
 }
@@ -230,6 +220,140 @@ ALL CSS BELOW HERE IS DIRECTLY COPIED FROM THE MSPFA VERSION, JUST OVERWRITE WHE
     }
 }
 
+
+
+
+/*
+===============================
+INTRODUCTION TO THE LORE
+===============================
+*/
+
+
+
+
+.p7-18 #command,
+.p7-18 #prevlinks,
+.p7-18 #gamelinks,
+.p7-18 #links > div > a > span {
+    display: none !important;
+}
+
+
+
+.p7-18 body {
+    background-color: #000000;
+}
+
+.p7-18 #main {
+    background-color: #000000;
+}
+
+.p7-18 #slide {
+    background-color: #000000;
+}
+
+.p7-18 #info > span > .spoiler.open {
+    background-color: #000000;
+}
+
+.p7-18 nav a {
+    color: #FFFFFF !important;
+}
+
+.p7-18 a {
+    color: #FFFFFF;
+}
+
+.p7-18 a:active {
+    color: #FFFFFF;
+}
+
+.p7-18 a:visited {
+    color: #FFFFFF;
+}
+
+.p18 #links > div > a > span {
+    display: none !important;
+}
+
+.p18 #links a::after {
+    content: "Enter name." !important;
+}
+
+.p7-18 footer .mspfalogo,
+.p7-18 header .mspfalogo {
+    background-image: url(none);
+}
+
+.p7-18 .mspfalogo {
+    border-right: 4px solid #000000;
+    background-color: #000000;
+}
+
+.p7-18 #details,
+.p7-18 #details a {
+    color: #444444 !important;
+    display: flex;
+    justify-content: center;
+}
+
+.p7-18 #infobox,
+.p7-18 #commentbox {
+    color: #FFFFFF !important;
+}
+
+.p7-18 nav,
+.p7-18 nav a,
+.p7-18 .footlinks a,
+.p7-18 #gamelinks a {
+    color: #444444 !important;
+}
+
+.p7-18 nav .heart {
+    background-image: url(none) !important;
+}
+
+.p7-18 input {
+    background: transparent;
+    color: #545454;
+}
+
+.p7-18 textarea {
+    background-color: #5a5a5a;
+}
+
+.p7-18 .major {
+    text-shadow: none;
+}
+
+@font-face {
+    font-family: 'Coders Crux';
+    src: url('../font/coderscrux/Coders-Crux.woff2') format('woff2');
+    font-display: swap;
+}
+
+.p7-18 #container {
+    font-weight: lighter !important;
+}
+
+.p7-18 #links a {
+    font-family: 'Coders Crux' !important;
+    font-size: 40px;
+    font-weight: lighter !important;
+}
+
+
+
+
+
+/*
+===============================
+THE "ENTER NAME" TRANSITION
+===============================
+*/
+
+
 .p23 #command span {
     display: none !important;
 }
@@ -237,6 +361,16 @@ ALL CSS BELOW HERE IS DIRECTLY COPIED FROM THE MSPFA VERSION, JUST OVERWRITE WHE
 .p23 #command::after {
     content: "Enter name." !important;
 }
+
+
+
+
+/*
+===============================
+SOUNDTRACK
+===============================
+*/
+
 
 @mspfa audio 7 18 https: //file.garden/Y8Pb92x5lj9PszaW/alabaster/soundtrack/intro_nameless_theme.mp3;
 
@@ -287,3 +421,9 @@ ALL CSS BELOW HERE IS DIRECTLY COPIED FROM THE MSPFA VERSION, JUST OVERWRITE WHE
 @mspfa audio 2438 2481 https: //file.garden/Y8Pb92x5lj9PszaW/alabaster/soundtrack/022_morricone_eternity.mp3;
 
 @mspfa audio 2655 2674 https: //file.garden/Y8Pb92x5lj9PszaW/alabaster/soundtrack/023_vangelis_titans.mp3;
+
+/*
+===============================
+END OF CODE
+===============================
+*/

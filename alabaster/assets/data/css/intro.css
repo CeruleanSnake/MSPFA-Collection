@@ -2,6 +2,13 @@
 for the intro scene due to weird issue
 ===========================*/
 
+a,
+a:active,
+a:visited {
+    color: #FFFFFF !important;
+    align-content: center;
+}
+
 body {
     background-color: #000000 !important;
 }
@@ -11,23 +18,17 @@ body {
 #slide,
 #info > span > .spoiler.open {
     background-color: #000000 !important;
+    min-width: 653px !important;
 }
 
 nav a {
     color: #FFFFFF !important;
 }
 
-a,
-a:active,
-a:visited,
-#details {
-    color: #FFFFFF;
-    align-content: center;
-}
-
-#details {
-    display: flex;
-    justify-content: center;
+#details,
+#details a {
+    color: #444444 !important;
+    text-align: center;
 }
 
 .mspfa footer .mspfalogo,
@@ -40,10 +41,31 @@ a:visited,
     border-right: 4px solid #000000;
 }
 
-/*.p18 #links > span > div > a > span {
+#prevlinks,
+#links > span > div > a > span {
     display: none !important;
 }
 
 .p18 #links a::after {
     content: "Enter name." !important;
-}*/
+}
+
+#links a {
+    font-family: 'Coders Crux' !important;
+    font-size: 40px;
+    font-weight: lighter !important;
+}
+
+.mspfa nav,
+.mspfa nav a,
+.mspfa .footlinks a {
+    color: #444444 !important;
+}
+
+.mspfa nav .heart {
+    background-image: url(none);
+}
+
+#container {
+    font-weight: lighter !important;
+}
