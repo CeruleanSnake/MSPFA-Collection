@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Coder\'s Crux';
+    src: url('../font/coders-crux/Coders-Crux.eot');
+    src: local('Coder\'s Crux Regular'), local('Coder\'s-Crux'),
+        url('../font/coders-crux/Coders-Crux.eot?#iefix') format('embedded-opentype'),
+        url('../font/coders-crux/Coders-Crux.woff2') format('woff2'),
+        url('../font/coders-crux/Coders-Crux.woff') format('woff'),
+        url('../font/coders-crux/Coders-Crux.ttf') format('truetype'),
+        url('../font/coders-crux/Coders-Crux.svg#Coder\'s-Crux') format('svg');
+    font-display: swap;
+}
