@@ -142,6 +142,7 @@ nav .dropdown-content {
 /*MOBILE CSS*/
 /* =========================================== */
 body {
+    background-color: rgba(38, 35, 59) !important;
     background-image:
         url("./kraken/front-cloud.png"),
         url("./kraken/front-cloud2.png"),
@@ -170,7 +171,6 @@ body {
         top,
         top;
     background-attachment: fixed;
-    background-color: #064564;
     color: #000000;
     background-size:
         80vh,
@@ -189,7 +189,7 @@ body {
 /* =========================================== */
 @media screen and (min-width: 1200px) {
     body {
-        background-color: rgba(38, 35, 59);
+        background-color: rgba(38, 35, 59) !important;
         background-image:
             linear-gradient(180deg, rgba(38, 35, 59, 0.95) 40%, rgb(61, 64, 79) 80%);
         background-repeat: no-repeat;

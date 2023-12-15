@@ -60,7 +60,7 @@
 		{
 			"d": 1298969484000,
 			"c": " ",
-			"b": "<div class=\"overlayimg\">[img]./assets/img/titlescreen/alab_5_nuages.gif[/img][img]./assets/img/titlescreen/alab_4_cite.png[/img][img]./assets/img/titlescreen/alab_3_statues.png[/img][img]./assets/img/titlescreen/alab_2_details.png[/img][img]./assets/img/titlescreen/alab_1_titre.png[/img][img]./assets/img/titlescreen/alab_6_ciel.png[/img]</div>[img]./assets/img/titlescreen/alab2023_inter.png[/img]<div class=\"array\">[url=Alabaster.html?p=2][img]./assets/img/titlescreen/menu1chapters.png[/img][/url][url=Alabaster.html?p=4][img]./assets/img/titlescreen/menu2newgame.png[/img][/url][url=Alabaster.html?p=3][img]./assets/img/titlescreen/menu3credits.png[/img][/url][url=https://mspfa.com/?s=564&p=1][img]./assets/img/titlescreen/menu4extramaterial.png[/img][/url]<a id=\"loadgameimg\">[img]./assets/img/titlescreen/menu5loadgame.png[/img]</a>[url=https://discord.gg/FFBHG7nPDC][img]./assets/img/titlescreen/menu6discord.png[/img][/url][url=../tcmc/The-Cerulean-Motley-Crew.html?p=1][img]./assets/img/titlescreen/menu7cerulean.png[/img][/url]<a id=\"newupdateimg\">[img]./assets/img/titlescreen/menu8lastupdate.png[/img]</a>[url=https://retrospring.net/][img]./assets/img/titlescreen/menu9retrospringfaq.png[/img][/url]</div>\n\n<div id=mirrorlinks>[url=https://mspfa.com/?s=236&p=1]MSPFA Version[/url] | Pantagrame Version | [url=https://github.com/CeruleanSnake/MSPFA-Collection/tree/main/alabaster]Cerulean Archive[/url]</div>\n\n<textfx class=\"rainbow\">Now part of an extended universe with:</textfx>\n[url=../tcmc/The-Cerulean-Motley-Crew.html?p=1][img]./assets/img/special/ceruleanlogo1.png[/img]\nby Cerulean Snake[/url]\n",
+			"b": "<div class=\"overlayimg\">[img]./assets/img/titlescreen/alab_5_nuages.gif[/img][img]./assets/img/titlescreen/alab_4_cite.png[/img][img]./assets/img/titlescreen/alab_3_statues.png[/img][img]./assets/img/titlescreen/alab_2_details.png[/img][img]./assets/img/titlescreen/alab_1_titre.png[/img][img]./assets/img/titlescreen/alab_6_ciel.png[/img]</div>[img]./assets/img/titlescreen/alab2023_inter.png[/img]<div class=\"array\">[url=Alabaster.html?p=2][img]./assets/img/titlescreen/menu1chapters.png[/img][/url][url=Alabaster.html?p=4][img]./assets/img/titlescreen/menu2newgame.png[/img][/url][url=Alabaster.html?p=3][img]./assets/img/titlescreen/menu3credits.png[/img][/url][url=https://mspfa.com/?s=564&p=1][img]./assets/img/titlescreen/menu4extramaterial.png[/img][/url]<a id=\"loadgameimg\">[img]./assets/img/titlescreen/menu5loadgame.png[/img]</a>[url=https://discord.gg/FFBHG7nPDC][img]./assets/img/titlescreen/menu6discord.png[/img][/url][url=../tcmc/The-Cerulean-Motley-Crew.html?p=1][img]./assets/img/titlescreen/menu7cerulean.png[/img][/url]<a id=\"newupdateimg\">[img]./assets/img/titlescreen/menu8lastupdate.png[/img]</a>[url=https://retrospring.net/][img]./assets/img/titlescreen/menu9retrospringfaq.png[/img][/url]</div>\n\n<div id=mirrorlinks>[url=https://mspfa.com/?s=236&p=1]MSPFA Version[/url] | Pantagrame Version | [url=https://github.com/CeruleanSnake/MSPFA-Collection/tree/main/alabaster]Cerulean Archive[/url]</div>",
 			"n": [
 				4
 			]
@@ -23896,6 +23896,102 @@
 			"b": "[img]./assets/img/story/chapter5/doomed2843.png[/img]",
 			"n": [
 				3033
+			]
+		},
+		{
+			"d": 1701876046817,
+			"c": "==->",
+			"b": "[img]http://www.pantagrame.com/alabaster/assets/img/story/chapter5/doomed2844.png[/img]",
+			"n": [
+				3034
+			]
+		},
+		{
+			"d": 1701876046817,
+			"c": "==->",
+			"b": "[img]http://www.pantagrame.com/alabaster/assets/img/story/chapter5/doomed2845.png[/img]",
+			"n": [
+				3035
+			]
+		},
+		{
+			"d": 1701876046817,
+			"c": "==->",
+			"b": "[img]http://www.pantagrame.com/alabaster/assets/img/story/chapter5/doomed2846.png[/img]",
+			"n": [
+				3036
+			]
+		},
+		{
+			"d": 1701876046817,
+			"c": "==->",
+			"b": "[img]http://www.pantagrame.com/alabaster/assets/img/story/chapter5/doomed2847.png[/img]",
+			"n": [
+				3037
+			]
+		},
+		{
+			"d": 1701876046817,
+			"c": "==->",
+			"b": "[img]http://www.pantagrame.com/alabaster/assets/img/story/chapter5/doomed2848.png[/img]",
+			"n": [
+				3038
+			]
+		},
+		{
+			"d": 1701876046817,
+			"c": "==->",
+			"b": "[img]http://www.pantagrame.com/alabaster/assets/img/story/chapter5/doomed2849.png[/img]",
+			"n": [
+				3039
+			]
+		},
+		{
+			"d": 1702142451656,
+			"c": "==->",
+			"b": "[img]http://www.pantagrame.com/alabaster/assets/img/story/chapter5/doomed2850.png[/img]",
+			"n": [
+				3040
+			]
+		},
+		{
+			"d": 1702142451656,
+			"c": "==->",
+			"b": "[img]http://www.pantagrame.com/alabaster/assets/img/story/chapter5/doomed2851.png[/img]",
+			"n": [
+				3041
+			]
+		},
+		{
+			"d": 1702142451656,
+			"c": "==->",
+			"b": "[img]http://www.pantagrame.com/alabaster/assets/img/story/chapter5/doomed2852.png[/img]",
+			"n": [
+				3042
+			]
+		},
+		{
+			"d": 1702142451656,
+			"c": "==->",
+			"b": "[img]http://www.pantagrame.com/alabaster/assets/img/story/chapter5/doomed2853.png[/img]",
+			"n": [
+				3043
+			]
+		},
+		{
+			"d": 1702142451656,
+			"c": "==->",
+			"b": "[img]http://www.pantagrame.com/alabaster/assets/img/story/chapter5/doomed2854.png[/img]",
+			"n": [
+				3044
+			]
+		},
+		{
+			"d": 1702142451656,
+			"c": "==->",
+			"b": "[img]http://www.pantagrame.com/alabaster/assets/img/story/chapter5/doomed2855.png[/img]",
+			"n": [
+				3045
 			]
 		}
 	],
