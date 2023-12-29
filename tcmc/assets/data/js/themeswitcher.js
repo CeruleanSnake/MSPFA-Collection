@@ -34,7 +34,7 @@ MSPFA.slide.push(() => {
       document.getElementById("sitetheme").innerHTML = "<link rel='stylesheet' href='./assets/data/theme/pirate-myutuna.css'>";
     }
       
-    else if ([322, 323, 324, 325, 326, 327, 331, 332, 333, 334].includes(parseInt(params.get("p")))) {
+    else if ([322, 323, 324, 325, 326, 327, 331, 332, 333, 334, 335, 336].includes(parseInt(params.get("p")))) {
       document.getElementById("sitetheme").innerHTML = "<link rel='stylesheet' href='./assets/data/theme/kraken.css'>";
     }
       
