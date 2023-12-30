@@ -241,7 +241,8 @@ body {
     .p335 .overlay-3,
     .p336 .overlay-3,
     .p337 .overlay-3,
-    .p338 .overlay-3 {
+    .p338 .overlay-3,
+    .p339 .overlay-3 {
         background-image: url("../../img/story/0001/tentacle.png");
         animation: 8s tentacle2-move linear infinite;
         background-position: 7vw 60vh;
@@ -269,7 +270,8 @@ body {
     .p335 .overlay-5,
     .p336 .overlay-5,
     .p337 .overlay-5,
-    .p338 .overlay-5 {
+    .p338 .overlay-5,
+    .p339 .overlay-5 {
         background-image: url("../../img/story/0001/tentacle.png");
         animation: 5s tentacle-move linear infinite;
         background-position: 6vw 60vh;

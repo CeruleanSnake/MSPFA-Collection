@@ -3755,9 +3755,9 @@
 			"d": 1694430955616,
 			"c": "==>",
 			"b": "[img]./assets/img/story/0298.gif[/img]\n\n...Preoccupied in getting your ass kicked in a drinking conest with a sassy, lost child.\n\nWell, ok... she is an adult considering she CAN drink, but you feel like calling her one because you are kind of pissed, in both ways.\n\nYou ended up in this position after enthusing how Snake could out drink the captain. You bet your right arm you could do even better and Freya decided to take you up on the offer.\n\nYou failed to realise booze is incredibly flammable, it is literally food for her while you are plastered off your face.\nYour nagging senses tell you Rat is going to make another annoying comment.",
-			"btn": "!!Warning, Author Commentary may contain spoilers!!<br><br><button class=\"tablinks\" id=\"authorbtn\">AUTHOR COMMENTARY</button>",
+			"btn": "!!Warning, Author Commentary may contain spoilers!!<br><br><button class=\"tablinks\" id=\"authorbtn\">AUTHOR COMMENTARY</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class=\"tablinks\" id=\"userbtn\">USER COMMENTS</button>",
 			"comm": "Never enter a drinking contest with someone made of fire.\n\nYou might accidentally set the pub on fire.\n\n-TheCeruleanSnake",
-			"user": "Comments are occasionally posted on pages in MSPFA by users. These are archived from the original pages as-is. Oldest comment first.\n\n",
+			"user": "Comments are occasionally posted on pages in MSPFA by users. These are archived from the original pages as-is. Oldest comment first.\n\n<table><td><span class=\"commentimg\"><img src=\"./assets/img/pfp/random1.png\"></span></td><td><a class=\"username\" href=\"https://mspfa.com/user/?u=117336318883252047598\">It'sssss me</a> <span class=\"commenttimestamp\">Dec 27 2023 04:22:14</span><br><span class=\"commenttxt\">I mean she is  fire ethanol just makes her stronger</span></td></table>",
 			"n": [
 				299
 			]
@@ -4173,11 +4173,44 @@
 			"d": 1703824923784,
 			"c": "==>",
 			"b": "[img]https://file.garden/X65Xhea95myVymaS/MSPFA%20Collection/tcmc/assets/img/story/0336.gif[/img]\n\nBefore anyone could react, the ship had begun capsizing due to the force of the tendril, sending Phoenix to hit the water first.",
+			"btn": "<button class=\"tablinks\" id=\"userbtn\">USER COMMENTS</button>",
+			"comm": "",
+			"user": "Comments are occasionally posted on pages in MSPFA by users. These are archived from the original pages as-is. Oldest comment first.\n\n<table><td><span class=\"commentimg\"><img src=\"./assets/img/pfp/ohlookpuppies.png\"></span></td><td><a class=\"username\" href=\"https://mspfa.com/user/?u=114104588881614805224\">ohlookpuppies</a><span class=\"commenttimestamp\">Dec 30 2023 06:47:38</span><br><span class=\"commenttxt\">Oh god fire person + water DOES NOT M I X</span></td></table>",
+			"n": [
+				337
+			]
+		},
+		{
+			"d": 1703972397502,
+			"c": "==>",
+			"b": "[img]https://file.garden/X65Xhea95myVymaS/MSPFA%20Collection/tcmc/assets/img/story/0337.gif[/img]\n\nOne by one, each of you fall into the cold water. Debris tumbles everywhere as the ship slowly disappears under the waves.",
 			"btn": "",
 			"comm": "",
 			"user": "Comments are occasionally posted on pages in MSPFA by users. These are archived from the original pages as-is. Oldest comment first.\n\n",
 			"n": [
-				337
+				338
+			]
+		},
+		{
+			"d": 1703972397502,
+			"c": "Snake: Look out above!!!",
+			"b": "[img]https://file.garden/X65Xhea95myVymaS/MSPFA%20Collection/tcmc/assets/img/story/0338.gif[/img]\n\nYou fail to notice some of your ship's stock hurtling towards you at dangerous speeds as you are currently preoccupied in recovering your bearings in the water.",
+			"btn": "",
+			"comm": "",
+			"user": "Comments are occasionally posted on pages in MSPFA by users. These are archived from the original pages as-is. Oldest comment first.\n\n",
+			"n": [
+				339
+			]
+		},
+		{
+			"d": 1703972405748,
+			"c": "==>",
+			"b": "[img]https://file.garden/X65Xhea95myVymaS/MSPFA%20Collection/tcmc/assets/img/story/0339.gif[/img]\n\nThe last thing you remember was a searing pain on the top of your head as everything went suddenly dark.",
+			"btn": "",
+			"comm": "",
+			"user": "Comments are occasionally posted on pages in MSPFA by users. These are archived from the original pages as-is. Oldest comment first.\n\n",
+			"n": [
+				340
 			]
 		}
 	]
