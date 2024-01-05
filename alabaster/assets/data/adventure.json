@@ -23901,7 +23901,7 @@
 		{
 			"d": 1701876046817,
 			"c": "==->",
-			"b": "[img]http://www.pantagrame.com/alabaster/assets/img/story/chapter5/doomed2844.png[/img]",
+			"b": "[img]./assets/img/story/chapter5/doomed2844.png[/img]",
 			"n": [
 				3034
 			]
@@ -23909,7 +23909,7 @@
 		{
 			"d": 1701876046817,
 			"c": "==->",
-			"b": "[img]http://www.pantagrame.com/alabaster/assets/img/story/chapter5/doomed2845.png[/img]",
+			"b": "[img]./assets/img/story/chapter5/doomed2845.png[/img]",
 			"n": [
 				3035
 			]
@@ -23917,7 +23917,7 @@
 		{
 			"d": 1701876046817,
 			"c": "==->",
-			"b": "[img]http://www.pantagrame.com/alabaster/assets/img/story/chapter5/doomed2846.png[/img]",
+			"b": "[img]./assets/img/story/chapter5/doomed2846.png[/img]",
 			"n": [
 				3036
 			]
@@ -23925,7 +23925,7 @@
 		{
 			"d": 1701876046817,
 			"c": "==->",
-			"b": "[img]http://www.pantagrame.com/alabaster/assets/img/story/chapter5/doomed2847.png[/img]",
+			"b": "[img]./assets/img/story/chapter5/doomed2847.png[/img]",
 			"n": [
 				3037
 			]
@@ -23933,7 +23933,7 @@
 		{
 			"d": 1701876046817,
 			"c": "==->",
-			"b": "[img]http://www.pantagrame.com/alabaster/assets/img/story/chapter5/doomed2848.png[/img]",
+			"b": "[img]./assets/img/story/chapter5/doomed2848.png[/img]",
 			"n": [
 				3038
 			]
@@ -23941,7 +23941,7 @@
 		{
 			"d": 1701876046817,
 			"c": "==->",
-			"b": "[img]http://www.pantagrame.com/alabaster/assets/img/story/chapter5/doomed2849.png[/img]",
+			"b": "[img]./assets/img/story/chapter5/doomed2849.png[/img]",
 			"n": [
 				3039
 			]
@@ -23949,7 +23949,7 @@
 		{
 			"d": 1702142451656,
 			"c": "==->",
-			"b": "[img]http://www.pantagrame.com/alabaster/assets/img/story/chapter5/doomed2850.png[/img]",
+			"b": "[img]./assets/img/story/chapter5/doomed2850.png[/img]",
 			"n": [
 				3040
 			]
@@ -23957,7 +23957,7 @@
 		{
 			"d": 1702142451656,
 			"c": "==->",
-			"b": "[img]http://www.pantagrame.com/alabaster/assets/img/story/chapter5/doomed2851.png[/img]",
+			"b": "[img]./assets/img/story/chapter5/doomed2851.png[/img]",
 			"n": [
 				3041
 			]
@@ -23965,7 +23965,7 @@
 		{
 			"d": 1702142451656,
 			"c": "==->",
-			"b": "[img]http://www.pantagrame.com/alabaster/assets/img/story/chapter5/doomed2852.png[/img]",
+			"b": "[img]./assets/img/story/chapter5/doomed2852.png[/img]",
 			"n": [
 				3042
 			]
@@ -23973,7 +23973,7 @@
 		{
 			"d": 1702142451656,
 			"c": "==->",
-			"b": "[img]http://www.pantagrame.com/alabaster/assets/img/story/chapter5/doomed2853.png[/img]",
+			"b": "[img]./assets/img/story/chapter5/doomed2853.png[/img]",
 			"n": [
 				3043
 			]
@@ -23981,7 +23981,7 @@
 		{
 			"d": 1702142451656,
 			"c": "==->",
-			"b": "[img]http://www.pantagrame.com/alabaster/assets/img/story/chapter5/doomed2854.png[/img]",
+			"b": "[img]./assets/img/story/chapter5/doomed2854.png[/img]",
 			"n": [
 				3044
 			]
@@ -23989,9 +23989,57 @@
 		{
 			"d": 1702142451656,
 			"c": "==->",
-			"b": "[img]http://www.pantagrame.com/alabaster/assets/img/story/chapter5/doomed2855.png[/img]",
+			"b": "[img]./assets/img/story/chapter5/doomed2855.png[/img]",
 			"n": [
 				3045
+			]
+		},
+		{
+			"d": 1704071792413,
+			"c": "==->",
+			"b": "[img]./assets/img/story/chapter5/doomed2855b.png[/img]",
+			"n": [
+				3046
+			]
+		},
+		{
+			"d": 1704071792413,
+			"c": "==->",
+			"b": "[img]./assets/img/story/chapter5/doomed2855c.png[/img]",
+			"n": [
+				3047
+			]
+		},
+		{
+			"d": 1704071792413,
+			"c": "==->",
+			"b": "[img]./assets/img/story/chapter5/doomed2855d.png[/img]",
+			"n": [
+				3048
+			]
+		},
+		{
+			"d": 1704071792413,
+			"c": "==->",
+			"b": "[img]./assets/img/story/chapter5/doomed2855e.png[/img]",
+			"n": [
+				3049
+			]
+		},
+		{
+			"d": 1704071792413,
+			"c": "==->",
+			"b": "[img]./assets/img/story/chapter5/doomed2855f.png[/img]",
+			"n": [
+				3050
+			]
+		},
+		{
+			"d": 1704071792413,
+			"c": "==->",
+			"b": "[img]./assets/img/story/chapter5/doomed2856.png[/img]",
+			"n": [
+				3051
 			]
 		}
 	],

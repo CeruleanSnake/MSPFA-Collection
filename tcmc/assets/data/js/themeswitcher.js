@@ -10,7 +10,7 @@ MSPFA.slide.push(() => {
       document.getElementById("sitetheme").innerHTML = "<link rel='stylesheet' href='./assets/data/theme/space.css'>";
     }
       
-    else if ([120, 121, 122, 123, 124, 125, 126].includes(parseInt(params.get("p")))) {
+    else if ([120, 121, 122, 123, 124, 125, 126, 340, 341].includes(parseInt(params.get("p")))) {
       document.getElementById("sitetheme").innerHTML = "<link rel='stylesheet' href='./assets/data/theme/pirate-alternia.css'>";
     }
       
