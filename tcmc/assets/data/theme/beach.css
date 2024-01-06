@@ -217,24 +217,24 @@ body {
 
     #overlay {
         background-image: url("beach/water.png");
-        animation: 140s water-move linear infinite;
-        background-position: 0vw bottom;
+        animation: 60s water-move linear infinite;
+        background-position: left bottom;
         background-repeat: repeat-x;
         background-size: 80vh;
     }
 
     .overlay-1 {
         background-image: url("beach/back-cloud.png");
-        animation: 300s backcloud-move linear infinite;
-        background-position: 0vw center;
+        animation: 180s backcloud-move linear infinite;
+        background-position: left center;
         background-repeat: repeat-x;
         background-size: 80vh;
     }
 
     .overlay-2 {
         background-image: url("beach/front-cloud.png");
-        animation: 100s frontcloud-move linear infinite;
-        background-position: 100vw 20vh;
+        animation: 50s frontcloud-move linear infinite reverse;
+        background-position: left 30%;
         background-repeat: repeat-x;
         background-size: 80vh;
     }
@@ -274,19 +274,19 @@ body {
 
     @keyframes water-move {
         to {
-            background-position: 80vw bottom;
+            background-position: 80vh bottom;
         }
     }
 
     @keyframes backcloud-move {
         to {
-            background-position: 80vw center;
+            background-position: 80vh center;
         }
     }
 
     @keyframes frontcloud-move {
         to {
-            background-position: 20vw 20vh;
+            background-position: 80vh 30%;
         }
     }
 

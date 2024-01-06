@@ -215,8 +215,8 @@ body {
 
     #overlay {
         background-image: url("myutun-sea/back-cloud.png");
-        animation: 400s back-cloud-move linear infinite;
-        background-position: 100vw center;
+        animation: 130s back-cloud-move linear infinite reverse;
+        background-position: left 30%;
         background-repeat: repeat-x;
         background-size: 100vh;
     }
@@ -231,16 +231,16 @@ body {
 
     .overlay-2 {
         background-image: url("myutun-sea/front-cloud.png");
-        animation: 140s front-cloud-move linear infinite;
-        background-position: 0vw center;
+        animation: 60s front-cloud-move linear infinite;
+        background-position: left center;
         background-repeat: repeat-x;
         background-size: 100vh;
     }
 
     .overlay-3 {
         background-image: url("pirate-alternia/wave-back.png");
-        animation: 70s wave-back-move linear infinite;
-        background-position: 0vw bottom;
+        animation: 40s wave-back-move linear infinite;
+        background-position: left bottom;
         background-repeat: repeat-x;
         background-size: 100vh;
     }
@@ -255,21 +255,21 @@ body {
 
     .overlay-5 {
         background-image: url("pirate-alternia/wave-front.png");
-        animation: 35s wave-front-move linear infinite;
-        background-position: 0vw bottom;
+        animation: 20s wave-front-move linear infinite;
+        background-position: left bottom;
         background-repeat: repeat-x;
         background-size: 100vh;
     }
 
     @keyframes back-cloud-move {
         to {
-            background-position: 0vw center;
+            background-position: 100vh 30%;
         }
     }
 
     @keyframes front-cloud-move {
         to {
-            background-position: 100vw center;
+            background-position: 100vh center;
         }
     }
 
@@ -281,7 +281,7 @@ body {
 
     @keyframes wave-back-move {
         to {
-            background-position: 100vw bottom;
+            background-position: 100vh bottom;
         }
 
         0% {
@@ -381,7 +381,7 @@ body {
 
     @keyframes wave-front-move {
         to {
-            background-position: 100vw bottom;
+            background-position: 100vh bottom;
         }
 
         0% {

@@ -190,24 +190,24 @@ body {
 
     .overlay-1 {
         background-image: url("soul-memory/sky_cloud.png");
-        animation: 200s skycloud-move linear infinite;
-        background-position: 100vw center;
+        animation: 60s skycloud-move linear infinite reverse;
+        background-position: left center;
         background-repeat: repeat-x;
         background-size: 100vh;
     }
 
     .overlay-2 {
         background-image: url("soul-memory/sky-cloud-2.png");
-        animation: 160s sky-cloud-2-move linear infinite;
-        background-position: 0vw center;
+        animation: 130s sky-cloud-2-move linear infinite;
+        background-position: left center;
         background-repeat: repeat-x;
         background-size: 100vh;
     }
 
     .overlay-3 {
         background-image: url("soul-memory/wave-back.png");
-        animation: 80s wave-back-move linear infinite;
-        background-position: 0vw bottom;
+        animation: 40s wave-back-move linear infinite;
+        background-position: left bottom;
         background-repeat: repeat-x;
         background-size: 100vh;
     }
@@ -222,21 +222,21 @@ body {
 
     .overlay-5 {
         background-image: url("soul-memory/wave-front.png");
-        animation: 35s wave-front-move linear infinite;
-        background-position: 0vw bottom;
+        animation: 20s wave-front-move linear infinite;
+        background-position: left bottom;
         background-repeat: repeat-x;
         background-size: 100vh;
     }
 
     @keyframes skycloud-move {
         to {
-            background-position: 0vw center;
+            background-position: 100vh center;
         }
     }
 
     @keyframes sky-cloud-2-move {
         to {
-            background-position: 100vw center;
+            background-position: 100vh center;
         }
 
         0% {
@@ -262,7 +262,7 @@ body {
 
     @keyframes wave-back-move {
         to {
-            background-position: 100vw bottom;
+            background-position: 100vh bottom;
         }
 
         0% {
@@ -362,7 +362,7 @@ body {
 
     @keyframes wave-front-move {
         to {
-            background-position: 100vw bottom;
+            background-position: 100vh bottom;
         }
 
         0% {

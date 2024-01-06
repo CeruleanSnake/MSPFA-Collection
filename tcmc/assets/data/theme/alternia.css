@@ -195,14 +195,14 @@ body {
 
     .overlay-1 {
         background-image: url("alternia/sky_cloud.png");
-        animation: 140s skycloud-move linear infinite;
-        background-position: 100vw center;
+        animation: 120s skycloud-move linear infinite reverse;
+        background-position: left center;
     }
 
     .overlay-2 {
         background-image: url("alternia/front_cloud.png");
-        animation: 45s frontcloud-move linear infinite;
-        background-position: 100vw bottom;
+        animation: 25s frontcloud-move linear infinite;
+        background-position: left bottom;
     }
 
     @keyframes moon-move {
@@ -229,13 +229,13 @@ body {
 
     @keyframes skycloud-move {
         to {
-            background-position: 0vw center;
+            background-position: 100vh center;
         }
     }
 
     @keyframes frontcloud-move {
         to {
-            background-position: 0vw bottom;
+            background-position: 100vh bottom;
         }
     }
 }

@@ -200,16 +200,16 @@ body {
 
     .overlay-2 {
         background-image: url("space/big_meteor.png");
-        animation: 200s bigmeteor-move linear infinite reverse;
-        background-position: 0vw bottom;
+        animation: 130s bigmeteor-move linear infinite reverse;
+        background-position: left bottom;
         background-repeat: repeat-x;
         background-size: 100vh;
     }
 
     .overlay-3 {
         background-image: url("space/med_meteor.png");
-        animation: 80s medmeteor-move linear infinite;
-        background-position: 0vw bottom;
+        animation: 50s medmeteor-move linear infinite;
+        background-position: left bottom;
         background-repeat: repeat-x;
         background-size: 100vh;
     }
@@ -217,7 +217,7 @@ body {
     .overlay-4 {
         background-image: url("space/small_meteor.png");
         animation: 30s smallmeteor-move linear infinite reverse;
-        background-position: 0vw bottom;
+        background-position: left bottom;
         background-repeat: repeat-x;
         background-size: 100vh;
     }
@@ -252,19 +252,19 @@ body {
 
     @keyframes bigmeteor-move {
         to {
-            background-position: 100vw bottom;
+            background-position: 100vh bottom;
         }
     }
 
     @keyframes medmeteor-move {
         to {
-            background-position: 100vw bottom;
+            background-position: 100vh bottom;
         }
     }
 
     @keyframes smallmeteor-move {
         to {
-            background-position: 100vw bottom;
+            background-position: 100vh bottom;
         }
     }
 }

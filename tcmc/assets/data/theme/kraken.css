@@ -212,24 +212,24 @@ body {
 
     #overlay {
         background-image: url("./kraken/back-cloud.png");
-        animation: 200s back-cloud-move linear infinite;
-        background-position: 0vw center;
+        animation: 80s back-cloud-move linear infinite reverse;
+        background-position: left center;
         background-repeat: repeat-x;
         background-size: 80vh;
     }
 
     .overlay-1 {
         background-image: url("./kraken/topcloud.png");
-        animation: 400s topcloud-move linear infinite;
-        background-position: 0vw top;
+        animation: 140s topcloud-move linear infinite;
+        background-position: left top;
         background-repeat: repeat-x;
         background-size: 80vh;
     }
 
     .overlay-2 {
         background-image: url("./kraken/wave-back.png");
-        animation: 70s wave-back-move linear infinite;
-        background-position: 0vw bottom;
+        animation: 30s wave-back-move linear infinite;
+        background-position: left bottom;
         background-repeat: repeat-x;
         background-size: 100vh;
     }
@@ -289,63 +289,63 @@ body {
 
     .overlay-7 {
         background-image: url("./kraken/front-cloud.png");
-        animation: 70s front-cloud-move linear infinite;
-        background-position: 100vw 20vh;
+        animation: 50s front-cloud-move linear infinite reverse;
+        background-position: left 30%;
         background-repeat: repeat-x;
         background-size: 100vh;
     }
 
     .overlay-8 {
         background-image: url("./kraken/topcloud2.png");
-        animation: 90s topcloud2-move linear infinite;
-        background-position: 100vw top;
+        animation: 70s topcloud2-move linear infinite reverse;
+        background-position: left top;
         background-repeat: repeat-x;
         background-size: 80vh;
     }
 
     .overlay-9 {
         background-image: url("./kraken/front-cloud2.png");
-        animation: 150s front-cloud2-move linear infinite;
-        background-position: 0vw 15vh;
+        animation: 100s front-cloud2-move linear infinite;
+        background-position: left 20%;
         background-repeat: repeat-x;
         background-size: 100vh;
     }
 
     .overlay-10 {
         background-image: url("./kraken/wave-front.png");
-        animation: 30s wave-front-move linear infinite;
-        background-position: 0vw bottom;
+        animation: 20s wave-front-move linear infinite;
+        background-position: left bottom;
         background-repeat: repeat-x;
         background-size: 100vh;
     }
 
     @keyframes back-cloud-move {
         to {
-            background-position: 80vw center;
+            background-position: 80vh center;
         }
     }
 
     @keyframes topcloud-move {
         to {
-            background-position: 80vw top;
+            background-position: 80vh top;
         }
     }
 
     @keyframes front-cloud-move {
         to {
-            background-position: 0vw 20vh;
+            background-position: 100vh 30%;
         }
     }
 
     @keyframes front-cloud2-move {
         to {
-            background-position: 100vw 15vh;
+            background-position: 100vh 20%;
         }
     }
 
     @keyframes topcloud2-move {
         to {
-            background-position: 20vw top;
+            background-position: 80vh top;
         }
     }
 
@@ -405,7 +405,7 @@ body {
 
     @keyframes wave-back-move {
         to {
-            background-position: 100vw bottom;
+            background-position: 100vh bottom;
         }
 
         0% {
@@ -505,7 +505,7 @@ body {
 
     @keyframes wave-front-move {
         to {
-            background-position: 100vw bottom;
+            background-position: 100vh bottom;
         }
 
         0% {

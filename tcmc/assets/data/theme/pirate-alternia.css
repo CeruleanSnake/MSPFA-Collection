@@ -226,32 +226,32 @@ body {
 
     .overlay-1 {
         background-image: url("alternia/sky_cloud.png");
-        animation: 200s skycloud-move linear infinite;
-        background-position: 100vw center;
+        animation: 200s skycloud-move linear infinite reverse;
+        background-position: left center;
         background-repeat: repeat-x;
         background-size: 100vh;
     }
 
     .overlay-2 {
         background-image: url("pirate-alternia/bg.png");
-        animation: 250s bg-move linear infinite;
-        background-position: 0vw bottom;
+        animation: 100s bg-move linear infinite;
+        background-position: left bottom;
         background-repeat: repeat-x;
         background-size: 100vh;
     }
 
     .overlay-3 {
         background-image: url("pirate-alternia/sky-cloud-2.png");
-        animation: 160s sky-cloud-2-move linear infinite;
-        background-position: 0vw center;
+        animation: 60s sky-cloud-2-move linear infinite;
+        background-position: left center;
         background-repeat: repeat-x;
         background-size: 100vh;
     }
 
     .overlay-4 {
         background-image: url("pirate-alternia/wave-back.png");
-        animation: 80s wave-back-move linear infinite;
-        background-position: 0vw bottom;
+        animation: 40s wave-back-move linear infinite;
+        background-position: left bottom;
         background-repeat: repeat-x;
         background-size: 100vh;
     }
@@ -266,8 +266,8 @@ body {
 
     .overlay-6 {
         background-image: url("pirate-alternia/wave-front.png");
-        animation: 35s wave-front-move linear infinite;
-        background-position: 0vw bottom;
+        animation: 20s wave-front-move linear infinite;
+        background-position: left bottom;
         background-repeat: repeat-x;
         background-size: 100vh;
     }
@@ -296,13 +296,13 @@ body {
 
     @keyframes skycloud-move {
         to {
-            background-position: 0vw center;
+            background-position: 100vh center;
         }
     }
 
     @keyframes sky-cloud-2-move {
         to {
-            background-position: 100vw center;
+            background-position: 100vh center;
         }
 
         0% {
@@ -328,13 +328,13 @@ body {
 
     @keyframes bg-move {
         to {
-            background-position: 100vw bottom;
+            background-position: 100vh bottom;
         }
     }
 
     @keyframes wave-back-move {
         to {
-            background-position: 100vw bottom;
+            background-position: 100vh bottom;
         }
 
         0% {
@@ -434,7 +434,7 @@ body {
 
     @keyframes wave-front-move {
         to {
-            background-position: 100vw bottom;
+            background-position: 100vh bottom;
         }
 
         0% {
