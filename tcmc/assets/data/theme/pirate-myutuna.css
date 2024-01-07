@@ -47,11 +47,11 @@ nav a[href="/more/"]::after {
 }*/
 
 .umcontainer {
-    background-image: url("pirate-alternia/mspfafacereverse.png");
+    background-image: url("kraken/mspfafacereverse.png");
 }
 
 .mspfalogo {
-    background-image: url("pirate-alternia/mspfaface.png") !important;
+    background-image: url("kraken/mspfaface.png") !important;
 }
 
 #nav a:hover {
@@ -111,7 +111,7 @@ nav a[href="/more/"]::after {
 /* ===========================================*/
 
 .mspfa .mspfalogoreverse {
-    background-image: url("pirate-alternia/mspfafacereverse.png");
+    background-image: url("kraken/mspfafacereverse.png");
 }
 
 .tabcontent {

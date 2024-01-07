@@ -38,6 +38,10 @@ MSPFA.slide.push(() => {
       document.getElementById("sitetheme").innerHTML = "<link rel='stylesheet' href='./assets/data/theme/kraken.css'>";
     }
       
+    else if ([347, 348, 349].includes(parseInt(params.get("p")))) {
+      document.getElementById("sitetheme").innerHTML = "<link rel='stylesheet' href='./assets/data/theme/beach-tropical.css'>";
+    }
+      
     else {
       document.getElementById("sitetheme").innerHTML = "<link rel='stylesheet' href='./assets/data/theme/myutun-sea.css'>";
     }
