@@ -249,7 +249,7 @@ body {
 
     .overlay-3 {
         background-image: url("beach-night/front-cloud.png");
-        animation: 50s frontcloud-move linear infinite reverse;
+        animation: 90s frontcloud-move linear infinite reverse;
         background-position: left 30%;
         background-repeat: repeat-x;
         background-size: 80vh;
