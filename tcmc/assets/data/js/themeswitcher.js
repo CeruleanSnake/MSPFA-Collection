@@ -46,7 +46,7 @@ MSPFA.slide.push(() => {
       document.getElementById("sitetheme").innerHTML = "<link rel='stylesheet' href='./assets/data/theme/beach-sunset-tropical.css'>";
     }
       
-    else if ([357, 358, 359, 360].includes(parseInt(params.get("p")))) {
+    else if ([357, 358, 359, 360, 361, 362, 363, 364].includes(parseInt(params.get("p")))) {
       document.getElementById("sitetheme").innerHTML = "<link rel='stylesheet' href='./assets/data/theme/beach-night-tropical.css'>";
     }
       
