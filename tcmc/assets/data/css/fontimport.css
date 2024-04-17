@@ -37,6 +37,12 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Vinque';
+    src: url('../font/vinque/Vinque.woff2') format('woff2');
+    font-display: swap;
+}
+
 
 /* =================HIVESWAP FONTS================ */
 @font-face {
