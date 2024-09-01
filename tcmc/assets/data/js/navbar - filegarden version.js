@@ -1,4 +1,4 @@
 document.getElementById("nav").innerHTML =
     "</span> <a href=\"https://mspfa.com/?s=38151&p=1\">MSPFA</a> <div class=\"heart\"></div> </div> <a href=\"./Extras.html\">Extras</a> <span class=\"vbar\"> | </span> <a href=\"./Credits.html\">Credits</a> <span class=\"vbar\"> | </span> <a href=\"https://twitter.com/CeruleaSnake\">Twitter</a> <div class=\"heart\"></div> <a href=\"./Map.html\">Map</a>";
 document.getElementById("details").innerHTML =
-    "<a href=\"https: //github.com/FlaringK/mspfaViewer\">MSPFA viewer template</a> made by <a href=\"https://mspfa.com/user/?u=100855018780708322446\">FlaringK</a> | Comic by <a href=\"https://mspfa.com/user/?u=101626213389903517817\"> Cerulean Snake</a> 2020-2023"
+    "<a href=\"https://github.com/FlaringK/mspfaViewer\">MSPFA viewer template</a> made by <a href=\"https://mspfa.com/user/?u=100855018780708322446\">FlaringK</a> | Comic by <a href=\"https://mspfa.com/user/?u=101626213389903517817\"> Cerulean Snake</a> 2020-2024"
