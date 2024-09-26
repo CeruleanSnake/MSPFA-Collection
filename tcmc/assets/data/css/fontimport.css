@@ -21,25 +21,29 @@
 
 @font-face {
     font-family: 'Apple Chancery';
-    src: url('../font/apple-chancery/Apple-Chancery.woff2') format('woff2');
+    src: url('../font/apple-chancery/Apple-Chancery.woff2') format('woff2'),
+    url('https://fonts.cdnfonts.com/s/14108/Apple Chancery.woff') format('woff');
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Blood Script';
-    src: url('../font/blood-script/BloodScriptItalicPersonalUs-N.woff2') format('woff2');
+    src: url('../font/blood-script/BloodScriptItalicPersonalUs-N.woff2') format('woff2'),
+    url('https: //file.garden/X65Xhea95myVymaS/MSPFA%20Collection/tcmc/assets/data/font/blood-script/BloodScriptItalicPersonalUs-N.woff2') format('woff2');
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Gunny Rewritten';
-    src: url('../font/gunny-rewritten/GunnyRewritten.woff2') format('woff2');
+    src: url('../font/gunny-rewritten/GunnyRewritten.woff2') format('woff2'),
+    url('https: //file.garden/X65Xhea95myVymaS/MSPFA%20Collection/tcmc/assets/data/font/gunny-rewritten/GunnyRewritten.woff2') format('woff2');
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Vinque';
-    src: url('../font/vinque/Vinque.woff2') format('woff2');
+    src: url('../font/vinque/Vinque.woff2') format('woff2'),
+    url('https: //file.garden/X65Xhea95myVymaS/MSPFA%20Collection/tcmc/assets/data/font/vinque/Vinque.woff2') format('woff2');
     font-display: swap;
 }
 

@@ -425,6 +425,7 @@ table.container > tbody > tr > th {
 
 @font-face {
     font-family: 'logpage';
-    src: url('../font/gunny-rewritten/GunnyRewritten.woff2') format('woff2');
+    src: url('../font/gunny-rewritten/GunnyRewritten.woff2') format('woff2')
+    url('https: //file.garden/X65Xhea95myVymaS/MSPFA%20Collection/tcmc/assets/data/font/gunny-rewritten/GunnyRewritten.woff2') format('woff2');
     font-display: swap;
 }
