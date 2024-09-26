@@ -3,15 +3,19 @@
 
 @font-face {
     font-family: 'Gothic Pixel';
-    src: url('../font/gothic-pixel/Gothic-Pixel.woff2') format('woff2'),
-    url('https: //file.garden/X65Xhea95myVymaS/MSPFA%20Collection/tcmc/assets/data/font/gothic-pixel/Gothic-Pixel.woff2') format('woff');
+    src: url('../font/gothic-pixel/Gothic-Pixel.woff2') format('woff2');
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Retrogression';
-    src: url('../font/retrogression/Retrogression-Regular.woff2') format('woff2'),
-    url('https: //file.garden/X65Xhea95myVymaS/MSPFA%20Collection/tcmc/assets/data/font/retrogression/Retrogression-Regular.woff2') format('woff2');
+    font-family: 'Old English Gothic Pixel';
+    src: url('../font/old-english-gothic-pixel/Old-English-Gothic-Pixel.woff2') format('woff2');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pixel Script';
+    src: url('../font/pixel-script/Pixel-Script.woff2') format('woff2');
     font-display: swap;
 }
 
@@ -23,29 +27,29 @@
 
 @font-face {
     font-family: 'Apple Chancery';
-    src: url('../font/apple-chancery/Apple-Chancery.woff2') format('woff2'),
-    url('https://fonts.cdnfonts.com/s/14108/Apple Chancery.woff') format('woff');
+    src: 
+        local('Apple Chancery'),
+        url('../font/apple-chancery/Apple-Chancery.woff2') format('woff2'),
+        url('https: //fonts.cdnfonts.com/s/14108/Apple Chancery.woff') format('woff2');
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Blood Script';
-    src: url('../font/blood-script/BloodScriptItalicPersonalUs-N.woff2') format('woff2'),
-    url('https: //file.garden/X65Xhea95myVymaS/MSPFA%20Collection/tcmc/assets/data/font/blood-script/BloodScriptItalicPersonalUs-N.woff2') format('woff2');
+    font-family: 'Berry Rotunda';
+    src: url('../font/berry_rotunda/BerryRotunda-Regular.woff2') format('woff2');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hamlet';
+    src: url('../font/hamlet/Hamlet-Cicero12.woff2') format('woff2');
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Gunny Rewritten';
     src: url('../font/gunny-rewritten/GunnyRewritten.woff2') format('woff2'),
-    url('https: //file.garden/X65Xhea95myVymaS/MSPFA%20Collection/tcmc/assets/data/font/gunny-rewritten/GunnyRewritten.woff2') format('woff2');
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Vinque';
-    src: url('../font/vinque/Vinque.woff2') format('woff2'),
-    url('https: //file.garden/X65Xhea95myVymaS/MSPFA%20Collection/tcmc/assets/data/font/vinque/Vinque.woff2') format('woff2');
+        url('https: //file.garden/X65Xhea95myVymaS/MSPFA%20Collection/tcmc/assets/data/font/gunny-rewritten/GunnyRewritten.woff2') format('woff2');
     font-display: swap;
 }
 

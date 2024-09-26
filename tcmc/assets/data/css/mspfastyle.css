@@ -1,11 +1,5 @@
-@font-face {
-	font-family: 'Press Start 2P';
-	src: url('../font/pressStart2P/PressStart2P-Regular.woff2') format('woff2');
-	font-display: swap;
-	font-style: normal;
-	font-weight: 400;
-	unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-}
+/* Press Start 2P font */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 /* Custom non MSPFA css */
 
