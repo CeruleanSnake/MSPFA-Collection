@@ -3,13 +3,15 @@
 
 @font-face {
     font-family: 'Gothic Pixel';
-    src: url('../font/gothic-pixel/Gothic-Pixel.woff2') format('woff2');
+    src: url('../font/gothic-pixel/Gothic-Pixel.woff2') format('woff2'),
+    url('https: //file.garden/X65Xhea95myVymaS/MSPFA%20Collection/tcmc/assets/data/font/gothic-pixel/Gothic-Pixel.woff2') format('woff');
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Retrogression';
-    src: url('../font/retrogression/Retrogression-Regular.woff2') format('woff2');
+    src: url('../font/retrogression/Retrogression-Regular.woff2') format('woff2'),
+    url('https: //file.garden/X65Xhea95myVymaS/MSPFA%20Collection/tcmc/assets/data/font/retrogression/Retrogression-Regular.woff2') format('woff2');
     font-display: swap;
 }
 
@@ -106,5 +108,29 @@
 @font-face {
     font-family: 'Times Bad Omen';
     src: url('../font/AlternianTimesBadOmen/AlternianTimesBadOmen-Rg.woff2') format('woff2');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alternian Accursed';
+    src: url('../font/AlternianAccursed/Alterniancursed-Regular.woff2') format('woff2');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alternian Notation';
+    src: url('../font/AlternianNotation/Alterniannotation-Regular.woff2') format('woff2');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alternian Robotic';
+    src: url('../font/AlternianRobotic/Alternianrobotic-Regular.woff2') format('woff2');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alternian Streamlined';
+    src: url('../font/AlternianStreamlined/Alternianstreamlined-Regular.woff2') format('woff2');
     font-display: swap;
 }
