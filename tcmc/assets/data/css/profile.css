@@ -1,9 +1,246 @@
-/* MSPFA PROFILE CSS */
+/* MSPFA PROFILE CSS https://mspfa.com/user/?u=101626213389903517817 */
 
+/* Font Import */
+@font-face {
+    font-family: 'Berry Rotunda';
+    src: url('../font/berry_rotunda/BerryRotunda-Regular.woff2') format('woff2');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gunny Rewritten';
+    src: url('../font/gunny-rewritten/GunnyRewritten.woff2') format('woff2'),
+        url('https: //file.garden/X65Xhea95myVymaS/MSPFA%20Collection/tcmc/assets/data/font/gunny-rewritten/GunnyRewritten.woff2') format('woff2');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Convincing Pirate';
+    src: url('../font/convincing_pirate/ConvincingPirate.woff2') format('woff2');
+    font-display: swap;
+}
+
+/* Adventure nav links */
+/*.adv-nav {
+    position: absolute;
+    left: 3rem;
+    width: 400px;
+    padding-right: 265px;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+#tcmc-nav {
+    top: 34rem;
+}
+
+#alab-nav {
+    top: 48rem;
+}*/
+
+.adv-nav {
+    position: absolute;
+    width: 400px;
+    font-weight: normal;
+    font-size: 20px;
+    font-family: Convincing Pirate;
+}
+
+#tcmc-nav a {
+    position: absolute;
+    top: 21rem;
+}
+
+#alab-nav a {
+    position: absolute;
+    top: 35rem;
+}
+
+#tcmc-nav a:nth-child(1),
+#alab-nav a:nth-child(1) {
+    left: 6.5rem;
+}
+
+#tcmc-nav a:nth-child(3),
+#alab-nav a:nth-child(3) {
+    left: 18rem;
+}
+
+/* HS.COM DESCRIPTIONS - by MadCreativity */
+#userdesc {
+    position: relative;
+}
+
+#userstories a {
+    margin: 48px auto;
+    display: grid;
+    max-width: 700px;
+    grid-template-columns: 150px 1fr;
+    grid-template-rows: auto;
+    pointer-events: none;
+}
+
+#userstories a:first-of-type {
+    margin-top: 0;
+}
+
+#userstories a:last-of-type {
+    margin-bottom: 20px;
+}
+
+#userstories a img {
+    width: 150px;
+    height: 150px;
+    vertical-align: bottom;
+    grid-column: 1/2;
+    grid-row: 1/4;
+    margin: 0;
+    pointer-events: all;
+}
+
+#userstories a::before {
+    content: "???";
+    /* font-family: 'Gunny Rewritten'; */
+    font-size: 16px;
+    order: 2;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-top: 16px;
+    width: 100%;
+    color: #000;
+    font-weight: 400;
+    box-sizing: border-box;
+    padding: 0 24px;
+}
+
+#userstories a::after {
+    content: "???";
+    text-align: center;
+    width: 100%;
+    font-size: 32px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    box-sizing: border-box;
+    padding: 0 24px;
+    pointer-events: all;
+    font-family: Convincing Pirate;
+}
+
+#userstories a[href="/?s=38151&p=1"]::before {
+    content: "A daring adventure of pirates, booze and a whole lotta booty! My most grand adventure to date! Currently ongoing.";
+}
+
+#userstories a[href="/?s=38151&p=1"]::after {
+    content: "The Cerulean Motley Crew";
+}
+
+#userstories a[href="/?s=236&p=1"]::before {
+    content: "'Doomed' does not always refer to the fate Skaia reserves for alternate timelines and those who fall outside of its plans. Written by Oasis Nadrama. We both teamed up to create a conjoined universe, more than just a cameo in each!";
+}
+
+#userstories a[href="/?s=236&p=1"]::after {
+    content: "Alabaster";
+}
+
+#userstories a[href="/?s=6779&p=1"]::before {
+    content: "This was my first ever fanventure on MSPFA and it was featured on the long dead MSPA forums where I would update it back in 2014 under the name FubbalyWubbaly. Unfortunately, most of the team lost interest and this fanventure eventually died.";
+}
+
+#userstories a[href="/?s=6779&p=1"]::after {
+    content: "Go Stuck Yourself!";
+}
+
+/* hide adventure */
+#userstories a[href="/?s=564&p=1"] {
+    display: none;
+}
+
+/* Groupshot banners */
 :root {
     --events: 2;
-    --event-height: calc(80px + (24px * var(--events)));
+    --event-height: calc(90px + (35px * var(--events)));
 }
+
+#events {
+    width: 830px;
+    height: var(--event-height);
+    position: absolute;
+    transform: translate(-264px, 12px);
+    box-shadow: inset 0px 0px 0px 3px #064564;
+}
+
+#events span {
+    background-color: #064564;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    margin-bottom: -25px;
+    font-family: Convincing Pirate;
+}
+
+#userstories {
+    border-top: calc(var(--event-height) + -2px) solid transparent;
+    color: transparent;
+}
+
+/* custom achievements 
+#userachievements > a:last-of-type::after {
+    content: "";
+    width: 64px;
+    height: 64px;
+    display: inline-block;
+    margin: 0 16px;
+    background-image: url("");
+}*/
+
+/*=============================================== */
+/* =================== Layout ==================== */
+
+/* hide ID */
+#userinfo > tbody:nth-child(1) > tr:nth-child(3) > td:nth-child(1) {
+    display: none;
+}
+
+/* Hide Heading */
+#userinfo > tbody > tr:nth-child(1) > td {
+    display: none;
+}
+
+/* fancy heading
+#userinfo > tbody > tr:nth-child(1) > td {
+    border-bottom-width: 0px !important;
+}
+
+.major.alt {
+    text-indent: -9999px;
+    line-height: 0;
+}
+
+.major.alt:after {
+    content: "MSPFA WEBCOMICS by";
+    color: #3b3b3b;
+    text-shadow: 3px 3px #909090;
+    text-indent: 0;
+    display: block;
+    line-height: initial;
+    letter-spacing: 7
+}
+
+#userinfo > tbody:nth-child(1) > tr:nth-child(2) {
+    font-size: 34px;
+    color: #3b3b3b;
+    text-shadow: 3px 3px #909090;
+}
+
+#userinfo > tbody:nth-child(1) > tr:nth-child(1) {
+    background-color: #c6c6c6;
+}*/
+
+/* =============================================== */
+/* ==================== Theme ==================== */
 
 a {
     color: #0080c2 !important;
@@ -17,12 +254,21 @@ nav {
 }
 
 table.container {
-    border: 5px solid #064564;
+    border: none;
+    border-collapse: separate;
+    background-color: transparent;
 }
 
-table.container>tbody>tr>td,
-table.container>tbody>tr>th {
-    border: 5px solid #064564;
+table.container > tbody > tr > td {
+    border: none;
+}
+
+table.container.alt2 > tbody > tr > th {
+    background-color: #064564;
+    border: solid 2px #064564;
+    color: white;
+    font-weight: normal;
+    font-family: Convincing Pirate !important;
 }
 
 .major {
@@ -53,26 +299,9 @@ table.container>tbody>tr>th {
     background-position-x: 0px;
 }
 
-#main {
-    background-color: transparent;
-}
-
-#events {
-    width: 804px;
-    height: var(--event-height);
-    padding: 10px;
-    background-color: #eee;
-    position: absolute;
-    transform: translate(-260px, 12px);
-}
-
-#userstories {
-    border-top: calc(var(--event-height) + 22px + 2px) solid #064564;
-}
-
-#userstories .cellicon {
-    width: 150px;
-    height: 150px;
+.cellicon,
+#usericon {
+    box-shadow: -8px 8px 13px 0px #00000087;
 }
 
 #usericon,
@@ -80,6 +309,42 @@ table.container>tbody>tr>th {
 .heart {
     image-rendering: auto;
 }
+
+#main {
+    background-color: transparent;
+}
+
+#userinfo > tbody:nth-child(1) > tr:nth-child(5),
+#userinfo > tbody:nth-child(1) > tr:nth-child(7),
+#userinfo > tbody:nth-child(1) > tr:nth-child(7),
+#userinfo > tbody:nth-child(1) > tr:nth-child(9),
+#userinfo > tbody:nth-child(1) > tr:nth-child(10),
+#userinfo > tbody:nth-child(1) > tr:nth-child(11) {
+    background-color: #eeeeeee4;
+}
+
+#userinfo > tbody:nth-child(1) > tr:nth-child(5) > td,
+#userinfo > tbody:nth-child(1) > tr:nth-child(7) > td,
+#userinfo > tbody:nth-child(1) > tr:nth-child(7) > td,
+#userinfo > tbody:nth-child(1) > tr:nth-child(9) > td,
+#userinfo > tbody:nth-child(1) > tr:nth-child(10) > td,
+#userinfo > tbody:nth-child(1) > tr:nth-child(11) > td {
+    box-shadow: inset 0px 0px 0px 3px #064564;
+}
+
+#userinfo > tbody:nth-child(1) > tr:nth-child(2) {
+    font-family: Berry Rotunda;
+    font-size: xx-large;
+    color: #064564;
+    text-shadow: -3px 3px 0px #000000;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: #f4ab24;
+    background-color: transparent;
+}
+
+/* #userinfo {
+    font-family: 'Gunny Rewritten';
+} */
 
 #flashytitle {
     background-color: transparent;
@@ -116,17 +381,16 @@ table.container>tbody>tr>th {
 /* =========================================== */
 body {
     background-image:
-        url("../theme/beach/island.png"),
-        url("../theme/beach/water.png"),
-        url("../theme/beach/front-cloud.png"),
-        url("../theme/beach/back-cloud.png"),
+        url("../theme/pirate-alternia/wave-front.png"),
+        url("../theme/myutun-sea/front-cloud.png"),
+        url("../theme/myutun-sea/back-cloud.png"),
         linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(11, 0, 112, 0.95) 25%, rgb(0, 146, 231) 80%),
         url("../theme/myutun-sea/background.bmp");
-    background-repeat: no-repeat, repeat-x, repeat-x, repeat-x, no-repeat, repeat;
-    background-position: bottom right, bottom, center, center, top, top;
+    background-repeat: repeat-x, repeat-x, repeat-x, no-repeat, repeat;
+    background-position: bottom, center, center, top, top;
     background-attachment: fixed;
     background-color: #064564;
-    background-size: 80vh, 80vh, 80vh, 80vh, cover, 20vh;
+    background-size: 80vh, 80vh, 80vh, cover, 20vh;
     image-rendering: pixelated;
     -moz-image-rendering: crisp-edges;
 }
@@ -143,14 +407,13 @@ body {
     }
 
     /* PARALLAX BACKGROUND */
-    #overlay>div,
+    #overlay > div,
     #overlay,
     #overlay-1,
     #overlay-2,
     #overlay-3,
     #overlay-4,
-    #overlay-5,
-    #overlay-6 {
+    #overlay-5 {
         position: fixed;
         top: 0px;
         left: 0px;
@@ -162,101 +425,218 @@ body {
     }
 
     #overlay {
-        background-image: url("../theme/beach/water.png");
-        animation: 60s water-move linear infinite;
-        background-position: bottom left;
+        background-image: url("../theme/myutun-sea/back-cloud.png");
+        animation: 130s back-cloud-move linear infinite reverse;
+        background-position: left 30%;
         background-repeat: repeat-x;
-        background-size: 80vh;
+        background-size: 100vh;
     }
 
     #overlay-1 {
-        background-image: url("../theme/beach/back-cloud.png");
-        animation: 180s backcloud-move linear infinite;
-        background-position: center left;
-        background-repeat: repeat-x;
-        background-size: 80vh;
+        background-image: url("../theme/myutun-sea/island.png");
+        animation: 280s island-move linear infinite;
+        background-position: -40vw 72vh;
+        background-repeat: no-repeat;
+        background-size: 70vh;
     }
 
     #overlay-2 {
-        background-image: url("../theme/beach/front-cloud.png");
-        animation: 50s frontcloud-move linear infinite reverse;
-        background-position: center left;
-        background-position-y: 20vh;
+        background-image: url("../theme/myutun-sea/front-cloud.png");
+        animation: 60s front-cloud-move linear infinite;
+        background-position: left center;
         background-repeat: repeat-x;
-        background-size: 80vh;
+        background-size: 100vh;
     }
 
     #overlay-3 {
-        background-image: url("../theme/beach/island.png");
-        background-position: bottom right;
+        background-image: url("../theme/pirate-alternia/wave-back.png");
+        animation: 40s wave-back-move linear infinite;
+        background-position: left bottom;
+        background-repeat: repeat-x;
+        background-size: 100vh;
+    }
+
+    #overlay-4 {
+        background-image: url("../theme/myutun-sea/ship.png");
+        animation: 65s ship-move linear infinite;
+        background-position: 110vw 64vh;
         background-repeat: no-repeat;
-        background-size: 80vh;
+        background-size: 40vh;
     }
 
-    @media screen and (min-height: 500px) {
-        #overlay-4 {
-            background-image: url("../theme/beach/wave.png");
-            animation: 30s wave-move ease-in-out infinite;
-            background-position-y: 70.5vh;
-            background-position-x: 50vw;
-            background-repeat: no-repeat;
-            background-size: 80vh;
-        }
-
-        #overlay-5 {
-            background-image: url("../theme/beach/wave.png");
-            animation: 20s wave-move ease-in-out infinite;
-            background-position-y: 70.5vh;
-            background-position-x: 50vw;
-            background-repeat: no-repeat;
-            background-size: 80vh;
-        }
-
-        #overlay-6 {
-            background-image: url("../theme/beach/wave.png");
-            animation: 10s wave-move ease-in-out infinite;
-            background-position-y: 70.5vh;
-            background-position-x: 50vw;
-            background-repeat: no-repeat;
-            background-size: 80vh;
-        }
+    #overlay-5 {
+        background-image: url("../theme/pirate-alternia/wave-front.png");
+        animation: 20s wave-front-move linear infinite;
+        background-position: left bottom;
+        background-repeat: repeat-x;
+        background-size: 100vh;
     }
 
-    @keyframes water-move {
+    @keyframes back-cloud-move {
         to {
-            background-position: 80vh bottom;
+            background-position: 100vh 30%;
         }
     }
 
-    @keyframes backcloud-move {
+    @keyframes front-cloud-move {
         to {
-            background-position: 80vh center;
+            background-position: 100vh center;
         }
     }
 
-    @keyframes frontcloud-move {
+    @keyframes island-move {
         to {
-            background-position: 80vh center;
-            background-position-y: 20vh;
+            background-position: 180vw 72vh;
         }
     }
 
-    @keyframes wave-move {
+    @keyframes wave-back-move {
+        to {
+            background-position: 100vh bottom;
+        }
+
         0% {
-            transform: scalex(5%);
-            opacity: 0;
+            top: 1vh;
+        }
+
+        10% {
+            top: 0vh;
+        }
+
+        20% {
+            top: 1vh;
+        }
+
+        30% {
+            top: 0vh;
+        }
+
+        40% {
+            top: 1vh;
         }
 
         50% {
-            transform: scalex(100%);
-            background-position-x: 90%;
-            opacity: 1;
+            top: 0vh;
+        }
+
+        60% {
+            top: 1vh;
+        }
+
+        70% {
+            top: 0vh;
+        }
+
+        80% {
+            top: 1vh;
+        }
+
+        90% {
+            top: 0vh;
         }
 
         100% {
-            transform: translateY(24%) scaley(15%);
-            background-position-x: 60%;
-            opacity: 0;
+            top: 1vh;
+        }
+    }
+
+    @keyframes ship-move {
+        to {
+            background-position-x: -60vw;
+        }
+
+        0% {
+            top: 1vh;
+        }
+
+        10% {
+            top: 0vh;
+        }
+
+        20% {
+            top: 1vh;
+        }
+
+        30% {
+            top: 0vh;
+        }
+
+        40% {
+            top: 1vh;
+        }
+
+        50% {
+            top: 0vh;
+        }
+
+        60% {
+            top: 1vh;
+        }
+
+        70% {
+            top: 0vh;
+        }
+
+        80% {
+            top: 1vh;
+        }
+
+        90% {
+            top: 0vh;
+        }
+
+        100% {
+            top: 1vh;
+        }
+    }
+
+    @keyframes wave-front-move {
+        to {
+            background-position: 100vh bottom;
+        }
+
+        0% {
+            top: 0vh;
+        }
+
+        10% {
+            top: 1vh;
+        }
+
+        20% {
+            top: 0vh;
+        }
+
+        30% {
+            top: 1vh;
+        }
+
+        40% {
+            top: 0vh;
+        }
+
+        50% {
+            top: 1vh;
+        }
+
+        60% {
+            top: 0vh;
+        }
+
+        70% {
+            top: 1vh;
+        }
+
+        80% {
+            top: 0vh;
+        }
+
+        90% {
+            top: 1vh;
+        }
+
+        100% {
+            top: 0vh;
         }
     }
 }

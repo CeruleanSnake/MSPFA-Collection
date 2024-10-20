@@ -1,72 +1,3 @@
-/*                                                                                                                         
-                                                                                                                         
-                              ████                                                     ████                              
-                            ███████████                                           ████████████                           
-                          ████    ████████                                     ████████    ████                          
-                          ███          █████                                 █████          ███                          
-                         ███             █████      █████████████████      █████             ███                         
-                         ██    █            █████████████████████████████████            █   ███                         
-                         ██     ██            ████████             ████████            ██     ██                         
-                        ███     ███             ███                   ███             ███     ███                        
-                        ███      ████            ███                 ███            ████      ███                        
-                        ██       █████            ██                 ██            ████        ██                        
-                        ██       ██████            ██   █           ██            ██████       ██                        
-                        ██       ████████         ███ ███           ██          ████████       ██                        
-                        ██       ██████████      ███ ███             ██        █████████       ██                        
-                        ██       █████   ██████████ ███               ███████████  █████       ██                        
-                        ██       ████       ██████ ████                 ████        ████       ██                        
-                ██████████      █████         ████████                              █████      ██████████                
-               ███      ███     █████         ████████                              █████     ███      ███               
-           ██████        ██     ████          ████████                               ████     ██        ██████           
-         ████████         █     ████    █     ████████                          █    ████     █         ███████          
-         ███    █   ██         █████   ██    █████                              ██   █████         ██   █     ██         
-         ███   ████  ███       ██████  ██    █████                             ███  ██████       ███  ████   ███         
-           ███████████ ████   ███████ ███   ████████                            ███ ███████   ████ ███████████           
-               ██████████████████████ ███ █████████████           ██████████    ███ ██████████████████████               
-                ██ ███ █████████████████████████████████         █████████████  █████████████████  ███ ██                
-                ███  ██   ██████   ██████████████████████       ███████████████  █████  ███████   ██  ███                
-                 ██   ███    ██    ██████████████████████       ███████████████   ████    ██    ███  ███                 
-                  ██  █████  ██    ██████████████████████        ██████████████    ████   ██  █████  ██                  
-                   ██ ██ ███ ██    ██████████████████████  ███   ██████████████    ████   ██ ███ ██ ██                   
-                   █████  █████    █████████████████████  █████    ████████████    ███    █████  █████                   
-                    ████    ███    ███    █████████████  ███████     █████████     ███    ███    ███                     
-     ████████         ██     ███    ███     █████████   █████████                 ███    ███     ██         ████████     
-   ████████████████████       ███    ████              ███████████             ██████  ████       ████████████████████   
-   ███       ██████████████    █████████████████        ████ ████        █████████████████    ██████████████       ███   
-   ██        ██████ ███ ██████         ███████ ███                     ███ ███████         ██████ ███  █████        ██   
-   ███       █████   ███████████   █████████████ ██                   ██ █████████████   ███████████   █████       ███   
-    ███     ████████████   ██████████     ██████ █████             █████ ██████     ██████████   ███████████      ███    
-     ███████████████  ██   ███████    ██  █████  ██ █████████████████ ██  █████ ███    ███████   ██  ███████████████     
-                 ███████████████    █████████    ██ ████   ███   ████ ██    █████████    ███████████████                 
-                    █████  ████   █████  ████ █   ████ ██ ██ ██ ██ ████   █ ████  █████   ████  █████                    
-                      ████████   ██  █████ █████  █████████████████████  █████ █████ ███   ███████                       
-                    █████████   ███    ██████████  ███  ████████   ███  ██████████    ███   █████████                    
-                 ██████████   ███        ██████████ ██             ██ █████████         ███   ██████████                 
-                ██████      ██████          ████████                 ████████           █████      ██████                
-               ███ ██    ██████████            ████████           ████████            ██████████    ██ ███               
-                ███████████      ████            ███████████████████████            ████      ███████████                
-                 ███████           ████             █████████████████              ███           ███████                 
-                                    ████               ███████████               ████                                    
-                                      ████             ████████                ████                                      
-                                    ████████     ██████████                  ████████                                    
-    ██                    █████████████  ██████████████                    █████ ██████████████                    ██    
-    ██████████████████████████████████████████████                   ███ ████████████████████████████████████████████    
-     ████████████████████   ████████████████                       ███ ██████████████████████   ████████████████████     
-      █████                 ████                                ███  █████               █████                █████      
-        ████                                                 ████ ██████                                     ████        
-         █████                                             ███  ██████                                     █████         
-           █████                                       ████  ██████                                      █████           
-            ██████ █████                           ██████ ████████████                           ████  ██████            
-               ██████  ████████           ███████████ █████████████ ██████████           █████████  ██████               
-                 ████████  █████████████████████  █████████   ██████████  ████████████████████   ███████                 
-                   █████████████           ████████████           ██████████████           ███████████                   
-                       ████████████████████████████                   ████████████████████████████                       
-                            ████████████████                                 ████████████████                            
-                                                                                                                         
-                                                                                                                                                                                                   
-*/
-
-
 body {
     background-image:
         url("../theme/myutun-sea/water.png"),
@@ -113,6 +44,10 @@ iframe,
 .heart {
     image-rendering: auto;
     -moz-image-rendering: auto;
+}
+
+.p1 {
+    margin-top: -1px;
 }
 
 table.container > tbody > tr > td,
@@ -196,6 +131,16 @@ table.container > tbody > tr > th {
     background-color: rgb(255, 255, 255);
 }
 
+.p1 #command {
+    display: none;
+}
+
+#infobox .closed,
+#commentbox .closed {
+    background-color: transparent !important;
+    border: none !important;
+}
+
 .plog #slide {
     width: 850px;
 }
@@ -237,7 +182,7 @@ table.container > tbody > tr > th {
 #log #pages,
 .plog #slide {
     font-size: 25px !important;
-    font-family: 'logpage' !important;
+    font-family: 'Gunny Rewritten' !important;
 }
 
 #um4container {
@@ -300,14 +245,11 @@ table.container > tbody > tr > th {
 }
 
 #info > span > .spoiler > div:first-child > input {
-    font-size: 14px;
+    font-size: 20px;
     padding: 8px;
     box-shadow: rgba(0, 0, 0, 0.518) 0px 4px 8px 0px;
     margin: 3px;
-}
-
-#info {
-    padding-top: 30px;
+    background-color: #eeeeeeda;
 }
 
 #info > span > .spoiler,
@@ -315,15 +257,48 @@ table.container > tbody > tr > th {
     background-color: rgb(225, 225, 225);
 }
 
+/* #infobox > div:first-child,
+#commentbox > div:first-child,
+#latestpages,
+#foot,
+#command,
+.newsdate,
+.newscontent {
+    font-family: Gunny Rewritten;
+} */
+
+tbody > tr:first-child > td:nth-child(2) > span:first-child,
+#infobox > div:first-child > div:first-child > input,
+#commentbox > div:first-child > div:first-child > input,
+#commentbox .major,
+#details,
+.newsheadder,
+.newshead,
+.username,
+nav {
+    font-family: Convincing Pirate;
+}
+
+#commentbox .major {
+    text-shadow: none !important;
+}
+
+#newcomment > .major {
+    font-size: x-large;
+}
+
+tbody > tr:first-child > td:nth-child(2) > span:first-child {
+    font-size: 34px !important;
+}
+
 #latestpages > span > .spoiler.closed {
     max-height: 160px;
     overflow-x: hidden;
     overflow-y: auto;
     padding: 10px;
-    background: rgba(255, 255, 255, 0.737);
+    background: rgba(255, 255, 255, 0.737) !important;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.518);
     margin-bottom: -15px;
-
 }
 
 #commentary-wrapper img {
@@ -332,12 +307,12 @@ table.container > tbody > tr > th {
 
 /*Latest pages always open*/
 
-#infobox > .spoiler.closed:first-child > div:first-child,
+/*#infobox > .spoiler.closed:first-child > div:first-child,*/
 #latestpages .spoiler > div:first-child {
     display: none;
 }
 
-#infobox > .spoiler.closed:first-child > div:last-child,
+/*#infobox > .spoiler.closed:first-child > div:last-child,*/
 #latestpages .spoiler > div:last-child {
     display: block;
     image-rendering: auto !important;
@@ -421,11 +396,4 @@ table.container > tbody > tr > th {
 
 ::-webkit-scrollbar-corner {
     background: #035c88;
-}
-
-@font-face {
-    font-family: 'logpage';
-    src: url('../font/gunny-rewritten/GunnyRewritten.woff2') format('woff2')
-    url('https: //file.garden/X65Xhea95myVymaS/MSPFA%20Collection/tcmc/assets/data/font/gunny-rewritten/GunnyRewritten.woff2') format('woff2');
-    font-display: swap;
 }

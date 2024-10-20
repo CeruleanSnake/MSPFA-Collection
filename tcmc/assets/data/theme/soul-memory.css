@@ -65,8 +65,8 @@ nav .dropdown-content {
 
 #latestpages > span > .spoiler.closed,
 #adventureNews {
-    border: 4px solid #000000;
-    border-right: 1px solid #000000;
+    border: 4px solid #000000 !important;
+    border-right: 1px solid #000000 !important;
 }
 
 #commentary-wrapper {
