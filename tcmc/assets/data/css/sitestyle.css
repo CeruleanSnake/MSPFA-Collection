@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'Snakehand Regular';
+    src: url('../font/Snakehand/SnakehandReg.otf') format('opentype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Convincing Pirate';
+    src: url('../font/convincing_pirate/ConvincingPirate.woff2') format('woff2');
+    font-display: swap;
+}
+
 body {
     background-image:
         url("../theme/myutun-sea/water.png"),
@@ -146,7 +158,7 @@ table.container > tbody > tr > th {
 }
 
 #log {
-    width: 950px;
+    width: 900px;
     margin: auto;
     border: 5px solid #064564;
 }
@@ -176,13 +188,14 @@ table.container > tbody > tr > th {
 
 #log #pages a,
 .plog #slide a {
-    color: black !important;
+    text-decoration: none !important;
 }
 
 #log #pages,
 .plog #slide {
     font-size: 25px !important;
-    font-family: 'Gunny Rewritten' !important;
+    font-family: 'Snakehand Regular' !important;
+    text-decoration: none !important;
 }
 
 #um4container {
@@ -257,15 +270,68 @@ table.container > tbody > tr > th {
     background-color: rgb(225, 225, 225);
 }
 
-/* #infobox > div:first-child,
+#infobox > div:first-child,
 #commentbox > div:first-child,
 #latestpages,
 #foot,
 #command,
 .newsdate,
 .newscontent {
-    font-family: Gunny Rewritten;
-} */
+    font-family: Snakehand Regular;
+}
+
+#command {
+    padding-top: 5px !important;
+}
+
+#foot a:after,
+#foot span {
+    font-size: 15px !important;
+}
+
+#command span,
+#links div,
+#links span {
+    font-size: 50px !important;
+    font-weight: bold;
+}
+
+#links {
+    margin: 0px !important;
+}
+
+#latestpages div,
+.newscontent,
+#infobox td,
+label {
+    font-size: 18px !important;
+    font-weight: bold;
+}
+
+#commentbox > div:first-child > div:nth-child(2),
+#newcomment {
+    font-size: 24px !important;
+    font-weight: bold !important;
+}
+
+.page,
+.timestamp {
+    font-size: 15px;
+}
+
+label {
+    text-transform: none !important;
+}
+
+#foot a,
+#comand a,
+#latestpages a {
+    text-decoration: none !important;
+}
+
+.newstitle {
+    margin: -15px;
+}
 
 tbody > tr:first-child > td:nth-child(2) > span:first-child,
 #infobox > div:first-child > div:first-child > input,
@@ -348,12 +414,12 @@ tbody > tr:first-child > td:nth-child(2) > span:first-child {
     font-size: x-small;
     font-style: italic;
     font-weight: normal;
-    margin-top: -20px;
+    margin-top: -30px;
     margin-bottom: -10px;
 }
 
 #adventureNews .newscontent {
-    margin-top: -25px;
+    margin-top: -30px;
 }
 
 /*Check boxes*/

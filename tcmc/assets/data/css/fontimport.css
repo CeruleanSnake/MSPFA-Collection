@@ -53,6 +53,12 @@
 }
 
 @font-face {
+    font-family: 'Snakehand Regular';
+    src: url('../font/Snakehand/SnakehandReg.otf') format('opentype');
+    font-display: swap;
+}
+
+@font-face {
     font-family: 'Gunny Rewritten';
     src: url('../font/gunny-rewritten/GunnyRewritten.woff2') format('woff2'),
         url('https: //file.garden/X65Xhea95myVymaS/MSPFA%20Collection/tcmc/assets/data/font/gunny-rewritten/GunnyRewritten.woff2') format('woff2');
