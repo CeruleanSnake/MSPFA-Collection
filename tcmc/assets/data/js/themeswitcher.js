@@ -38,11 +38,11 @@ MSPFA.slide.push(() => {
       document.getElementById("sitetheme").innerHTML = "<link rel='stylesheet' href='./assets/data/theme/kraken.css'>";
     }
       
-    else if ([347, 348, 349, 350, 351, 352, 353, 372, 373, 374, 375, 376, 377, 378, 379, 380, 381, 382, 383, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393, 394, 395, 396, 397, 398, 399, 400].includes(parseInt(params.get("p")))) {
+    else if ([347, 348, 349, 350, 351, 352, 353, 372, 373, 374, 375, 376, 377, 378, 379, 380, 381, 382, 383, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393, 394, 395, 396, 397, 398, 399, 400, 401, 402].includes(parseInt(params.get("p")))) {
       document.getElementById("sitetheme").innerHTML = "<link rel='stylesheet' href='./assets/data/theme/beach-tropical.css'>";
     }
       
-    else if ([354, 355, 356].includes(parseInt(params.get("p")))) {
+    else if ([354, 355, 356, 403, 404, 405, 406, 407].includes(parseInt(params.get("p")))) {
       document.getElementById("sitetheme").innerHTML = "<link rel='stylesheet' href='./assets/data/theme/beach-sunset-tropical.css'>";
     }
       

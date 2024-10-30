@@ -9,7 +9,7 @@
 
 @font-face {
     font-family: 'Snakehand Regular';
-    src: url('../font/Snakehand/SnakehandReg.otf') format('opentype');
+    src: url('../font/Snakehand/Snakehand-Reg.otf') format('opentype');
     font-display: swap;
 }
 
@@ -141,7 +141,7 @@
 }
 
 #userstories a[href="/?s=236&p=1"]::after {
-    content: "Alabaster";
+    content: "Alabaster: The Doomed Session";
 }
 
 #userstories a[href="/?s=6779&p=1"]::before {
