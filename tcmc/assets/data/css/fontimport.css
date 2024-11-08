@@ -4,24 +4,32 @@
 @font-face {
     font-family: 'Gothic Pixel';
     src: url('../font/gothic-pixel/Gothic-Pixel.woff2') format('woff2');
+    font-style: normal;
+    font-weight: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Old English Gothic Pixel';
     src: url('../font/old-english-gothic-pixel/Old-English-Gothic-Pixel.woff2') format('woff2');
+    font-style: normal;
+    font-weight: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Pixel Script';
     src: url('../font/pixel-script/Pixel-Script.woff2') format('woff2');
+    font-style: normal;
+    font-weight: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Homestuck';
     src: url('../font/homestuck/Homestuck-Regular.woff2') format('woff2');
+    font-style: normal;
+    font-weight: normal;
     font-display: swap;
 }
 
@@ -31,37 +39,38 @@
         local('Apple Chancery'),
         url('../font/apple-chancery/Apple-Chancery.woff2') format('woff2'),
         url('https: //fonts.cdnfonts.com/s/14108/Apple Chancery.woff') format('woff2');
+    font-style: normal;
+    font-weight: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Berry Rotunda';
     src: url('../font/berry_rotunda/BerryRotunda-Regular.woff2') format('woff2');
+    font-style: normal;
+    font-weight: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Hamlet';
     src: url('../font/hamlet/Hamlet-Cicero12.woff2') format('woff2');
+    font-style: normal;
+    font-weight: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Convincing Pirate';
     src: url('../font/convincing_pirate/ConvincingPirate.woff2') format('woff2');
+    font-style: normal;
+    font-weight: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Snakehand Regular';
-    src: url('../font/Snakehand/Snakehand-Reg.otf') format('opentype');
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Gunny Rewritten';
-    src: url('../font/gunny-rewritten/GunnyRewritten.woff2') format('woff2'),
-        url('https: //file.garden/X65Xhea95myVymaS/MSPFA%20Collection/tcmc/assets/data/font/gunny-rewritten/GunnyRewritten.woff2') format('woff2');
+    src: url('../font/Snakehand/Snakehand-Regularfont.otf') format('opentype');
     font-display: swap;
 }
 
@@ -70,83 +79,111 @@
 @font-face {
     font-family: 'Hiveswap Alternian';
     src: url('../font/hiveswap-alternian/HiveswapAlternian-Regular.woff2') format('woff2');
+    font-style: normal;
+    font-weight: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Absurd Sans';
     src: url('../font/AlternianAbsurdSans/AlternianAbsurdSans-Regular.woff2') format('woff2');
+    font-style: normal;
+    font-weight: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Bits N Scratch';
     src: url('../font/AlternianBitNScratch/AlternianBitNScratch-Rg.woff2') format('woff2');
+    font-style: normal;
+    font-weight: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Blockchain';
     src: url('../font/AlternianBlockchain/AlternianBlockchain-Regular.woff2') format('woff2');
+    font-style: normal;
+    font-weight: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Bubblegum Bitch';
     src: url('../font/AlternianBubblegumBitch/AlternianBubblegumBitchRed-Rg.woff2') format('woff2');
+    font-style: normal;
+    font-weight: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Bubblegum Heavy';
     src: url('../font/AlternianBubblegumHeavy/AlternianBubblegumHeavy-Rg.woff2') format('woff2');
+    font-style: normal;
+    font-weight: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Burial Light';
     src: url('../font/AlternianBurialLight/AlternianBurialLight-Regular.woff2') format('woff2');
+    font-style: normal;
+    font-weight: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Courier Advanced';
     src: url('../font/AlternianCourierAdvanced/AlternianCourierAdvancedRe-Rg.woff2') format('woff2');
+    font-style: normal;
+    font-weight: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Terrestrial';
     src: url('../font/AlternianTerrestrial/AlternianTerrestrial-Regular.woff2') format('woff2');
+    font-style: normal;
+    font-weight: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Times Bad Omen';
     src: url('../font/AlternianTimesBadOmen/AlternianTimesBadOmen-Rg.woff2') format('woff2');
+    font-style: normal;
+    font-weight: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Alternian Accursed';
     src: url('../font/AlternianAccursed/Alterniancursed-Regular.woff2') format('woff2');
+    font-style: normal;
+    font-weight: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Alternian Notation';
     src: url('../font/AlternianNotation/Alterniannotation-Regular.woff2') format('woff2');
+    font-style: normal;
+    font-weight: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Alternian Robotic';
     src: url('../font/AlternianRobotic/Alternianrobotic-Regular.woff2') format('woff2');
+    font-style: normal;
+    font-weight: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Alternian Streamlined';
     src: url('../font/AlternianStreamlined/Alternianstreamlined-Regular.woff2') format('woff2');
+    font-style: normal;
+    font-weight: normal;
     font-display: swap;
 }

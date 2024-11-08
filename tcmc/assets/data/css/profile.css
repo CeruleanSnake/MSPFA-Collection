@@ -9,7 +9,7 @@
 
 @font-face {
     font-family: 'Snakehand Regular';
-    src: url('../font/Snakehand/Snakehand-Reg.otf') format('opentype');
+    src: url('../font/Snakehand/Snakehand-Regularfont.otf') format('opentype');
     font-display: swap;
 }
 
@@ -20,24 +20,6 @@
 }
 
 /* Adventure nav links */
-/*.adv-nav {
-    position: absolute;
-    left: 3rem;
-    width: 400px;
-    padding-right: 265px;
-    display: flex;
-    justify-content: space-evenly;
-    font-weight: normal;
-    font-size: 20px;
-}
-
-#tcmc-nav {
-    top: 34rem;
-}
-
-#alab-nav {
-    top: 48rem;
-}*/
 
 .adv-nav {
     position: absolute;
@@ -191,6 +173,7 @@
     content: "";
     width: 64px;
     height: 64px;
+    background-size: 64px;
     display: inline-block;
     margin: 0 16px;
     background-image: url("");

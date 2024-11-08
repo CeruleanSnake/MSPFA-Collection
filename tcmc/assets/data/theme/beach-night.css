@@ -244,7 +244,7 @@ body {
         animation: 180s backcloud-move linear infinite;
         background-position: left center;
         background-repeat: repeat-x;
-        background-size: 80vh;
+        background-size: 100vh;
     }
 
     .overlay-3 {
@@ -252,7 +252,7 @@ body {
         animation: 50s frontcloud-move linear infinite reverse;
         background-position: left 30%;
         background-repeat: repeat-x;
-        background-size: 80vh;
+        background-size: 100vh;
     }
 
     .overlay-4 {
@@ -318,13 +318,13 @@ body {
 
     @keyframes backcloud-move {
         to {
-            background-position: 80vh center;
+            background-position: 100vh center;
         }
     }
 
     @keyframes frontcloud-move {
         to {
-            background-position: 80vw 30%;
+            background-position: 100vh 30%;
         }
     }
 
