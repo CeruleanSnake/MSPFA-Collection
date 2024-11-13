@@ -42,7 +42,7 @@ MSPFA.slide.push(() => {
       document.getElementById("sitetheme").innerHTML = "<link rel='stylesheet' href='./assets/data/theme/beach-tropical.css'>";
     }
       
-    else if ([354, 355, 356, 403, 404, 405, 406, 407, 408, 409].includes(parseInt(params.get("p")))) {
+    else if ([354, 355, 356, 403, 404, 405, 406, 407, 408, 409, 410, 411, 412, 413, 414].includes(parseInt(params.get("p")))) {
       document.getElementById("sitetheme").innerHTML = "<link rel='stylesheet' href='./assets/data/theme/beach-sunset-tropical.css'>";
     }
       
